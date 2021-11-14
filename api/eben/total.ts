@@ -1,5 +1,5 @@
 import { NowRequest, NowResponse } from "@vercel/node";
-import { getTotalSupply } from "../utils/supply";
+import { getTotalSupply } from "../../utils/supply";
 
 export default async (req: NowRequest, res: NowResponse): Promise<void> => {
   let totalSupply = await getTotalSupply();

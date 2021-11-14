@@ -1,5 +1,5 @@
 import { NowRequest, NowResponse } from "@vercel/node";
-import { getBurnedSupply, getTotalSupply } from "../utils/supply";
+import { getBurnedSupply, getTotalSupply } from "../../utils/supply";
 
 export default async (req: NowRequest, res: NowResponse): Promise<void> => {
   let totalSupply = await getTotalSupply();
@@ -10,9 +10,6 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
 
   const circulatingSupply = totalSupply.minus(burnedSupply);
 
-  res.json({
-    totalSupply: totalSupply.toNumber(),
-    burnedSupply: burnedSupply.toNumber(),
-    circulatingSupply: circulatingSupply.toNumber(),
-  });
+  res.setHeader("content-type", "text/plain");
+  res.send(circulatingSupply.toString());
 };

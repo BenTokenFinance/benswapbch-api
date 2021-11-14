@@ -4,7 +4,7 @@ import bep20ABI from "./abis/bep20.json";
 import pairABI from "./abis/pair.json";
 import masterChefABI from "./abis/masterchef.json";
 import { getContract, getWeb3 } from "./web3";
-import { CAKE, CAKE_BNB_FARM, CAKE_BNB_TOKEN, CAKE_TOKEN, MASTERCHEF_CONTRACT, WBNB_TOKEN } from "./constants";
+import { EBEN, EBEN_BCH_BENSWAP_LP, EBEN_WBCH_BENSWAP_LP_TOKEN, EBEN_TOKEN, MASTERCHEF_CONTRACT, WBCH_TOKEN } from "./constants";
 import { pools } from "./pools";
 import { multicall } from "./multicall";
 
@@ -20,7 +20,7 @@ export const getTotalStaked = async (address: string, block: string): Promise<nu
 
   try {
     // EBEN balance in wallet.
-    const cakeContract = getContract(bep20ABI, CAKE, true);
+    const cakeContract = getContract(bep20ABI, EBEN, true);
     const cakeBalance = await cakeContract.methods.balanceOf(address).call(undefined, blockNumber);
     balance = balance.plus(cakeBalance);
   } catch (error) {
@@ -28,27 +28,27 @@ export const getTotalStaked = async (address: string, block: string): Promise<nu
   }
 
   try {
-    // EBEN-BNB farm.
+    // EBEN-BCH farm.
     const masterContract = getContract(masterChefABI, MASTERCHEF_CONTRACT, true);
-    const cakeBnbContract = getContract(pairABI, CAKE_BNB_FARM, true);
-    const totalSupplyLP = await cakeBnbContract.methods.totalSupply().call(undefined, blockNumber);
-    const reservesLP = await cakeBnbContract.methods.getReserves().call(undefined, blockNumber);
-    const cakeBnbBalance: UserInfoResult = await masterContract.methods
-      .userInfo(1, address)
+    const ebenBchBenSwapContract = getContract(pairABI, EBEN_BCH_BENSWAP_LP, true);
+    const totalSupplyLP = await ebenBchBenSwapContract.methods.totalSupply().call(undefined, blockNumber);
+    const reservesLP = await ebenBchBenSwapContract.methods.getReserves().call(undefined, blockNumber);
+    const ebenBchBenSwapBalance: UserInfoResult = await masterContract.methods
+      .userInfo(0, address)
       .call(undefined, blockNumber);
     const pair: Pair = new Pair(
-      new TokenAmount(CAKE_TOKEN, reservesLP._reserve0.toString()),
-      new TokenAmount(WBNB_TOKEN, reservesLP._reserve1.toString())
+      new TokenAmount(EBEN_TOKEN, reservesLP._reserve0.toString()),
+      new TokenAmount(WBCH_TOKEN, reservesLP._reserve1.toString())
     );
-    const cakeLPBalance = pair.getLiquidityValue(
+    const ebenLPBalance = pair.getLiquidityValue(
       pair.token0,
-      new TokenAmount(CAKE_BNB_TOKEN, totalSupplyLP.toString()),
-      new TokenAmount(CAKE_BNB_TOKEN, cakeBnbBalance.amount.toString()),
+      new TokenAmount(EBEN_WBCH_BENSWAP_LP_TOKEN, totalSupplyLP.toString()),
+      new TokenAmount(EBEN_WBCH_BENSWAP_LP_TOKEN, ebenBchBenSwapBalance.amount.toString()),
       false
     );
-    balance = balance.plus(new BigNumber(cakeLPBalance.toSignificant(18)).times(1e18));
+    balance = balance.plus(new BigNumber(ebenLPBalance.toSignificant(18)).times(1e18));
   } catch (error) {
-    console.error(`EBEN-BNB LP error: ${error}`);
+    console.error(`EBEN-BCH LP error: ${error}`);
   }
 
   // TODO: Add other EBEN pairs

@@ -13,6 +13,10 @@
     {
       "source": "/api/governance/vote/:address/:block",
       "destination": "/api/governance/vote"
+    },
+    {
+      "source": "/api/eben/price/:block",
+      "destination": "/api/eben/price"
     }
   ],
   "headers": [
@@ -33,28 +37,7 @@
         },
         {
           "key" : "Cache-Control",
-          "value" : "s-maxage=60, stale-while-revalidate"
-        }
-      ]
-    },
-    {
-      "source": "/api/v1/(.*)",
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        },
-        {
-          "key": "Access-Control-Allow-Methods",
-          "value": "GET, HEAD, OPTIONS"
-        },
-        {
-          "key": "Access-Control-Allow-Headers",
-          "value": "*"
-        },
-        {
-          "key" : "Cache-Control",
-          "value" : "no-cache, no-store, must-revalidate"
+          "value" : "s-maxage=30, stale-while-revalidate"
         }
       ]
     },
@@ -75,7 +58,7 @@
         },
         {
           "key" : "Cache-Control",
-          "value" : "public, max-age=60, s-max-age=60"
+          "value" : "public, max-age=30, s-max-age=30"
         }
       ]
     }
