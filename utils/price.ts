@@ -13,7 +13,7 @@ export const getEbenPricePerBCH = async (block: string): Promise<number> => {
     const wbchContract = getContract(bep20ABI, WBCH, true);
     const ebenBalance = await ebenContract.methods.balanceOf(EBEN_BCH_BENSWAP_LP).call(undefined, blockNumber);
     const wbchBalance = await wbchContract.methods.balanceOf(EBEN_BCH_BENSWAP_LP).call(undefined, blockNumber);
-    balance = balance.times(new BigNumber(ebenBalance)).div(new BigNumber(wbchBalance));
+    balance = new BigNumber(ebenBalance).div(new BigNumber(wbchBalance));
   } catch (error) {
     console.error(`Error getting EBEN price per BCH: ${error}`);
   }

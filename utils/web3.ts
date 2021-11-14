@@ -1,11 +1,12 @@
 import Web3 from "web3";
+import { RPC } from "./constants";
 
 const BSC_NODE_RPC = [
-  "https://global.uat.cash/"
+  RPC["uat"]
 ];
 
 const BSC_ARCHIVE_NODE_RPC = [
-  "https://global.uat.cash/"
+  RPC["uat"]
 ];
 
 export const getWeb3 = (archive = false): Web3 => {
@@ -24,6 +25,23 @@ export const getContract = (abi: any, address: string, archive = false) => {
 
 export const getLatestBlock = async (archive = false) => {
   const web3: Web3 = getWeb3(false);
-
   return web3.eth.getBlockNumber();
 };
+
+export const getLatestBlockByRpcUrl = async (url: string) => {
+  const web3 = new Web3(new Web3.providers.HttpProvider(url, { timeout: 30000 }));
+  return web3.eth.getBlockNumber();
+}
+
+export const getLastestBlocksFromAllRpcs = async () => {
+  const result:any = {};
+  const tasks = Object.keys(RPC).map(function(key, index) {
+      return getLatestBlockByRpcUrl((RPC as any)[key]).then((block)=>{
+          result[key] = {
+              block: block
+          };
+      });
+  });
+  await Promise.all(tasks);
+  return result;
+}
