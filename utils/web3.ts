@@ -42,6 +42,6 @@ export const getLastestBlocksFromAllRpcs = async () => {
           };
       });
   });
-  await Promise.all(tasks);
+  await Promise.all(tasks).catch(console.log);
   return result;
 }
