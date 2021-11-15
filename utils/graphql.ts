@@ -40,10 +40,10 @@ export const getDexStats = async (block: string) => {
     const res: any = {};
     const tasks = [
         getGlobalData(block).then(data => {Object.assign(res, data)}),
-        getTokenCount(block).then(count => {res.count = count;})
+        getTokenCount(block).then(count => {res.totalTokens = count;})
     ];
     await Promise.all(tasks);
     delete res.__typename;
-    if (!res.factoryAddress) delete res.count;
+    if (!res.factoryAddress) delete res.totalTokens;
     return res;
 }
