@@ -25,6 +25,27 @@
   ],
   "headers": [
     {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, HEAD, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "*"
+        },
+        {
+          "key" : "Cache-Control",
+          "value" : "s-maxage=60, stale-while-revalidate"
+        }
+      ]
+    },
+    {
       "source": "/api/time",
       "headers": [
         {
