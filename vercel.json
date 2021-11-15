@@ -17,6 +17,10 @@
     {
       "source": "/api/eben/price/:block",
       "destination": "/api/eben/price"
+    },
+    {
+      "source": "/api/smartbch/rpc/:name",
+      "destination": "/api/smartbch/rpc"
     }
   ],
   "headers": [
