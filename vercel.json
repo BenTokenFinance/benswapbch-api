@@ -62,7 +62,7 @@
         },
         {
           "key" : "Cache-Control",
-          "value" : "s-max-age=30"
+          "value" : "s-maxage=30"
         }
       ]
     },
@@ -83,7 +83,7 @@
         },
         {
           "key" : "Cache-Control",
-          "value" : "s-max-age=15"
+          "value" : "s-maxage=15"
         }
       ]
     },
@@ -104,7 +104,7 @@
         },
         {
           "key" : "Cache-Control",
-          "value" : "s-max-age=30"
+          "value" : "s-maxage=30"
         }
       ]
     },
@@ -125,7 +125,7 @@
         },
         {
           "key" : "Cache-Control",
-          "value" : "s-max-age=30"
+          "value" : "s-maxage=30"
         }
       ]
     },
