@@ -21,5 +21,6 @@ async function getGlobalData(block: string) {
 // DEX stats
 export const getDexStats = async (block: string) => {
     const res = await getGlobalData(block);
+    delete res.__typename;
     return res;
 }
