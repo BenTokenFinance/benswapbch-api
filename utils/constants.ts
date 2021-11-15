@@ -20,7 +20,7 @@ export const EBEN_WBCH_BENSWAP_LP_TOKEN = new Token(ChainId.MAINNET, EBEN_BCH_BE
 
 // RPC URLs
 export const RPC = {
-    "uat": "https://global.uat.cash/",
+    "uat": "https://global.uat.cash",
     "fountainhead": "https://smartbch.fountainhead.cash/mainnet",
     "greyhat": "https://smartbch.greyh.at"
 } 

@@ -7,9 +7,16 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
   const result:any = {};
   if (name) {
     const url = (RPC as any)[name];
-    if (url) result.block = await getLatestBlockByRpcUrl(url);
+    if (url) {
+      result.block = await getLatestBlockByRpcUrl(url);
+      result.url = url;
+    }
   } else {
-    Object.assign(result, await getLastestBlocksFromAllRpcs());
+    const all = await getLastestBlocksFromAllRpcs();
+    Object.assign(result, all);
+    Object.keys(all).forEach(k => {
+      result[k].url = (RPC as any)[k];
+    });
   }
   res.json(result);
 };
