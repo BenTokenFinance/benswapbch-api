@@ -25,7 +25,7 @@
   ],
   "headers": [
     {
-      "source": "/api/(.*)",
+      "source": "/api/time",
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
@@ -41,7 +41,91 @@
         },
         {
           "key" : "Cache-Control",
-          "value" : "s-maxage=30, stale-while-revalidate"
+          "value" : "s-maxage=1"
+        }
+      ]
+    },
+    {
+      "source": "/api/bch/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, HEAD, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "*"
+        },
+        {
+          "key" : "Cache-Control",
+          "value" : "s-max-age=30"
+        }
+      ]
+    },
+    {
+      "source": "/api/smartbch/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, HEAD, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "*"
+        },
+        {
+          "key" : "Cache-Control",
+          "value" : "s-max-age=15"
+        }
+      ]
+    },
+    {
+      "source": "/api/eben/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, HEAD, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "*"
+        },
+        {
+          "key" : "Cache-Control",
+          "value" : "s-max-age=30"
+        }
+      ]
+    },
+    {
+      "source": "/api/bch/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, HEAD, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "*"
+        },
+        {
+          "key" : "Cache-Control",
+          "value" : "s-max-age=30"
         }
       ]
     },
