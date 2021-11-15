@@ -19,3 +19,12 @@ export const GLOBAL_DATA = (block) => {
     }`
   return gql(queryString)
 }
+
+export const ALL_TOKENS_SIMPLE = (block) => {
+  const queryString = ` query tokens {
+      tokens(${block ? `block: { number: ${block}}` : ``}) {
+        id
+      }
+    }`
+  return gql(queryString)
+}
