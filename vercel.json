@@ -17,6 +17,10 @@
     {
       "source": "/api/smartbch/rpc/:name",
       "destination": "/api/smartbch/rpc"
+    },
+    {
+      "source": "/api/dex/stats/:block",
+      "destination": "/api/dex/stats"
     }
   ],
   "headers": [
