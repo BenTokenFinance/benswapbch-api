@@ -4,7 +4,8 @@ import { getLastestBlocksFromAllRpcs } from "../../utils/web3";
 
 export default async (req: NowRequest, res: NowResponse): Promise<void> => {
   const all = await getLastestBlocksFromAllRpcs();
-  const count = Object.keys(RPC).length;
+  const count1 = Object.keys(RPC).length;
+  const count2 = Object.keys(all).length;
   var max = -1, min = -1;
   
   Object.keys(all).forEach(k => {
@@ -16,7 +17,8 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
           min = Math.min(min, all[k].block);
       }
   });
-
+  
+  console.log(count1, count2, max, min);
   res.setHeader("content-type", "text/plain");
-  res.send((Object.keys(all).length == count && (max-min) < 50) ? "healthy" : "problematic");
+  res.send((count1 == count2 && (max-min) < 50) ? "healthy" : "problematic");
 };
