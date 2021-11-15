@@ -19,7 +19,7 @@ export const getBurnedSupply = async (): Promise<BigNumber> => {
   return (new BigNumber(balance1)).plus(new BigNumber(balance2)).plus(new BigNumber(balance3));
 };
 
-export const getStakedSupply = async (): Promise<BigNumber> => {
+export const getStakedSupply = async (): Promise<any> => {
   const balance1 = await contract.methods.balanceOf(EBEN_BCH_BENSWAP_LP).call();
   const balance2 = await contract.methods.balanceOf(EBEN_BCH_MISTSWAP_LP).call();
   const balance3 = await contract.methods.balanceOf(MASTERCHEF_CONTRACT).call();
