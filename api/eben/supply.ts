@@ -1,5 +1,5 @@
 import { NowRequest, NowResponse } from "@vercel/node";
-import { getBurnedSupply, getTotalSupply } from "../../utils/supply";
+import { getBurnedSupply, getTotalSupply, getLockedSupply} from "../../utils/supply";
 
 export default async (req: NowRequest, res: NowResponse): Promise<void> => {
   let totalSupply = await getTotalSupply();
@@ -8,11 +8,15 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
   let burnedSupply = await getBurnedSupply();
   burnedSupply = burnedSupply.div(1e18);
 
+  let lockedSupply = await getLockedSupply();
+  lockedSupply = lockedSupply.div(1e18);
+
   const circulatingSupply = totalSupply.minus(burnedSupply);
 
   res.json({
     total: totalSupply.toNumber(),
     burned: burnedSupply.toNumber(),
     circulating: circulatingSupply.toNumber(),
+    locked: lockedSupply.toNumber()
   });
 };
