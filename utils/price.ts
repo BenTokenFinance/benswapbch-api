@@ -29,19 +29,17 @@ export const getEbenUsdPrice = async (): Promise<number> => {
   return price.toNumber();
 };
 
-export const getEbenBchPrice = async (block: string): Promise<number> => {
+export const getEbenBchPrice = async (): Promise<number> => {
   const web3 = getWeb3();
-  const blockNumber = block === undefined ? await web3.eth.getBlockNumber() : new BigNumber(block).toNumber();
   let price = new BigNumber(0);
 
   try {
     console.log("Getting EBEN price per BCH...");
-    console.log("Block: "+ blockNumber);
     const ebenContract = getContract(bep20ABI, EBEN, true);
     const wbchContract = getContract(bep20ABI, WBCH, true);
-    const ebenBalance = await ebenContract.methods.balanceOf(EBEN_BCH_BENSWAP_LP).call(undefined, blockNumber);
+    const ebenBalance = await ebenContract.methods.balanceOf(EBEN_BCH_BENSWAP_LP).call();
     console.log("EBEN Balance: "+ ebenBalance);
-    const wbchBalance = await wbchContract.methods.balanceOf(EBEN_BCH_BENSWAP_LP).call(undefined, blockNumber);
+    const wbchBalance = await wbchContract.methods.balanceOf(EBEN_BCH_BENSWAP_LP).call();
     console.log("WBCH Balance: "+ wbchBalance);
     price = new BigNumber(wbchBalance).div(new BigNumber(ebenBalance));
     console.log("Price EBEN/BCH: "+ price);

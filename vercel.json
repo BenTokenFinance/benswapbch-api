@@ -15,10 +15,6 @@
       "destination": "/api/governance/vote"
     },
     {
-      "source": "/api/eben/priceBch/:block",
-      "destination": "/api/eben/priceBch"
-    },
-    {
       "source": "/api/smartbch/rpc/:name",
       "destination": "/api/smartbch/rpc"
     }
