@@ -12,10 +12,10 @@ async function getGlobalData(block: string) {
         })
         data = result.data.benSwapFactories[0];
     } catch (e) {
-        console.error(e)
+        console.error(e);
     }
     
-    return data
+    return data || {};
 }
 
 // DEX stats
