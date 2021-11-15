@@ -40,8 +40,8 @@ export const getLastestBlocksFromAllRpcs = async () => {
           result[key] = {
               block: block
           };
-      });
+      }).catch(console.error);
   });
-  await Promise.all(tasks).catch(console.log);
+  await Promise.all(tasks);
   return result;
 }

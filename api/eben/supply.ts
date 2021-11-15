@@ -1,4 +1,5 @@
 import { NowRequest, NowResponse } from "@vercel/node";
+import BigNumber from "bignumber.js";
 import { getBurnedSupply, getTotalSupply, getStakedSupply} from "../../utils/supply";
 
 export default async (req: NowRequest, res: NowResponse): Promise<void> => {
@@ -9,7 +10,10 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
   burnedSupply = burnedSupply.div(1e18);
 
   let stakedSupply = await getStakedSupply();
-  stakedSupply = stakedSupply.div(1e18);
+  let staked = new BigNumber(0);
+  Object.keys(stakedSupply).forEach(k=>{
+    staked = staked.plus(stakedSupply[k]);
+  });
 
   const circulatingSupply = totalSupply.minus(burnedSupply);
 
@@ -17,6 +21,6 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
     total: totalSupply.toNumber(),
     burned: burnedSupply.toNumber(),
     circulating: circulatingSupply.toNumber(),
-    staked: stakedSupply.toNumber()
+    staked: staked.toNumber()
   });
 };

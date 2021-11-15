@@ -79,7 +79,7 @@
         },
         {
           "key" : "Cache-Control",
-          "value" : "s-maxage=30"
+          "value" : "s-maxage=60"
         }
       ]
     },
@@ -121,7 +121,7 @@
         },
         {
           "key" : "Cache-Control",
-          "value" : "s-maxage=30"
+          "value" : "s-maxage=60"
         }
       ]
     },

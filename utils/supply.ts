@@ -24,6 +24,11 @@ export const getStakedSupply = async (): Promise<BigNumber> => {
   const balance2 = await contract.methods.balanceOf(EBEN_BCH_MISTSWAP_LP).call();
   const balance3 = await contract.methods.balanceOf(MASTERCHEF_CONTRACT).call();
   const balance4 = await contract.methods.balanceOf(LOTTERY_CONTRACT).call();
-
-  return (new BigNumber(balance1)).plus(new BigNumber(balance2)).plus(new BigNumber(balance3)).plus(new BigNumber(balance4));
+  
+  return {
+    "ebenBchBenLp": new BigNumber(balance1).div(1e18),
+    "ebenBchMistLp": new BigNumber(balance2).div(1e18),
+    "ebenBenPool": new BigNumber(balance3).div(1e18),
+    "benLottery": new BigNumber(balance4).div(1e18),
+  }
 };
