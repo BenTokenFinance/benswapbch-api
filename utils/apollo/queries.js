@@ -104,10 +104,12 @@ export const ALL_PAIRS = (block) => {
       token0 {
         id
         symbol
+        price: derivedUSD
       }
       token1 {
         id
         symbol
+        price: derivedUSD
       }
     }
   }`

@@ -70,11 +70,13 @@ function processPairData(pair: any) {
         "token0": {
             "id": pair.token0.id,
             "symbol": pair.token0.symbol,
+            "price": pair.token0.price,
             "volume": pair.volumeToken0
         },
         "token1": {
             "id": pair.token1.id,
             "symbol": pair.token1.symbol,
+            "price": pair.token1.price,
             "volume": pair.volumeToken1
         },
         "totalTransactions": pair.totalTransactions
@@ -120,6 +122,8 @@ function getPair24HourData(pair: any, pair24HoursAgo: any) {
         "liquidityChangeUsd": new BigNumber(pair.liquidityUsd).minus(pair24HoursAgo.liquidityUsd).toString(),
         "volumeBch": new BigNumber(pair.volumeBch).minus(pair24HoursAgo.volumeBch).toString(),
         "volumeUsd": new BigNumber(pair.volumeUsd).minus(pair24HoursAgo.volumeUsd).toString(),
+        "priceChangeToken0": new BigNumber(pair.token0.price).minus(pair24HoursAgo.token0.price).toString(),
+        "priceChangeToken1": new BigNumber(pair.token1.price).minus(pair24HoursAgo.token1.price).toString(),
         "volumeToken0": new BigNumber(pair.token0.volume).minus(pair24HoursAgo.token0.volume).toString(),
         "volumeToken1": new BigNumber(pair.token1.volume).minus(pair24HoursAgo.token1.volume).toString()
     };
