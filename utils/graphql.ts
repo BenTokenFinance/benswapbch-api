@@ -2,6 +2,10 @@ import { ExchangeClient, BlockClient } from './apollo/client'
 import { splitQuery, GLOBAL_DATA, ALL_TOKENS_SIMPLE, GET_BLOCK, GET_BLOCKS, ALL_PAIRS } from './apollo/queries'
 import { getWeb3 } from "./web3";
 import BigNumber from "bignumber.js";
+import dayjs from 'dayjs'
+import utc from 'dayjs/plugin/utc'
+
+dayjs.extend(utc)
 
 async function getGlobalData(block: string) {
     let data: any = {}
@@ -122,8 +126,9 @@ function getPair24HourData(pair: any, pair24HoursAgo: any) {
 // Pairs
 export const getAllPairs = async () => {
     const web3 = getWeb3();
-    const block = await web3.eth.getBlockNumber();
-    const blockNumber24HoursAgo = block - 14400;
+    const utcCurrentTime = dayjs.unix(Math.round(new Date().valueOf() / 1000))
+    const utcOneDayBack = utcCurrentTime.subtract(1, 'day').unix()
+    const blockNumber24HoursAgo = await getBlockFromTimestamp(utcOneDayBack);
     const pairs = await getPairs(null);
     const pairs24HoursAgo = await getPairs(blockNumber24HoursAgo);
     const pairs24HoursAgoIndex = pairs24HoursAgo.reduce(function(result:any, pair:any, index:any) {
