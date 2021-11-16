@@ -48,7 +48,7 @@ function processPairData(pair: any) {
     let symbol = pair.token0.symbol + "_" + pair.token1.symbol;
     for (let i=0; i<BaseTokens.length; i++) {
         let b = BaseTokens[i];
-        if (pair.token1.symbol == b) break;
+        if (pair.token1.id == b) break;
         else if (pair.token0.id == b) {
             symbol = pair.token1.symbol + "_" + pair.token0.symbol;
             break;
