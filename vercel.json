@@ -21,6 +21,14 @@
     {
       "source": "/api/dex/stats/:block",
       "destination": "/api/dex/stats"
+    },
+    {
+      "source": "/api/dex/pair/:id",
+      "destination": "/api/dex/pair"
+    },
+    {
+      "source": "/api/dex/pair/:id/:block",
+      "destination": "/api/dex/pair"
     }
   ],
   "headers": [

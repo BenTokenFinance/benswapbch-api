@@ -85,11 +85,11 @@ export const ALL_TOKENS_SIMPLE = (block) => {
   return gql(queryString)
 }
 
-export const ALL_PAIRS = (block) => {
+export const PAIRS = (block, id) => {
   const queryString = ` query pairs {
     pairs(
      ${block ? `block: { number: ${block}}` : ``} 
-     where: { reserveBCH_gt: 5, totalTransactions_gt: 10 }
+     where: { reserveBCH_gt: 5, totalTransactions_gt: 10 ${id ? `, id: "${id}"` : ``} }
      orderBy: reserveBCH
      orderDirection: desc) {
       id,

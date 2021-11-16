@@ -1,5 +1,5 @@
 import { ExchangeClient, BlockClient } from './apollo/client'
-import { splitQuery, GLOBAL_DATA, ALL_TOKENS_SIMPLE, GET_BLOCK, GET_BLOCKS, ALL_PAIRS } from './apollo/queries'
+import { splitQuery, GLOBAL_DATA, ALL_TOKENS_SIMPLE, GET_BLOCK, GET_BLOCKS, PAIRS } from './apollo/queries'
 import { getWeb3 } from "./web3";
 import BigNumber from "bignumber.js";
 import dayjs from 'dayjs'
@@ -83,15 +83,13 @@ function processPairData(pair: any) {
     }
 }
 
-async function getPairs(block: any) {
+async function getPairs(block: any = undefined, id: any = undefined) {
     let data: any = []
 
     try {
         // fetch the pairs data
-        const query = ALL_PAIRS(block);
-        console.log(query);
         const result = await ExchangeClient.query({
-            query: query,
+            query: PAIRS(block, id),
             fetchPolicy: 'network-only',
         })
         data = result.data.pairs.map(processPairData);
@@ -131,12 +129,14 @@ function getPair24HourData(pair: any, pair24HoursAgo: any) {
 
 // Pairs
 export const getAllPairs = async () => {
-    const web3 = getWeb3();
+    const pairs = await getPairs();
+    if (!pairs.length) return pairs;
+
     const timestampOneDayBack = dayjs().subtract(1, 'day').unix();
     console.log("Timestamp 24 hours back: "+ timestampOneDayBack);
     const blockNumber24HoursAgo = await getBlockFromTimestamp(timestampOneDayBack);
     console.log("Block 24 hours back: "+ blockNumber24HoursAgo);
-    const pairs = await getPairs(null);
+    
     const pairs24HoursAgo = await getPairs(blockNumber24HoursAgo);
     const pairs24HoursAgoIndex = pairs24HoursAgo.reduce(function(result:any, pair:any, index:any) {
         result[pair.id] = index;
@@ -152,6 +152,30 @@ export const getAllPairs = async () => {
     });
 }
 
+// Pair
+export const getPair = async (id: any, block: any = undefined) => {
+    const web3 = getWeb3();
+    const blockNumber = block === undefined ? undefined : new BigNumber(block).toNumber();
+    console.log("Block: "+ blockNumber);
+
+    const pairs = await getPairs(blockNumber, id);
+    if (pairs.length != 1) return {};
+
+    const timestamp = block === undefined ? new Date() : (await web3.eth.getBlock(blockNumber)).timestamp;
+    console.log("Timestamp: "+ timestamp);
+    const timestampOneDayBack = dayjs(timestamp).subtract(1, 'day').unix();
+    console.log("Timestamp 24 hours back: "+ timestamp);
+    const blockNumber24HoursAgo = await getBlockFromTimestamp(timestampOneDayBack);
+    console.log("Block 24 hours back: "+ blockNumber24HoursAgo);
+
+    const pairs24HoursAgo = await getPairs(blockNumber24HoursAgo, id);
+
+    if (pairs24HoursAgo.length != 1) return {};
+    const pair = pairs[0];
+    pair["24Hours"] = getPair24HourData(pair, pairs24HoursAgo[0]);
+    return pair;
+}
+
 /**
  * @notice Fetches first block after a given timestamp
  * @dev Query speed is optimized by limiting to a 600-second period
@@ -164,7 +188,7 @@ export const getAllPairs = async () => {
         timestampFrom: timestamp,
         timestampTo: timestamp + 600,
       },
-      fetchPolicy: 'cache-first',
+      fetchPolicy: 'network-only',
     })
     return result?.data?.blocks?.[0]?.number
 }
