@@ -45,11 +45,11 @@ const BaseTokens = [
 
 function processPairData(pair: any) {
     // Construct symbol
-    let symbol = pair.token0.name + "_" + pair.token1.name;
+    let symbol = pair.token0.symbol + "_" + pair.token1.symbol;
     for (let i=0; i<BaseTokens.length; i++) {
         let b = BaseTokens[i];
         if (pair.token0.id == b) {
-            symbol = pair.token1.name + "_" + pair.token0.name;
+            symbol = pair.token1.symbol + "_" + pair.token0.symbol;
             break;
         }
     }
@@ -62,12 +62,16 @@ function processPairData(pair: any) {
         "liquidityUsd": pair.liquidityUsd,
         "volumeUsd": pair.volumeUsd,
         "volumeBch": pair.volumeBch,
-        "token0": Object.assign({
-            volume: pair.volumeToken0
-        }, pair.token0),
-        "token1": Object.assign({
-            volume: pair.volumeToken1
-        }, pair.token1),
+        "token0": {
+            "id": pair.token0.id,
+            "symbol": pair.token0.symbol,
+            "volume": pair.volumeToken0
+        },
+        "token1": {
+            "id": pair.token1.id,
+            "symbol": pair.token1.symbol,
+            "volume": pair.volumeToken1
+        },
         "totalTransactions": pair.totalTransactions
     }
 }
@@ -102,6 +106,18 @@ export const getDexStats = async (block: string) => {
     return res;
 }
 
+function getPair24HourData(pair: any, pair24HoursAgo: any) {
+    return {
+        "transactions": new BigNumber(pair.totalTransactions).minus(pair24HoursAgo.totalTransactions).toString(),
+        "liquidityBch": new BigNumber(pair.liquidityBch).minus(pair24HoursAgo.liquidityBch).toString(),
+        "liquidityUsd": new BigNumber(pair.liquidityUsd).minus(pair24HoursAgo.liquidityUsd).toString(),
+        "volumeBch": new BigNumber(pair.volumeBch).minus(pair24HoursAgo.volumeBch).toString(),
+        "volumeUsd": new BigNumber(pair.volumeUsd).minus(pair24HoursAgo.volumeUsd).toString(),
+        "volumeToken0": new BigNumber(pair.token0.volume).minus(pair24HoursAgo.token0.volume).toString(),
+        "volumeToken1": new BigNumber(pair.token1.volume).minus(pair24HoursAgo.token1.volume).toString()
+    };
+}
+
 // Pairs
 export const getAllPairs = async () => {
     const web3 = getWeb3();
@@ -118,16 +134,8 @@ export const getAllPairs = async () => {
         return typeof(pairs24HoursAgoIndex[pair.id]) == "number"; 
     }).map(function(pair:any){
         const pair24HoursAgo = pairs24HoursAgo[pairs24HoursAgoIndex[pair.id]];
-        return Object.assign({
-            "24Hours": {
-                "liquidityBch": new BigNumber(pair.liquidityBch).minus(pair24HoursAgo.liquidityBch).toString(),
-                "liquidityUsd": new BigNumber(pair.liquidityUsd).minus(pair24HoursAgo.liquidityUsd).toString(),
-                "volumeBch": new BigNumber(pair.volumeBch).minus(pair24HoursAgo.volumeBch).toString(),
-                "volumeUsd": new BigNumber(pair.volumeUsd).minus(pair24HoursAgo.volumeUsd).toString(),
-                "volumeToken0": new BigNumber(pair.token0.volume).minus(pair24HoursAgo.token0.volume).toString(),
-                "volumeToken1": new BigNumber(pair.token1.volume).minus(pair24HoursAgo.token1.volume).toString(),
-            }
-        }, pair);
+        pair["24Hours"] = getPair24HourData(pair, pair24HoursAgo);
+        return pair;
     });
 }
 
