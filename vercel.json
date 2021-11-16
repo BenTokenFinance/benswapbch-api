@@ -19,6 +19,10 @@
       "destination": "/api/smartbch/rpc"
     },
     {
+      "source": "/api/smartbch/block/:timestamp",
+      "destination": "/api/smartbch/block"
+    },
+    {
       "source": "/api/dex/stats/:block",
       "destination": "/api/dex/stats"
     },
