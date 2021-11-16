@@ -23,6 +23,10 @@
       "destination": "/api/smartbch/block"
     },
     {
+      "source": "/api/smartbch/timestamp/:block",
+      "destination": "/api/smartbch/timestamp"
+    },
+    {
       "source": "/api/dex/stats/:block",
       "destination": "/api/dex/stats"
     },

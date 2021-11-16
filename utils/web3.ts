@@ -45,3 +45,8 @@ export const getLastestBlocksFromAllRpcs = async () => {
   await Promise.all(tasks);
   return result;
 }
+
+export const getTimestampByBlock = async(block: number) => {
+  const web3: Web3 = getWeb3(false);
+  return (await web3.eth.getBlock(block)).timestamp;
+}
