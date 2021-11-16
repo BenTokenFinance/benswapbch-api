@@ -127,7 +127,9 @@ function getPair24HourData(pair: any, pair24HoursAgo: any) {
 export const getAllPairs = async () => {
     const web3 = getWeb3();
     const timestampOneDayBack = dayjs().subtract(1, 'day').unix();
+    console.log("Timestamp 24 hours back: "+ timestampOneDayBack);
     const blockNumber24HoursAgo = await getBlockFromTimestamp(timestampOneDayBack);
+    console.log("Block 24 hours back: "+ blockNumber24HoursAgo);
     const pairs = await getPairs(null);
     const pairs24HoursAgo = await getPairs(blockNumber24HoursAgo);
     const pairs24HoursAgoIndex = pairs24HoursAgo.reduce(function(result:any, pair:any, index:any) {
