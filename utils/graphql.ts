@@ -86,9 +86,11 @@ async function getPairs(block: any) {
 
     try {
         // fetch the pairs data
+        const query = ALL_PAIRS(block);
+        console.log(query);
         const result = await ExchangeClient.query({
-            query: ALL_PAIRS(block),
-            fetchPolicy: 'cache-first',
+            query: query,
+            fetchPolicy: 'network-only',
         })
         data = result.data.pairs.map(processPairData);
     } catch (e) {
