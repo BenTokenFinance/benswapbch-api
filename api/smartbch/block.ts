@@ -1,14 +1,25 @@
 import { NowRequest, NowResponse } from "@vercel/node";
-import { getLastestBlocksFromAllRpcs } from "../../utils/web3";
+import { getLatestBlock } from "../../utils/web3";
+import { getBlockFromTimestamp } from "../../utils/graphql";
 
 export default async (req: NowRequest, res: NowResponse): Promise<void> => {
-  const all = await getLastestBlocksFromAllRpcs();
-  var max = 0;
-  
-  Object.keys(all).forEach(k => {
-    max = Math.max(max, all[k].block);
-  });
+  const { timestamp } = req.query;
+
+  let block = 0;
+
+  if (timestamp === undefined) {
+    block = await getLatestBlock();
+  } else {
+    const t = Number(timestamp);
+    if (!isNaN(t) && Number.isInteger(t) && t > 0) {
+      try {
+        block = await getBlockFromTimestamp(t) || 0;
+      } catch(e) {
+        console.error(e);
+      }
+    }
+  }
 
   res.setHeader("content-type", "text/plain");
-  res.send(max);
+  res.send(block);
 };

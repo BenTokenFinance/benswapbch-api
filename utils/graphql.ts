@@ -14,7 +14,7 @@ async function getGlobalData(block: string) {
         // fetch the global data
         const result = await ExchangeClient.query({
             query: GLOBAL_DATA(block),
-            fetchPolicy: 'cache-first',
+            fetchPolicy: 'network-only',
         })
         data = result.data.benSwapFactories[0];
     } catch (e) {
@@ -31,7 +31,7 @@ async function getTokenCount(block: string) {
         // fetch tokens
         const result = await ExchangeClient.query({
             query: ALL_TOKENS_SIMPLE(block),
-            fetchPolicy: 'cache-first',
+            fetchPolicy: 'network-only',
         })
         count = result.data.tokens.length;
     } catch (e) {
