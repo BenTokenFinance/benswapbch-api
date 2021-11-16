@@ -4,6 +4,10 @@ import { getPair } from "../../utils/graphql";
 export default async (req: NowRequest, res: NowResponse): Promise<void> => {
     const { id, block } = req.query;
 
-    const result = id ? await getPair(String(id).toLowerCase(), block) : {};
+    let result = {}
+    if (id && (block === undefined || !(isNaN as any)(block))) {
+        result = await getPair(String(id).toLowerCase(), block);
+    }
+
     res.json(result);
 };

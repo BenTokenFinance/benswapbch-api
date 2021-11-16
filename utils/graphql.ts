@@ -161,10 +161,10 @@ export const getPair = async (id: any, block: any = undefined) => {
     const pairs = await getPairs(blockNumber, id);
     if (pairs.length != 1) return {};
 
-    const timestamp = block === undefined ? new Date() : (await web3.eth.getBlock(blockNumber)).timestamp;
+    const timestamp = block === undefined ? new Date() : Number((await web3.eth.getBlock(blockNumber)).timestamp);
     console.log("Timestamp: "+ timestamp);
     const timestampOneDayBack = dayjs(timestamp).subtract(1, 'day').unix();
-    console.log("Timestamp 24 hours back: "+ timestamp);
+    console.log("Timestamp 24 hours back: "+ timestampOneDayBack);
     const blockNumber24HoursAgo = await getBlockFromTimestamp(timestampOneDayBack);
     console.log("Block 24 hours back: "+ blockNumber24HoursAgo);
 
