@@ -48,7 +48,8 @@ function processPairData(pair: any) {
     let symbol = pair.token0.symbol + "_" + pair.token1.symbol;
     for (let i=0; i<BaseTokens.length; i++) {
         let b = BaseTokens[i];
-        if (pair.token0.id == b) {
+        if (pair.token1.symbol == b) break;
+        else if (pair.token0.id == b) {
             symbol = pair.token1.symbol + "_" + pair.token0.symbol;
             break;
         }
@@ -109,8 +110,8 @@ export const getDexStats = async (block: string) => {
 function getPair24HourData(pair: any, pair24HoursAgo: any) {
     return {
         "transactions": new BigNumber(pair.totalTransactions).minus(pair24HoursAgo.totalTransactions).toString(),
-        "liquidityBch": new BigNumber(pair.liquidityBch).minus(pair24HoursAgo.liquidityBch).toString(),
-        "liquidityUsd": new BigNumber(pair.liquidityUsd).minus(pair24HoursAgo.liquidityUsd).toString(),
+        "liquidityChangeBch": new BigNumber(pair.liquidityBch).minus(pair24HoursAgo.liquidityBch).toString(),
+        "liquidityChangeUsd": new BigNumber(pair.liquidityUsd).minus(pair24HoursAgo.liquidityUsd).toString(),
         "volumeBch": new BigNumber(pair.volumeBch).minus(pair24HoursAgo.volumeBch).toString(),
         "volumeUsd": new BigNumber(pair.volumeUsd).minus(pair24HoursAgo.volumeUsd).toString(),
         "volumeToken0": new BigNumber(pair.token0.volume).minus(pair24HoursAgo.token0.volume).toString(),

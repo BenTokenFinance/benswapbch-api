@@ -89,7 +89,7 @@ export const ALL_PAIRS = (block) => {
   const queryString = ` query pairs {
     pairs(
      ${block ? `block: { number: ${block}}` : ``} 
-     where: { trackedReserveBCH_gt: 5, totalTransactions_gt: 10 }) {
+     where: { trackedReserveBCH_gt: 5, totalTransactions_gt: 10 }, orderBy: reserveBCH, orderDirection: desc) {
       id,
       createBlock: block,
       volumeToken0,
