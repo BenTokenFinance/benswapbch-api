@@ -84,7 +84,7 @@ function processPairData(pair: any) {
             "priceUsd": pair.token1.priceUsd,
             "volume": pair.volumeToken1
         },
-        "totalTransactions": pair.totalTransactions
+        "transactions": pair.totalTransactions
     }
 }
 
@@ -104,14 +104,14 @@ function processTokenData(token: any) {
         "id": token.id,
         "name": token.name,
         "symbol": token.symbol,
-        "totalTransactions": token.totalTransactions,
-        "totalLiquidity": token.totalLiquidity,
-        "totalLiquidityBch": new BigNumber(token.totalLiquidity).times(token.priceBch).toString(),
-        "totalLiquidityUsd": new BigNumber(token.totalLiquidity).times(token.priceUsd).toString(),
+        "transactions": token.totalTransactions,
+        "liquidity": token.totalLiquidity,
+        "liquidityBch": new BigNumber(token.totalLiquidity).times(token.priceBch).toString(),
+        "liquidityUsd": new BigNumber(token.totalLiquidity).times(token.priceUsd).toString(),
         "priceBch": token.priceBch,
         "priceUsd": token.priceUsd,
-        "totalVolume": token.totalVolume,
-        "totalVolumeUsd": token.totalVolumeUsd,
+        "volume": token.totalVolume,
+        "volumeUsd": token.totalVolumeUsd,
         "pairs": pairs
     };
 }
@@ -166,7 +166,7 @@ export const getDexStats = async (block: string) => {
 
 function getPair24HourData(pair: any, pair24HoursAgo: any) {
     return {
-        "transactions": new BigNumber(pair.totalTransactions).minus(pair24HoursAgo.totalTransactions).toString(),
+        "transactions": new BigNumber(pair.transactions).minus(pair24HoursAgo.transactions).toString(),
         "liquidityChangeBch": new BigNumber(pair.liquidityBch).minus(pair24HoursAgo.liquidityBch).toString(),
         "liquidityChangeUsd": new BigNumber(pair.liquidityUsd).minus(pair24HoursAgo.liquidityUsd).toString(),
         "volumeBch": new BigNumber(pair.volumeBch).minus(pair24HoursAgo.volumeBch).toString(),
@@ -229,7 +229,7 @@ export const getPair = async (id: any, block: any = undefined) => {
 export const getAllTokens = async () => {
     const tokens = await getTokens();
     tokens.sort(function(a:any, b:any){
-        return new BigNumber(b.totalLiquidityBch).minus(a.totalLiquidityBch).toNumber();
+        return new BigNumber(b.liquidityBch).minus(a.liquidityBch).toNumber();
     });
 
     return tokens;

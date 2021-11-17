@@ -37,6 +37,14 @@
     {
       "source": "/api/dex/pair/:id/:block",
       "destination": "/api/dex/pair"
+    },
+    {
+      "source": "/api/dex/token/:id",
+      "destination": "/api/dex/token"
+    },
+    {
+      "source": "/api/dex/token/:id/:block",
+      "destination": "/api/dex/token"
     }
   ],
   "headers": [
