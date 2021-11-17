@@ -317,7 +317,7 @@ export async function getTrades(base:string, range:string, token: any, before: a
             query: TradeDataConfig[base][range].query(token, before),
             fetchPolicy: 'network-only',
         })
-        data = result.data.trades.map(processTrades);
+        data = processTrades(result.data.trades);
     } catch (e) {
         console.error(e);
     }
