@@ -11,7 +11,7 @@ import utc from 'dayjs/plugin/utc'
 
 dayjs.extend(utc)
 
-async function getGlobalData(block: string) {
+async function getGlobalData(block: any) {
     let data: any = {}
 
     try {
@@ -174,7 +174,7 @@ export const getDexStats = async (block: string) => {
         console.log("Timestamp 24 hours back: "+ timestampOneDayBack);
         const blockNumber24HoursAgo = await getBlockFromTimestamp(timestampOneDayBack);
         console.log("Block 24 hours back: "+ blockNumber24HoursAgo);
-        const data24HoursAgo:any = getGlobalData(blockNumber24HoursAgo);
+        const data24HoursAgo:any = await getGlobalData(blockNumber24HoursAgo);
         if (data24HoursAgo.factoryAddress) {
             res["24Hours"] = {
                 "transactions": new BigNumber(res.totalTransactions).minus(data24HoursAgo.totalTransactions).toString(),
