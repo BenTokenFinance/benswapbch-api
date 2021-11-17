@@ -9,11 +9,11 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
     let result = [];
 
     if (before===undefined){
-        result = await getTrades(base, range, id) || [];
+        result = await getTrades(base, range, String(id).toLowerCase()) || [];
     }else {
         const t = Number(before);
         if ((!isNaN(t) && Number.isInteger(t) && t > 0)) {
-            result = await getTrades(base, range, id, t) || [];
+            result = await getTrades(base, range, String(id).toLowerCase(), t) || [];
         }
     }
 

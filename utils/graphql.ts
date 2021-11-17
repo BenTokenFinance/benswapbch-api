@@ -313,7 +313,7 @@ export async function getTrades(base:string, range:string, token: any, before: a
 
     try {
         const result = await ExchangeClient.query({
-            query: TradeDataConfig[base][range](token, before),
+            query: TradeDataConfig[base][range].query(token, before),
             fetchPolicy: 'network-only',
         })
         data = result.data.trades.map(processTrades);
