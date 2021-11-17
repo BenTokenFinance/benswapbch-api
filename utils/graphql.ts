@@ -137,7 +137,7 @@ async function getTokens(block: any = undefined, id: any = undefined) {
     let data: any = []
 
     try {
-        // fetch the TOKENS data
+        // fetch the tokens data
         const result = await ExchangeClient.query({
             query: TOKENS(block, id),
             fetchPolicy: 'network-only',
@@ -231,8 +231,18 @@ export const getAllTokens = async () => {
     tokens.sort(function(a:any, b:any){
         return new BigNumber(b.totalLiquidityBch).minus(a.totalLiquidityBch).toNumber();
     });
-    
+
     return tokens;
+}
+
+// Token
+export const getToken = async (id: any, block: any = undefined) => {
+    const web3 = getWeb3();
+    const blockNumber = block === undefined ? undefined : new BigNumber(block).toNumber();
+    console.log("Block: "+ blockNumber);
+
+    const token = await getTokens(blockNumber, id);
+    return token;
 }
 
 /**
