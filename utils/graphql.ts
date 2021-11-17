@@ -312,6 +312,7 @@ export async function getTrades(base:string, range:string, token: any, before: a
     let data: any = []
 
     try {
+        console.log(base, range, token, before);
         const result = await ExchangeClient.query({
             query: TradeDataConfig[base][range].query(token, before),
             fetchPolicy: 'network-only',

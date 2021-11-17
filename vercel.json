@@ -47,12 +47,12 @@
       "destination": "/api/dex/token"
     },
     {
-      "source": "/api/dex/trades/:base/:range/:id",
-      "destination": "/api/dex/trades/:base/:range"
+      "source": "/api/dex/trade/:base/:range/:id",
+      "destination": "/api/dex/trade/:base/:range"
     },
     {
-      "source": "/api/dex/trades/:base/:range/:id/:before",
-      "destination": "/api/dex/trades/:base/:range"
+      "source": "/api/dex/trade/:base/:range/:id/:before",
+      "destination": "/api/dex/trade/:base/:range"
     }
   ],
   "headers": [

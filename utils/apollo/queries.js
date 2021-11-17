@@ -160,7 +160,7 @@ export const CANDLE_ONE_MIN_BCH = (token, before) => {
     trades: tokenTradeOneMinDatas (
       first: 1000, 
       where: {
-        token: "${token}",
+        token: "${token}"
         ${before ? `, startTimestamp_lt: ${before}` : ``}
       },
       orderBy:startTimestamp,
@@ -184,7 +184,7 @@ export const CANDLE_ONE_MIN_USD = (token, before) => {
       first: 1000, 
       where: {
         priceStart_gt: 0,
-        token: "${token}",
+        token: "${token}"
         ${before ? `, startTimestamp_lt: ${before}` : ``}
       },
       orderBy:startTimestamp,
