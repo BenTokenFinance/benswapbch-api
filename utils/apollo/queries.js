@@ -154,3 +154,50 @@ export const TOKENS = (block, id) => {
   }`
   return gql(queryString)
 }
+
+export const CANDLE_ONE_MIN_BCH = (token, before) => {
+  const queryString = ` query tokenTradeOneMinDatas {
+    trades: tokenTradeOneMinDatas (
+      first: 1000, 
+      where: {
+        token: "${token}",
+        ${before ? `, startTimestamp_lt: ${before}` : ``}
+      },
+      orderBy:startTimestamp,
+      orderDirection:desc
+    ) {
+      trades: count,
+      timestamp: startTimestamp,
+      volume,
+      low:priceLowBCH,
+      high:priceHighBCH,
+      open:priceStartBCH,
+      close:priceEndBCH
+    }
+  }`
+  return gql(queryString)
+}
+
+export const CANDLE_ONE_MIN_USD = (token, before) => {
+  const queryString = ` query tokenTradeOneMinDatas {
+    trades: tokenTradeOneMinDatas (
+      first: 1000, 
+      where: {
+        priceStart_gt: 0,
+        token: "${token}",
+        ${before ? `, startTimestamp_lt: ${before}` : ``}
+      },
+      orderBy:startTimestamp,
+      orderDirection:desc
+    ) {
+      trades: count,
+      timestamp: startTimestamp,
+      volume,
+      low:priceLow,
+      high:priceHigh,
+      open:priceStart,
+      close:priceEnd
+    }
+  }`
+  return gql(queryString)
+}

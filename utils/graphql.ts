@@ -1,5 +1,8 @@
 import { ExchangeClient, BlockClient } from './apollo/client'
-import { splitQuery, GLOBAL_DATA, ALL_TOKENS_SIMPLE, GET_BLOCK, GET_BLOCKS, PAIRS, TOKENS } from './apollo/queries'
+import { 
+    splitQuery, GLOBAL_DATA, ALL_TOKENS_SIMPLE, GET_BLOCK, GET_BLOCKS, PAIRS, TOKENS, 
+    CANDLE_ONE_MIN_BCH, CANDLE_ONE_MIN_USD
+} from './apollo/queries'
 import { getWeb3 } from "./web3";
 import BigNumber from "bignumber.js";
 import dayjs from 'dayjs'
@@ -243,6 +246,82 @@ export const getToken = async (id: any, block: any = undefined) => {
 
     const token = await getTokens(blockNumber, id);
     return token;
+}
+
+const TradeDataConfig: any = {
+    "BCH": {
+        "1m" : {
+            query: CANDLE_ONE_MIN_BCH
+        },
+        "15m" : {
+            query: CANDLE_ONE_MIN_BCH
+        },
+        "1h" : {
+            query: CANDLE_ONE_MIN_BCH
+        },
+        "1d" : {
+            query: CANDLE_ONE_MIN_BCH
+        },
+        "1w" : {
+            query: CANDLE_ONE_MIN_BCH
+        }
+    },
+    "USD": {
+        "1m" : {
+            query: CANDLE_ONE_MIN_USD
+        },
+        "15m" : {
+            query: CANDLE_ONE_MIN_USD
+        },
+        "1h" : {
+            query: CANDLE_ONE_MIN_USD
+        },
+        "1d" : {
+            query: CANDLE_ONE_MIN_USD
+        },
+        "1w" : {
+            query: CANDLE_ONE_MIN_USD
+        }
+    }
+}
+
+function processTrades(rawData:any) {
+    var processed = rawData.map((e:any,i:any) => {
+        var open = i<rawData.length-1 ? rawData[i+1].close : e.open; 
+        return Object.assign({}, e, {open: open, low: Math.min(open, e.low), high: Math.max(open, e.high)});
+    }).reverse();
+
+    processed.forEach((e:any,i:any) => {
+        // Mitigate spikes
+        e.high = e.high >= Math.max(e.open, e.close) * 1.4 ? Math.max(e.open, e.close) * 1.2 : e.high;
+        e.low = e.high <= Math.min(e.open, e.close) * 0.65 ? Math.min(e.open, e.close) * 0.85 : e.low;
+        if (i<processed.length-1) {
+            var next = processed[i+1];
+            if (e.close == e.high && next.open == next.high && e.close >= e.open * 1.4 && next.close * 1.4 <= next.open) {
+                e.close = e.open * 1.2;
+                e.high = e.close;
+                next.open = e.close;
+                next.high = e.close;
+            }
+        }
+    });
+    return processed;
+}
+
+export async function getTrades(base:string, range:string, token: any, before: any = undefined) {
+    let data: any = []
+
+    try {
+        const result = await ExchangeClient.query({
+            query: TradeDataConfig[base][range](token, before),
+            fetchPolicy: 'network-only',
+        })
+        data = result.data.trades.map(processTrades);
+    } catch (e) {
+        console.error(e);
+    }
+    
+    return data || [];
 }
 
 /**
