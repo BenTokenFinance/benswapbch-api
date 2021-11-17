@@ -91,7 +91,8 @@ export const PAIRS = (block, id) => {
      ${block ? `block: { number: ${block}}` : ``} 
      where: { reserveBCH_gt: 5, totalTransactions_gt: 10 ${id ? `, id: "${id}"` : ``} }
      orderBy: reserveBCH
-     orderDirection: desc) {
+     orderDirection: desc
+    ) {
       id,
       createBlock: block,
       volumeToken0,
@@ -114,4 +115,42 @@ export const PAIRS = (block, id) => {
     }
   }`
 return gql(queryString)
+}
+
+export const TOKENS = (block, id) => {
+  const queryString = ` query tokens {
+    tokens(
+      ${block ? `block: { number: ${block}}` : ``} 
+      where: {
+        derivedBCH_gt: 0, 
+        id_not_in: ["0x3743ec0673453e5009310c727ba4eaf7b3a1cc04", "0x7b2b3c5308ab5b2a1d9a94d20d35ccdf61e05b72"]
+        ${id ? `, id: "${id}"` : ``}
+      }
+    ) {
+      id,
+      name,
+      symbol,
+      totalTransactions,
+      totalLiquidity,
+      priceBch: derivedBCH,
+      priceUsd: derivedUSD,
+      totalVolume: tradeVolume,
+      totalVolumeUsd: tradeVolumeUSD,
+      pairs1: pairBase (where: {reserveBCH_gt:5, totalTransactions_gt:10}) {
+        id,
+        theOtherToken: token1 {
+          id
+          symbol
+        }
+      },
+      pairs2: pairQuote (where: {reserveBCH_gt:5, totalTransactions_gt:10}) {
+        id,
+        theOtherToken: token0 {
+          id
+          symbol
+        }
+      }
+    }
+  }`
+  return gql(queryString)
 }

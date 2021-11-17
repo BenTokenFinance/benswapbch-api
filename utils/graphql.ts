@@ -1,5 +1,5 @@
 import { ExchangeClient, BlockClient } from './apollo/client'
-import { splitQuery, GLOBAL_DATA, ALL_TOKENS_SIMPLE, GET_BLOCK, GET_BLOCKS, PAIRS } from './apollo/queries'
+import { splitQuery, GLOBAL_DATA, ALL_TOKENS_SIMPLE, GET_BLOCK, GET_BLOCKS, PAIRS, TOKENS } from './apollo/queries'
 import { getWeb3 } from "./web3";
 import BigNumber from "bignumber.js";
 import dayjs from 'dayjs'
@@ -47,17 +47,22 @@ const BaseTokens = [
     "0x77cb87b57f54667978eb1b199b28a0db8c8e1c0b",   // EBEN
 ]
 
-function processPairData(pair: any) {
+function getPairSymbol(t1:any, t2:any) {
     // Construct symbol
-    let symbol = pair.token0.symbol + "_" + pair.token1.symbol;
+    let symbol = t1.symbol + "_" + t2.symbol;
     for (let i=0; i<BaseTokens.length; i++) {
         let b = BaseTokens[i];
-        if (pair.token1.id == b) break;
-        else if (pair.token0.id == b) {
-            symbol = pair.token1.symbol + "_" + pair.token0.symbol;
+        if (t2.id == b) break;
+        else if (t1.id == b) {
+            symbol = t2.symbol + "_" + t1.symbol;
             break;
         }
     }
+    return symbol;
+}
+
+function processPairData(pair: any) {
+    let symbol = getPairSymbol(pair.token0, pair.token1);
 
     return {
         "id": pair.id,
@@ -83,6 +88,34 @@ function processPairData(pair: any) {
     }
 }
 
+function processTokenData(token: any) {
+    const pairs = token.pairs1.concat(token.pairs2).map((p:any) =>{
+        return {
+            "id": p.id,
+            "symbol": getPairSymbol(token, p.theOtherToken),
+            "theOtherToken": {
+                "id": p.theOtherToken.id,
+                "symbol": p.theOtherToken.symbol
+            }
+        };
+    });
+
+    return {
+        "id": token.id,
+        "name": token.name,
+        "symbol": token.symbol,
+        "totalTransactions": token.totalTransactions,
+        "totalLiquidity": token.totalLiquidity,
+        "totalLiquidityBch": new BigNumber(token.totalLiquidity).times(token.priceBch).toString(),
+        "totalLiquidityUsd": new BigNumber(token.totalLiquidity).times(token.priceUsd).toString(),
+        "priceBch": token.priceBch,
+        "priceUsd": token.priceUsd,
+        "totalVolume": token.totalVolume,
+        "totalVolumeUsd": token.totalVolumeUsd,
+        "pairs": pairs
+    };
+}
+
 async function getPairs(block: any = undefined, id: any = undefined) {
     let data: any = []
 
@@ -99,6 +132,24 @@ async function getPairs(block: any = undefined, id: any = undefined) {
     
     return data || [];
 }
+
+async function getTokens(block: any = undefined, id: any = undefined) {
+    let data: any = []
+
+    try {
+        // fetch the TOKENS data
+        const result = await ExchangeClient.query({
+            query: TOKENS(block, id),
+            fetchPolicy: 'network-only',
+        })
+        data = result.data.tokens.map(processTokenData);
+    } catch (e) {
+        console.error(e);
+    }
+    
+    return data || [];
+}
+
 
 // DEX stats
 export const getDexStats = async (block: string) => {
@@ -172,6 +223,16 @@ export const getPair = async (id: any, block: any = undefined) => {
     const pair = pairs[0];
     pair["24Hours"] = getPair24HourData(pair, pairs24HoursAgo[0]);
     return pair;
+}
+
+// Tokens
+export const getAllTokens = async () => {
+    const tokens = await getTokens();
+    tokens.sort(function(a:any, b:any){
+        return new BigNumber(b.totalLiquidityBch).minus(a.totalLiquidityBch).toNumber();
+    });
+    
+    return tokens;
 }
 
 /**
