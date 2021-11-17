@@ -160,11 +160,32 @@ export const getDexStats = async (block: string) => {
     const res: any = {};
     const tasks = [
         getGlobalData(block).then(data => {Object.assign(res, data)}),
-        getTokenCount(block).then(count => {res.totalTokens = count;})
+        getTokenCount(block).then(count => {res.totalTokens = String(count);})
     ];
     await Promise.all(tasks);
     delete res.__typename;
     if (!res.factoryAddress) delete res.totalTokens;
+    else {
+        // Retrieve 24 hour data
+        const web3 = getWeb3();
+        const blockNumber: any = block === undefined ? undefined : new BigNumber(block).toNumber();
+        console.log("Block: "+ blockNumber);
+        const timestampOneDayBack = (block === undefined ? dayjs(new Date()) : dayjs.unix(Number((await web3.eth.getBlock(blockNumber)).timestamp))).subtract(1, 'day').unix();
+        console.log("Timestamp 24 hours back: "+ timestampOneDayBack);
+        const blockNumber24HoursAgo = await getBlockFromTimestamp(timestampOneDayBack);
+        console.log("Block 24 hours back: "+ blockNumber24HoursAgo);
+        const data24HoursAgo:any = getGlobalData(blockNumber24HoursAgo);
+        if (data24HoursAgo.factoryAddress) {
+            res["24Hours"] = {
+                "transactions": new BigNumber(res.totalTransactions).minus(data24HoursAgo.totalTransactions).toString(),
+                "volumeUsd": new BigNumber(res.totalVolumeUsd).minus(data24HoursAgo.totalVolumeUsd).toString(),
+                "volumeBch": new BigNumber(res.totalVolumeBch).minus(data24HoursAgo.totalVolumeBch).toString(),
+                "liquidityChangeUsd": new BigNumber(res.totalLiquidityUsd).minus(data24HoursAgo.totalLiquidityUsd).toString(),
+                "liquidityChangeBch": new BigNumber(res.totalLiquidityBch).minus(data24HoursAgo.totalLiquidityBch).toString(),
+                "newPairs": new BigNumber(res.totalPairs).minus(data24HoursAgo.totalPairs).toString()
+            };
+        }
+    }
     return res;
 }
 
