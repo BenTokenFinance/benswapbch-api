@@ -249,11 +249,11 @@ export const getToken = async (id: any, block: any = undefined) => {
 }
 
 const TradeDataConfig: any = {
-    "BCH": {
-        "1m" : {
+    "bch": {
+        "1min" : {
             query: CANDLE_ONE_MIN_BCH
         },
-        "15m" : {
+        "15mins" : {
             query: CANDLE_ONE_MIN_BCH
         },
         "1h" : {
@@ -266,11 +266,11 @@ const TradeDataConfig: any = {
             query: CANDLE_ONE_MIN_BCH
         }
     },
-    "USD": {
-        "1m" : {
+    "usd": {
+        "1min" : {
             query: CANDLE_ONE_MIN_USD
         },
-        "15m" : {
+        "15mins" : {
             query: CANDLE_ONE_MIN_USD
         },
         "1h" : {
@@ -308,7 +308,7 @@ function processTrades(rawData:any) {
     return processed;
 }
 
-export async function getTrades(base:string, range:string, token: any, before: any = undefined) {
+export async function getTrades(base:any, range:any, token: any, before: any = undefined) {
     let data: any = []
 
     try {
