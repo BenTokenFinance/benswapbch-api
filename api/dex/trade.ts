@@ -2,7 +2,7 @@ import { NowRequest, NowResponse } from "@vercel/node";
 import { getTrades } from "../../utils/graphql";
 
 const BASES = ["bch", "usd"];
-const RANGES = ["1min","15mins","1h","1d","1w"];
+const RANGES = ["1min", "15mins", "1h", "1d", "1w"];
 
 export default async (req: NowRequest, res: NowResponse): Promise<void> => {
     const { base, range, id, before } = req.query;

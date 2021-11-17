@@ -1,7 +1,8 @@
 import { ExchangeClient, BlockClient } from './apollo/client'
 import { 
     splitQuery, GLOBAL_DATA, ALL_TOKENS_SIMPLE, GET_BLOCK, GET_BLOCKS, PAIRS, TOKENS, 
-    CANDLE_ONE_MIN_BCH, CANDLE_ONE_MIN_USD
+    CANDLE_1_MIN_BCH, CANDLE_1_MIN_USD, CANDLE_15_MIN_BCH, CANDLE_15_MIN_USD, 
+    CANDLE_1_HOUR_BCH, CANDLE_1_HOUR_USD, CANDLE_1_DAY_BCH, CANDLE_1_DAY_USD, CANDLE_1_WEEK_BCH, CANDLE_1_WEEK_USD
 } from './apollo/queries'
 import { getWeb3 } from "./web3";
 import BigNumber from "bignumber.js";
@@ -251,36 +252,36 @@ export const getToken = async (id: any, block: any = undefined) => {
 const TradeDataConfig: any = {
     "bch": {
         "1min" : {
-            query: CANDLE_ONE_MIN_BCH
+            query: CANDLE_1_MIN_BCH
         },
         "15mins" : {
-            query: CANDLE_ONE_MIN_BCH
+            query: CANDLE_15_MIN_BCH
         },
         "1h" : {
-            query: CANDLE_ONE_MIN_BCH
+            query: CANDLE_1_HOUR_BCH
         },
         "1d" : {
-            query: CANDLE_ONE_MIN_BCH
+            query: CANDLE_1_DAY_BCH
         },
         "1w" : {
-            query: CANDLE_ONE_MIN_BCH
+            query: CANDLE_1_WEEK_BCH
         }
     },
     "usd": {
         "1min" : {
-            query: CANDLE_ONE_MIN_USD
+            query: CANDLE_1_MIN_USD
         },
         "15mins" : {
-            query: CANDLE_ONE_MIN_USD
+            query: CANDLE_15_MIN_USD
         },
         "1h" : {
-            query: CANDLE_ONE_MIN_USD
+            query: CANDLE_1_HOUR_USD
         },
         "1d" : {
-            query: CANDLE_ONE_MIN_USD
+            query: CANDLE_1_DAY_USD
         },
         "1w" : {
-            query: CANDLE_ONE_MIN_USD
+            query: CANDLE_1_WEEK_USD
         }
     }
 }
@@ -304,6 +305,9 @@ function processTrades(rawData:any) {
                 next.high = e.close;
             }
         }
+
+        // Delete metadata
+        delete e.__typename;
     });
     return processed;
 }

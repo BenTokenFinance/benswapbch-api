@@ -155,7 +155,7 @@ export const TOKENS = (block, id) => {
   return gql(queryString)
 }
 
-export const CANDLE_ONE_MIN_BCH = (token, before) => {
+export const CANDLE_1_MIN_BCH = (token, before) => {
   const queryString = ` query tokenTradeOneMinDatas {
     trades: tokenTradeOneMinDatas (
       first: 1000, 
@@ -178,9 +178,197 @@ export const CANDLE_ONE_MIN_BCH = (token, before) => {
   return gql(queryString)
 }
 
-export const CANDLE_ONE_MIN_USD = (token, before) => {
+export const CANDLE_1_MIN_USD = (token, before) => {
   const queryString = ` query tokenTradeOneMinDatas {
     trades: tokenTradeOneMinDatas (
+      first: 1000, 
+      where: {
+        priceStart_gt: 0,
+        token: "${token}"
+        ${before ? `, startTimestamp_lt: ${before}` : ``}
+      },
+      orderBy:startTimestamp,
+      orderDirection:desc
+    ) {
+      trades: count,
+      timestamp: startTimestamp,
+      volume,
+      low:priceLow,
+      high:priceHigh,
+      open:priceStart,
+      close:priceEnd
+    }
+  }`
+  return gql(queryString)
+}
+
+export const CANDLE_15_MIN_BCH = (token, before) => {
+  const queryString = ` query tokenTradeFifteenMinDatas {
+    trades: tokenTradeFifteenMinDatas (
+      first: 1000, 
+      where: {
+        token: "${token}"
+        ${before ? `, startTimestamp_lt: ${before}` : ``}
+      },
+      orderBy:startTimestamp,
+      orderDirection:desc
+    ) {
+      trades: count,
+      timestamp: startTimestamp,
+      volume,
+      low:priceLowBCH,
+      high:priceHighBCH,
+      open:priceStartBCH,
+      close:priceEndBCH
+    }
+  }`
+  return gql(queryString)
+}
+
+export const CANDLE_15_MIN_USD = (token, before) => {
+  const queryString = ` query tokenTradeFifteenMinDatas {
+    trades: tokenTradeFifteenMinDatas (
+      first: 1000, 
+      where: {
+        priceStart_gt: 0,
+        token: "${token}"
+        ${before ? `, startTimestamp_lt: ${before}` : ``}
+      },
+      orderBy:startTimestamp,
+      orderDirection:desc
+    ) {
+      trades: count,
+      timestamp: startTimestamp,
+      volume,
+      low:priceLow,
+      high:priceHigh,
+      open:priceStart,
+      close:priceEnd
+    }
+  }`
+  return gql(queryString)
+}
+
+export const CANDLE_1_HOUR_BCH = (token, before) => {
+  const queryString = ` query tokenTradeHourDatas {
+    trades: tokenTradeHourDatas (
+      first: 1000, 
+      where: {
+        token: "${token}"
+        ${before ? `, startTimestamp_lt: ${before}` : ``}
+      },
+      orderBy:startTimestamp,
+      orderDirection:desc
+    ) {
+      trades: count,
+      timestamp: startTimestamp,
+      volume,
+      low:priceLowBCH,
+      high:priceHighBCH,
+      open:priceStartBCH,
+      close:priceEndBCH
+    }
+  }`
+  return gql(queryString)
+}
+
+export const CANDLE_1_HOUR_USD = (token, before) => {
+  const queryString = ` query tokenTradeHourDatas {
+    trades: tokenTradeHourDatas (
+      first: 1000, 
+      where: {
+        priceStart_gt: 0,
+        token: "${token}"
+        ${before ? `, startTimestamp_lt: ${before}` : ``}
+      },
+      orderBy:startTimestamp,
+      orderDirection:desc
+    ) {
+      trades: count,
+      timestamp: startTimestamp,
+      volume,
+      low:priceLow,
+      high:priceHigh,
+      open:priceStart,
+      close:priceEnd
+    }
+  }`
+  return gql(queryString)
+}
+
+export const CANDLE_1_DAY_BCH = (token, before) => {
+  const queryString = ` query tokenTradeDayDatas {
+    trades: tokenTradeDayDatas (
+      first: 1000, 
+      where: {
+        token: "${token}"
+        ${before ? `, startTimestamp_lt: ${before}` : ``}
+      },
+      orderBy:startTimestamp,
+      orderDirection:desc
+    ) {
+      trades: count,
+      timestamp: startTimestamp,
+      volume,
+      low:priceLowBCH,
+      high:priceHighBCH,
+      open:priceStartBCH,
+      close:priceEndBCH
+    }
+  }`
+  return gql(queryString)
+}
+
+export const CANDLE_1_DAY_USD = (token, before) => {
+  const queryString = ` query tokenTradeDayDatas {
+    trades: tokenTradeDayDatas (
+      first: 1000, 
+      where: {
+        priceStart_gt: 0,
+        token: "${token}"
+        ${before ? `, startTimestamp_lt: ${before}` : ``}
+      },
+      orderBy:startTimestamp,
+      orderDirection:desc
+    ) {
+      trades: count,
+      timestamp: startTimestamp,
+      volume,
+      low:priceLow,
+      high:priceHigh,
+      open:priceStart,
+      close:priceEnd
+    }
+  }`
+  return gql(queryString)
+}
+
+export const CANDLE_1_WEEK_BCH = (token, before) => {
+  const queryString = ` query tokenTradeWeekDatas {
+    trades: tokenTradeWeekDatas (
+      first: 1000, 
+      where: {
+        token: "${token}"
+        ${before ? `, startTimestamp_lt: ${before}` : ``}
+      },
+      orderBy:startTimestamp,
+      orderDirection:desc
+    ) {
+      trades: count,
+      timestamp: startTimestamp,
+      volume,
+      low:priceLowBCH,
+      high:priceHighBCH,
+      open:priceStartBCH,
+      close:priceEndBCH
+    }
+  }`
+  return gql(queryString)
+}
+
+export const CANDLE_1_WEEK_USD = (token, before) => {
+  const queryString = ` query tokenTradeWeekDatas {
+    trades: tokenTradeWeekDatas (
       first: 1000, 
       where: {
         priceStart_gt: 0,
