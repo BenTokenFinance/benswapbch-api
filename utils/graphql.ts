@@ -206,7 +206,7 @@ export const getAllPairs = async () => {
 // Pair
 export const getPair = async (id: any, block: any = undefined) => {
     const web3 = getWeb3();
-    const blockNumber = block === undefined ? undefined : new BigNumber(block).toNumber();
+    const blockNumber: any = block === undefined ? undefined : new BigNumber(block).toNumber();
     console.log("Block: "+ blockNumber);
 
     const pairs = await getPairs(blockNumber, id);
@@ -238,7 +238,7 @@ export const getAllTokens = async () => {
 // Token
 export const getToken = async (id: any, block: any = undefined) => {
     const web3 = getWeb3();
-    const blockNumber = block === undefined ? undefined : new BigNumber(block).toNumber();
+    const blockNumber: any = block === undefined ? undefined : new BigNumber(block).toNumber();
     console.log("Block: "+ blockNumber);
 
     const token = await getTokens(blockNumber, id);
