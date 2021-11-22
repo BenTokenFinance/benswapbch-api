@@ -11,6 +11,12 @@ import utc from 'dayjs/plugin/utc'
 
 dayjs.extend(utc)
 
+const APP_WHITELIST = [
+    '0x77cb87b57f54667978eb1b199b28a0db8c8e1c0b',   // EBEN
+    '0x0b00366fbf7037e9d75e4a569ab27dab84759302',   // LAW
+    '0x6732e55ac3eca734f54c26bd8df4eed52fb79a6e',   //JOY
+];
+
 async function getGlobalData(block: any) {
     let data: any = {}
 
@@ -137,13 +143,13 @@ async function getPairs(block: any = undefined, id: any = undefined) {
     return data || [];
 }
 
-async function getTokens(block: any = undefined, id: any = undefined) {
+async function getTokens(block: any = undefined, id: any = undefined, id_in: any = undefined) {
     let data: any = []
 
     try {
         // fetch the tokens data
         const result = await ExchangeClient.query({
-            query: TOKENS(block, id),
+            query: TOKENS(block, id, id_in),
             fetchPolicy: 'network-only',
         })
         data = result.data.tokens.map(processTokenData);
@@ -228,6 +234,14 @@ export const getAllPairs = async () => {
     });
 }
 
+export const getAppPairs = async () => {
+    const allPairs = await getAllPairs();
+
+    return allPairs.filter((pair: any)=>{
+        return APP_WHITELIST.indexOf(pair.token0.id) >= 0 || APP_WHITELIST.indexOf(pair.token1.id) >= 0;
+    });
+}
+
 // Pair
 export const getPair = async (id: any, block: any = undefined) => {
     const web3 = getWeb3();
@@ -253,6 +267,15 @@ export const getPair = async (id: any, block: any = undefined) => {
 // Tokens
 export const getAllTokens = async () => {
     const tokens = await getTokens();
+    tokens.sort(function(a:any, b:any){
+        return new BigNumber(b.liquidityBch).minus(a.liquidityBch).toNumber();
+    });
+
+    return tokens;
+}
+
+export const getAppTokens = async () => {
+    const tokens = await getTokens(undefined, undefined, JSON.stringify(APP_WHITELIST));
     tokens.sort(function(a:any, b:any){
         return new BigNumber(b.liquidityBch).minus(a.liquidityBch).toNumber();
     });
