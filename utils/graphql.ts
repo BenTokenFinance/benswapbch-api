@@ -143,13 +143,13 @@ async function getPairs(block: any = undefined, id: any = undefined) {
     return data || [];
 }
 
-async function getTokens(block: any = undefined, id: any = undefined, id_in: any = undefined) {
+async function getTokens(block: any = undefined, id: any = undefined) {
     let data: any = []
 
     try {
         // fetch the tokens data
         const result = await ExchangeClient.query({
-            query: TOKENS(block, id, id_in),
+            query: TOKENS(block, id),
             fetchPolicy: 'network-only',
         })
         data = result.data.tokens.map(processTokenData);
@@ -236,9 +236,11 @@ export const getAllPairs = async () => {
 
 export const getAppPairs = async () => {
     const allPairs = await getAllPairs();
+    const VALID_BASES = APP_WHITELIST.concat(BaseTokens);
 
     return allPairs.filter((pair: any)=>{
-        return APP_WHITELIST.indexOf(pair.token0.id) >= 0 || APP_WHITELIST.indexOf(pair.token1.id) >= 0;
+        return (APP_WHITELIST.indexOf(pair.token0.id) >= 0 || APP_WHITELIST.indexOf(pair.token1.id) >= 0) 
+                && (VALID_BASES.indexOf(pair.token0.id) >= 0 && VALID_BASES.indexOf(pair.token1.id) >= 0);
     });
 }
 
@@ -275,7 +277,9 @@ export const getAllTokens = async () => {
 }
 
 export const getAppTokens = async () => {
-    const tokens = await getTokens(undefined, undefined, JSON.stringify(APP_WHITELIST));
+    const tokens = (await getTokens()).filter((token: any) => {
+        return APP_WHITELIST.indexOf(token.id) >= 0;
+    });
     tokens.sort(function(a:any, b:any){
         return new BigNumber(b.liquidityBch).minus(a.liquidityBch).toNumber();
     });
