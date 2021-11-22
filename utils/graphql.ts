@@ -282,7 +282,7 @@ export const getAppTokens = async () => {
     const tokens = (await getTokens()).filter((token: any) => {
         return APP_WHITELIST.indexOf(token.id) >= 0;
     });
-    tokens.array.forEach((token: any) => {
+    tokens.forEach((token: any) => {
         token.pairs = token.pairs.filter((pair: any) => {
             return VALID_BASES.indexOf(pair.theOtherToken.id) >= 0;
         });
