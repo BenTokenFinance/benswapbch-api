@@ -16,6 +16,8 @@ const APP_WHITELIST = [
     '0x0b00366fbf7037e9d75e4a569ab27dab84759302',   // LAW
     '0x6732e55ac3eca734f54c26bd8df4eed52fb79a6e',   // JOY
     '0x98dd7ec28fb43b3c4c770ae532417015fa939dd3',   // FLEX
+    "0xffa2394b61d3de16538a2bbf3491297cc5a7c79a",   // UAT
+    "0x7df65f158126898725f262378538b60db543c11a",   // MGOT
 ];
 
 async function getGlobalData(block: any) {
