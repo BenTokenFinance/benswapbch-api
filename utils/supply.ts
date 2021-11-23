@@ -32,3 +32,14 @@ export const getStakedSupply = async (): Promise<any> => {
     "benLottery": new BigNumber(balance4).div(1e18),
   }
 };
+
+export const getTotalSupplyByAddress = async (address: any): Promise<BigNumber> => {
+  try {
+    const contract = getContract(bep20, address);
+    const supply = await contract.methods.totalSupply().call();
+    return new BigNumber(supply);
+  } catch (e) {
+    console.error(e);
+    return new BigNumber(0);
+  }
+};

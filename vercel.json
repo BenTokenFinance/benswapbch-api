@@ -27,6 +27,10 @@
       "destination": "/api/smartbch/timestamp"
     },
     {
+      "source": "/api/sep20/token/:id",
+      "destination": "/api/sep20/token"
+    },
+    {
       "source": "/api/dex/stats/:block",
       "destination": "/api/dex/stats"
     },
