@@ -14,7 +14,8 @@ dayjs.extend(utc)
 const APP_WHITELIST = [
     '0x77cb87b57f54667978eb1b199b28a0db8c8e1c0b',   // EBEN
     '0x0b00366fbf7037e9d75e4a569ab27dab84759302',   // LAW
-    '0x6732e55ac3eca734f54c26bd8df4eed52fb79a6e',   //JOY
+    '0x6732e55ac3eca734f54c26bd8df4eed52fb79a6e',   // JOY
+    '0x98dd7ec28fb43b3c4c770ae532417015fa939dd3',   // FLEX
 ];
 
 async function getGlobalData(block: any) {
