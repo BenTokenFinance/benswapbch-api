@@ -389,3 +389,32 @@ export const CANDLE_1_WEEK_USD = (token, before) => {
   }`
   return gql(queryString)
 }
+
+export const SUBGRAPH_HEALTH = gql`
+  query health {
+    blocks:indexingStatusForCurrentVersion(subgraphName: "bentokenfinance/bch-blocks") {
+      synced
+      health
+      chains {
+        chainHeadBlock {
+          number
+        }
+        latestBlock {
+          number
+        }
+      }
+    }
+    dex:indexingStatusForCurrentVersion(subgraphName: "bentokenfinance/bch-exchange") {
+      synced
+      health
+      chains {
+        chainHeadBlock {
+          number
+        }
+        latestBlock {
+          number
+        }
+      }
+    }
+  }
+`

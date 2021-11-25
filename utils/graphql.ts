@@ -1,13 +1,15 @@
-import { ExchangeClient, BlockClient } from './apollo/client'
+import { ExchangeClient, BlockClient, GetClient } from './apollo/client'
 import { 
     splitQuery, GLOBAL_DATA, ALL_TOKENS_SIMPLE, GET_BLOCK, GET_BLOCKS, PAIRS, TOKENS, 
     CANDLE_1_MIN_BCH, CANDLE_1_MIN_USD, CANDLE_15_MIN_BCH, CANDLE_15_MIN_USD, 
-    CANDLE_1_HOUR_BCH, CANDLE_1_HOUR_USD, CANDLE_1_DAY_BCH, CANDLE_1_DAY_USD, CANDLE_1_WEEK_BCH, CANDLE_1_WEEK_USD
+    CANDLE_1_HOUR_BCH, CANDLE_1_HOUR_USD, CANDLE_1_DAY_BCH, CANDLE_1_DAY_USD, CANDLE_1_WEEK_BCH, CANDLE_1_WEEK_USD, 
+    SUBGRAPH_HEALTH
 } from './apollo/queries'
 import { getWeb3 } from "./web3";
 import BigNumber from "bignumber.js";
 import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc'
+import { getGraphNodesHealthUrls } from './others'
 
 dayjs.extend(utc)
 
@@ -430,4 +432,43 @@ export async function getBlocksFromTimestamps(timestamps:any, skipCount = 500) {
       }
     }
     return blocks
+}
+
+// Node health
+export async function getNodesHealthMsg() {
+    try {
+        const urls: any = await getGraphNodesHealthUrls();
+        const data: any = [];
+        const tasks: any = [];
+        urls.forEach((url: any)=>{
+            const client = GetClient(url);
+            tasks.push(client.query({
+                query: SUBGRAPH_HEALTH,
+                fetchPolicy: 'network-only'
+              })
+              .then((res: any) => {
+                data.push({
+                    url: url,
+                    chainHeader: Number(res.data.blocks.chains[0].chainHeadBlock.number),
+                    blocks: Number(res.data.blocks.chains[0].latestBlock.number),
+                    dex: Number(res.data.dex.chains[0].latestBlock.number)
+                });
+              })
+              .catch((e: any) => {
+                console.error(e)
+              }));
+        });
+        await Promise.all(tasks);
+    
+        if (data.length != urls.length) return "Error: fetching data from nodes.";
+        if (!data.every((datum: any) => {
+            return !(datum.chainHeader >= (datum.blocks + 50) || datum.chainHeader >= (datum.dex + 50));
+        })) return "Error: some subgraphs are not synced to the chain header.";
+        const chainHeaders = data.map((d:any) => d.chainHeader);
+        if (Math.max(...chainHeaders) >= Math.min(...chainHeaders) + 50) return "Error: some node stopped syncing.";
+        return "healthy";
+    } catch(ex) {
+        console.error(ex);
+        return "Error: unknown."
+    }
 }

@@ -14,3 +14,10 @@ export const BlockClient = new ApolloClient({
   link: createHttpLink({ uri: 'https://subgraphs.benswap.cash/subgraphs/name/bentokenfinance/bch-blocks', fetch: fetch }),
   cache: new InMemoryCache(),
 })
+
+export const GetClient = (url) => {
+  return new ApolloClient({
+    link: createHttpLink({ uri: url, fetch: fetch }),
+    cache: new InMemoryCache(),
+  })
+}
