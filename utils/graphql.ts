@@ -438,6 +438,9 @@ export async function getBlocksFromTimestamps(timestamps:any, skipCount = 500) {
 export async function getNodesHealthMsg() {
     try {
         const urls: any = await getGraphNodesHealthUrls();
+
+        console.log("Graph Nodes Count: "+ urls.length);
+        
         const data: any = [];
         const tasks: any = [];
         urls.forEach((url: any)=>{
@@ -448,7 +451,6 @@ export async function getNodesHealthMsg() {
               })
               .then((res: any) => {
                 data.push({
-                    url: url,
                     chainHeader: Number(res.data.blocks.chains[0].chainHeadBlock.number),
                     blocks: Number(res.data.blocks.chains[0].latestBlock.number),
                     dex: Number(res.data.dex.chains[0].latestBlock.number)
@@ -459,6 +461,8 @@ export async function getNodesHealthMsg() {
               }));
         });
         await Promise.all(tasks);
+
+        console.log("Data: ", JSON.stringify(data));
     
         if (data.length != urls.length) return "Error: fetching data from nodes.";
         if (!data.every((datum: any) => {
