@@ -21,7 +21,7 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
   console.log(count1, count2, max, min);
   let result = "healthy";
   if (count1!=count2) {
-    result = "Some node(s) is(are) down. Online node(s): " + JSON.stringify(Object.keys(all));
+    result = `Some node(s) is(are) down. Online node(s): ${Object.keys(all).join(', ')}`;
   } else if ((max-min) >= 50) {
     result = "Some node(s) is(are) behind. Please check /api/smartbch/rpc for more detail.";
   }
