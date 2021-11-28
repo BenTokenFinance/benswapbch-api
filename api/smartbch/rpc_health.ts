@@ -17,8 +17,15 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
           min = Math.min(min, all[k].block);
       }
   });
-  
+
   console.log(count1, count2, max, min);
+  let result = "healthy";
+  if (count1!=count2) {
+    result = "Some node(s) is(are) down. Online node(s): " + JSON.stringify(Object.keys(all));
+  } else if ((max-min) >= 50) {
+    result = "Some node(s) is(are) behind. Please check /api/smartbch/rpc for more detail.";
+  }
+  
   res.setHeader("content-type", "text/plain");
-  res.send((count1 == count2 && (max-min) < 50) ? "healthy" : "problematic");
+  res.send(result);
 };
