@@ -2,11 +2,11 @@ import Web3 from "web3";
 import { RPC } from "./constants";
 
 const BSC_NODE_RPC = [
-  RPC["greyhat"]
+  RPC["uat"]
 ];
 
 const BSC_ARCHIVE_NODE_RPC = [
-  RPC["greyhat"]
+  RPC["uat"]
 ];
 
 export const getWeb3 = (archive = false): Web3 => {
