@@ -358,7 +358,7 @@ function processTrades(rawData:any) {
     processed.forEach((e:any,i:any) => {
         // Mitigate spikes
         e.high = e.high >= Math.max(e.open, e.close) * 1.4 ? Math.max(e.open, e.close) * 1.2 : e.high;
-        e.low = e.high <= Math.min(e.open, e.close) * 0.65 ? Math.min(e.open, e.close) * 0.85 : e.low;
+        e.low = e.low <= Math.min(e.open, e.close) * 0.65 ? Math.min(e.open, e.close) * 0.85 : e.low;
         if (i<processed.length-1) {
             var next = processed[i+1];
             if (e.close == e.high && next.open == next.high && e.close >= e.open * 1.4 && next.close * 1.4 <= next.open) {
@@ -366,6 +366,11 @@ function processTrades(rawData:any) {
                 e.high = e.close;
                 next.open = e.close;
                 next.high = e.close;
+            } else if (e.close == e.low && next.open == next.low && e.close <= e.open * 0.65 && next.close * 0.65 >= next.open) {
+                e.close = e.open * 0.85;
+                e.low = e.close;
+                next.open = e.close;
+                next.low = e.close;
             }
         }
 
