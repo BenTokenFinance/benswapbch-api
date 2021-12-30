@@ -23,6 +23,10 @@ const APP_WHITELIST = [
     "0xc07545d17e716cf7ff24ed0eb16a69157a33aacd",   // BURN
     "0xca0235058985fcc1839e9e37c10900a73c126708",   // DAO
     "0x265bd28d79400d55a1665707fa14a72978fa6043",   // $CATS
+    "0x659f04f36e90143fcac202d4bc36c699c078fc98",   // CLK
+    "0xe11829a7d5d8806bb36e118461a1012588fafd89",   // SPICE
+    "0xb5b1939ef0a3743d0ae9282dba62312b614a5ac0",   // POTA
+    "0xff3ed63bf8bc9303ea0a7e1215ba2f82d569799e",   // ORB
 ];
 
 async function getGlobalData(block: any) {
