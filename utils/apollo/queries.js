@@ -78,7 +78,7 @@ export const GLOBAL_DATA = (block) => {
 
 export const ALL_TOKENS_SIMPLE = (block) => {
   const queryString = ` query tokens {
-      tokens${block ? `(block: { number: ${block}})` : ``}{
+      tokens (first: 1000 ${block ? `, block: { number: ${block}}` : ``}){
         id
       }
     }`
