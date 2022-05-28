@@ -1,0 +1,30 @@
+{
+    "1": {
+        "name": "Bulbasaur",
+        "types": [3,7],
+        "abilities": [0],
+        "rarity": 2
+    },
+    "4": {
+        "name": "Charmander",
+        "types": [1],
+        "abilities": [2],
+        "rarity": 2
+    },
+    "7": {
+        "name": "Squirtle",
+        "types": [2],
+        "abilities": [4],
+        "rarity": 2
+    },
+
+
+
+
+    "100001": {
+        "name": "Dev",
+        "types": [100000],
+        "abilities": [100001, 100002],
+        "rarity": 7
+    }
+}

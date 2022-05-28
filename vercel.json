@@ -61,6 +61,10 @@
     {
       "source": "/api/dex/trade/:base/:range/:id/:before",
       "destination": "/api/dex/trade"
+    },
+    {
+      "source": "/api/pokeben/testKind/:id",
+      "destination": "/api/pokeben/testKind"
     }
   ],
   "headers": [
