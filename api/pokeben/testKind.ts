@@ -6,8 +6,15 @@ import bens from "../../utils/pokeben/bens.json";
 
 export default async (req: NowRequest, res: NowResponse): Promise<void> => {
     const { id } = req.query;
+    
+    console.log(id);
+
+    console.log(bens);
 
     const ben = (bens as any)[String(id)];
+    
+    console.log(ben);
+
     if (ben) {
         const attrs = [];
         // Kind
