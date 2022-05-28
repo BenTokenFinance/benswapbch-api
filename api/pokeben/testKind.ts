@@ -7,13 +7,7 @@ import bens from "../../utils/pokeben/bens.json";
 export default async (req: NowRequest, res: NowResponse): Promise<void> => {
     const { id } = req.query;
     
-    console.log(id);
-
-    console.log(bens);
-
     const ben = (bens as any)[String(id)];
-    
-    console.log(ben);
 
     if (ben) {
         const attrs = [];
@@ -41,7 +35,7 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
             ben.abilities.forEach((a:any, i:any) => {
                 attrs.push({
                     "trait_type": `Ability ${i+1}`,
-                    "value": (abilities as any)[i].name
+                    "value": (abilities as any)[a].name
                 });
             });
         }
@@ -50,8 +44,8 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
             image: `https://asset.benswap.cash/games/pokeben/test/${id}.png`,
             attributes: attrs
         });
+    } else {
+        res.setHeader("content-type", "text/plain");
+        res.send("Error!");
     }
-
-    res.setHeader("content-type", "text/plain");
-    res.send("Error!");
 };
