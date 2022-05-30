@@ -34,19 +34,29 @@
         "type": "0",
         "rarity": "0"
     },
-
-
-
-
-
-    "100001": {
-        "name": "Keyboard Smash",
-        "type": "100000",
-        "rarity": "7"
+    "7": {
+        "name": "Spike Cannon",
+        "type": "0",
+        "rarity": "0"
     },
-    "100002": {
-        "name": "Hack",
-        "type": "100000",
-        "rarity": "7"
+    "8": {
+        "name": "Fury Swipes",
+        "type": "0",
+        "rarity": "0"
+    },
+    "9": {
+        "name": "Scratch",
+        "type": "0",
+        "rarity": "0"
+    },
+    "10": {
+        "name": "Pound",
+        "type": "0",
+        "rarity": "0"
+    },
+    "11": {
+        "name": "Tackle",
+        "type": "0",
+        "rarity": "0"
     }
 }

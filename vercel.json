@@ -63,8 +63,32 @@
       "destination": "/api/dex/trade"
     },
     {
-      "source": "/api/pokeben/testKind/:id",
-      "destination": "/api/pokeben/testKind"
+      "source": "/api/pokeben/ability/:id",
+      "destination": "/api/pokeben/ability"
+    },
+    {
+      "source": "/api/pokeben/type/:id",
+      "destination": "/api/pokeben/type"
+    },
+    {
+      "source": "/api/pokeben/kind/:id",
+      "destination": "/api/pokeben/kind"
+    },
+    {
+      "source": "/api/pokeben/source/:id",
+      "destination": "/api/pokeben/source"
+    },
+    {
+      "source": "/api/pokeben/rarity/:id",
+      "destination": "/api/pokeben/rarity"
+    },
+    {
+      "source": "/api/pokeben/kindMetadata/:id",
+      "destination": "/api/pokeben/kindMetadata"
+    },
+    {
+      "source": "/api/pokeben/data/:id",
+      "destination": "/api/pokeben/data"
     }
   ],
   "headers": [

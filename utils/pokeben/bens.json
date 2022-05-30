@@ -17,14 +17,40 @@
         "abilities": [4],
         "rarity": 2
     },
-
-
-
-
-    "100001": {
-        "name": "Dev",
-        "types": [100000],
-        "abilities": [100001, 100002],
-        "rarity": 7
+    "28": {
+        "name": "Sandslash",
+        "types": [8],
+        "abilities": [10],
+        "rarity": 1
+    },
+    "63": {
+        "name": "Abra",
+        "types": [10],
+        "abilities": [9],
+        "rarity": 1
+    },
+    "78": {
+        "name": "Rapidash",
+        "types": [1],
+        "abilities": [11],
+        "rarity": 3
+    },
+    "91": {
+        "name": "Cloyster",
+        "types": [2,5],
+        "abilities": [7],
+        "rarity": 2
+    },
+    "142": {
+        "name": "Aerodactyl",
+        "types": [9,12],
+        "abilities": [9],
+        "rarity": 4
+    },
+    "149": {
+        "name": "Dragonite",
+        "types": [9,15],
+        "abilities": [11],
+        "rarity": 5
     }
 }
