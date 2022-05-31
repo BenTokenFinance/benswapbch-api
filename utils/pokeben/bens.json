@@ -1,22 +1,4 @@
 {
-    "1": {
-        "name": "Bulbasaur",
-        "types": [3,7],
-        "abilities": [0],
-        "rarity": 2
-    },
-    "4": {
-        "name": "Charmander",
-        "types": [1],
-        "abilities": [2],
-        "rarity": 2
-    },
-    "7": {
-        "name": "Squirtle",
-        "types": [2],
-        "abilities": [4],
-        "rarity": 2
-    },
     "25": {
         "name": "Pikachu",
         "types": [4],

@@ -44,6 +44,24 @@
 				"type": "uint256"
 			},
 			{
+				"internalType": "uint256[]",
+				"name": "kindIds",
+				"type": "uint256[]"
+			}
+		],
+		"name": "addKinds",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "rarity",
+				"type": "uint256"
+			},
+			{
 				"internalType": "uint256",
 				"name": "index",
 				"type": "uint256"

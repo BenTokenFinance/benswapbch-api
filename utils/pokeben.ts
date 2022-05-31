@@ -7,8 +7,8 @@ import abilities from "./pokeben/abilities.json";
 import types from "./pokeben/types.json";
 import bens from "./pokeben/bens.json";
 
-const pokebenContract = getContract(pokeben, '0xb72E216A6f8a2AcB40E4F6B5a0B2762ca6dd61f3');
-const pokebenraritysettingContract = getContract(pokebenraritysetting, '0x34c988445E236F1c519a02389857A70a157d92a2');
+const pokebenContract = getContract(pokeben, '0xc89240da26d8b9Dc194CCF256aCEe955E7A94Ad8');
+const pokebenraritysettingContract = getContract(pokebenraritysetting, '0xCfA1A45d2C9590d93AA0403CD388F944D8322937');
 
 export const getPokeBenInfo = async (id: any) => {
   const info = await pokebenContract.methods.getPokeBenInfo(id).call();
