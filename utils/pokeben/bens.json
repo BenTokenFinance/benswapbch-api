@@ -17,10 +17,28 @@
         "abilities": [4],
         "rarity": 2
     },
+    "25": {
+        "name": "Pikachu",
+        "types": [4],
+        "abilities": [1],
+        "rarity": 2
+    },
+    "26": {
+        "name": "Raichu",
+        "types": [4],
+        "abilities": [1],
+        "rarity": 3
+    },
     "28": {
         "name": "Sandslash",
         "types": [8],
         "abilities": [10],
+        "rarity": 1
+    },
+    "54": {
+        "name": "Psyduck",
+        "types": [2],
+        "abilities": [2],
         "rarity": 1
     },
     "63": {
@@ -35,10 +53,46 @@
         "abilities": [11],
         "rarity": 3
     },
+    "84": {
+        "name": "Doduo",
+        "types": [0,9],
+        "abilities": [12],
+        "rarity": 1
+    },
     "91": {
         "name": "Cloyster",
         "types": [2,5],
         "abilities": [7],
+        "rarity": 2
+    },
+    "92": {
+        "name": "Gastly",
+        "types": [7,13],
+        "abilities": [11],
+        "rarity": 0
+    },
+    "97": {
+        "name": "Hypno",
+        "types": [10],
+        "abilities": [2],
+        "rarity": 2
+    },
+    "106": {
+        "name": "Hitmonlee",
+        "types": [6],
+        "abilities": [13],
+        "rarity": 2
+    },
+    "107": {
+        "name": "Hitmonchan",
+        "types": [6],
+        "abilities": [10],
+        "rarity": 2
+    },
+    "108": {
+        "name": "Lickitung",
+        "types": [0],
+        "abilities": [14],
         "rarity": 2
     },
     "142": {
@@ -46,6 +100,12 @@
         "types": [9,12],
         "abilities": [9],
         "rarity": 4
+    },
+    "143": {
+        "name": "Snorlax",
+        "types": [0],
+        "abilities": [10],
+        "rarity": 3
     },
     "149": {
         "name": "Dragonite",

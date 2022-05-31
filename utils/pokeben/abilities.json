@@ -58,5 +58,20 @@
         "name": "Tackle",
         "type": "0",
         "rarity": "0"
+    },
+    "12": {
+        "name": "Peck",
+        "type": "0",
+        "rarity": "0"
+    },
+    "13": {
+        "name": "Double Kick",
+        "type": "0",
+        "rarity": "0"
+    },
+    "14": {
+        "name": "Lick",
+        "type": "0",
+        "rarity": "0"
     }
 }
