@@ -73,5 +73,15 @@
         "name": "Lick",
         "type": "0",
         "rarity": "0"
+    },
+    "15": {
+        "name": "Clamp",
+        "type": "0",
+        "rarity": "0"
+    },
+    "16": {
+        "name": "Bite",
+        "type": "0",
+        "rarity": "0"
     }
 }

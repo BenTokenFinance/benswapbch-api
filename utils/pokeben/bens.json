@@ -1,4 +1,22 @@
 {
+    "10": {
+        "name": "Caterpie",
+        "types": [11],
+        "abilities": [0],
+        "rarity": 0
+    },
+    "13": {
+        "name": "Weedle",
+        "types": [7,11],
+        "abilities": [3],
+        "rarity": 0
+    },
+    "19": {
+        "name": "Rattata",
+        "types": [0],
+        "abilities": [16],
+        "rarity": 0
+    },
     "25": {
         "name": "Pikachu",
         "types": [4],
@@ -11,11 +29,47 @@
         "abilities": [1],
         "rarity": 3
     },
+    "27": {
+        "name": "Sandshrew",
+        "types": [8],
+        "abilities": [8],
+        "rarity": 0
+    },
     "28": {
         "name": "Sandslash",
         "types": [8],
-        "abilities": [10],
+        "abilities": [8],
         "rarity": 1
+    },
+    "29": {
+        "name": "Nidoran♀",
+        "types": [7],
+        "abilities": [16],
+        "rarity": 0
+    },
+    "32": {
+        "name": "Nidoran♂",
+        "types": [7],
+        "abilities": [8],
+        "rarity": 0
+    },
+    "41": {
+        "name": "Zubat",
+        "types": [7,9],
+        "abilities": [16],
+        "rarity": 0
+    },
+    "48": {
+        "name": "Venonat",
+        "types": [7,11],
+        "abilities": [11],
+        "rarity": 1
+    },
+    "52": {
+        "name": "Meowth",
+        "types": [0],
+        "abilities": [9],
+        "rarity": 0
     },
     "54": {
         "name": "Psyduck",
@@ -77,6 +131,12 @@
         "abilities": [14],
         "rarity": 2
     },
+    "133": {
+        "name": "Eevee",
+        "types": [0],
+        "abilities": [9],
+        "rarity": 3
+    },
     "142": {
         "name": "Aerodactyl",
         "types": [9,12],
@@ -93,6 +153,6 @@
         "name": "Dragonite",
         "types": [9,15],
         "abilities": [11],
-        "rarity": 5
+        "rarity": 4
     }
 }
