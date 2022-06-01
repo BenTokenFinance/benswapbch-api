@@ -7,7 +7,7 @@ import abilities from "./pokeben/abilities.json";
 import types from "./pokeben/types.json";
 import bens from "./pokeben/bens.json";
 
-const pokebenContract = getContract(pokeben, '0xc89240da26d8b9Dc194CCF256aCEe955E7A94Ad8');
+const pokebenContract = getContract(pokeben, '0xFDEd6cD4B88a24e00d9Ea242338367fe734CBff5');
 const pokebenraritysettingContract = getContract(pokebenraritysetting, '0xCfA1A45d2C9590d93AA0403CD388F944D8322937');
 
 export const getPokeBenInfo = async (id: any) => {
