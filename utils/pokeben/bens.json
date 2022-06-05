@@ -17,6 +17,12 @@
         "abilities": [16],
         "rarity": 0
     },
+    "23": {
+        "name": "Ekans",
+        "types": [7],
+        "abilities": [6],
+        "rarity": 0
+    },
     "25": {
         "name": "Pikachu",
         "types": [4],
@@ -59,9 +65,21 @@
         "abilities": [16],
         "rarity": 0
     },
+    "43": {
+        "name": "Oddish",
+        "types": [3,7],
+        "abilities": [11],
+        "rarity": 0
+    },
     "48": {
         "name": "Venonat",
         "types": [7,11],
+        "abilities": [11],
+        "rarity": 1
+    },
+    "50": {
+        "name": "Diglett",
+        "types": [8],
         "abilities": [11],
         "rarity": 1
     },
@@ -77,10 +95,28 @@
         "abilities": [2],
         "rarity": 1
     },
+    "56": {
+        "name": "Mankey",
+        "types": [6],
+        "abilities": [4],
+        "rarity": 0
+    },
     "63": {
         "name": "Abra",
         "types": [10],
         "abilities": [9],
+        "rarity": 1
+    },
+    "66": {
+        "name": "Machop",
+        "types": [6],
+        "abilities": [4],
+        "rarity": 0
+    },
+    "70": {
+        "name": "Weepinbell",
+        "types": [3,7],
+        "abilities": [11],
         "rarity": 1
     },
     "78": {
@@ -95,6 +131,12 @@
         "abilities": [12],
         "rarity": 1
     },
+    "90": {
+        "name": "Shellder",
+        "types": [2],
+        "abilities": [14],
+        "rarity": 1
+    },
     "91": {
         "name": "Cloyster",
         "types": [2,5],
@@ -107,11 +149,23 @@
         "abilities": [11],
         "rarity": 0
     },
+    "93": {
+        "name": "Haunter",
+        "types": [7,13],
+        "abilities": [9],
+        "rarity": 1
+    },
     "97": {
         "name": "Hypno",
         "types": [10],
         "abilities": [2],
         "rarity": 2
+    },
+    "100": {
+        "name": "Voltorb",
+        "types": [4],
+        "abilities": [11],
+        "rarity": 0
     },
     "106": {
         "name": "Hitmonlee",
@@ -130,6 +184,12 @@
         "types": [0],
         "abilities": [14],
         "rarity": 2
+    },
+    "116": {
+        "name": "Horsea",
+        "types": [2],
+        "abilities": [11],
+        "rarity": 1
     },
     "133": {
         "name": "Eevee",
