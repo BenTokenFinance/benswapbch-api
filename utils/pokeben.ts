@@ -2,6 +2,7 @@ import BigNumber from "bignumber.js";
 import { getContract } from "./web3";
 import pokeben from "./abis/pokeben.json";
 import pokebenraritysetting from "./abis/pokebenraritysetting.json";
+import pokebennameext from "./abis/pokebennameext.json";
 import rarities from "./pokeben/rarities.json";
 import abilities from "./pokeben/abilities.json";
 import types from "./pokeben/types.json";
@@ -9,11 +10,18 @@ import bens from "./pokeben/bens.json";
 
 const pokebenContract = getContract(pokeben, '0xFDEd6cD4B88a24e00d9Ea242338367fe734CBff5');
 const pokebenraritysettingContract = getContract(pokebenraritysetting, '0xCfA1A45d2C9590d93AA0403CD388F944D8322937');
+const pokebenNftNameExtContract = getContract(pokebennameext, '0xfaf933c76E2ae21a63DF65bbD3888B3FB2Fc43Ae');
 
 export const getPokeBenInfo = async (id: any) => {
   const info = await pokebenContract.methods.getPokeBenInfo(id).call();
 
   return info;
+};
+
+export const getPokeBenName = async (id: any) => {
+  const name = await pokebenNftNameExtContract.methods.getName(id).call();
+
+  return name;
 };
 
 export const buildKindAttributes = (id: any) => {
