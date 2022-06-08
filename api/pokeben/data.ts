@@ -18,14 +18,10 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
         "trait_type": "Power",
         "value": info.power
     });
-    if (name) {
-        attrs.push({
-            "trait_type": "Name",
-            "value": name
-        });
-    }
     
     res.json({
+        name: `${name||'PokéBen'} #${id}`,
+        description: "PokéBen - An NFT-based game on BenSwap.Cash.",
         image: `https://asset.benswap.cash/games/pokeben/${info.kind}/1024.png`,
         attributes: attrs
     });
