@@ -6,11 +6,14 @@ import kinds from "../../utils/pokeben/bens.json";
 export default async (req: NowRequest, res: NowResponse): Promise<void> => {
     const settings = await getRaritySettings();
 
-    // Test duplication
     const c = Object.values(settings).reduce((combined: Array<any>, arr: any) => {
         return combined.concat(arr);
     }, []);
+    const k = Object.keys(kinds as any);
+    // Test duplication
     const duplications = c.filter( (val, index) =>  index !== c.indexOf(val));
+    // Test missing
+    const missing = k.filter((val, index) => c.indexOf(val) < 0);
 
     // Test rarity correctness
     const incorrectRarityKinds:any = [];
@@ -24,6 +27,7 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
     res.json({
         settings,
         duplications,
-        incorrectRarityKinds
+        incorrectRarityKinds,
+        missing
     });
 };
