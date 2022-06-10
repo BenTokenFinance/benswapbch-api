@@ -1,0 +1,92 @@
+{
+    "0": {
+        "name": "Ability Scroll: Gust",
+        "type": "0",
+        "data": "1000"
+    },
+    "1": {
+        "name": "Ability Scroll: Thunder Shock",
+        "type": "0",
+        "data": "1001"
+    },
+    "2": {
+        "name": "Ability Scroll: Twineedle",
+        "type": "0",
+        "data": "1002"
+    },
+    "3": {
+        "name": "Ability Scroll: Pay Day",
+        "type": "0",
+        "data": "1003"
+    },
+    "4": {
+        "name": "Ability Scroll: Ember",
+        "type": "0",
+        "data": "1004"
+    },
+    "5": {
+        "name": "Ability Scroll: Bubble",
+        "type": "0",
+        "data": "1005"
+    },
+    "6": {
+        "name": "Ability Scroll: Absorb",
+        "type": "0",
+        "data": "1006"
+    },
+    "7": {
+        "name": "Ability Scroll: Frozen",
+        "type": "0",
+        "data": "1007"
+    },
+    "8": {
+        "name": "Ability Scroll: Karate Chop",
+        "type": "0",
+        "data": "1008"
+    },
+    "9": {
+        "name": "Ability Scroll: Poison Powder",
+        "type": "0",
+        "data": "1009"
+    },
+    "10": {
+        "name": "Ability Scroll: Sand Attack",
+        "type": "0",
+        "data": "1010"
+    },
+    "11": {
+        "name": "Ability Scroll: Confusion",
+        "type": "0",
+        "data": "1011"
+    },
+    "12": {
+        "name": "Ability Scroll: Rock Throw",
+        "type": "0",
+        "data": "1012"
+    },
+    "13": {
+        "name": "Ability Scroll: Astonish",
+        "type": "0",
+        "data": "1013"
+    },
+    "14": {
+        "name": "Ability Scroll: Feint Attack",
+        "type": "0",
+        "data": "1014"
+    },
+    "15": {
+        "name": "Ability Scroll: Twister",
+        "type": "0",
+        "data": "1015"
+    },
+    "16": {
+        "name": "Ability Scroll: Metal Claw",
+        "type": "0",
+        "data": "1016"
+    },
+    "17": {
+        "name": "Ability Scroll: Fairy Wind",
+        "type": "0",
+        "data": "1017"
+    }
+}

@@ -83,6 +83,14 @@
       "destination": "/api/pokeben/rarity"
     },
     {
+      "source": "/api/pokeben/itemkind/:id",
+      "destination": "/api/pokeben/itemkind"
+    },
+    {
+      "source": "/api/pokeben/itemtype/:id",
+      "destination": "/api/pokeben/itemtype"
+    },
+    {
       "source": "/api/pokeben/kindMetadata/:id",
       "destination": "/api/pokeben/kindMetadata"
     },
