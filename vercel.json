@@ -91,6 +91,10 @@
       "destination": "/api/pokeben/itemtype"
     },
     {
+      "source": "/api/pokeben/itemsource/:id",
+      "destination": "/api/pokeben/itemsource"
+    },
+    {
       "source": "/api/pokeben/kindMetadata/:id",
       "destination": "/api/pokeben/kindMetadata"
     },
