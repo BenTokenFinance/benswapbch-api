@@ -14,7 +14,6 @@ export const getLiquidity = async (address: any): Promise<object> => {
     const result:any = {};
     const tokenContract = getContract(bep20, address);
     const decimals = await tokenContract.methods.decimals().call();
-    console.log("Decimals: ", decimals);
 
     Object.keys(FACTORY).forEach((e, i)=> {
         const f = FACTORY[e];
@@ -25,7 +24,6 @@ export const getLiquidity = async (address: any): Promise<object> => {
                 const isValid = lp && (new BigNumber(lp.toLowerCase())).isGreaterThan(0);
                 if (isValid) {
                     const key = `${f.name}-flexUSD`;
-                    console.log(key, lp);
                     result[key] = {};
                     const innerTasks = [];
                     innerTasks.push(tokenContract.methods.balanceOf(lp).call().then((balance:any)=>{
@@ -48,7 +46,6 @@ export const getLiquidity = async (address: any): Promise<object> => {
                 const isValid = lp && (new BigNumber(lp.toLowerCase())).isGreaterThan(0);
                 if (isValid) {
                     const key = `${f.name}-WBCH`;
-                    console.log(key, lp);
                     result[key] = {};
                     const innerTasks = [];
                     innerTasks.push(tokenContract.methods.balanceOf(lp).call().then((balance:any)=>{
