@@ -31,6 +31,10 @@
       "destination": "/api/sep20/token"
     },
     {
+      "source": "/api/sep20/liquidity/:id",
+      "destination": "/api/sep20/liquidity"
+    },
+    {
       "source": "/api/dex/stats/:block",
       "destination": "/api/dex/stats"
     },
