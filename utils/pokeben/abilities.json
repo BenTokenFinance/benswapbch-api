@@ -92,86 +92,103 @@
     "1001": {
         "name": "Thunder Shock",
         "type": "4",
-        "rarity": "1"
+        "rarity": "1",
+        "powerBoostBp": "1000"
     },
     "1002": {
         "name": "Twineedle",
         "type": "11",
-        "rarity": "1"
+        "rarity": "1",
+        "powerBoostBp": "1000"
     },
     "1003": {
         "name": "Pay Day",
         "type": "0",
-        "rarity": "1"
+        "rarity": "1",
+        "powerBoostBp": "1000"
     },
     "1004": {
         "name": "Ember",
         "type": "1",
-        "rarity": "1"
+        "rarity": "1",
+        "powerBoostBp": "1000"
     },
     "1005": {
         "name": "Bubble",
         "type": "2",
-        "rarity": "1"
+        "rarity": "1",
+        "powerBoostBp": "1000"
     },
     "1006": {
         "name": "Absorb",
         "type": "3",
-        "rarity": "1"
+        "rarity": "1",
+        "powerBoostBp": "1000"
     },
     "1007": {
         "name": "Frozen",
         "type": "5",
-        "rarity": "1"
+        "rarity": "1",
+        "powerBoostBp": "1000"
     },
     "1008": {
         "name": "Karate Chop",
         "type": "6",
-        "rarity": "1"
+        "rarity": "1",
+        "powerBoostBp": "1000"
     },
     "1009": {
         "name": "Poison Powder",
         "type": "7",
-        "rarity": "1"
+        "rarity": "1",
+        "powerBoostBp": "1000"
     },
     "1010": {
         "name": "Sand Attack",
         "type": "8",
-        "rarity": "1"
+        "rarity": "1",
+        "powerBoostBp": "1000"
     },
     "1011": {
         "name": "Confusion",
         "type": "10",
-        "rarity": "1"
+        "rarity": "1",
+        "powerBoostBp": "1000"
     },
     "1012": {
         "name": "Rock Throw",
         "type": "12",
-        "rarity": "1"
+        "rarity": "1",
+        "powerBoostBp": "1000"
     },
     "1013": {
         "name": "Astonish",
         "type": "13",
-        "rarity": "1"
+        "rarity": "1",
+        "powerBoostBp": "1000"
     },
     "1014": {
         "name": "Feint Attack",
         "type": "14",
-        "rarity": "1"
+        "rarity": "1",
+        "powerBoostBp": "1000"
     },
     "1015": {
         "name": "Twister",
         "type": "15",
-        "rarity": "1"
+        "rarity": "1",
+        "powerBoostBp": "1000"
     },
     "1016": {
         "name": "Metal Claw",
         "type": "16",
-        "rarity": "1"
+        "rarity": "1",
+        "powerBoostBp": "1000"
     },
     "1017": {
         "name": "Fairy Wind",
         "type": "17",
-        "rarity": "1"
+        "rarity": "1",
+        "powerBoostBp": "1000"
     }
 }
