@@ -1,92 +1,110 @@
 {
     "0": {
         "name": "Ability Scroll: Gust",
-        "type": "0",
+        "type": "1",
+        "desc": "Teach your PokéBen the ability: Gust (Flying)",
         "data": "1000"
     },
     "1": {
         "name": "Ability Scroll: Thunder Shock",
-        "type": "0",
+        "type": "1",
+        "desc": "Teach your PokéBen the ability: Thunder Shock (Electric)",
         "data": "1001"
     },
     "2": {
         "name": "Ability Scroll: Twineedle",
-        "type": "0",
+        "type": "1",
+        "desc": "Teach your PokéBen the ability: Twineedle (Bug)",
         "data": "1002"
     },
     "3": {
         "name": "Ability Scroll: Pay Day",
-        "type": "0",
+        "type": "1",
+        "desc": "Teach your PokéBen the ability: Pay Day (Nromal)",
         "data": "1003"
     },
     "4": {
         "name": "Ability Scroll: Ember",
-        "type": "0",
+        "type": "1",
+        "desc": "Teach your PokéBen the ability: Ember (Fire)",
         "data": "1004"
     },
     "5": {
         "name": "Ability Scroll: Bubble",
-        "type": "0",
+        "type": "1",
+        "desc": "Teach your PokéBen the ability: Bubble (Water)",
         "data": "1005"
     },
     "6": {
         "name": "Ability Scroll: Absorb",
-        "type": "0",
+        "type": "1",
+        "desc": "Teach your PokéBen the ability: Absorb (Grass)",
         "data": "1006"
     },
     "7": {
         "name": "Ability Scroll: Frozen",
-        "type": "0",
+        "type": "1",
+        "desc": "Teach your PokéBen the ability: Frozen (Ice)",
         "data": "1007"
     },
     "8": {
         "name": "Ability Scroll: Karate Chop",
-        "type": "0",
+        "type": "1",
+        "desc": "Teach your PokéBen the ability: Karate Chop (Fighting)",
         "data": "1008"
     },
     "9": {
         "name": "Ability Scroll: Poison Powder",
-        "type": "0",
+        "type": "1",
+        "desc": "Teach your PokéBen the ability: Poison Powder (Poison)",
         "data": "1009"
     },
     "10": {
         "name": "Ability Scroll: Sand Attack",
-        "type": "0",
+        "type": "1",
+        "desc": "Teach your PokéBen the ability: Sand Attack (Ground)",
         "data": "1010"
     },
     "11": {
         "name": "Ability Scroll: Confusion",
-        "type": "0",
+        "type": "1",
+        "desc": "Teach your PokéBen the ability: Confusion (Psychic)",
         "data": "1011"
     },
     "12": {
         "name": "Ability Scroll: Rock Throw",
-        "type": "0",
+        "type": "1",
+        "desc": "Teach your PokéBen the ability: Rock Throw (Rock)",
         "data": "1012"
     },
     "13": {
         "name": "Ability Scroll: Astonish",
-        "type": "0",
+        "type": "1",
+        "desc": "Teach your PokéBen the ability: Astonish (Ghost)",
         "data": "1013"
     },
     "14": {
         "name": "Ability Scroll: Feint Attack",
-        "type": "0",
+        "type": "1",
+        "desc": "Teach your PokéBen the ability: Feint Attack (Dark)",
         "data": "1014"
     },
     "15": {
         "name": "Ability Scroll: Twister",
-        "type": "0",
+        "type": "1",
+        "desc": "Teach your PokéBen the ability: Twister (Gragon)",
         "data": "1015"
     },
     "16": {
         "name": "Ability Scroll: Metal Claw",
-        "type": "0",
+        "type": "1",
+        "desc": "Teach your PokéBen the ability: Metal Claw (Steel)",
         "data": "1016"
     },
     "17": {
         "name": "Ability Scroll: Fairy Wind",
-        "type": "0",
+        "type": "1",
+        "desc": "Teach your PokéBen the ability: Fairy Wind (Fairy)",
         "data": "1017"
     }
 }
