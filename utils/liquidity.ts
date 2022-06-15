@@ -24,7 +24,9 @@ export const getLiquidity = async (address: any): Promise<object> => {
                 const isValid = lp && (new BigNumber(lp.toLowerCase())).isGreaterThan(0);
                 if (isValid) {
                     const key = `${f.name}-flexUSD`;
-                    result[key] = {};
+                    result[key] = {
+                        address: lp
+                    };
                     const innerTasks = [];
                     innerTasks.push(tokenContract.methods.balanceOf(lp).call().then((balance:any)=>{
                         result[key]["token"] = new BigNumber(balance).div(Math.pow(10, decimals)).toFixed();
@@ -46,7 +48,9 @@ export const getLiquidity = async (address: any): Promise<object> => {
                 const isValid = lp && (new BigNumber(lp.toLowerCase())).isGreaterThan(0);
                 if (isValid) {
                     const key = `${f.name}-WBCH`;
-                    result[key] = {};
+                    result[key] = {
+                        address: lp
+                    };
                     const innerTasks = [];
                     innerTasks.push(tokenContract.methods.balanceOf(lp).call().then((balance:any)=>{
                         result[key]["token"] = new BigNumber(balance).div(Math.pow(10, decimals)).toFixed();
