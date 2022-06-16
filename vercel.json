@@ -105,6 +105,10 @@
     {
       "source": "/api/pokeben/data/:id",
       "destination": "/api/pokeben/data"
+    },
+    {
+      "source": "/api/pokeben/item/:id",
+      "destination": "/api/pokeben/item"
     }
   ],
   "headers": [
