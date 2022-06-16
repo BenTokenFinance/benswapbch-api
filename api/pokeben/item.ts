@@ -18,7 +18,7 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
     attrs.push(...buildItemKindAttributes(info.kind));
     
     res.json({
-        name: `[PokéBen Item #${id}] ${kind.name}`,
+        name: `${kind.name} (#${id})`,
         description: kind.desc,
         image: `https://asset.benswap.cash/games/pokebenitem/${info.kind}/560.png`,
         attributes: attrs
