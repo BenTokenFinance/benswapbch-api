@@ -87,7 +87,8 @@
     "1000": {
         "name": "Gust",
         "type": "9",
-        "rarity": "1"
+        "rarity": "1",
+        "powerBoostBp": "1000"
     },
     "1001": {
         "name": "Thunder Shock",
