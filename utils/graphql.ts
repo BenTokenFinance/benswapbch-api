@@ -1,9 +1,9 @@
-import { ExchangeClient, BlockClient, GetClient } from './apollo/client'
+import { ExchangeClient, BlockClient, GetClient, PokeBenClient } from './apollo/client'
 import { 
     splitQuery, GLOBAL_DATA, ALL_TOKENS_SIMPLE, GET_BLOCK, GET_BLOCKS, PAIRS, TOKENS, 
     CANDLE_1_MIN_BCH, CANDLE_1_MIN_USD, CANDLE_15_MIN_BCH, CANDLE_15_MIN_USD, 
     CANDLE_1_HOUR_BCH, CANDLE_1_HOUR_USD, CANDLE_1_DAY_BCH, CANDLE_1_DAY_USD, CANDLE_1_WEEK_BCH, CANDLE_1_WEEK_USD, 
-    SUBGRAPH_HEALTH
+    SUBGRAPH_HEALTH, POKEBEN_RANKING_LEVEL, POKEBEN_RANKING_POWER
 } from './apollo/queries'
 import { getWeb3 } from "./web3";
 import BigNumber from "bignumber.js";
@@ -465,7 +465,8 @@ export async function getNodesHealthMsg() {
                 data.push({
                     chainHeader: Number(res.data.blocks.chains[0].chainHeadBlock.number),
                     blocks: Number(res.data.blocks.chains[0].latestBlock.number),
-                    dex: Number(res.data.dex.chains[0].latestBlock.number)
+                    dex: Number(res.data.dex.chains[0].latestBlock.number),
+                    pokeben: Number(res.data.pokeben.chains[0].latestBlock.number)
                 });
               })
               .catch((e: any) => {
@@ -487,4 +488,39 @@ export async function getNodesHealthMsg() {
         console.error(ex);
         return "Error: unknown."
     }
+}
+
+const POKEBEN_RANKING_QUERIES = [
+    POKEBEN_RANKING_LEVEL,
+    POKEBEN_RANKING_POWER
+];
+
+async function getPokeBenRankings(type:any, count:any, skip:any) {
+    const query = POKEBEN_RANKING_QUERIES[type];
+    let data: any = []
+
+    if (query) {
+        try {
+            // fetch the ranking data
+            const result = await PokeBenClient.query({
+                query: query(count, skip),
+                fetchPolicy: 'network-only',
+            })
+            data = result.data.pokebens;
+        } catch (e) {
+            console.error(e);
+        }
+    }
+    
+    return data || [];
+}
+
+// PokeBen Rankings
+export async function getPokeBensByRanking(type:any, page:any) {
+    if ( isNaN(page) || !Number.isInteger(Number(page)) || Number(page)<=0 ) page = 1;
+
+    const count = 20;
+    const skip = 20 * (Number(page)-1);
+    
+    return getPokeBenRankings(type, count, skip);
 }

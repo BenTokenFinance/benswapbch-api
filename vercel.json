@@ -107,6 +107,14 @@
       "destination": "/api/pokeben/data"
     },
     {
+      "source": "/api/pokeben/ranking/power/:page",
+      "destination": "/api/pokeben/ranking/power"
+    },
+    {
+      "source": "/api/pokeben/ranking/level/:page",
+      "destination": "/api/pokeben/ranking/level"
+    },
+    {
       "source": "/api/pokeben/item/:id",
       "destination": "/api/pokeben/item"
     }

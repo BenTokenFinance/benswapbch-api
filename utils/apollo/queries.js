@@ -390,6 +390,36 @@ export const CANDLE_1_WEEK_USD = (token, before) => {
   return gql(queryString)
 }
 
+export const POKEBEN_RANKING_LEVEL = (count = 20, skip) => {
+  const queryString = ` query pokeBenNfts {
+    pokebens: pokeBenNfts (    
+      first: ${count},
+      ${skip ? `, skip: ${skip}` : ``}
+      orderBy: level, 
+      orderDirection: desc
+    ) {
+      id,
+      level
+    }
+  }`
+  return gql(queryString)
+}
+
+export const POKEBEN_RANKING_POWER = (count = 20, skip) => {
+  const queryString = ` query pokeBenNfts {
+    pokebens: pokeBenNfts (    
+      first: ${count},
+      ${skip ? `, skip: ${skip}` : ``}
+      orderBy: power, 
+      orderDirection: desc
+    ) {
+      id,
+      power
+    }
+  }`
+  return gql(queryString)
+}
+
 export const SUBGRAPH_HEALTH = gql`
   query health {
     blocks:indexingStatusForCurrentVersion(subgraphName: "bentokenfinance/bch-blocks") {
@@ -405,6 +435,18 @@ export const SUBGRAPH_HEALTH = gql`
       }
     }
     dex:indexingStatusForCurrentVersion(subgraphName: "bentokenfinance/bch-exchange") {
+      synced
+      health
+      chains {
+        chainHeadBlock {
+          number
+        }
+        latestBlock {
+          number
+        }
+      }
+    }
+    pokeben:indexingStatusForCurrentVersion(subgraphName: "bentokenfinance/bch-pokeben") {
       synced
       health
       chains {

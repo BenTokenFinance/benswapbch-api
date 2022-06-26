@@ -15,6 +15,11 @@ export const BlockClient = new ApolloClient({
   cache: new InMemoryCache(),
 })
 
+export const PokeBenClient = new ApolloClient({
+  link: createHttpLink({ uri: 'https://subgraphs.benswap.cash/subgraphs/name/bentokenfinance/bch-pokeben', fetch: fetch }),
+  cache: new InMemoryCache(),
+})
+
 export const GetClient = (url) => {
   return new ApolloClient({
     link: createHttpLink({ uri: url, fetch: fetch }),
