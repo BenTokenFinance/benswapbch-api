@@ -506,7 +506,7 @@ async function getPokeBenRankings(type:any, count:any, skip:any) {
                 query: query(count, skip),
                 fetchPolicy: 'network-only',
             })
-            data = result.data.pokebens;
+            data = result.data.pokebens.map(removeTypeName);
         } catch (e) {
             console.error(e);
         }
@@ -523,4 +523,9 @@ export async function getPokeBensByRanking(type:any, page:any) {
     const skip = 20 * (Number(page)-1);
     
     return getPokeBenRankings(type, count, skip);
+}
+
+function removeTypeName(obj: any) {
+    delete obj.__typename;
+    return obj;
 }
