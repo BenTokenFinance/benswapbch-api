@@ -5,12 +5,6 @@
         "abilities": [0],
         "rarity": 2
     },
-    "4": {
-        "name": "Charmander",
-        "types": [1],
-        "abilities": [2],
-        "rarity": 2
-    },
     "7": {
         "name": "Squirtle",
         "types": [2],

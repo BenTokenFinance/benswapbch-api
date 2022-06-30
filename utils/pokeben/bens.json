@@ -1,4 +1,16 @@
 {
+    "4": {
+        "name": "Charmander",
+        "types": [1],
+        "abilities": [2],
+        "rarity": 2
+    },
+    "5": {
+        "name": "Charmeleon",
+        "types": [1],
+        "abilities": [2],
+        "rarity": 3
+    },
     "10": {
         "name": "Caterpie",
         "types": [11],
@@ -58,6 +70,18 @@
         "types": [7],
         "abilities": [8],
         "rarity": 0
+    },
+    "39": {
+        "name": "Jigglypuff",
+        "types": [0,17],
+        "abilities": [11],
+        "rarity": 1
+    },
+    "40": {
+        "name": "Wigglytuff",
+        "types": [0,17],
+        "abilities": [11],
+        "rarity": 2
     },
     "41": {
         "name": "Zubat",
@@ -131,6 +155,18 @@
         "abilities": [12],
         "rarity": 1
     },
+    "86": {
+        "name": "Seel",
+        "types": [2],
+        "abilities": [10],
+        "rarity": 1
+    },
+    "87": {
+        "name": "Dewgong",
+        "types": [2,5],
+        "abilities": [2],
+        "rarity": 2
+    },
     "90": {
         "name": "Shellder",
         "types": [2],
@@ -197,6 +233,18 @@
         "abilities": [9],
         "rarity": 3
     },
+    "140": {
+        "name": "Kabuto",
+        "types": [2,12],
+        "abilities": [9],
+        "rarity": 2
+    },
+    "141": {
+        "name": "Kabutops",
+        "types": [2,12],
+        "abilities": [1],
+        "rarity": 3
+    },
     "142": {
         "name": "Aerodactyl",
         "types": [9,12],
@@ -209,10 +257,22 @@
         "abilities": [10],
         "rarity": 3
     },
+    "145": {
+        "name": "Zapdos",
+        "types": [4,9],
+        "abilities": [8],
+        "rarity": 5
+    },
     "149": {
         "name": "Dragonite",
         "types": [9,15],
         "abilities": [11],
         "rarity": 4
+    },
+    "151": {
+        "name": "Mew",
+        "types": [10],
+        "abilities": [11],
+        "rarity": 5
     }
 }
