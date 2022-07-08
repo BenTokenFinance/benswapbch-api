@@ -1,4 +1,16 @@
 {
+    "1": {
+        "name": "Bulbasaur",
+        "types": [3,7],
+        "abilities": [0],
+        "rarity": 2
+    },
+    "2": {
+        "name": "Ivysaur",
+        "types": [3,7],
+        "abilities": [0],
+        "rarity": 3
+    },
     "4": {
         "name": "Charmander",
         "types": [1],
@@ -227,10 +239,40 @@
         "abilities": [11],
         "rarity": 1
     },
+    "132": {
+        "name": "Ditto",
+        "types": [0],
+        "abilities": [11],
+        "rarity": 3
+    },
     "133": {
         "name": "Eevee",
         "types": [0],
         "abilities": [9],
+        "rarity": 3
+    },
+    "135": {
+        "name": "Jolteon",
+        "types": [4],
+        "abilities": [7],
+        "rarity": 4
+    },
+    "136": {
+        "name": "Flareon",
+        "types": [1],
+        "abilities": [11],
+        "rarity": 4
+    },
+    "138": {
+        "name": "Omanyte",
+        "types": [2,12],
+        "abilities": [11],
+        "rarity": 2
+    },
+    "139": {
+        "name": "Omastar",
+        "types": [2,12],
+        "abilities": [16],
         "rarity": 3
     },
     "140": {
@@ -262,6 +304,18 @@
         "types": [4,9],
         "abilities": [8],
         "rarity": 5
+    },
+    "147": {
+        "name": "Dratini",
+        "types": [15],
+        "abilities": [6],
+        "rarity": 2
+    },
+    "148": {
+        "name": "Dragonair",
+        "types": [15],
+        "abilities": [6],
+        "rarity": 3
     },
     "149": {
         "name": "Dragonite",
