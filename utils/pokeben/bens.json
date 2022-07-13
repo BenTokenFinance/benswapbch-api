@@ -239,6 +239,12 @@
         "abilities": [11],
         "rarity": 1
     },
+    "128": {
+        "name": "Tauros",
+        "types": [0],
+        "abilities": [11],
+        "rarity": 3
+    },
     "132": {
         "name": "Ditto",
         "types": [0],
