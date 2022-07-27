@@ -137,6 +137,24 @@
         "abilities": [4],
         "rarity": 0
     },
+    "57": {
+        "name": "Primeape",
+        "types": [6],
+        "abilities": [4],
+        "rarity": 1
+    },
+    "60": {
+        "name": "Poliwag",
+        "types": [2],
+        "abilities": [11],
+        "rarity": 0
+    },
+    "61": {
+        "name": "Poliwhirl",
+        "types": [2],
+        "abilities": [10],
+        "rarity": 1
+    },
     "63": {
         "name": "Abra",
         "types": [10],
@@ -149,11 +167,23 @@
         "abilities": [4],
         "rarity": 0
     },
+    "69": {
+        "name": "Bellsprout",
+        "types": [3,7],
+        "abilities": [11],
+        "rarity": 0
+    },
     "70": {
         "name": "Weepinbell",
         "types": [3,7],
         "abilities": [11],
         "rarity": 1
+    },
+    "71": {
+        "name": "Victreebel",
+        "types": [3,7],
+        "abilities": [16],
+        "rarity": 2
     },
     "78": {
         "name": "Rapidash",
@@ -203,6 +233,18 @@
         "abilities": [9],
         "rarity": 1
     },
+    "94": {
+        "name": "Gengar",
+        "types": [7,13],
+        "abilities": [1],
+        "rarity": 2
+    },
+    "96": {
+        "name": "Drowzee",
+        "types": [10],
+        "abilities": [2],
+        "rarity": 1
+    },
     "97": {
         "name": "Hypno",
         "types": [10],
@@ -214,6 +256,12 @@
         "types": [4],
         "abilities": [11],
         "rarity": 0
+    },
+    "101": {
+        "name": "Electrode",
+        "types": [4],
+        "abilities": [11],
+        "rarity": 1
     },
     "106": {
         "name": "Hitmonlee",
@@ -239,6 +287,12 @@
         "abilities": [11],
         "rarity": 1
     },
+    "125": {
+        "name": "Electabuzz",
+        "types": [4],
+        "abilities": [1],
+        "rarity": 3
+    },
     "128": {
         "name": "Tauros",
         "types": [0],
@@ -256,6 +310,12 @@
         "types": [0],
         "abilities": [9],
         "rarity": 3
+    },
+    "134": {
+        "name": "Vaporeon",
+        "types": [2],
+        "abilities": [6],
+        "rarity": 4
     },
     "135": {
         "name": "Jolteon",

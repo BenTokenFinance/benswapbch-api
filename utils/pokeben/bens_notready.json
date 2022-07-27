@@ -4,11 +4,5 @@
         "types": [2],
         "abilities": [4],
         "rarity": 2
-    },
-    "128": {
-        "name": "Tauros",
-        "types": [0],
-        "abilities": [11],
-        "rarity": 3
     }
 }
