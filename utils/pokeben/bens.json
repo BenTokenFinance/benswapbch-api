@@ -317,11 +317,35 @@
         "abilities": [14],
         "rarity": 2
     },
+    "113": {
+        "name": "Chansey",
+        "types": [0],
+        "abilities": [11],
+        "rarity": 2
+    },
+    "114": {
+        "name": "Tangela",
+        "types": [3],
+        "abilities": [6],
+        "rarity": 2
+    },
     "116": {
         "name": "Horsea",
         "types": [2],
         "abilities": [11],
         "rarity": 1
+    },
+    "119": {
+        "name": "Seaking",
+        "types": [2],
+        "abilities": [7],
+        "rarity": 1
+    },
+    "122": {
+        "name": "Mr. Mime",
+        "types": [10,17],
+        "abilities": [2],
+        "rarity": 3
     },
     "125": {
         "name": "Electabuzz",
