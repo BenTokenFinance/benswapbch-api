@@ -83,6 +83,12 @@
         "abilities": [8],
         "rarity": 0
     },
+    "37": {
+        "name": "Vulpix",
+        "types": [1],
+        "abilities": [16],
+        "rarity": 1
+    },
     "39": {
         "name": "Jigglypuff",
         "types": [0,17],
@@ -125,6 +131,12 @@
         "abilities": [9],
         "rarity": 0
     },
+    "53": {
+        "name": "Persian",
+        "types": [0],
+        "abilities": [8],
+        "rarity": 1
+    },
     "54": {
         "name": "Psyduck",
         "types": [2],
@@ -155,6 +167,12 @@
         "abilities": [10],
         "rarity": 1
     },
+    "62": {
+        "name": "Poliwrath",
+        "types": [2,6],
+        "abilities": [4],
+        "rarity": 2
+    },
     "63": {
         "name": "Abra",
         "types": [10],
@@ -184,6 +202,12 @@
         "types": [3,7],
         "abilities": [16],
         "rarity": 2
+    },
+    "72": {
+        "name": "Tentacool",
+        "types": [2,7],
+        "abilities": [0],
+        "rarity": 1
     },
     "78": {
         "name": "Rapidash",
@@ -262,6 +286,18 @@
         "types": [4],
         "abilities": [11],
         "rarity": 1
+    },
+    "104": {
+        "name": "Cubone",
+        "types": [8],
+        "abilities": [17],
+        "rarity": 1
+    },
+    "105": {
+        "name": "Marowak",
+        "types": [8],
+        "abilities": [17],
+        "rarity": 2
     },
     "106": {
         "name": "Hitmonlee",
