@@ -9,6 +9,12 @@ function addressMatch(a1:any, a2:any) {
     return a1 && a2 && String(a1).toLowerCase() == String(a2).toLowerCase();
 }
 
+const MidTokens = {
+    [DEX.LAWSWAP]: {
+        "LAW": "0x0b00366fBF7037E9d75E4A569ab27dAB84759302"
+    }
+};
+
 export const getLiquidity = async (address: any): Promise<object> => {
     const tasks:any = [];
     const result:any = {};
@@ -33,8 +39,8 @@ export const getLiquidity = async (address: any): Promise<object> => {
                     }));
                     innerTasks.push(flexUsdContract.methods.balanceOf(lp).call().then((balance:any)=>{
                         const balanceFlexUsd = new BigNumber(balance).div(Math.pow(10, 18));
-                        result[key]["flexUSD"] = balanceFlexUsd.toFixed();
-                        result[key]["liquidityUsd"] = balanceFlexUsd.times(2).toFixed();
+                        result[key]["flexusd"] = balanceFlexUsd.toFixed();
+                        result[key]["liquidityFlexusd"] = balanceFlexUsd.times(2).toFixed();
                     }));
 
                     return Promise.all(innerTasks);
@@ -58,13 +64,43 @@ export const getLiquidity = async (address: any): Promise<object> => {
                     innerTasks.push(wbchContract.methods.balanceOf(lp).call().then((balance:any)=>{
                         const balanceWbch = new BigNumber(balance).div(Math.pow(10, 18));
                         result[key]["wbch"] = balanceWbch.toFixed();
-                        result[key]["liquidityBch"] = balanceWbch.times(2).toFixed();
+                        result[key]["liquidityWbch"] = balanceWbch.times(2).toFixed();
                     }));
 
                     return Promise.all(innerTasks);
                 }
             });
             tasks.push(task);
+        }
+        if (MidTokens[e]) {
+            const midTokens:any = MidTokens[e];
+            Object.keys(midTokens).forEach(k=>{
+                if (!addressMatch(address, midTokens[k])) {
+                    const midTokenContract = getContract(bep20, midTokens[k]);
+                    const task = contract.methods.getPair(midTokens[k], address).call().then((lp:any)=> {
+                        const isValid = lp && (new BigNumber(lp.toLowerCase())).isGreaterThan(0);
+                        if (isValid) {
+                            const key = `${f.name}-${k}`;
+                            result[key] = {
+                                address: lp
+                            };
+                            const innerTasks = [];
+                            innerTasks.push(tokenContract.methods.balanceOf(lp).call().then((balance:any)=>{
+                                result[key]["token"] = new BigNumber(balance).div(Math.pow(10, decimals)).toFixed();
+                            }));
+                            innerTasks.push(midTokenContract.methods.balanceOf(lp).call().then((balance:any)=>{
+                                const balanceMidToken = new BigNumber(balance).div(Math.pow(10, 18));
+                                const kl = k.toLowerCase();
+                                result[key][kl] = balanceMidToken.toFixed();
+                                result[key][`liquidity${kl.charAt(0).toUpperCase() + kl.slice(1)}`] = balanceMidToken.times(2).toFixed();
+                            }));
+        
+                            return Promise.all(innerTasks);
+                        }
+                    });
+                    tasks.push(task);
+                }
+            });
         }
     });
 
