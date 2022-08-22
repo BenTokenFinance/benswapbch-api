@@ -64,9 +64,10 @@ async function getTokenCount(block: string) {
 }
 
 const BaseTokens = [
-    "0x7b2b3c5308ab5b2a1d9a94d20d35ccdf61e05b72",   // flexUSD
+    "0xbb1fcb08961d7fc7ab58dc608a0448aa30e66269",   // bbBUSD
     "0x3743ec0673453e5009310c727ba4eaf7b3a1cc04",   // WBCH
     "0x77cb87b57f54667978eb1b199b28a0db8c8e1c0b",   // EBEN
+    "0x7b2b3c5308ab5b2a1d9a94d20d35ccdf61e05b72",   // flexUSD
 ]
 
 function getPairSymbol(t1:any, t2:any) {

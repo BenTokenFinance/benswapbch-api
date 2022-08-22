@@ -123,7 +123,7 @@ export const TOKENS = (block, id) => {
       ${block ? `block: { number: ${block}}` : ``} 
       where: {
         derivedBCH_gt: 0, 
-        id_not_in: ["0x3743ec0673453e5009310c727ba4eaf7b3a1cc04", "0x7b2b3c5308ab5b2a1d9a94d20d35ccdf61e05b72"]
+        id_not_in: ["0x3743ec0673453e5009310c727ba4eaf7b3a1cc04", "0xbb1fcb08961d7fc7ab58dc608a0448aa30e66269"]
         ${id ? `, id: "${id}"` : ``}
       }
     ) {
