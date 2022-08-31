@@ -143,6 +143,12 @@
         "abilities": [2],
         "rarity": 1
     },
+    "55": {
+        "name": "Golduck",
+        "types": [2],
+        "abilities": [2],
+        "rarity": 2
+    },
     "56": {
         "name": "Mankey",
         "types": [6],
@@ -185,6 +191,12 @@
         "abilities": [4],
         "rarity": 0
     },
+    "67": {
+        "name": "Machoke",
+        "types": [6],
+        "abilities": [4],
+        "rarity": 1
+    },
     "69": {
         "name": "Bellsprout",
         "types": [3,7],
@@ -209,11 +221,35 @@
         "abilities": [0],
         "rarity": 1
     },
+    "77": {
+        "name": "Ponyta",
+        "types": [1],
+        "abilities": [11],
+        "rarity": 2
+    },
     "78": {
         "name": "Rapidash",
         "types": [1],
         "abilities": [11],
         "rarity": 3
+    },
+    "79": {
+        "name": "Slowpoke",
+        "types": [2,10],
+        "abilities": [11],
+        "rarity": 1
+    },
+    "80": {
+        "name": "Slowbro",
+        "types": [2,10],
+        "abilities": [11],
+        "rarity": 2
+    },
+    "83": {
+        "name": "Farfetch'd",
+        "types": [0,9],
+        "abilities": [10],
+        "rarity": 2
     },
     "84": {
         "name": "Doduo",
@@ -231,6 +267,18 @@
         "name": "Dewgong",
         "types": [2,5],
         "abilities": [2],
+        "rarity": 2
+    },
+    "88": {
+        "name": "Grimer",
+        "types": [7],
+        "abilities": [1],
+        "rarity": 1
+    },
+    "89": {
+        "name": "Muk",
+        "types": [7],
+        "abilities": [1],
         "rarity": 2
     },
     "90": {
@@ -347,10 +395,22 @@
         "abilities": [2],
         "rarity": 3
     },
+    "124": {
+        "name": "Jynx",
+        "types": [5,10],
+        "abilities": [2],
+        "rarity": 3
+    },
     "125": {
         "name": "Electabuzz",
         "types": [4],
         "abilities": [1],
+        "rarity": 3
+    },
+    "126": {
+        "name": "Magmar",
+        "types": [1],
+        "abilities": [2],
         "rarity": 3
     },
     "128": {
