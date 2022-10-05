@@ -83,6 +83,18 @@
         "abilities": [8],
         "rarity": 0
     },
+    "33": {
+        "name": "Nidorino",
+        "types": [7],
+        "abilities": [11],
+        "rarity": 1
+    },
+    "34": {
+        "name": "Nidoking",
+        "types": [7,8],
+        "abilities": [10],
+        "rarity": 2
+    },
     "37": {
         "name": "Vulpix",
         "types": [1],
@@ -221,6 +233,12 @@
         "abilities": [0],
         "rarity": 1
     },
+    "74": {
+        "name": "Geodude",
+        "types": [8,12],
+        "abilities": [4],
+        "rarity": 0
+    },
     "77": {
         "name": "Ponyta",
         "types": [1],
@@ -245,6 +263,18 @@
         "abilities": [11],
         "rarity": 2
     },
+    "81": {
+        "name": "Magnemite",
+        "types": [4,16],
+        "abilities": [11],
+        "rarity": 1
+    },
+    "82": {
+        "name": "Magneton",
+        "types": [4,16],
+        "abilities": [11],
+        "rarity": 2
+    },
     "83": {
         "name": "Farfetch'd",
         "types": [0,9],
@@ -256,6 +286,12 @@
         "types": [0,9],
         "abilities": [12],
         "rarity": 1
+    },
+    "85": {
+        "name": "Dodrio",
+        "types": [0,9],
+        "abilities": [12],
+        "rarity": 2
     },
     "86": {
         "name": "Seel",
@@ -323,6 +359,18 @@
         "abilities": [2],
         "rarity": 2
     },
+    "98": {
+        "name": "Krabby",
+        "types": [2],
+        "abilities": [15],
+        "rarity": 1
+    },
+    "99": {
+        "name": "Kingler",
+        "types": [2],
+        "abilities": [15],
+        "rarity": 2
+    },
     "100": {
         "name": "Voltorb",
         "types": [4],
@@ -334,6 +382,18 @@
         "types": [4],
         "abilities": [11],
         "rarity": 1
+    },
+    "102": {
+        "name": "Exeggcute",
+        "types": [3,10],
+        "abilities": [11],
+        "rarity": 1
+    },
+    "103": {
+        "name": "Exeggutor",
+        "types": [3,10],
+        "abilities": [11],
+        "rarity": 2
     },
     "104": {
         "name": "Cubone",
@@ -365,6 +425,18 @@
         "abilities": [14],
         "rarity": 2
     },
+    "109": {
+        "name": "Koffing",
+        "types": [7],
+        "abilities": [11],
+        "rarity": 1
+    },
+    "110": {
+        "name": "Weezing",
+        "types": [7],
+        "abilities": [11],
+        "rarity": 2
+    },
     "113": {
         "name": "Chansey",
         "types": [0],
@@ -383,11 +455,35 @@
         "abilities": [11],
         "rarity": 1
     },
+    "117": {
+        "name": "Seadra",
+        "types": [2],
+        "abilities": [11],
+        "rarity": 2
+    },
+    "118": {
+        "name": "Goldeen",
+        "types": [2],
+        "abilities": [7],
+        "rarity": 0
+    },
     "119": {
         "name": "Seaking",
         "types": [2],
         "abilities": [7],
         "rarity": 1
+    },
+    "120": {
+        "name": "Staryu",
+        "types": [2],
+        "abilities": [11],
+        "rarity": 1
+    },
+    "121": {
+        "name": "Starmie",
+        "types": [2,10],
+        "abilities": [11],
+        "rarity": 2
     },
     "122": {
         "name": "Mr. Mime",
@@ -413,9 +509,27 @@
         "abilities": [2],
         "rarity": 3
     },
+    "127": {
+        "name": "Pinsir",
+        "types": [11],
+        "abilities": [15],
+        "rarity": 3
+    },
     "128": {
         "name": "Tauros",
         "types": [0],
+        "abilities": [11],
+        "rarity": 3
+    },
+    "129": {
+        "name": "Magikarp",
+        "types": [2],
+        "abilities": [11],
+        "rarity": 2
+    },
+    "131": {
+        "name": "Lapras",
+        "types": [2,5],
         "abilities": [11],
         "rarity": 3
     },
