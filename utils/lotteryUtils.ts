@@ -1,8 +1,11 @@
+import BigNumber from "bignumber.js";
 import { PromisifyBatchRequest } from "../lib/PromiseBatchRequest";
 import { ratesV2, Rates } from "./lotteryRates";
-import { LOTTERY_CONTRACT } from "./constants";
+import { LOTTERY_CONTRACT, LOTTERY_TICKET_CONTRACT } from "./constants";
 import { getContract } from "./web3";
 import lotteryABI from "./abis/lottery.json";
+import lotteryNft from "./abis/lotteryNft.json";
+import { multicall } from "./multicall";
 
 export interface SingleLotteryReturn {
   numbers1: Promise<[string, string, string, string]>;
@@ -185,3 +188,49 @@ export const computeLotteries = async (finalNumbersProm: Array<SingleLotteryRetu
   }
   return finalNumbers;
 };
+
+export const getLotteryTicketData = async(id: any) => {
+  console.log("id", id);
+  const data:any = {};
+  if (id  && Number.isInteger(Number(id)) && Number(id) > 0) {
+    try {
+      const calls = [
+        {
+          address: LOTTERY_TICKET_CONTRACT,
+          name: 'getLotteryNumbers',
+          params: [id]
+        },      
+        {
+          address: LOTTERY_TICKET_CONTRACT,
+          name: 'getLotteryAmount',
+          params: [id]
+        },      
+        {
+          address: LOTTERY_TICKET_CONTRACT,
+          name: 'getLotteryIssueIndex',
+          params: [id]
+        },      
+        {
+          address: LOTTERY_TICKET_CONTRACT,
+          name: 'getClaimStatus',
+          params: [id]
+        },
+      ];
+      console.log("calls", calls);
+      const res1 = await multicall(lotteryNft, calls);
+  
+      console.log("res1", JSON.stringify(res1));
+      Object.assign(data, {
+        numbers: res1[0][0],
+        amount: new BigNumber(res1[1][0]._hex).toNumber(),
+        issueIndex: new BigNumber(res1[2][0]._hex).toNumber(),
+        claimStatus: res1[3][0],
+      });
+      console.log("data", JSON.stringify(data));
+    } catch(e) {
+      console.error(e);
+    }
+  }
+
+  return data;
+}
