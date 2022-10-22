@@ -222,7 +222,7 @@ export const getLotteryTicketData = async(id: any) => {
       console.log("res1", JSON.stringify(res1));
       Object.assign(data, {
         numbers: res1[0][0],
-        amount: new BigNumber(res1[1][0]._hex).toNumber(),
+        amount: new BigNumber(res1[1][0]._hex).div(new BigNumber(10).pow(18)).toNumber(),
         issueIndex: new BigNumber(res1[2][0]._hex).toNumber(),
         claimStatus: res1[3][0],
       });
