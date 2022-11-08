@@ -29,11 +29,35 @@
         "abilities": [0],
         "rarity": 0
     },
+    "11": {
+        "name": "Metapod",
+        "types": [11],
+        "abilities": [11],
+        "rarity": 1
+    },
+    "12": {
+        "name": "Butterfree",
+        "types": [9,11],
+        "abilities": [1],
+        "rarity": 2
+    },
     "13": {
         "name": "Weedle",
         "types": [7,11],
         "abilities": [3],
         "rarity": 0
+    },
+    "14": {
+        "name": "Kakuna",
+        "types": [7,11],
+        "abilities": [11],
+        "rarity": 1
+    },
+    "15": {
+        "name": "Beedrill",
+        "types": [7,11],
+        "abilities": [3],
+        "rarity": 2
     },
     "19": {
         "name": "Rattata",
@@ -95,11 +119,29 @@
         "abilities": [10],
         "rarity": 2
     },
+    "35": {
+        "name": "Clefairy",
+        "types": [17],
+        "abilities": [2],
+        "rarity": 1
+    },
+    "36": {
+        "name": "Clefable",
+        "types": [17],
+        "abilities": [2],
+        "rarity": 2
+    },
     "37": {
         "name": "Vulpix",
         "types": [1],
         "abilities": [16],
         "rarity": 1
+    },
+    "38": {
+        "name": "Ninetales",
+        "types": [1],
+        "abilities": [1],
+        "rarity": 2
     },
     "39": {
         "name": "Jigglypuff",
@@ -119,11 +161,41 @@
         "abilities": [16],
         "rarity": 0
     },
+    "42": {
+        "name": "Golbat",
+        "types": [7,9],
+        "abilities": [16],
+        "rarity": 1
+    },
     "43": {
         "name": "Oddish",
         "types": [3,7],
         "abilities": [11],
         "rarity": 0
+    },
+    "44": {
+        "name": "Gloom",
+        "types": [3,7],
+        "abilities": [11],
+        "rarity": 1
+    },
+    "45": {
+        "name": "Vileplume",
+        "types": [3,7],
+        "abilities": [11],
+        "rarity": 2
+    },
+    "46": {
+        "name": "Paras",
+        "types": [3,11],
+        "abilities": [15],
+        "rarity": 0
+    },
+    "47": {
+        "name": "Parasect",
+        "types": [3,11],
+        "abilities": [15],
+        "rarity": 1
     },
     "48": {
         "name": "Venonat",
@@ -131,11 +203,23 @@
         "abilities": [11],
         "rarity": 1
     },
+    "49": {
+        "name": "Venomoth",
+        "types": [7,11],
+        "abilities": [16],
+        "rarity": 2
+    },
     "50": {
         "name": "Diglett",
         "types": [8],
         "abilities": [11],
         "rarity": 1
+    },
+    "51": {
+        "name": "Dugtrio",
+        "types": [8],
+        "abilities": [11],
+        "rarity": 2
     },
     "52": {
         "name": "Meowth",
@@ -172,6 +256,18 @@
         "types": [6],
         "abilities": [4],
         "rarity": 1
+    },
+    "58": {
+        "name": "Growlithe",
+        "types": [1],
+        "abilities": [1],
+        "rarity": 2
+    },
+    "59": {
+        "name": "Arcanine",
+        "types": [1],
+        "abilities": [1],
+        "rarity": 3
     },
     "60": {
         "name": "Poliwag",
@@ -233,11 +329,23 @@
         "abilities": [0],
         "rarity": 1
     },
+    "73": {
+        "name": "Tentacruel",
+        "types": [2,7],
+        "abilities": [0],
+        "rarity": 2
+    },
     "74": {
         "name": "Geodude",
         "types": [8,12],
         "abilities": [4],
         "rarity": 0
+    },
+    "76": {
+        "name": "Golem",
+        "types": [8,12],
+        "abilities": [11],
+        "rarity": 2
     },
     "77": {
         "name": "Ponyta",
@@ -346,6 +454,12 @@
         "types": [7,13],
         "abilities": [1],
         "rarity": 2
+    },
+    "95": {
+        "name": "Onix",
+        "types": [8,12],
+        "abilities": [11],
+        "rarity": 1
     },
     "96": {
         "name": "Drowzee",
@@ -491,6 +605,12 @@
         "abilities": [2],
         "rarity": 3
     },
+    "123": {
+        "name": "Scyther",
+        "types": [9,11],
+        "abilities": [1],
+        "rarity": 2
+    },
     "124": {
         "name": "Jynx",
         "types": [5,10],
@@ -526,6 +646,12 @@
         "types": [2],
         "abilities": [11],
         "rarity": 2
+    },
+    "130": {
+        "name": "Gyarados",
+        "types": [2,9],
+        "abilities": [16],
+        "rarity": 3
     },
     "131": {
         "name": "Lapras",
