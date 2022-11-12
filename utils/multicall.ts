@@ -11,7 +11,7 @@ export interface Call {
 }
 
 export const multicall = async (abi: any[], calls: Call[], blockNumber?: number) => {
-  const contract = getContract(MultiCallAbi, MULTICALL_CONTRACT, true);
+  const contract = getContract(MultiCallAbi, MULTICALL_CONTRACT);
   const itf = new Interface(abi);
 
   const calldata = calls.map((call: Call) => [

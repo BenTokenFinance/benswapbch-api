@@ -10,8 +10,8 @@ export const getEbenUsdPrice = async (): Promise<number> => {
 
   try {
     console.log("Getting EBEN price per USD...");
-    const ebenContract = getContract(bep20ABI, EBEN, true);
-    const wbchContract = getContract(bep20ABI, WBCH, true);
+    const ebenContract = getContract(bep20ABI, EBEN);
+    const wbchContract = getContract(bep20ABI, WBCH);
     const ebenBalance = await ebenContract.methods.balanceOf(EBEN_BCH_BENSWAP_LP).call();
     console.log("EBEN Balance: "+ ebenBalance);
     const wbchBalance = await wbchContract.methods.balanceOf(EBEN_BCH_BENSWAP_LP).call();
@@ -35,8 +35,8 @@ export const getEbenBchPrice = async (): Promise<number> => {
 
   try {
     console.log("Getting EBEN price per BCH...");
-    const ebenContract = getContract(bep20ABI, EBEN, true);
-    const wbchContract = getContract(bep20ABI, WBCH, true);
+    const ebenContract = getContract(bep20ABI, EBEN);
+    const wbchContract = getContract(bep20ABI, WBCH);
     const ebenBalance = await ebenContract.methods.balanceOf(EBEN_BCH_BENSWAP_LP).call();
     console.log("EBEN Balance: "+ ebenBalance);
     const wbchBalance = await wbchContract.methods.balanceOf(EBEN_BCH_BENSWAP_LP).call();

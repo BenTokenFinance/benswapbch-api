@@ -1,12 +1,13 @@
 import Web3 from "web3";
-import { RPC } from "./constants";
+import bep20ABI from "./abis/bep20.json";
+import { RPC, RPC_ARCHIVE, EBEN } from "./constants";
 
 const BSC_NODE_RPC = [
   RPC["uat"]
 ];
 
 const BSC_ARCHIVE_NODE_RPC = [
-  RPC["uat"]
+  RPC_ARCHIVE["0"]
 ];
 
 export const getWeb3 = (archive = false): Web3 => {
@@ -16,6 +17,18 @@ export const getWeb3 = (archive = false): Web3 => {
 
   return new Web3(new Web3.providers.HttpProvider(provider, { timeout: 30000 }));
 };
+
+export const testArchive0 = async () => {
+  try {
+    const archive0 = new Web3(new Web3.providers.HttpProvider(RPC_ARCHIVE["0"], { timeout: 30000 }));
+    const ebenContract = new archive0.eth.Contract(bep20ABI as any, EBEN);
+    const t = await ebenContract.methods.totalSupply().call(undefined, 1000000);
+    return t === '9805717530504406453374070';
+  } catch(e) {
+    console.error(e);
+  }
+  return false;
+}
 
 export const getContract = (abi: any, address: string, archive = false) => {
   const web3: Web3 = getWeb3(archive);
