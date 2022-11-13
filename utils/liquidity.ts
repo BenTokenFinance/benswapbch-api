@@ -12,6 +12,9 @@ function addressMatch(a1:any, a2:any) {
 const MidTokens = {
     [DEX.LAWSWAP]: {
         "LAW": "0x0b00366fBF7037E9d75E4A569ab27dAB84759302"
+    },
+    [DEX.BENSWAP]: {
+        "EBEN": "0x77CB87b57F54667978Eb1B199b28a0db8C8E1c0B"
     }
 };
 
