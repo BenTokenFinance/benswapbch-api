@@ -754,5 +754,71 @@
         "types": [10],
         "abilities": [11],
         "rarity": 5
+    },
+    "5001": {
+        "name": "Pownw",
+        "types": [5,6],
+        "abilities": [4],
+        "rarity": 1,
+        "next": [5002]
+    },
+    "5002": {
+        "name": "Downw",
+        "types": [5,6],
+        "abilities": [4],
+        "rarity": 2,
+        "next": [5003]
+    },
+    "5003": {
+        "name": "Cabownw",
+        "types": [5,6],
+        "abilities": [4],
+        "rarity": 3
+    },
+    "5004": {
+        "name": "Peco",
+        "types": [10,14],
+        "abilities": [1],
+        "rarity": 1,
+        "next": [5005]
+    },
+    "5005": {
+        "name": "Pedolu",
+        "types": [10,14],
+        "abilities": [1],
+        "rarity": 2,
+        "next": [5006]
+    },
+    "5006": {
+        "name": "Pikicoco",
+        "types": [10,14],
+        "abilities": [1],
+        "rarity": 3
+    },
+    "5007": {
+        "name": "Emperow",
+        "types": [0,16],
+        "abilities": [11],
+        "rarity": 2
+    },
+    "5008": {
+        "name": "Lanaoof",
+        "types": [0],
+        "abilities": [11],
+        "rarity": 0,
+        "next": [5009]
+    },
+    "5009": {
+        "name": "Pwoof",
+        "types": [0],
+        "abilities": [11],
+        "rarity": 1,
+        "next": [5010]
+    },
+    "5010": {
+        "name": "Nurnaoof",
+        "types": [0,17],
+        "abilities": [11],
+        "rarity": 2
     }
 }
