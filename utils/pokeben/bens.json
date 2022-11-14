@@ -3,7 +3,8 @@
         "name": "Bulbasaur",
         "types": [3,7],
         "abilities": [0],
-        "rarity": 2
+        "rarity": 2,
+        "next": [2]
     },
     "2": {
         "name": "Ivysaur",
@@ -15,7 +16,8 @@
         "name": "Charmander",
         "types": [1],
         "abilities": [2],
-        "rarity": 2
+        "rarity": 2,
+        "next": [5]
     },
     "5": {
         "name": "Charmeleon",
@@ -27,13 +29,15 @@
         "name": "Caterpie",
         "types": [11],
         "abilities": [0],
-        "rarity": 0
+        "rarity": 0,
+        "next": [11]
     },
     "11": {
         "name": "Metapod",
         "types": [11],
         "abilities": [11],
-        "rarity": 1
+        "rarity": 1,
+        "next": [12]
     },
     "12": {
         "name": "Butterfree",
@@ -45,13 +49,15 @@
         "name": "Weedle",
         "types": [7,11],
         "abilities": [3],
-        "rarity": 0
+        "rarity": 0,
+        "next": [14]
     },
     "14": {
         "name": "Kakuna",
         "types": [7,11],
         "abilities": [11],
-        "rarity": 1
+        "rarity": 1,
+        "next": [15]
     },
     "15": {
         "name": "Beedrill",
@@ -75,7 +81,8 @@
         "name": "Pikachu",
         "types": [4],
         "abilities": [1],
-        "rarity": 2
+        "rarity": 2,
+        "next": [26]
     },
     "26": {
         "name": "Raichu",
@@ -87,7 +94,8 @@
         "name": "Sandshrew",
         "types": [8],
         "abilities": [8],
-        "rarity": 0
+        "rarity": 0,
+        "next": [28]
     },
     "28": {
         "name": "Sandslash",
@@ -105,13 +113,15 @@
         "name": "Nidoran♂",
         "types": [7],
         "abilities": [8],
-        "rarity": 0
+        "rarity": 0,
+        "next": [33]
     },
     "33": {
         "name": "Nidorino",
         "types": [7],
         "abilities": [11],
-        "rarity": 1
+        "rarity": 1,
+        "next": [34]
     },
     "34": {
         "name": "Nidoking",
@@ -123,7 +133,8 @@
         "name": "Clefairy",
         "types": [17],
         "abilities": [2],
-        "rarity": 1
+        "rarity": 1,
+        "next": [36]
     },
     "36": {
         "name": "Clefable",
@@ -135,7 +146,8 @@
         "name": "Vulpix",
         "types": [1],
         "abilities": [16],
-        "rarity": 1
+        "rarity": 1,
+        "next": [38]
     },
     "38": {
         "name": "Ninetales",
@@ -147,7 +159,8 @@
         "name": "Jigglypuff",
         "types": [0,17],
         "abilities": [11],
-        "rarity": 1
+        "rarity": 1,
+        "next": [40]
     },
     "40": {
         "name": "Wigglytuff",
@@ -159,7 +172,8 @@
         "name": "Zubat",
         "types": [7,9],
         "abilities": [16],
-        "rarity": 0
+        "rarity": 0,
+        "next": [42]
     },
     "42": {
         "name": "Golbat",
@@ -171,13 +185,15 @@
         "name": "Oddish",
         "types": [3,7],
         "abilities": [11],
-        "rarity": 0
+        "rarity": 0,
+        "next": [44]
     },
     "44": {
         "name": "Gloom",
         "types": [3,7],
         "abilities": [11],
-        "rarity": 1
+        "rarity": 1,
+        "next": [45]
     },
     "45": {
         "name": "Vileplume",
@@ -189,7 +205,8 @@
         "name": "Paras",
         "types": [3,11],
         "abilities": [15],
-        "rarity": 0
+        "rarity": 0,
+        "next": [47]
     },
     "47": {
         "name": "Parasect",
@@ -201,7 +218,8 @@
         "name": "Venonat",
         "types": [7,11],
         "abilities": [11],
-        "rarity": 1
+        "rarity": 1,
+        "next": [49]
     },
     "49": {
         "name": "Venomoth",
@@ -213,7 +231,8 @@
         "name": "Diglett",
         "types": [8],
         "abilities": [11],
-        "rarity": 1
+        "rarity": 1,
+        "next": [51]
     },
     "51": {
         "name": "Dugtrio",
@@ -225,7 +244,8 @@
         "name": "Meowth",
         "types": [0],
         "abilities": [9],
-        "rarity": 0
+        "rarity": 0,
+        "next": [53]
     },
     "53": {
         "name": "Persian",
@@ -237,7 +257,8 @@
         "name": "Psyduck",
         "types": [2],
         "abilities": [2],
-        "rarity": 1
+        "rarity": 1,
+        "next": [55]
     },
     "55": {
         "name": "Golduck",
@@ -249,7 +270,8 @@
         "name": "Mankey",
         "types": [6],
         "abilities": [4],
-        "rarity": 0
+        "rarity": 0,
+        "next": [57]
     },
     "57": {
         "name": "Primeape",
@@ -261,7 +283,8 @@
         "name": "Growlithe",
         "types": [1],
         "abilities": [1],
-        "rarity": 2
+        "rarity": 2,
+        "next": [59]
     },
     "59": {
         "name": "Arcanine",
@@ -273,13 +296,15 @@
         "name": "Poliwag",
         "types": [2],
         "abilities": [11],
-        "rarity": 0
+        "rarity": 0,
+        "next": [61]
     },
     "61": {
         "name": "Poliwhirl",
         "types": [2],
         "abilities": [10],
-        "rarity": 1
+        "rarity": 1,
+        "next": [62]
     },
     "62": {
         "name": "Poliwrath",
@@ -297,7 +322,8 @@
         "name": "Machop",
         "types": [6],
         "abilities": [4],
-        "rarity": 0
+        "rarity": 0,
+        "next": [67]
     },
     "67": {
         "name": "Machoke",
@@ -309,13 +335,15 @@
         "name": "Bellsprout",
         "types": [3,7],
         "abilities": [11],
-        "rarity": 0
+        "rarity": 0,
+        "next": [70]
     },
     "70": {
         "name": "Weepinbell",
         "types": [3,7],
         "abilities": [11],
-        "rarity": 1
+        "rarity": 1,
+        "next": [71]
     },
     "71": {
         "name": "Victreebel",
@@ -327,7 +355,8 @@
         "name": "Tentacool",
         "types": [2,7],
         "abilities": [0],
-        "rarity": 1
+        "rarity": 1,
+        "next": [73]
     },
     "73": {
         "name": "Tentacruel",
@@ -351,7 +380,8 @@
         "name": "Ponyta",
         "types": [1],
         "abilities": [11],
-        "rarity": 2
+        "rarity": 2,
+        "next": [78]
     },
     "78": {
         "name": "Rapidash",
@@ -363,7 +393,8 @@
         "name": "Slowpoke",
         "types": [2,10],
         "abilities": [11],
-        "rarity": 1
+        "rarity": 1,
+        "next": [80]
     },
     "80": {
         "name": "Slowbro",
@@ -375,7 +406,8 @@
         "name": "Magnemite",
         "types": [4,16],
         "abilities": [11],
-        "rarity": 1
+        "rarity": 1,
+        "next": [82]
     },
     "82": {
         "name": "Magneton",
@@ -393,7 +425,8 @@
         "name": "Doduo",
         "types": [0,9],
         "abilities": [12],
-        "rarity": 1
+        "rarity": 1,
+        "next": [85]
     },
     "85": {
         "name": "Dodrio",
@@ -405,7 +438,8 @@
         "name": "Seel",
         "types": [2],
         "abilities": [10],
-        "rarity": 1
+        "rarity": 1,
+        "next": [87]
     },
     "87": {
         "name": "Dewgong",
@@ -417,7 +451,8 @@
         "name": "Grimer",
         "types": [7],
         "abilities": [1],
-        "rarity": 1
+        "rarity": 1,
+        "next": [89]
     },
     "89": {
         "name": "Muk",
@@ -429,7 +464,8 @@
         "name": "Shellder",
         "types": [2],
         "abilities": [14],
-        "rarity": 1
+        "rarity": 1,
+        "next": [91]
     },
     "91": {
         "name": "Cloyster",
@@ -441,13 +477,15 @@
         "name": "Gastly",
         "types": [7,13],
         "abilities": [11],
-        "rarity": 0
+        "rarity": 0,
+        "next": [93]
     },
     "93": {
         "name": "Haunter",
         "types": [7,13],
         "abilities": [9],
-        "rarity": 1
+        "rarity": 1,
+        "next": [94]
     },
     "94": {
         "name": "Gengar",
@@ -465,7 +503,8 @@
         "name": "Drowzee",
         "types": [10],
         "abilities": [2],
-        "rarity": 1
+        "rarity": 1,
+        "next": [97]
     },
     "97": {
         "name": "Hypno",
@@ -477,7 +516,8 @@
         "name": "Krabby",
         "types": [2],
         "abilities": [15],
-        "rarity": 1
+        "rarity": 1,
+        "next": [99]
     },
     "99": {
         "name": "Kingler",
@@ -489,7 +529,8 @@
         "name": "Voltorb",
         "types": [4],
         "abilities": [11],
-        "rarity": 0
+        "rarity": 0,
+        "next": [101]
     },
     "101": {
         "name": "Electrode",
@@ -501,7 +542,8 @@
         "name": "Exeggcute",
         "types": [3,10],
         "abilities": [11],
-        "rarity": 1
+        "rarity": 1,
+        "next": [103]
     },
     "103": {
         "name": "Exeggutor",
@@ -513,7 +555,8 @@
         "name": "Cubone",
         "types": [8],
         "abilities": [17],
-        "rarity": 1
+        "rarity": 1,
+        "next": [105]
     },
     "105": {
         "name": "Marowak",
@@ -543,7 +586,8 @@
         "name": "Koffing",
         "types": [7],
         "abilities": [11],
-        "rarity": 1
+        "rarity": 1,
+        "next": [110]
     },
     "110": {
         "name": "Weezing",
@@ -567,7 +611,8 @@
         "name": "Horsea",
         "types": [2],
         "abilities": [11],
-        "rarity": 1
+        "rarity": 1,
+        "next": [117]
     },
     "117": {
         "name": "Seadra",
@@ -579,7 +624,8 @@
         "name": "Goldeen",
         "types": [2],
         "abilities": [7],
-        "rarity": 0
+        "rarity": 0,
+        "next": [119]
     },
     "119": {
         "name": "Seaking",
@@ -591,7 +637,8 @@
         "name": "Staryu",
         "types": [2],
         "abilities": [11],
-        "rarity": 1
+        "rarity": 1,
+        "next": [121]
     },
     "121": {
         "name": "Starmie",
@@ -645,7 +692,8 @@
         "name": "Magikarp",
         "types": [2],
         "abilities": [11],
-        "rarity": 2
+        "rarity": 2,
+        "next": [130]
     },
     "130": {
         "name": "Gyarados",
@@ -669,7 +717,8 @@
         "name": "Eevee",
         "types": [0],
         "abilities": [9],
-        "rarity": 3
+        "rarity": 3,
+        "next": [134,135,136]
     },
     "134": {
         "name": "Vaporeon",
@@ -693,7 +742,8 @@
         "name": "Omanyte",
         "types": [2,12],
         "abilities": [11],
-        "rarity": 2
+        "rarity": 2,
+        "next": [139]
     },
     "139": {
         "name": "Omastar",
@@ -705,7 +755,8 @@
         "name": "Kabuto",
         "types": [2,12],
         "abilities": [9],
-        "rarity": 2
+        "rarity": 2,
+        "next": [141]
     },
     "141": {
         "name": "Kabutops",
@@ -735,13 +786,15 @@
         "name": "Dratini",
         "types": [15],
         "abilities": [6],
-        "rarity": 2
+        "rarity": 2,
+        "next": [148]
     },
     "148": {
         "name": "Dragonair",
         "types": [15],
         "abilities": [6],
-        "rarity": 3
+        "rarity": 3,
+        "next": [149]
     },
     "149": {
         "name": "Dragonite",
