@@ -1,6 +1,6 @@
 import BigNumber from "bignumber.js";
 import { getContract } from "./web3";
-import { FLEXUSD, WBCH, DEX, FACTORY } from "./constants";
+import { FLEXUSD, WBCH, DEX, FACTORY, EBEN, LAW } from "./constants";
 import pair from "./abis/pair.json";
 import lpFactory from "./abis/lpFactory.json";
 import bep20 from "./abis/bep20.json";
@@ -11,10 +11,10 @@ function addressMatch(a1:any, a2:any) {
 
 const MidTokens = {
     [DEX.LAWSWAP]: {
-        "LAW": "0x0b00366fBF7037E9d75E4A569ab27dAB84759302"
+        "LAW": LAW
     },
     [DEX.BENSWAP]: {
-        "EBEN": "0x77CB87b57F54667978Eb1B199b28a0db8C8E1c0B"
+        "EBEN": EBEN
     }
 };
 
@@ -34,7 +34,8 @@ export const getLiquidity = async (address: any): Promise<object> => {
                 if (isValid) {
                     const key = `${f.name}-flexUSD`;
                     result[key] = {
-                        address: lp
+                        address: lp,
+                        baseTokenAddress: FLEXUSD
                     };
                     const innerTasks = [];
                     innerTasks.push(tokenContract.methods.balanceOf(lp).call().then((balance:any)=>{
@@ -58,7 +59,8 @@ export const getLiquidity = async (address: any): Promise<object> => {
                 if (isValid) {
                     const key = `${f.name}-WBCH`;
                     result[key] = {
-                        address: lp
+                        address: lp,
+                        baseTokenAddress: WBCH
                     };
                     const innerTasks = [];
                     innerTasks.push(tokenContract.methods.balanceOf(lp).call().then((balance:any)=>{
@@ -85,7 +87,8 @@ export const getLiquidity = async (address: any): Promise<object> => {
                         if (isValid) {
                             const key = `${f.name}-${k}`;
                             result[key] = {
-                                address: lp
+                                address: lp,
+                                baseTokenAddress: midTokens[k]
                             };
                             const innerTasks = [];
                             innerTasks.push(tokenContract.methods.balanceOf(lp).call().then((balance:any)=>{
