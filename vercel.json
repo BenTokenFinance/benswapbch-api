@@ -35,6 +35,10 @@
       "destination": "/api/sep20/token"
     },
     {
+      "source": "/api/sep20/tokenbasics/:id",
+      "destination": "/api/sep20/tokenbasics"
+    },
+    {
       "source": "/api/sep20/liquidity/:id",
       "destination": "/api/sep20/liquidity"
     },
