@@ -44,6 +44,7 @@ export const getLiquidity = async (address: any): Promise<object> => {
                     innerTasks.push(flexUsdContract.methods.balanceOf(lp).call().then((balance:any)=>{
                         const balanceFlexUsd = new BigNumber(balance).div(Math.pow(10, 18));
                         result[key]["flexusd"] = balanceFlexUsd.toFixed();
+                        result[key]["baseToken"] = balanceFlexUsd.toFixed();
                         result[key]["liquidityFlexusd"] = balanceFlexUsd.times(2).toFixed();
                     }));
 
@@ -69,6 +70,7 @@ export const getLiquidity = async (address: any): Promise<object> => {
                     innerTasks.push(wbchContract.methods.balanceOf(lp).call().then((balance:any)=>{
                         const balanceWbch = new BigNumber(balance).div(Math.pow(10, 18));
                         result[key]["wbch"] = balanceWbch.toFixed();
+                        result[key]["baseToken"] = balanceWbch.toFixed();
                         result[key]["liquidityWbch"] = balanceWbch.times(2).toFixed();
                     }));
 
@@ -98,6 +100,7 @@ export const getLiquidity = async (address: any): Promise<object> => {
                                 const balanceMidToken = new BigNumber(balance).div(Math.pow(10, 18));
                                 const kl = k.toLowerCase();
                                 result[key][kl] = balanceMidToken.toFixed();
+                                result[key]["baseToken"] = balanceMidToken.toFixed();
                                 result[key][`liquidity${kl.charAt(0).toUpperCase() + kl.slice(1)}`] = balanceMidToken.times(2).toFixed();
                             }));
         
