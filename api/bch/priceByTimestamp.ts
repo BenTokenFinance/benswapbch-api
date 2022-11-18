@@ -4,7 +4,7 @@ import { getBlockFromTimestamp, getBchPrice } from "../../utils/graphql";
 export default async (req: NowRequest, res: NowResponse): Promise<void> => {
   const { timestamp } = req.query;
 
-  let price = 0;
+  let data:any = {error: true};
 
   if (timestamp !== undefined) {
     const t = Number(timestamp);
@@ -13,8 +13,11 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
         const block = await getBlockFromTimestamp(t) || 0;
         console.log("Block", block);
         if (block) {
-            price = (await getBchPrice(block)).bchPrice || 0;
+            const price = (await getBchPrice(block)).bchPrice || 0;
             console.log("Price", price);
+            if (price && Number(price) > 0) {
+              data = {price, block};
+            }
         }
 
       } catch(e) {
@@ -23,6 +26,5 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
     }
   }
 
-  res.setHeader("content-type", "text/plain");
-  res.send(price);
+  res.json(data);
 };
