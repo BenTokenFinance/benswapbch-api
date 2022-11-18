@@ -3,7 +3,7 @@ import {
     splitQuery, GLOBAL_DATA, ALL_TOKENS_SIMPLE, GET_BLOCK, GET_BLOCKS, PAIRS, TOKENS, 
     CANDLE_1_MIN_BCH, CANDLE_1_MIN_USD, CANDLE_15_MIN_BCH, CANDLE_15_MIN_USD, 
     CANDLE_1_HOUR_BCH, CANDLE_1_HOUR_USD, CANDLE_1_DAY_BCH, CANDLE_1_DAY_USD, CANDLE_1_WEEK_BCH, CANDLE_1_WEEK_USD, 
-    SUBGRAPH_HEALTH, POKEBEN_RANKING_LEVEL, POKEBEN_RANKING_POWER
+    SUBGRAPH_HEALTH, POKEBEN_RANKING_LEVEL, POKEBEN_RANKING_POWER, BCH_PRICE
 } from './apollo/queries'
 import { getWeb3 } from "./web3";
 import BigNumber from "bignumber.js";
@@ -28,6 +28,23 @@ const APP_WHITELIST = [
     "0xb5b1939ef0a3743d0ae9282dba62312b614a5ac0",   // POTA
     "0xff3ed63bf8bc9303ea0a7e1215ba2f82d569799e",   // ORB
 ];
+
+export async function getBchPrice(block: any) {
+    let data: any = {}
+
+    try {
+        // fetch the bch price by block
+        const result = await ExchangeClient.query({
+            query: BCH_PRICE(block),
+            fetchPolicy: 'network-only',
+        })
+        data = result.data.bundles[0].bchPrice;
+    } catch (e) {
+        console.error(e);
+    }
+    
+    return data || {};
+}
 
 async function getGlobalData(block: any) {
     let data: any = {}

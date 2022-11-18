@@ -11,12 +11,8 @@
       "destination": "/api/lotteryTicket"
     },
     {
-      "source": "/api/governance/vote/:address",
-      "destination": "/api/governance/vote"
-    },
-    {
-      "source": "/api/governance/vote/:address/:block",
-      "destination": "/api/governance/vote"
+      "source": "/api/bch/priceByTimestamp/:timestamp",
+      "destination": "/api/bch/priceByTimestamp"
     },
     {
       "source": "/api/smartbch/rpc/:name",
@@ -230,6 +226,27 @@
         {
           "key" : "Cache-Control",
           "value" : "s-maxage=60"
+        }
+      ]
+    },
+    {
+      "source": "/api/bch/priceByTimestamp",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, HEAD, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "*"
+        },
+        {
+          "key" : "Cache-Control",
+          "value" : "s-maxage=90000"
         }
       ]
     },

@@ -47,6 +47,15 @@ export const GET_BLOCK = gql`
   }
 `
 
+export const BCH_PRICE = (block) => {
+  const queryString = ` query bundles {
+    bundles (block: { number: ${block}}) {
+      bchPrice
+    }
+  }`
+  return gql(queryString)
+}
+
 export const GET_BLOCKS = (timestamps) => {
   let queryString = 'query blocks {'
   queryString += timestamps.map((timestamp) => {
