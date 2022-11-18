@@ -38,7 +38,7 @@ export async function getBchPrice(block: any) {
             query: BCH_PRICE(block),
             fetchPolicy: 'network-only',
         })
-        data = result.data.bundles[0].bchPrice;
+        data = result.data.bundles[0];
     } catch (e) {
         console.error(e);
     }
