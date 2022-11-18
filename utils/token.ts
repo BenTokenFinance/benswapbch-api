@@ -41,3 +41,14 @@ export const getTokenBasicData = async(address: any) => {
 
   return data;
 }
+
+export const getHistoryBalance = async(tokenAddress:any, ownerAddress:any, block:any) => {
+  try {
+    const contract = getContract(bep20, tokenAddress, true);
+    const balance = await contract.methods.balanceOf(ownerAddress).call(undefined, block)
+    return balance;
+  } catch(e) {
+    console.error(e);
+    return false;
+  }
+}

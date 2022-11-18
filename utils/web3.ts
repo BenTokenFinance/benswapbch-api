@@ -36,7 +36,7 @@ export const getContract = (abi: any, address: string, archive = false) => {
   return new web3.eth.Contract(abi, address);
 };
 
-export const getLatestBlock = async (archive = false) => {
+export const getLatestBlock = async () => {
   const web3: Web3 = getWeb3(false);
   return web3.eth.getBlockNumber();
 };
