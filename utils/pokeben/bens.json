@@ -829,21 +829,21 @@
         "rarity": 3
     },
     "5004": {
-        "name": "Peco",
+        "name": "Cogitanem",
         "types": [10,14],
         "abilities": [1],
         "rarity": 1,
         "next": [5005]
     },
     "5005": {
-        "name": "Pedolu",
+        "name": "Cogitavem",
         "types": [10,14],
         "abilities": [1],
         "rarity": 2,
         "next": [5006]
     },
     "5006": {
-        "name": "Pikicoco",
+        "name": "Sumi-Cogitavem",
         "types": [10,14],
         "abilities": [1],
         "rarity": 3
