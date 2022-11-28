@@ -79,7 +79,7 @@ export const FACTORY = {
 export const RPC = {
     "uat": "https://global.uat.cash",
     "fountainhead": "https://smartbch.fountainhead.cash/mainnet",
-    "greyhat": "https://smartbch.greyh.at"
+    // "greyhat": "https://smartbch.greyh.at"
 } 
 export const RPC_ARCHIVE = {
     '0': "http://52.77.220.215:8545"
