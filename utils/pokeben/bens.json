@@ -25,6 +25,26 @@
         "abilities": [2],
         "rarity": 3
     },
+    "7": {
+        "name": "Squirtle",
+        "types": [2],
+        "abilities": [2],
+        "rarity": 2,
+        "next": [8]
+    },
+    "8": {
+        "name": "Wartortle",
+        "types": [2],
+        "abilities": [10],
+        "rarity": 3,
+        "next": [9]
+    },
+    "9": {
+        "name": "Blastoise",
+        "types": [2],
+        "abilities": [10],
+        "rarity": 4
+    },
     "10": {
         "name": "Caterpie",
         "types": [11],
@@ -65,17 +85,64 @@
         "abilities": [3],
         "rarity": 2
     },
+    "16": {
+        "name": "Pidgey",
+        "types": [0,9],
+        "abilities": [12],
+        "rarity": 0,
+        "next": [17]
+    },
+    "17": {
+        "name": "Pidgeotto",
+        "types": [0,9],
+        "abilities": [12],
+        "rarity": 1,
+        "next": [18]
+    },
+    "18": {
+        "name": "Pidgeot",
+        "types": [0,9],
+        "abilities": [12],
+        "rarity": 2
+    },
     "19": {
         "name": "Rattata",
         "types": [0],
         "abilities": [16],
-        "rarity": 0
+        "rarity": 0,
+        "next": [20]
+    },
+    "20": {
+        "name": "Raticate",
+        "types": [0],
+        "abilities": [16],
+        "rarity": 1
+    },
+    "21": {
+        "name": "Spearow",
+        "types": [0,9],
+        "abilities": [12],
+        "rarity": 1,
+        "next": [22]
+    },
+    "22": {
+        "name": "Fearow",
+        "types": [0,9],
+        "abilities": [12],
+        "rarity": 2
     },
     "23": {
         "name": "Ekans",
         "types": [7],
         "abilities": [6],
-        "rarity": 0
+        "rarity": 0,
+        "next": [24]
+    },
+    "24": {
+        "name": "Arbok",
+        "types": [7],
+        "abilities": [6],
+        "rarity": 1
     },
     "25": {
         "name": "Pikachu",
