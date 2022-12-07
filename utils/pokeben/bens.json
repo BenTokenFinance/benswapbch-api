@@ -876,21 +876,21 @@
         "rarity": 5
     },
     "5001": {
-        "name": "Pownw",
+        "name": "Pownn",
         "types": [5,6],
         "abilities": [4],
         "rarity": 1,
         "next": [5002]
     },
     "5002": {
-        "name": "Downw",
+        "name": "Downn",
         "types": [5,6],
         "abilities": [4],
         "rarity": 2,
         "next": [5003]
     },
     "5003": {
-        "name": "Cabownw",
+        "name": "Cabownn",
         "types": [5,6],
         "abilities": [4],
         "rarity": 3
@@ -916,13 +916,13 @@
         "rarity": 3
     },
     "5007": {
-        "name": "Emperow",
+        "name": "Emperou",
         "types": [0,16],
         "abilities": [11],
         "rarity": 2
     },
     "5008": {
-        "name": "Lanaoof",
+        "name": "Lanawoof",
         "types": [0],
         "abilities": [11],
         "rarity": 0,
@@ -936,9 +936,75 @@
         "next": [5010]
     },
     "5010": {
-        "name": "Nurnaoof",
+        "name": "Nurnawoof",
         "types": [0,17],
         "abilities": [11],
         "rarity": 2
+    },
+    "5011": {
+        "name": "Pipi",
+        "types": [4],
+        "abilities": [1],
+        "rarity": 2,
+        "next": [5012]
+    },
+    "5012": {
+        "name": "Bili",
+        "types": [4],
+        "abilities": [1],
+        "rarity": 3,
+        "next": [5013]
+    },
+    "5013": {
+        "name": "Pili",
+        "types": [4,15],
+        "abilities": [1],
+        "rarity": 4
+    },
+    "5014": {
+        "name": "Fufu",
+        "types": [7],
+        "abilities": [1],
+        "rarity": 1,
+        "next": [5015]
+    },
+    "5015": {
+        "name": "Lei",
+        "types": [7,13],
+        "abilities": [1],
+        "rarity": 2,
+        "next": [5016]
+    },
+    "5016": {
+        "name": "Gui",
+        "types": [7,13],
+        "abilities": [1],
+        "rarity": 3
+    },
+    "5017": {
+        "name": "Bean",
+        "types": [1],
+        "abilities": [1],
+        "rarity": 1,
+        "next": [5018]
+    },
+    "5018": {
+        "name": "Justy",
+        "types": [1,16],
+        "abilities": [1],
+        "rarity": 2
+    },
+    "5019": {
+        "name": "Xiao-Yun",
+        "types": [0],
+        "abilities": [11],
+        "rarity": 2,
+        "next": [5019]
+    },
+    "5020": {
+        "name": "Xiang-Yun",
+        "types": [0,9],
+        "abilities": [11],
+        "rarity": 3
     }
 }
