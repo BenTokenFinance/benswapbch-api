@@ -6,7 +6,7 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
   const { name } = req.query;
   const result:any = {};
   if (name) {
-    const url = (RPC as any)[name];
+    const url = (RPC as any)[name as any];
     if (url) {
       result.block = await getLatestBlockByRpcUrl(url);
       result.url = url;

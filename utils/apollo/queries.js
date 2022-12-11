@@ -16,7 +16,7 @@ export async function splitQuery(query, localClient, vars, list, skipCount = 100
     let sliced = list.slice(skip, end)
     let result = await localClient.query({
       query: query(...vars, sliced),
-      fetchPolicy: 'cache-first',
+      fetchPolicy: 'network-only',
     })
     fetchedData = {
       ...fetchedData,
