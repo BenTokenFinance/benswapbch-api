@@ -1008,14 +1008,14 @@
         "rarity": 3
     },
     "5021": {
-        "name": "Needle",
+        "name": "Needles",
         "types": [0,14],
         "abilities": [3],
         "rarity": 1,
         "next": [5022]
     },
     "5022": {
-        "name": "Stitch",
+        "name": "Stitches",
         "types": [0,14],
         "abilities": [3],
         "rarity": 2
