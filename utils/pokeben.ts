@@ -41,7 +41,7 @@ export const buildKindAttributes = (id: any) => {
   // Kind
   attrs.push({
       "trait_type": "Kind",
-      "value": `#${id} ${ben.name}`
+      "value": `#${getPokeBenKindId(id)} ${ben.name}`
   });
   // Rarity
   attrs.push({
@@ -125,4 +125,16 @@ export const getRaritySettings = async () => {
   await Promise.all(tasks);
 
   return settings;
+}
+
+export const getPokeBenKindId = (id:any) => {
+  const n = Number(id);
+  const t = Math.floor(n / 10000);
+  const y = n % 10000;
+
+  if (t === 5) {
+      return `${y}-MX`;
+  }
+
+  return y;
 }

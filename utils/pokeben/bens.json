@@ -1006,5 +1006,71 @@
         "types": [0,9],
         "abilities": [11],
         "rarity": 3
+    },
+    "5021": {
+        "name": "Needle",
+        "types": [0,14],
+        "abilities": [3],
+        "rarity": 1,
+        "next": [5022]
+    },
+    "5022": {
+        "name": "Stitch",
+        "types": [0,14],
+        "abilities": [3],
+        "rarity": 2
+    },
+    "5023": {
+        "name": "Pouch",
+        "types": [3],
+        "abilities": [11],
+        "rarity": 0,
+        "next": [5024]
+    },
+    "5024": {
+        "name": "Loja",
+        "types": [3],
+        "abilities": [1],
+        "rarity": 1,
+        "next": [55024]
+    },
+    "55024": {
+        "name": "Loja",
+        "types": [3],
+        "abilities": [1],
+        "rarity": 2
+    },
+    "5025": {
+        "name": "Ding",
+        "types": [8],
+        "abilities": [11],
+        "rarity": 1,
+        "next": [5026]
+    },
+    "5026": {
+        "name": "Tong",
+        "types": [8],
+        "abilities": [11],
+        "rarity": 2,
+        "next": [5027]
+    },
+    "5027": {
+        "name": "Bing",
+        "types": [8],
+        "abilities": [11],
+        "rarity": 3
+    },
+    "5028": {
+        "name": "Univog",
+        "types": [10,13],
+        "abilities": [2],
+        "rarity": 3,
+        "next": [5029]
+    },
+    "5029": {
+        "name": "Infinog",
+        "types": [10,13],
+        "abilities": [2],
+        "rarity": 4
     }
 }
