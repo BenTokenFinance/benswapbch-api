@@ -225,7 +225,7 @@
         },
         {
           "key" : "Cache-Control",
-          "value" : "s-maxage=120"
+          "value" : "s-maxage=75"
         }
       ]
     },
