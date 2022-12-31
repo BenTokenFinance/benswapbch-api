@@ -225,7 +225,7 @@
         },
         {
           "key" : "Cache-Control",
-          "value" : "s-maxage=60"
+          "value" : "s-maxage=120"
         }
       ]
     },
@@ -289,27 +289,6 @@
         {
           "key" : "Cache-Control",
           "value" : "s-maxage=60"
-        }
-      ]
-    },
-    {
-      "source": "/api/bch/(.*)",
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        },
-        {
-          "key": "Access-Control-Allow-Methods",
-          "value": "GET, HEAD, OPTIONS"
-        },
-        {
-          "key": "Access-Control-Allow-Headers",
-          "value": "*"
-        },
-        {
-          "key" : "Cache-Control",
-          "value" : "s-maxage=30"
         }
       ]
     },
