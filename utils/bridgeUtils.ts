@@ -45,6 +45,30 @@ const Config = {
                 address: "0xbb9CEf7C582b0165A755bC89977dB5bAdbf36406",
                 type: "bridged"
             }
+        },
+        "BTC": {
+            name: "Bitcoin",
+            decimals: 18,
+            56: {
+                address: "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+                type: "native"
+            },
+            10000: {
+                address: "0xbbeF77270d6425E113e1E37f008cf141a9FC215A",
+                type: "bridged"
+            }
+        },
+        "ETH": {
+            name: "Ether",
+            decimals: 18,
+            56: {
+                address: "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+                type: "native"
+            },
+            10000: {
+                address: "0xbb10B6D11db70f33417b08e0B87042275C933Bb9",
+                type: "bridged"
+            }
         }
     },
     chains: {
