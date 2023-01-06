@@ -119,7 +119,7 @@ export const getBridgeDetail = async() => {
                 if (token[chain]) {
                     const isNativeCoin = new BigNumber(token[chain].address).isLessThan(32);
                     if (isNativeCoin) {
-                        token[chain].amount = new BigNumber(await new web3s[chain].eth.getBalance(Config.chains[chain].bridge)).div(new BigNumber(10).pow(token.decimals)).toFixed();
+                        token[chain].amount = new BigNumber(await web3s[chain].eth.getBalance(Config.chains[chain].bridge)).div(new BigNumber(10).pow(token.decimals)).toFixed();
                     } else {
                         const contract = new web3s[chain].eth.Contract(bep20ABI, token[chain].address);
                         if (token[chain].type === 'native') {
