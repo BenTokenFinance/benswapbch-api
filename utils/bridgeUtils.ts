@@ -69,7 +69,19 @@ const Config = {
                 address: "0xbb10B6D11db70f33417b08e0B87042275C933Bb9",
                 type: "bridged"
             }
-        }
+        },
+        "BNB": {
+            name: "Binance Coin",
+            decimals: 18,
+            56: {
+                address: "0x0000000000000000000000000000000000000001",
+                type: "native"
+            },
+            10000: {
+                address: "0xbb7eED96c099546049179c6ACB4498926C437158",
+                type: "bridged"
+            }
+        },
     },
     chains: {
         56: {
@@ -105,13 +117,18 @@ export const getBridgeDetail = async() => {
             for(let j=0; j< chains.length; j++) {
                 const chain = chains[j];
                 if (token[chain]) {
-                    const contract = new web3s[chain].eth.Contract(bep20ABI, token[chain].address);
-                    if (token[chain].type === 'native') {
-                        const amount = await contract.methods.balanceOf(Config.chains[chain].bridge).call();
-                        token[chain].amount = new BigNumber(amount).div(new BigNumber(10).pow(token.decimals)).toFixed();
+                    const isNativeCoin = new BigNumber(token[chain].address).isLessThan(32);
+                    if (isNativeCoin) {
+                        token[chain].amount = new BigNumber(await new web3s[chain].eth.getBalance(Config.chains[chain].bridge)).div(new BigNumber(10).pow(token.decimals)).toFixed();
                     } else {
-                        const amount = await contract.methods.totalSupply().call();
-                        token[chain].amount = new BigNumber(amount).div(new BigNumber(10).pow(token.decimals)).toFixed();
+                        const contract = new web3s[chain].eth.Contract(bep20ABI, token[chain].address);
+                        if (token[chain].type === 'native') {
+                            const amount = await contract.methods.balanceOf(Config.chains[chain].bridge).call();
+                            token[chain].amount = new BigNumber(amount).div(new BigNumber(10).pow(token.decimals)).toFixed();
+                        } else {
+                            const amount = await contract.methods.totalSupply().call();
+                            token[chain].amount = new BigNumber(amount).div(new BigNumber(10).pow(token.decimals)).toFixed();
+                        }
                     }
                 }
             }
