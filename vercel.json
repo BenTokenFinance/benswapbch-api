@@ -121,6 +121,10 @@
     {
       "source": "/api/pokeben/item/:id",
       "destination": "/api/pokeben/item"
+    },
+    {
+      "source": "/api/nft/misc/:id",
+      "destination": "/api/nft/misc"
     }
   ],
   "headers": [
