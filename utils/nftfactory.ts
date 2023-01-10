@@ -29,5 +29,5 @@ export const getMiscMetadata = async(id: any) => {
     if (info?.externalUrl) md.external_url = info.externalUrl;
     if (info?.attributes) md.attributes = buildAttributes(info.attributes);
 
-    return info;
+    return md;
 }
