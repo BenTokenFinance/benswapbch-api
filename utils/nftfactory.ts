@@ -2,7 +2,7 @@ import BigNumber from "bignumber.js";
 import { getContract } from "./web3";
 import nftFactorySingle from "./abis/nftFactorySingle.json";
 
-const nftFactorySingleContract = getContract(nftFactorySingle, '0x5F820d9145889B465253Ada10A756B776199767a');
+const nftFactorySingleContract = getContract(nftFactorySingle, '0xF8E0755544ED3133182085773213727Eb05258bd');
 const TRAIT_SEPERATOR = "({!@#$%^&*?})";
 
 const buildAttributes = (attrs: any) => {
