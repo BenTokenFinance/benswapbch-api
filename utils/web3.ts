@@ -3,7 +3,7 @@ import bep20ABI from "./abis/bep20.json";
 import { RPC, RPC_ARCHIVE, EBEN } from "./constants";
 
 const BSC_NODE_RPC = [
-  RPC["uat"]
+  RPC["fountainhead"]
 ];
 
 const BSC_ARCHIVE_NODE_RPC = [
