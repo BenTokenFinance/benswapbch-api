@@ -20,9 +20,12 @@ const buildAttributes = (attrs: any) => {
 }
 
 export const getMiscMetadata = async(id: any) => {
+    const creator = await nftFactorySingleContract.methods.getCreator(id).call();
     const info = await nftFactorySingleContract.methods.getNftInfo(id).call();
 
-    const md:any = {};
+    const md:any = {
+        creator
+    };
     if (info?.name && info.name.length<40) md.name = info.name;
     if (info?.description) md.description = info.description;
     if (info?.image) md.image = info.image;
