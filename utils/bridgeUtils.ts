@@ -2,10 +2,11 @@
 import Web3 from "web3";
 import BigNumber from "bignumber.js";
 import bep20ABI from "./abis/bep20.json";
+import { DEFAULT_RPC } from "./constants";
 
 const providers = {
     56: 'https://bsc-dataseed.binance.org/', // BSC main net
-    10000: 'https://global.uat.cash',  //smartBCH mainnet
+    10000: DEFAULT_RPC,  //smartBCH mainnet
 };
 
 const Config = {

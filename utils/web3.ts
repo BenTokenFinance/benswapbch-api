@@ -1,9 +1,9 @@
 import Web3 from "web3";
 import bep20ABI from "./abis/bep20.json";
-import { RPC, RPC_ARCHIVE, EBEN } from "./constants";
+import { RPC, RPC_ARCHIVE, EBEN, DEFAULT_RPC } from "./constants";
 
 const BSC_NODE_RPC = [
-  RPC["official"]
+  DEFAULT_RPC
 ];
 
 const BSC_ARCHIVE_NODE_RPC = [
