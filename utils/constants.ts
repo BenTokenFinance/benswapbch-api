@@ -85,4 +85,4 @@ export const RPC = {
 export const RPC_ARCHIVE = {
     '0': "http://52.77.220.215:8545"
 }
-export const DEFAULT_RPC = RPC["official"];
+export const DEFAULT_RPC = RPC["greyhat"];
