@@ -116,4 +116,4 @@ export const getLiquidity = async (address: any): Promise<object> => {
     await Promise.all(tasks);
   
     return result;
-  };
+};
