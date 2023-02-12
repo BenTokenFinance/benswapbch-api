@@ -10,7 +10,14 @@
         "name": "Ivysaur",
         "types": [3,7],
         "abilities": [0],
-        "rarity": 3
+        "rarity": 3,
+        "next": [3]
+    },
+    "3": {
+        "name": "Venusaur",
+        "types": [3,7],
+        "abilities": [0],
+        "rarity": 4
     },
     "4": {
         "name": "Charmander",
@@ -23,7 +30,14 @@
         "name": "Charmeleon",
         "types": [1],
         "abilities": [2],
-        "rarity": 3
+        "rarity": 3,
+        "next": [6]
+    },
+    "6": {
+        "name": "Charizard",
+        "types": [1],
+        "abilities": [1],
+        "rarity": 4
     },
     "7": {
         "name": "Squirtle",
@@ -174,7 +188,21 @@
         "name": "Nidoran♀",
         "types": [7],
         "abilities": [16],
-        "rarity": 0
+        "rarity": 0,
+        "next": [30]
+    },
+    "30": {
+        "name": "Nidorina",
+        "types": [7],
+        "abilities": [8],
+        "rarity": 1,
+        "next": [31]
+    },
+    "31": {
+        "name": "Nidoqueen",
+        "types": [7,8],
+        "abilities": [10],
+        "rarity": 2
     },
     "32": {
         "name": "Nidoran♂",
@@ -246,7 +274,8 @@
         "name": "Golbat",
         "types": [7,9],
         "abilities": [16],
-        "rarity": 1
+        "rarity": 1,
+        "next": [169]
     },
     "43": {
         "name": "Oddish",
@@ -383,7 +412,21 @@
         "name": "Abra",
         "types": [10],
         "abilities": [9],
-        "rarity": 1
+        "rarity": 1,
+        "next": [64]
+    },
+    "64": {
+        "name": "Kadabra",
+        "types": [10],
+        "abilities": [1],
+        "rarity": 2,
+        "next": [65]
+    },
+    "65": {
+        "name": "Alakazam",
+        "types": [10],
+        "abilities": [1],
+        "rarity": 3
     },
     "66": {
         "name": "Machop",
@@ -396,7 +439,14 @@
         "name": "Machoke",
         "types": [6],
         "abilities": [4],
-        "rarity": 1
+        "rarity": 1,
+        "next": [68]
+    },
+    "68": {
+        "name": "Machamp",
+        "types": [6],
+        "abilities": [4],
+        "rarity": 2
     },
     "69": {
         "name": "Bellsprout",
@@ -435,7 +485,15 @@
         "name": "Geodude",
         "types": [8,12],
         "abilities": [4],
-        "rarity": 0
+        "rarity": 0,
+        "next": [75]
+    },
+    "75": {
+        "name": "Graveler",
+        "types": [8,12],
+        "abilities": [4],
+        "rarity": 1,
+        "next": [76]
     },
     "76": {
         "name": "Golem",
@@ -662,6 +720,19 @@
         "abilities": [11],
         "rarity": 2
     },
+    "111": {
+        "name": "Rhyhorn",
+        "types": [8,12],
+        "abilities": [11],
+        "rarity": 1,
+        "next": [111]
+    },
+    "112": {
+        "name": "Rhydon",
+        "types": [8,12],
+        "abilities": [1],
+        "rarity": 2
+    },
     "113": {
         "name": "Chansey",
         "types": [0],
@@ -874,6 +945,72 @@
         "types": [10],
         "abilities": [11],
         "rarity": 5
+    },
+    "155": {
+        "name": "Cyndaquil",
+        "types": [1],
+        "abilities": [16],
+        "rarity": 2,
+        "next": [156]
+    },
+    "156": {
+        "name": "Quilava",
+        "types": [1],
+        "abilities": [16],
+        "rarity": 3,
+        "next": [157]
+    },
+    "157": {
+        "name": "Typhlosion",
+        "types": [1],
+        "abilities": [16],
+        "rarity": 4
+    },
+    "161": {
+        "name": "Sentret",
+        "types": [0],
+        "abilities": [11],
+        "rarity": 0,
+        "next": [162]
+    },
+    "162": {
+        "name": "Furret",
+        "types": [0],
+        "abilities": [11],
+        "rarity": 1
+    },
+    "165": {
+        "name": "Ledyba",
+        "types": [9,11],
+        "abilities": [11],
+        "rarity": 0,
+        "next": [166]
+    },
+    "166": {
+        "name": "Ledian",
+        "types": [9,11],
+        "abilities": [11],
+        "rarity": 1
+    },
+    "169": {
+        "name": "Crobat",
+        "types": [7,9],
+        "abilities": [16],
+        "rarity": 2
+    },
+    "172": {
+        "name": "Pichu",
+        "types": [4],
+        "abilities": [1],
+        "rarity": 1,
+        "next": [25]
+    },
+    "173": {
+        "name": "Cleffa",
+        "types": [17],
+        "abilities": [2],
+        "rarity": 0,
+        "next": [35]
     },
     "5001": {
         "name": "Pownn",
