@@ -725,7 +725,7 @@
         "types": [8,12],
         "abilities": [11],
         "rarity": 1,
-        "next": [111]
+        "next": [112]
     },
     "112": {
         "name": "Rhydon",
