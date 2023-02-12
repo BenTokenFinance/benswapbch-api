@@ -35,7 +35,7 @@
     },
     "6": {
         "name": "Charizard",
-        "types": [1],
+        "types": [1,9],
         "abilities": [1],
         "rarity": 4
     },
