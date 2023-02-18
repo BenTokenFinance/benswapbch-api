@@ -86,15 +86,15 @@ const Config = {
     },
     chains: {
         56: {
-            "name": "Binance Smart Chain",
+            "name": "BNB Smart Chain",
             "shortName": "BSC",
             "symbol": "BSC",
             "bridge": "0xab24515e162593D6aa825abF4d5816e5025818B9",
             "multicall": "0x1ee38d535d541c55c9dae27b12edf090c608e6fb"
         },
         10000: {
-            "name": "SmartBCH",
-            "shortName": "SmartBCH",
+            "name": "Smart Bitcoin Cash",
+            "shortName": "smartBCH",
             "symbol": "sBCH",
             "bridge": "0xe35A42B384E7A2b26a6B2CE96BD1657572b601Ea",
             "multicall": "0x1b38EBAd553f218e2962Cb1C0539Abb5d6A37774"
