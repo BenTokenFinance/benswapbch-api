@@ -3,7 +3,7 @@ import {
     splitQuery, GLOBAL_DATA, ALL_TOKENS_SIMPLE, GET_BLOCK, GET_BLOCKS, PAIRS, TOKENS, 
     CANDLE_1_MIN_BCH, CANDLE_1_MIN_USD, CANDLE_15_MIN_BCH, CANDLE_15_MIN_USD, 
     CANDLE_1_HOUR_BCH, CANDLE_1_HOUR_USD, CANDLE_1_DAY_BCH, CANDLE_1_DAY_USD, CANDLE_1_WEEK_BCH, CANDLE_1_WEEK_USD, 
-    SUBGRAPH_HEALTH, POKEBEN_RANKING_LEVEL, POKEBEN_RANKING_POWER, BCH_PRICE
+    SUBGRAPH_HEALTH, POKEBEN_RANKING_LEVEL, POKEBEN_RANKING_POWER, BCH_PRICE, POKEBEN_HISTORY
 } from './apollo/queries'
 import { getWeb3 } from "./web3";
 import BigNumber from "bignumber.js";
@@ -512,6 +512,23 @@ const POKEBEN_RANKING_QUERIES = [
     POKEBEN_RANKING_LEVEL,
     POKEBEN_RANKING_POWER
 ];
+
+export async function getPokeBenHistory(count:any, skip:any) {
+    let data: any = []
+
+    try {
+        // fetch the history data
+        const result = await PokeBenClient.query({
+            query: POKEBEN_HISTORY(count, skip),
+            fetchPolicy: 'network-only',
+        })
+        data = result.data.pokebens.map(removeTypeName);
+    } catch (e) {
+        console.error(e);
+    }
+    
+    return data || [];
+}
 
 async function getPokeBenRankings(type:any, count:any, skip:any) {
     const query = POKEBEN_RANKING_QUERIES[type];

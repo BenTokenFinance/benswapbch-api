@@ -21,7 +21,7 @@ export const getPokeBenInfo = async (id: any) => {
   const info = await pokebenContract.methods.getPokeBenInfo(id).call();
 
   return info;
-};
+}
 
 export const getPokebenTotalSupply = async() => {
   const supply = await pokebenContract.methods.totalSupply().call();
@@ -39,13 +39,13 @@ export const getPokeBenName = async (id: any) => {
   const name = await pokebenNftNameExtContract.methods.getName(id).call();
 
   return name;
-};
+}
 
 export const getPokeBenItemInfo = async (id: any) => {
   const info = await pokebenItemContract.methods.getPokeBenItemInfo(id).call();
 
   return info;
-};
+}
 
 export const buildKindAttributes = (id: any) => {
   const ben = (bens as any)[id];
