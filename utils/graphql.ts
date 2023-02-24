@@ -522,7 +522,7 @@ export async function getPokeBenHistory(count:any, skip:any) {
             query: POKEBEN_HISTORY(count, skip),
             fetchPolicy: 'network-only',
         })
-        data = result.data.pokebens.map(removeTypeName);
+        data = result.data.pokebens.map((p:any)=>p.id);
     } catch (e) {
         console.error(e);
     }
