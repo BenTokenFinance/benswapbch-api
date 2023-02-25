@@ -1,9 +1,9 @@
-import { ExchangeClient, BlockClient, GetClient, PokeBenClient } from './apollo/client'
+import { ExchangeClient, BlockClient, GetClient, PokeBenClient, PokeBenItemClient } from './apollo/client'
 import { 
     splitQuery, GLOBAL_DATA, ALL_TOKENS_SIMPLE, GET_BLOCK, GET_BLOCKS, PAIRS, TOKENS, 
     CANDLE_1_MIN_BCH, CANDLE_1_MIN_USD, CANDLE_15_MIN_BCH, CANDLE_15_MIN_USD, 
     CANDLE_1_HOUR_BCH, CANDLE_1_HOUR_USD, CANDLE_1_DAY_BCH, CANDLE_1_DAY_USD, CANDLE_1_WEEK_BCH, CANDLE_1_WEEK_USD, 
-    SUBGRAPH_HEALTH, POKEBEN_RANKING_LEVEL, POKEBEN_RANKING_POWER, BCH_PRICE, POKEBEN_HISTORY
+    SUBGRAPH_HEALTH, POKEBEN_RANKING_LEVEL, POKEBEN_RANKING_POWER, BCH_PRICE, POKEBEN_HISTORY, POKEBENITEM_HISTORY
 } from './apollo/queries'
 import { getWeb3 } from "./web3";
 import BigNumber from "bignumber.js";
@@ -545,6 +545,23 @@ async function getPokeBenRankings(type:any, count:any, skip:any) {
         } catch (e) {
             console.error(e);
         }
+    }
+    
+    return data || [];
+}
+
+export async function getPokeBenItemHistory(count:any, skip:any) {
+    let data: any = []
+
+    try {
+        // fetch the history data
+        const result = await PokeBenItemClient.query({
+            query: POKEBENITEM_HISTORY(count, skip),
+            fetchPolicy: 'network-only',
+        })
+        data = result.data.pokebens.map((p:any)=>p.id);
+    } catch (e) {
+        console.error(e);
     }
     
     return data || [];

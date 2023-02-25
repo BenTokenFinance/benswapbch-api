@@ -443,6 +443,20 @@ export const POKEBEN_HISTORY = (count = 12, skip) => {
   return gql(queryString)
 }
 
+export const POKEBENITEM_HISTORY = (count = 12, skip) => {
+  const queryString = ` query pokeBenItemNfts {
+    pokebenitems: pokeBenItemNfts (    
+      first: ${count},
+      ${skip ? `, skip: ${skip}` : ``}
+      orderBy: idNumber, 
+      orderDirection: desc
+    ) {
+      id
+    }
+  }`
+  return gql(queryString)
+}
+
 export const SUBGRAPH_HEALTH = gql`
   query health {
     blocks:indexingStatusForCurrentVersion(subgraphName: "bentokenfinance/bch-blocks") {
