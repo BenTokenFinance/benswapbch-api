@@ -559,7 +559,7 @@ export async function getPokeBenItemHistory(count:any, skip:any) {
             query: POKEBENITEM_HISTORY(count, skip),
             fetchPolicy: 'network-only',
         })
-        data = result.data.pokebens.map((p:any)=>p.id);
+        data = result.data.pokebenitems.map((p:any)=>p.id);
     } catch (e) {
         console.error(e);
     }
