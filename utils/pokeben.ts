@@ -55,6 +55,19 @@ export const getPokeBenAbilities = async (id: any) => {
   return as;
 }
 
+export const getPokeBenRawData = async(id:any) => {
+  const rawData: any = {};
+  const tasks: any = [];
+
+  tasks.push(getPokeBenInfo(id).then(info=>{rawData.info = info;}));
+  tasks.push(getPokeBenName(id).then(name=>{rawData.name = name;}));
+  tasks.push(getPokeBenAbilities(id).then(abs=>{rawData.abilities = abs;}));
+
+  await Promise.all(tasks);
+
+  return rawData;
+}
+
 export const buildKindAttributes = (id: any, loadedAbilities: any) => {
   const ben = (bens as any)[id];
   const attrs = [];
