@@ -1008,9 +1008,75 @@
     "173": {
         "name": "Cleffa",
         "types": [17],
-        "abilities": [2],
+        "abilities": [11],
         "rarity": 0,
         "next": [35]
+    },
+    "174": {
+        "name": "Igglybuff",
+        "types": [0,17],
+        "abilities": [11],
+        "rarity": 0,
+        "next": [39]
+    },
+    "175": {
+        "name": "Togepi",
+        "types": [17],
+        "abilities": [11],
+        "rarity": 1,
+        "next": [176]
+    },
+    "176": {
+        "name": "Togetic",
+        "types": [9,17],
+        "abilities": [11],
+        "rarity": 2
+    },
+    "183": {
+        "name": "Marill",
+        "types": [2,17],
+        "abilities": [11],
+        "rarity": 1,
+        "next": [184]
+    },
+    "184": {
+        "name": "Azumarill",
+        "types": [2,17],
+        "abilities": [11],
+        "rarity": 2
+    },
+    "187": {
+        "name": "Hoppip",
+        "types": [3,9],
+        "abilities": [11],
+        "rarity": 0,
+        "next": [188]
+    },
+    "188": {
+        "name": "Skiploom",
+        "types": [3,9],
+        "abilities": [11],
+        "rarity": 1,
+        "next": [189]
+    },
+    "189": {
+        "name": "Jumpluff",
+        "types": [3,9],
+        "abilities": [11],
+        "rarity": 2
+    },
+    "220": {
+        "name": "Swinub",
+        "types": [5,8],
+        "abilities": [11],
+        "rarity": 1,
+        "next": [221]
+    },
+    "221": {
+        "name": "Piloswine",
+        "types": [5,8],
+        "abilities": [11],
+        "rarity": 2
     },
     "5001": {
         "name": "Pownn",
