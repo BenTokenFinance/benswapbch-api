@@ -25,10 +25,10 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
   // } else if ((max-min) >= 50) {
   //   result = "Some node(s) is(are) behind. Please check /api/smartbch/rpc for more detail.";
   // }
-  if (!all["uat"]) {
-    result = "UAT server is down!";
-  } else if (all["uat"].block <= max - 50) {
-    result = "UAT server is behind!";
+  if (!all["official"]) {
+    result = "Official RPC node is down!";
+  } else if (all["official"].block <= max - 50) {
+    result = "Official RPC node is behind!";
   }
 
   res.setHeader("content-type", "text/plain");
