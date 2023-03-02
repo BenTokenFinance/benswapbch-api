@@ -1,5 +1,5 @@
 import { NowRequest, NowResponse } from "@vercel/node";
-import { buildKindAttributes, getPokeBenInfo, getPokeBenName } from "../../utils/pokeben";
+import { buildKindAttributes, getPokeBenInfo, getPokeBenName, getPokeBenAbilities } from "../../utils/pokeben";
 import sources from "../../utils/pokeben/sources.json";
 
 export default async (req: NowRequest, res: NowResponse): Promise<void> => {
@@ -7,7 +7,8 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
 
     const info = await getPokeBenInfo(id);
     const name = await getPokeBenName(id);
-    const attrs = buildKindAttributes(info.kind);
+    const abilities = await getPokeBenAbilities(id);
+    const attrs = buildKindAttributes(info.kind, abilities.map((a:any)=>Number(a)));
     attrs.push({
         "trait_type": "Source",
         "value": (sources as any)[info.source]

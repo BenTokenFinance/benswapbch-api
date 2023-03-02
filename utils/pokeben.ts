@@ -4,6 +4,7 @@ import pokeben from "./abis/pokeben.json";
 import pokebenraritysetting from "./abis/pokebenraritysetting.json";
 import pokebennameext from "./abis/pokebennameext.json";
 import pokebenitem from "./abis/pokebenitem.json";
+import pokebenabilityext from "./abis/pokebenabilityext.json";
 import rarities from "./pokeben/rarities.json";
 import abilities from "./pokeben/abilities.json";
 import types from "./pokeben/types.json";
@@ -16,6 +17,7 @@ const pokebenContract = getContract(pokeben, '0xFDEd6cD4B88a24e00d9Ea242338367fe
 const pokebenraritysettingContract = getContract(pokebenraritysetting, '0xCfA1A45d2C9590d93AA0403CD388F944D8322937');
 const pokebenNftNameExtContract = getContract(pokebennameext, '0xfaf933c76E2ae21a63DF65bbD3888B3FB2Fc43Ae');
 const pokebenItemContract = getContract(pokebenitem, '0x335bF14Af7c6b2993434bB700AF0f1Afcf27d782');
+const pokebenAbilityExtContract = getContract(pokebenabilityext, '0x23662b10e4067480A39d337BA08ac898B90b7F80');
 
 export const getPokeBenInfo = async (id: any) => {
   const info = await pokebenContract.methods.getPokeBenInfo(id).call();
@@ -47,7 +49,13 @@ export const getPokeBenItemInfo = async (id: any) => {
   return info;
 }
 
-export const buildKindAttributes = (id: any) => {
+export const getPokeBenAbilities = async (id: any) => {
+  const as = await pokebenAbilityExtContract.methods.getAbilities(id).call();
+
+  return as;
+}
+
+export const buildKindAttributes = (id: any, loadedAbilities: any) => {
   const ben = (bens as any)[id];
   const attrs = [];
   // Kind
@@ -70,13 +78,19 @@ export const buildKindAttributes = (id: any) => {
       });
   }
   // Abilities
-  if (ben.abilities && ben.abilities.length) {
-      ben.abilities.forEach((a:any, i:any) => {
-          attrs.push({
-              "trait_type": `Ability ${i+1}`,
-              "value": (abilities as any)[a].name
-          });
+  const aLength = Math.max(loadedAbilities?.length || 0, ben.abilities?.length || 0)
+  for (let i=0; i<aLength; i++) {
+    if ((loadedAbilities?.length||0)>i && loadedAbilities[i]>0) {
+      attrs.push({
+        "trait_type": `Ability ${i+1}`,
+        "value": (abilities as any)[loadedAbilities[i]].name
       });
+    } else if ((ben.abilities?.length||0) > i) {
+      attrs.push({
+        "trait_type": `Ability ${i+1}`,
+        "value": (abilities as any)[ben.abilities[i]].name
+      });
+    }
   }
 
   return attrs;
