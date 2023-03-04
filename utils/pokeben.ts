@@ -91,16 +91,17 @@ export const buildKindAttributes = (id: any, loadedAbilities: any) => {
       });
   }
   // Abilities
-  const aLength = Math.max(loadedAbilities?.length || 0, ben.abilities?.length || 0)
+  const aLength = Math.max(loadedAbilities?.length || 0, ben.abilities?.length || 0);
+  let aNumber = 1;
   for (let i=0; i<aLength; i++) {
     if ((loadedAbilities?.length||0)>i && loadedAbilities[i]>0) {
       attrs.push({
-        "trait_type": `Ability ${i+1}`,
+        "trait_type": `Ability ${aNumber++}`,
         "value": (abilities as any)[loadedAbilities[i]].name
       });
     } else if ((ben.abilities?.length||0) > i) {
       attrs.push({
-        "trait_type": `Ability ${i+1}`,
+        "trait_type": `Ability ${aNumber++}`,
         "value": (abilities as any)[ben.abilities[i]].name
       });
     }
