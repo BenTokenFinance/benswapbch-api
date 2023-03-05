@@ -92,13 +92,17 @@ export const buildKindAttributes = (id: any, loadedAbilities: any) => {
   }
   // Abilities
   const aLength = Math.max(loadedAbilities?.length || 0, ben.abilities?.length || 0);
+  const aAdded:any = {};
   let aNumber = 1;
   for (let i=0; i<aLength; i++) {
     if ((loadedAbilities?.length||0)>i && loadedAbilities[i]>0) {
-      attrs.push({
-        "trait_type": `Ability ${aNumber++}`,
-        "value": (abilities as any)[loadedAbilities[i]].name
-      });
+      if (!aAdded[loadedAbilities[i]]) {
+        attrs.push({
+          "trait_type": `Ability ${aNumber++}`,
+          "value": (abilities as any)[loadedAbilities[i]].name
+        });
+        aAdded[loadedAbilities[i]] = true;
+      }
     } else if ((ben.abilities?.length||0) > i) {
       attrs.push({
         "trait_type": `Ability ${aNumber++}`,
