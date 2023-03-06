@@ -2,108 +2,126 @@
     "0": {
         "name": "Ability Scroll: Gust",
         "type": "1",
+        "rarity": "1",
         "desc": "Teaches your PokéBen an ability: Gust",
         "data": "1000"
     },
     "1": {
         "name": "Ability Scroll: Thunder Shock",
         "type": "1",
+        "rarity": "1",
         "desc": "Teaches your PokéBen an ability: Thunder Shock",
         "data": "1001"
     },
     "2": {
         "name": "Ability Scroll: Twineedle",
         "type": "1",
+        "rarity": "1",
         "desc": "Teaches your PokéBen an ability: Twineedle",
         "data": "1002"
     },
     "3": {
         "name": "Ability Scroll: Pay Day",
         "type": "1",
+        "rarity": "1",
         "desc": "Teaches your PokéBen an ability: Pay Day",
         "data": "1003"
     },
     "4": {
         "name": "Ability Scroll: Ember",
         "type": "1",
+        "rarity": "1",
         "desc": "Teaches your PokéBen an ability: Ember",
         "data": "1004"
     },
     "5": {
         "name": "Ability Scroll: Bubble",
         "type": "1",
+        "rarity": "1",
         "desc": "Teaches your PokéBen an ability: Bubble",
         "data": "1005"
     },
     "6": {
         "name": "Ability Scroll: Absorb",
         "type": "1",
+        "rarity": "1",
         "desc": "Teaches your PokéBen an ability: Absorb",
         "data": "1006"
     },
     "7": {
         "name": "Ability Scroll: Frozen",
         "type": "1",
+        "rarity": "1",
         "desc": "Teaches your PokéBen an ability: Frozen",
         "data": "1007"
     },
     "8": {
         "name": "Ability Scroll: Karate Chop",
         "type": "1",
+        "rarity": "1",
         "desc": "Teaches your PokéBen an ability: Karate Chop",
         "data": "1008"
     },
     "9": {
         "name": "Ability Scroll: Poison Powder",
         "type": "1",
+        "rarity": "1",
         "desc": "Teaches your PokéBen an ability: Poison Powder",
         "data": "1009"
     },
     "10": {
         "name": "Ability Scroll: Sand Attack",
         "type": "1",
+        "rarity": "1",
         "desc": "Teaches your PokéBen an ability: Sand Attack",
         "data": "1010"
     },
     "11": {
         "name": "Ability Scroll: Confusion",
         "type": "1",
+        "rarity": "1",
         "desc": "Teaches your PokéBen an ability: Confusion",
         "data": "1011"
     },
     "12": {
         "name": "Ability Scroll: Rock Throw",
         "type": "1",
+        "rarity": "1",
         "desc": "Teaches your PokéBen an ability: Rock Throw",
         "data": "1012"
     },
     "13": {
         "name": "Ability Scroll: Astonish",
         "type": "1",
+        "rarity": "1",
         "desc": "Teaches your PokéBen an ability: Astonish",
         "data": "1013"
     },
     "14": {
         "name": "Ability Scroll: Feint Attack",
         "type": "1",
+        "rarity": "1",
         "desc": "Teaches your PokéBen an ability: Feint Attack",
         "data": "1014"
     },
     "15": {
         "name": "Ability Scroll: Twister",
         "type": "1",
+        "rarity": "1",
         "desc": "Teaches your PokéBen an ability: Twister",
         "data": "1015"
     },
     "16": {
         "name": "Ability Scroll: Metal Claw",
         "type": "1",
+        "rarity": "1",
         "desc": "Teaches your PokéBen an ability: Metal Claw",
         "data": "1016"
     },
     "17": {
         "name": "Ability Scroll: Fairy Wind",
         "type": "1",
+        "rarity": "1",
         "desc": "Teaches your PokéBen an ability: Fairy Wind",
         "data": "1017"
     }
