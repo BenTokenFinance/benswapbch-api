@@ -745,6 +745,12 @@
         "abilities": [6],
         "rarity": 2
     },
+    "115": {
+        "name": "Kangaskhan",
+        "types": [0],
+        "abilities": [8],
+        "rarity": 3
+    },
     "116": {
         "name": "Horsea",
         "types": [2],
@@ -876,6 +882,12 @@
         "abilities": [11],
         "rarity": 4
     },
+    "137": {
+        "name": "Porygon",
+        "types": [1],
+        "abilities": [11],
+        "rarity": 2
+    },
     "138": {
         "name": "Omanyte",
         "types": [2,12],
@@ -914,9 +926,21 @@
         "abilities": [10],
         "rarity": 3
     },
+    "144": {
+        "name": "Articuno",
+        "types": [5,9],
+        "abilities": [8],
+        "rarity": 5
+    },
     "145": {
         "name": "Zapdos",
         "types": [4,9],
+        "abilities": [8],
+        "rarity": 5
+    },
+    "146": {
+        "name": "Moltres",
+        "types": [1,9],
         "abilities": [8],
         "rarity": 5
     },
@@ -939,6 +963,12 @@
         "types": [9,15],
         "abilities": [11],
         "rarity": 4
+    },
+    "150": {
+        "name": "Mewtwo",
+        "types": [10],
+        "abilities": [8],
+        "rarity": 5
     },
     "151": {
         "name": "Mew",
