@@ -884,7 +884,7 @@
     },
     "137": {
         "name": "Porygon",
-        "types": [1],
+        "types": [0],
         "abilities": [11],
         "rarity": 2
     },
