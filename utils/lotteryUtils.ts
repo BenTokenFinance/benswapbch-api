@@ -143,7 +143,7 @@ export const getRates = (index: number): Rates => {
 
 export const getAllLotteries = (issueIndex: number): Promise<Array<Lottery>> => {
   const finalNumbersProm: Array<SingleLotteryReturn> = [];
-  for (let i = issueIndex; i >= 0; i--) {
+  for (let i = issueIndex; i > issueIndex-100 && i >= 0; i--) {
     finalNumbersProm.push(getSingleLotteryBatch(i));
   }
   return computeLotteries(finalNumbersProm);
