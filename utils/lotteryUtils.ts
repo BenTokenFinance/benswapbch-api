@@ -61,22 +61,12 @@ export const getSingleLotteryBatch = (index: number): SingleLotteryReturn => {
     lotteryContract.methods.historyNumbers(index, 2).call,
     lotteryContract.methods.historyNumbers(index, 3).call,
   ].map((x) => batch.add(x));
-  if (false) {
-    [
-      lotteryContract.methods.historyAmount(index, 0).call,
-      lotteryContract.methods.historyAmount(index, 1).call,
-      lotteryContract.methods.historyAmount(index, 2).call,
-      lotteryContract.methods.historyAmount(index, 3).call,
-      lotteryContract.methods.historyAmount(index, 4).call,
-    ].map((x) => batch2.add(x));
-  } else {
-    [
-      lotteryContract.methods.historyAmount(index, 0).call,
-      lotteryContract.methods.historyAmount(index, 1).call,
-      lotteryContract.methods.historyAmount(index, 2).call,
-      lotteryContract.methods.historyAmount(index, 3).call,
-    ].map((x) => batch2.add(x));
-  }
+  [
+    lotteryContract.methods.historyAmount(index, 0).call,
+    lotteryContract.methods.historyAmount(index, 1).call,
+    lotteryContract.methods.historyAmount(index, 2).call,
+    lotteryContract.methods.historyAmount(index, 3).call,
+  ].map((x) => batch2.add(x));
 
   return {
     numbers1: batch.execute() as Promise<[string, string, string, string]>,
