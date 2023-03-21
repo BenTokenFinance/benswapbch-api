@@ -999,7 +999,7 @@
     "161": {
         "name": "Sentret",
         "types": [0],
-        "abilities": [11],
+        "abilities": [10],
         "rarity": 0,
         "next": [162]
     },
