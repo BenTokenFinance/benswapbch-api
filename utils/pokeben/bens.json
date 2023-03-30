@@ -886,7 +886,8 @@
         "name": "Porygon",
         "types": [0],
         "abilities": [11],
-        "rarity": 2
+        "rarity": 2,
+        "next": [233]
     },
     "138": {
         "name": "Omanyte",
@@ -1028,6 +1029,19 @@
         "abilities": [16],
         "rarity": 2
     },
+    "170": {
+        "name": "Chinchou",
+        "types": [2,4],
+        "abilities": [11],
+        "rarity": 1,
+        "next": [171]
+    },
+    "171": {
+        "name": "Lanturn",
+        "types": [2,4],
+        "abilities": [11],
+        "rarity": 2
+    },
     "172": {
         "name": "Pichu",
         "types": [4],
@@ -1095,6 +1109,37 @@
         "abilities": [11],
         "rarity": 2
     },
+    "194": {
+        "name": "Wooper",
+        "types": [2,8],
+        "abilities": [11],
+        "rarity": 1,
+        "next": [195]
+    },
+    "195": {
+        "name": "Quagsire",
+        "types": [2,8],
+        "abilities": [2],
+        "rarity": 2
+    },
+    "200": {
+        "name": "Misdreavus",
+        "types": [13],
+        "abilities": [11],
+        "rarity": 2
+    },
+    "202": {
+        "name": "Wobbuffet",
+        "types": [10],
+        "abilities": [11],
+        "rarity": 2
+    },
+    "215": {
+        "name": "Sneasel",
+        "types": [5,14],
+        "abilities": [8],
+        "rarity": 2
+    },
     "220": {
         "name": "Swinub",
         "types": [5,8],
@@ -1107,6 +1152,24 @@
         "types": [5,8],
         "abilities": [11],
         "rarity": 2
+    },
+    "224": {
+        "name": "Octillery",
+        "types": [2],
+        "abilities": [6],
+        "rarity": 2
+    },
+    "225": {
+        "name": "Delibird",
+        "types": [5,9],
+        "abilities": [2],
+        "rarity": 1
+    },
+    "233": {
+        "name": "Porygon2",
+        "types": [0],
+        "abilities": [11],
+        "rarity": 3
     },
     "5001": {
         "name": "Pownn",
