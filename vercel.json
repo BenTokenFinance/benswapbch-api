@@ -95,6 +95,10 @@
       "destination": "/api/pokeben/itemkind"
     },
     {
+      "source": "/api/pokeben/buff/:id",
+      "destination": "/api/pokeben/buff"
+    },
+    {
       "source": "/api/pokeben/itemtype/:id",
       "destination": "/api/pokeben/itemtype"
     },
