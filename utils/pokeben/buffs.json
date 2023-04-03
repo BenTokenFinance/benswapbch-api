@@ -1,0 +1,27 @@
+{
+    "1": {
+        "name": "Experience Discrepancy Edge",
+        "type": "0",
+        "rarity": "3"
+    },
+    "2": {
+        "name": "Mysterious Confidence",
+        "type": "0",
+        "rarity": "3"
+    },
+    "3": {
+        "name": "Vigor Oppression",
+        "type": "0",
+        "rarity": "3"
+    },
+    "4": {
+        "name": "Preemptive Strike",
+        "type": "0",
+        "rarity": "3"
+    },
+    "5": {
+        "name": "Unyielding Fortitude",
+        "type": "0",
+        "rarity": "3"
+    }
+}
