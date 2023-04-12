@@ -83,6 +83,42 @@ const Config = {
                 type: "bridged"
             }
         },
+        "USDT": {
+            name: "Tether USD",
+            decimals: 18,
+            56: {
+                address: "0x55d398326f99059fF775485246999027B3197955",
+                type: "native"
+            },
+            10000: {
+                address: "0xbbb3700F33fCb64437Dc28A7Beb6b21f5cC76FB9",
+                type: "bridged"
+            }
+        },
+        "USDC": {
+            name: "USD Coin",
+            decimals: 18,
+            56: {
+                address: "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+                type: "native"
+            },
+            10000: {
+                address: "0xbb2A35cc3e3dDb679fe30A82051633bC822e4191",
+                type: "bridged"
+            }
+        },
+        "USDP": {
+            name: "Pax Dollar",
+            decimals: 18,
+            56: {
+                address: "0xb3c11196A4f3b1da7c23d9FB0A3dDE9c6340934F",
+                type: "native"
+            },
+            10000: {
+                address: "0xbbEDC71c1e982c5416dEcc221B5c9DcA8ff49E94",
+                type: "bridged"
+            }
+        }
     },
     chains: {
         56: {
