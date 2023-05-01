@@ -15,12 +15,12 @@ export const getWeb3 = (archive = false): Web3 => {
     ? BSC_ARCHIVE_NODE_RPC[Math.floor(Math.random() * BSC_ARCHIVE_NODE_RPC.length)]
     : BSC_NODE_RPC[Math.floor(Math.random() * BSC_NODE_RPC.length)];
 
-  return new Web3(new Web3.providers.HttpProvider(provider, { timeout: 30000 }));
+  return new Web3(new Web3.providers.HttpProvider(provider, { timeout: 10000 }));
 };
 
 export const testArchive0 = async () => {
   try {
-    const archive0 = new Web3(new Web3.providers.HttpProvider(RPC_ARCHIVE["0"], { timeout: 30000 }));
+    const archive0 = new Web3(new Web3.providers.HttpProvider(RPC_ARCHIVE["0"], { timeout: 10000 }));
     const ebenContract = new archive0.eth.Contract(bep20ABI as any, EBEN);
     const t = await ebenContract.methods.totalSupply().call(undefined, 1000000);
     return t === '9805717530504406453374070';
@@ -42,7 +42,7 @@ export const getLatestBlock = async () => {
 };
 
 export const getLatestBlockByRpcUrl = async (url: string) => {
-  const web3 = new Web3(new Web3.providers.HttpProvider(url, { timeout: 30000 }));
+  const web3 = new Web3(new Web3.providers.HttpProvider(url, { timeout: 5000 }));
   return web3.eth.getBlockNumber();
 }
 
