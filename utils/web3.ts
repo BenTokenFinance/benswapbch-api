@@ -21,9 +21,14 @@ export const getWeb3 = (archive = false): Web3 => {
 export const testArchive0 = async () => {
   try {
     const archive0 = new Web3(new Web3.providers.HttpProvider(RPC_ARCHIVE["0"], { timeout: 10000 }));
-    const ebenContract = new archive0.eth.Contract(bep20ABI as any, EBEN);
-    const t = await ebenContract.methods.totalSupply().call(undefined, 1000000);
-    return t === '9805717530504406453374070';
+    const block1 = await archive0.eth.getBlockNumber();
+    const block2 = await getLatestBlock();
+
+    return Number(block2) - Number(block1) <= 20;
+
+    // const ebenContract = new archive0.eth.Contract(bep20ABI as any, EBEN);
+    // const t = await ebenContract.methods.totalSupply().call(undefined, 1000000);
+    // return t === '9805717530504406453374070';
   } catch(e) {
     console.error(e);
   }
