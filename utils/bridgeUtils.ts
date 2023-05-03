@@ -118,6 +118,18 @@ const Config = {
                 address: "0xbbEDC71c1e982c5416dEcc221B5c9DcA8ff49E94",
                 type: "bridged"
             }
+        },
+        "TUSD": {
+            name: "True USD",
+            decimals: 18,
+            56: {
+                address: "0x14016E85a25aeb13065688cAFB43044C2ef86784",
+                type: "native"
+            },
+            10000: {
+                address: "0xbb0c7462029C395F46c5ed6Bfb5870b6B5d4567B",
+                type: "bridged"
+            }
         }
     },
     chains: {
