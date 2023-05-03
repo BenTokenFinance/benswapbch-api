@@ -120,7 +120,7 @@ const Config = {
             }
         },
         "TUSD": {
-            name: "True USD",
+            name: "TrueUSD",
             decimals: 18,
             56: {
                 address: "0x14016E85a25aeb13065688cAFB43044C2ef86784",

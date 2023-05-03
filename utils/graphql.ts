@@ -196,7 +196,7 @@ export const getDexStats = async (block: string) => {
     const res: any = {};
     const tasks = [
         getGlobalData(block).then(data => {Object.assign(res, data)}),
-        getTokenCount(block).then(count => {res.totalTokens = String(count);})
+        // getTokenCount(block).then(count => {res.totalTokens = String(count);})
     ];
     await Promise.all(tasks);
     delete res.__typename;
