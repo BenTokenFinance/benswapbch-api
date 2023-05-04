@@ -31,6 +31,12 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
     result = "Official RPC node is behind!";
   }
 
+  if (!all["greyhat"]) {
+    result = "GreyHat RPC node is down!";
+  } else if (all["greyhat"].block <= max - 50) {
+    result = "GreyHat RPC node is behind!";
+  }
+
   res.setHeader("content-type", "text/plain");
   res.send(result);
 };
