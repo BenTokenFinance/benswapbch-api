@@ -115,6 +115,10 @@
       "destination": "/api/pokeben/data"
     },
     {
+      "source": "/api/pokeben/data_test/:id",
+      "destination": "/api/pokeben/data_test"
+    },
+    {
       "source": "/api/pokeben/ranking/power/:page",
       "destination": "/api/pokeben/ranking/power"
     },
@@ -125,6 +129,10 @@
     {
       "source": "/api/pokeben/item/:id",
       "destination": "/api/pokeben/item"
+    },
+    {
+      "source": "/api/pokeben/item_test/:id",
+      "destination": "/api/pokeben/item_test"
     },
     {
       "source": "/api/nft/misc/:id",

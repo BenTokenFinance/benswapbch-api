@@ -19,11 +19,21 @@ const pokebenNftNameExtContract = getContract(pokebennameext, '0xfaf933c76E2ae21
 const pokebenItemContract = getContract(pokebenitem, '0x335bF14Af7c6b2993434bB700AF0f1Afcf27d782');
 const pokebenAbilityExtContract = getContract(pokebenabilityext, '0x23662b10e4067480A39d337BA08ac898B90b7F80');
 
+const pokebenTestContract = getContract(pokeben, '0x366825cF69C2Ff4e8669A8a57B01923Df3a3b727');
+const pokebenItemTestContract = getContract(pokebenitem, '0xd86d4e2E514cA95867e0057d741c2e6C0F88AD91');
+
 export const getPokeBenInfo = async (id: any) => {
   const info = await pokebenContract.methods.getPokeBenInfo(id).call();
 
   return info;
 }
+
+export const getPokeBenTestInfo = async (id: any) => {
+  const info = await pokebenTestContract.methods.getPokeBenInfo(id).call();
+
+  return info;
+}
+
 
 export const getPokebenTotalSupply = async() => {
   const supply = await pokebenContract.methods.totalSupply().call();
@@ -49,6 +59,12 @@ export const getPokeBenItemInfo = async (id: any) => {
   return info;
 }
 
+export const getPokeBenItemTestInfo = async (id: any) => {
+  const info = await pokebenItemTestContract.methods.getPokeBenItemInfo(id).call();
+
+  return info;
+}
+
 export const getPokeBenAbilities = async (id: any) => {
   const as = await pokebenAbilityExtContract.methods.getAbilities(id).call();
 
@@ -62,6 +78,17 @@ export const getPokeBenRawData = async(id:any) => {
   tasks.push(getPokeBenInfo(id).then(info=>{rawData.info = info;}));
   tasks.push(getPokeBenName(id).then(name=>{rawData.name = name;}));
   tasks.push(getPokeBenAbilities(id).then(abs=>{rawData.abilities = abs;}));
+
+  await Promise.all(tasks);
+
+  return rawData;
+}
+
+export const getPokeBenTestRawData = async(id:any) => {
+  const rawData: any = {abilities: []};
+  const tasks: any = [];
+
+  tasks.push(getPokeBenTestInfo(id).then(info=>{rawData.info = info;}));
 
   await Promise.all(tasks);
 
