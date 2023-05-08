@@ -75,6 +75,10 @@
       "destination": "/api/pokeben/ability"
     },
     {
+      "source": "/api/pokeben/abilitycategory/:id",
+      "destination": "/api/pokeben/abilitycategory"
+    },
+    {
       "source": "/api/pokeben/type/:id",
       "destination": "/api/pokeben/type"
     },
