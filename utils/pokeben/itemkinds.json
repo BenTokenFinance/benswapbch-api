@@ -124,5 +124,1944 @@
         "rarity": "1",
         "desc": "Teaches your PokéBen an ability: Fairy Wind",
         "data": "1017"
+    },
+    "18": {
+        "name": "Ability Scroll: Rapid Spin",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Rapid Spin",
+        "data": "1018"
+    },
+    "19": {
+        "name": "Ability Scroll: Incinerate",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Incinerate",
+        "data": "1019"
+    },
+    "20": {
+        "name": "Ability Scroll: Aqua Jet",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Aqua Jet",
+        "data": "1020"
+    },
+    "21": {
+        "name": "Ability Scroll: Razor Leaf",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Razor Leaf",
+        "data": "1021"
+    },
+    "22": {
+        "name": "Ability Scroll: Thunderbolt",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Thunderbolt",
+        "data": "1022"
+    },
+    "23": {
+        "name": "Ability Scroll: Avalanche",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Avalanche",
+        "data": "1023"
+    },
+    "24": {
+        "name": "Ability Scroll: Thunderous Kick",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Thunderous Kick",
+        "data": "1024"
+    },
+    "25": {
+        "name": "Ability Scroll: Acid Spray",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Acid Spray",
+        "data": "1025"
+    },
+    "26": {
+        "name": "Ability Scroll: Sand Tomb",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Sand Tomb",
+        "data": "1026"
+    },
+    "27": {
+        "name": "Ability Scroll: Air Cutter",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Air Cutter",
+        "data": "1027"
+    },
+    "28": {
+        "name": "Ability Scroll: Zen Headbutt",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Zen Headbutt",
+        "data": "1028"
+    },
+    "29": {
+        "name": "Ability Scroll: Fell Stinger",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Fell Stinger",
+        "data": "1029"
+    },
+    "30": {
+        "name": "Ability Scroll: Rock Slide",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Rock Slide",
+        "data": "1030"
+    },
+    "31": {
+        "name": "Ability Scroll: Shadow Sneak",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Shadow Sneak",
+        "data": "1031"
+    },
+    "32": {
+        "name": "Ability Scroll: Wicked Blow",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Wicked Blow",
+        "data": "1032"
+    },
+    "33": {
+        "name": "Ability Scroll: Dragon Breath",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Dragon Breath",
+        "data": "1033"
+    },
+    "34": {
+        "name": "Ability Scroll: Heavy Slam",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Heavy Slam",
+        "data": "1034"
+    },
+    "35": {
+        "name": "Ability Scroll: Spirit Break",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Spirit Break",
+        "data": "1035"
+    },
+    "36": {
+        "name": "Ability Scroll: Boomburst",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Boomburst",
+        "data": "1036"
+    },
+    "37": {
+        "name": "Ability Scroll: Magma Storm",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Magma Storm",
+        "data": "1037"
+    },
+    "38": {
+        "name": "Ability Scroll: Liquidation",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Liquidation",
+        "data": "1038"
+    },
+    "39": {
+        "name": "Ability Scroll: Leaf Storm",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Leaf Storm",
+        "data": "1039"
+    },
+    "40": {
+        "name": "Ability Scroll: Wildbolt Storm",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Wildbolt Storm",
+        "data": "1040"
+    },
+    "41": {
+        "name": "Ability Scroll: Aurora Beam",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Aurora Beam",
+        "data": "1041"
+    },
+    "42": {
+        "name": "Ability Scroll: Focus Blast",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Focus Blast",
+        "data": "1042"
+    },
+    "43": {
+        "name": "Ability Scroll: Cross Poison",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Cross Poison",
+        "data": "1043"
+    },
+    "44": {
+        "name": "Ability Scroll: Sandsear Storm",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Sandsear Storm",
+        "data": "1044"
+    },
+    "45": {
+        "name": "Ability Scroll: Aeroblast",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Aeroblast",
+        "data": "1045"
+    },
+    "46": {
+        "name": "Ability Scroll: Dream Eater",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Dream Eater",
+        "data": "1046"
+    },
+    "47": {
+        "name": "Ability Scroll: Signal Beam",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Signal Beam",
+        "data": "1047"
+    },
+    "48": {
+        "name": "Ability Scroll: Diamond Storm",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Diamond Storm",
+        "data": "1048"
+    },
+    "49": {
+        "name": "Ability Scroll: Moongeist Beam",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Moongeist Beam",
+        "data": "1049"
+    },
+    "50": {
+        "name": "Ability Scroll: Hell Thrust",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Hell Thrust",
+        "data": "1050"
+    },
+    "51": {
+        "name": "Ability Scroll: Dragon Pulse",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Dragon Pulse",
+        "data": "1051"
+    },
+    "52": {
+        "name": "Ability Scroll: Steel Beam",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Steel Beam",
+        "data": "1052"
+    },
+    "53": {
+        "name": "Ability Scroll: Misty Explosion",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Misty Explosion",
+        "data": "1053"
+    },
+    "54": {
+        "name": "Ability Scroll: Hyper Beam",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Hyper Beam",
+        "data": "1054"
+    },
+    "55": {
+        "name": "Ability Scroll: Blast Burn",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Blast Burn",
+        "data": "1055"
+    },
+    "56": {
+        "name": "Ability Scroll: Steam Eruption",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Steam Eruption",
+        "data": "1056"
+    },
+    "57": {
+        "name": "Ability Scroll: Frenzy Plant",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Frenzy Plant",
+        "data": "1057"
+    },
+    "58": {
+        "name": "Ability Scroll: Zap Cannon",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Zap Cannon",
+        "data": "1058"
+    },
+    "59": {
+        "name": "Ability Scroll: Ice Burn",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Ice Burn",
+        "data": "1059"
+    },
+    "60": {
+        "name": "Ability Scroll: Seismic Toss",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Seismic Toss",
+        "data": "1060"
+    },
+    "61": {
+        "name": "Ability Scroll: Venoshock",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Venoshock",
+        "data": "1061"
+    },
+    "62": {
+        "name": "Ability Scroll: Precipice Blades",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Precipice Blades",
+        "data": "1062"
+    },
+    "63": {
+        "name": "Ability Scroll: Sky Attack",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Sky Attack",
+        "data": "1063"
+    },
+    "64": {
+        "name": "Ability Scroll: Psycho Boost",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Psycho Boost",
+        "data": "1064"
+    },
+    "65": {
+        "name": "Ability Scroll: Attack Order",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Attack Order",
+        "data": "1065"
+    },
+    "66": {
+        "name": "Ability Scroll: Rock Wrecker",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Rock Wrecker",
+        "data": "1066"
+    },
+    "67": {
+        "name": "Ability Scroll: Poltergeist",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Poltergeist",
+        "data": "1067"
+    },
+    "68": {
+        "name": "Ability Scroll: Night Daze",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Night Daze",
+        "data": "1068"
+    },
+    "69": {
+        "name": "Ability Scroll: Dragon Rush",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Dragon Rush",
+        "data": "1069"
+    },
+    "70": {
+        "name": "Ability Scroll: Metal Burst",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Metal Burst",
+        "data": "1070"
+    },
+    "71": {
+        "name": "Ability Scroll: Magical Torque",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Magical Torque",
+        "data": "1071"
+    },
+    "72": {
+        "name": "Ability Scroll: Giga Impact",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Giga Impact",
+        "data": "1072"
+    },
+    "73": {
+        "name": "Ability Scroll: Hellfire",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Hellfire",
+        "data": "1073"
+    },
+    "74": {
+        "name": "Ability Scroll: Origin Pulse",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Origin Pulse",
+        "data": "1074"
+    },
+    "75": {
+        "name": "Ability Scroll: Chloroblast",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Chloroblast",
+        "data": "1075"
+    },
+    "76": {
+        "name": "Ability Scroll: 10M Volt Thunderbolt",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: 10M Volt Thunderbolt",
+        "data": "1076"
+    },
+    "77": {
+        "name": "Ability Scroll: Sheer Cold",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Sheer Cold",
+        "data": "1077"
+    },
+    "78": {
+        "name": "Ability Scroll: Meteor Assault",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Meteor Assault",
+        "data": "1078"
+    },
+    "79": {
+        "name": "Ability Scroll: Noxious Torque",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Noxious Torque",
+        "data": "1079"
+    },
+    "80": {
+        "name": "Ability Scroll: Fissure",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Fissure",
+        "data": "1080"
+    },
+    "81": {
+        "name": "Ability Scroll: Supersonic Skystrike",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Supersonic Skystrike",
+        "data": "1081"
+    },
+    "82": {
+        "name": "Ability Scroll: Prismatic Laser",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Prismatic Laser",
+        "data": "1082"
+    },
+    "83": {
+        "name": "Ability Scroll: Megahorn",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Megahorn",
+        "data": "1083"
+    },
+    "84": {
+        "name": "Ability Scroll: Meteor Beam",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Meteor Beam",
+        "data": "1084"
+    },
+    "85": {
+        "name": "Ability Scroll: Astral Barrage",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Astral Barrage",
+        "data": "1085"
+    },
+    "86": {
+        "name": "Ability Scroll: Ruination",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Ruination",
+        "data": "1086"
+    },
+    "87": {
+        "name": "Ability Scroll: Eternabeam",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Eternabeam",
+        "data": "1087"
+    },
+    "88": {
+        "name": "Ability Scroll: Gigaton Hammer",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Gigaton Hammer",
+        "data": "1088"
+    },
+    "89": {
+        "name": "Ability Scroll: Light of Ruin",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Light of Ruin",
+        "data": "1089"
+    },
+    "90": {
+        "name": "Ability Scroll: Hidden Power (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Hidden Power (Elementary)",
+        "data": "1090"
+    },
+    "91": {
+        "name": "Ability Scroll: Overheat (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Overheat (Elementary)",
+        "data": "1091"
+    },
+    "92": {
+        "name": "Ability Scroll: Rain Dance (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Rain Dance (Elementary)",
+        "data": "1092"
+    },
+    "93": {
+        "name": "Ability Scroll: Spore (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Spore (Elementary)",
+        "data": "1093"
+    },
+    "94": {
+        "name": "Ability Scroll: Charge (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Charge (Elementary)",
+        "data": "1094"
+    },
+    "95": {
+        "name": "Ability Scroll: Snowscape (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Snowscape (Elementary)",
+        "data": "1095"
+    },
+    "96": {
+        "name": "Ability Scroll: Superpower (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Superpower (Elementary)",
+        "data": "1096"
+    },
+    "97": {
+        "name": "Ability Scroll: Gastro Acid (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Gastro Acid (Elementary)",
+        "data": "1097"
+    },
+    "98": {
+        "name": "Ability Scroll: Rototiller (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Rototiller (Elementary)",
+        "data": "1098"
+    },
+    "99": {
+        "name": "Ability Scroll: Tailwind (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Tailwind (Elementary)",
+        "data": "1099"
+    },
+    "100": {
+        "name": "Ability Scroll: Calm Mind (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Calm Mind (Elementary)",
+        "data": "1100"
+    },
+    "101": {
+        "name": "Ability Scroll: Tail Glow (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Tail Glow (Elementary)",
+        "data": "1101"
+    },
+    "102": {
+        "name": "Ability Scroll: Ancient Power (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Ancient Power (Elementary)",
+        "data": "1102"
+    },
+    "103": {
+        "name": "Ability Scroll: Nightmare (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Nightmare (Elementary)",
+        "data": "1103"
+    },
+    "104": {
+        "name": "Ability Scroll: Nasty Plot (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Nasty Plot (Elementary)",
+        "data": "1104"
+    },
+    "105": {
+        "name": "Ability Scroll: Dragon Rage (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Dragon Rage (Elementary)",
+        "data": "1105"
+    },
+    "106": {
+        "name": "Ability Scroll: Shift Gear (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Shift Gear (Elementary)",
+        "data": "1106"
+    },
+    "107": {
+        "name": "Ability Scroll: Decorate (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Decorate (Elementary)",
+        "data": "1107"
+    },
+    "108": {
+        "name": "Ability Scroll: Hidden Power (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Hidden Power (Advanced)",
+        "data": "1108"
+    },
+    "109": {
+        "name": "Ability Scroll: Overheat (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Overheat (Advanced)",
+        "data": "1109"
+    },
+    "110": {
+        "name": "Ability Scroll: Rain Dance (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Rain Dance (Advanced)",
+        "data": "1110"
+    },
+    "111": {
+        "name": "Ability Scroll: Spore (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Spore (Advanced)",
+        "data": "1111"
+    },
+    "112": {
+        "name": "Ability Scroll: Charge (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Charge (Advanced)",
+        "data": "1112"
+    },
+    "113": {
+        "name": "Ability Scroll: Snowscape (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Snowscape (Advanced)",
+        "data": "1113"
+    },
+    "114": {
+        "name": "Ability Scroll: Superpower (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Superpower (Advanced)",
+        "data": "1114"
+    },
+    "115": {
+        "name": "Ability Scroll: Gastro Acid (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Gastro Acid (Advanced)",
+        "data": "1115"
+    },
+    "116": {
+        "name": "Ability Scroll: Rototiller (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Rototiller (Advanced)",
+        "data": "1116"
+    },
+    "117": {
+        "name": "Ability Scroll: Tailwind (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Tailwind (Advanced)",
+        "data": "1117"
+    },
+    "118": {
+        "name": "Ability Scroll: Calm Mind (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Calm Mind (Advanced)",
+        "data": "1118"
+    },
+    "119": {
+        "name": "Ability Scroll: Tail Glow (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Tail Glow (Advanced)",
+        "data": "1119"
+    },
+    "120": {
+        "name": "Ability Scroll: Ancient Power (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Ancient Power (Advanced)",
+        "data": "1120"
+    },
+    "121": {
+        "name": "Ability Scroll: Nightmare (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Nightmare (Advanced)",
+        "data": "1121"
+    },
+    "122": {
+        "name": "Ability Scroll: Nasty Plot (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Nasty Plot (Advanced)",
+        "data": "1122"
+    },
+    "123": {
+        "name": "Ability Scroll: Dragon Rage (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Dragon Rage (Advanced)",
+        "data": "1123"
+    },
+    "124": {
+        "name": "Ability Scroll: Shift Gear (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Shift Gear (Advanced)",
+        "data": "1124"
+    },
+    "125": {
+        "name": "Ability Scroll: Decorate (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Decorate (Advanced)",
+        "data": "1125"
+    },
+    "126": {
+        "name": "Ability Scroll: Hidden Power (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Hidden Power (Expert)",
+        "data": "1126"
+    },
+    "127": {
+        "name": "Ability Scroll: Overheat (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Overheat (Expert)",
+        "data": "1127"
+    },
+    "128": {
+        "name": "Ability Scroll: Rain Dance (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Rain Dance (Expert)",
+        "data": "1128"
+    },
+    "129": {
+        "name": "Ability Scroll: Spore (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Spore (Expert)",
+        "data": "1129"
+    },
+    "130": {
+        "name": "Ability Scroll: Charge (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Charge (Expert)",
+        "data": "1130"
+    },
+    "131": {
+        "name": "Ability Scroll: Snowscape (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Snowscape (Expert)",
+        "data": "1131"
+    },
+    "132": {
+        "name": "Ability Scroll: Superpower (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Superpower (Expert)",
+        "data": "1132"
+    },
+    "133": {
+        "name": "Ability Scroll: Gastro Acid (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Gastro Acid (Expert)",
+        "data": "1133"
+    },
+    "134": {
+        "name": "Ability Scroll: Rototiller (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Rototiller (Expert)",
+        "data": "1134"
+    },
+    "135": {
+        "name": "Ability Scroll: Tailwind (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Tailwind (Expert)",
+        "data": "1135"
+    },
+    "136": {
+        "name": "Ability Scroll: Calm Mind (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Calm Mind (Expert)",
+        "data": "1136"
+    },
+    "137": {
+        "name": "Ability Scroll: Tail Glow (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Tail Glow (Expert)",
+        "data": "1137"
+    },
+    "138": {
+        "name": "Ability Scroll: Ancient Power (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Ancient Power (Expert)",
+        "data": "1138"
+    },
+    "139": {
+        "name": "Ability Scroll: Nightmare (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Nightmare (Expert)",
+        "data": "1139"
+    },
+    "140": {
+        "name": "Ability Scroll: Nasty Plot (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Nasty Plot (Expert)",
+        "data": "1140"
+    },
+    "141": {
+        "name": "Ability Scroll: Dragon Rage (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Dragon Rage (Expert)",
+        "data": "1141"
+    },
+    "142": {
+        "name": "Ability Scroll: Shift Gear (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Shift Gear (Expert)",
+        "data": "1142"
+    },
+    "143": {
+        "name": "Ability Scroll: Decorate (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Decorate (Expert)",
+        "data": "1143"
+    },
+    "144": {
+        "name": "Ability Scroll: Hidden Power (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Hidden Power (Master)",
+        "data": "1144"
+    },
+    "145": {
+        "name": "Ability Scroll: Overheat (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Overheat (Master)",
+        "data": "1145"
+    },
+    "146": {
+        "name": "Ability Scroll: Rain Dance (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Rain Dance (Master)",
+        "data": "1146"
+    },
+    "147": {
+        "name": "Ability Scroll: Spore (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Spore (Master)",
+        "data": "1147"
+    },
+    "148": {
+        "name": "Ability Scroll: Charge (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Charge (Master)",
+        "data": "1148"
+    },
+    "149": {
+        "name": "Ability Scroll: Snowscape (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Snowscape (Master)",
+        "data": "1149"
+    },
+    "150": {
+        "name": "Ability Scroll: Superpower (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Superpower (Master)",
+        "data": "1150"
+    },
+    "151": {
+        "name": "Ability Scroll: Gastro Acid (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Gastro Acid (Master)",
+        "data": "1151"
+    },
+    "152": {
+        "name": "Ability Scroll: Rototiller (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Rototiller (Master)",
+        "data": "1152"
+    },
+    "153": {
+        "name": "Ability Scroll: Tailwind (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Tailwind (Master)",
+        "data": "1153"
+    },
+    "154": {
+        "name": "Ability Scroll: Calm Mind (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Calm Mind (Master)",
+        "data": "1154"
+    },
+    "155": {
+        "name": "Ability Scroll: Tail Glow (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Tail Glow (Master)",
+        "data": "1155"
+    },
+    "156": {
+        "name": "Ability Scroll: Ancient Power (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Ancient Power (Master)",
+        "data": "1156"
+    },
+    "157": {
+        "name": "Ability Scroll: Nightmare (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Nightmare (Master)",
+        "data": "1157"
+    },
+    "158": {
+        "name": "Ability Scroll: Nasty Plot (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Nasty Plot (Master)",
+        "data": "1158"
+    },
+    "159": {
+        "name": "Ability Scroll: Dragon Rage (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Dragon Rage (Master)",
+        "data": "1159"
+    },
+    "160": {
+        "name": "Ability Scroll: Shift Gear (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Shift Gear (Master)",
+        "data": "1160"
+    },
+    "161": {
+        "name": "Ability Scroll: Decorate (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Decorate (Master)",
+        "data": "1161"
+    },
+    "162": {
+        "name": "Ability Scroll: Hidden Power (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Hidden Power (Grandmaster)",
+        "data": "1162"
+    },
+    "163": {
+        "name": "Ability Scroll: Overheat (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Overheat (Grandmaster)",
+        "data": "1163"
+    },
+    "164": {
+        "name": "Ability Scroll: Rain Dance (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Rain Dance (Grandmaster)",
+        "data": "1164"
+    },
+    "165": {
+        "name": "Ability Scroll: Spore (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Spore (Grandmaster)",
+        "data": "1165"
+    },
+    "166": {
+        "name": "Ability Scroll: Charge (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Charge (Grandmaster)",
+        "data": "1166"
+    },
+    "167": {
+        "name": "Ability Scroll: Snowscape (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Snowscape (Grandmaster)",
+        "data": "1167"
+    },
+    "168": {
+        "name": "Ability Scroll: Superpower (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Superpower (Grandmaster)",
+        "data": "1168"
+    },
+    "169": {
+        "name": "Ability Scroll: Gastro Acid (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Gastro Acid (Grandmaster)",
+        "data": "1169"
+    },
+    "170": {
+        "name": "Ability Scroll: Rototiller (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Rototiller (Grandmaster)",
+        "data": "1170"
+    },
+    "171": {
+        "name": "Ability Scroll: Tailwind (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Tailwind (Grandmaster)",
+        "data": "1171"
+    },
+    "172": {
+        "name": "Ability Scroll: Calm Mind (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Calm Mind (Grandmaster)",
+        "data": "1172"
+    },
+    "173": {
+        "name": "Ability Scroll: Tail Glow (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Tail Glow (Grandmaster)",
+        "data": "1173"
+    },
+    "174": {
+        "name": "Ability Scroll: Ancient Power (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Ancient Power (Grandmaster)",
+        "data": "1174"
+    },
+    "175": {
+        "name": "Ability Scroll: Nightmare (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Nightmare (Grandmaster)",
+        "data": "1175"
+    },
+    "176": {
+        "name": "Ability Scroll: Nasty Plot (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Nasty Plot (Grandmaster)",
+        "data": "1176"
+    },
+    "177": {
+        "name": "Ability Scroll: Dragon Rage (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Dragon Rage (Grandmaster)",
+        "data": "1177"
+    },
+    "178": {
+        "name": "Ability Scroll: Shift Gear (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Shift Gear (Grandmaster)",
+        "data": "1178"
+    },
+    "179": {
+        "name": "Ability Scroll: Decorate (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Decorate (Grandmaster)",
+        "data": "1179"
+    },
+    "180": {
+        "name": "Ability Scroll: Façade (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Façade (Elementary)",
+        "data": "1180"
+    },
+    "181": {
+        "name": "Ability Scroll: Blue Flare (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Blue Flare (Elementary)",
+        "data": "1181"
+    },
+    "182": {
+        "name": "Ability Scroll: Dive (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Dive (Elementary)",
+        "data": "1182"
+    },
+    "183": {
+        "name": "Ability Scroll: Ingrain (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Ingrain (Elementary)",
+        "data": "1183"
+    },
+    "184": {
+        "name": "Ability Scroll: Magnetic Flux (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Magnetic Flux (Elementary)",
+        "data": "1184"
+    },
+    "185": {
+        "name": "Ability Scroll: Mist (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Mist (Elementary)",
+        "data": "1185"
+    },
+    "186": {
+        "name": "Ability Scroll: Bulk Up (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Bulk Up (Elementary)",
+        "data": "1186"
+    },
+    "187": {
+        "name": "Ability Scroll: Acid Armor (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Acid Armor (Elementary)",
+        "data": "1187"
+    },
+    "188": {
+        "name": "Ability Scroll: Shore Up (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Shore Up (Elementary)",
+        "data": "1188"
+    },
+    "189": {
+        "name": "Ability Scroll: Roost (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Roost (Elementary)",
+        "data": "1189"
+    },
+    "190": {
+        "name": "Ability Scroll: Barrier (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Barrier (Elementary)",
+        "data": "1190"
+    },
+    "191": {
+        "name": "Ability Scroll: Quiver Dance (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Quiver Dance (Elementary)",
+        "data": "1191"
+    },
+    "192": {
+        "name": "Ability Scroll: Rock Polish (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Rock Polish (Elementary)",
+        "data": "1192"
+    },
+    "193": {
+        "name": "Ability Scroll: Grudge (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Grudge (Elementary)",
+        "data": "1193"
+    },
+    "194": {
+        "name": "Ability Scroll: Obstruct (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Obstruct (Elementary)",
+        "data": "1194"
+    },
+    "195": {
+        "name": "Ability Scroll: Dragon Dance (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Dragon Dance (Elementary)",
+        "data": "1195"
+    },
+    "196": {
+        "name": "Ability Scroll: Iron Defense (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Iron Defense (Elementary)",
+        "data": "1196"
+    },
+    "197": {
+        "name": "Ability Scroll: Charm (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Charm (Elementary)",
+        "data": "1197"
+    },
+    "198": {
+        "name": "Ability Scroll: Façade (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Façade (Advanced)",
+        "data": "1198"
+    },
+    "199": {
+        "name": "Ability Scroll: Blue Flare (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Blue Flare (Advanced)",
+        "data": "1199"
+    },
+    "200": {
+        "name": "Ability Scroll: Dive (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Dive (Advanced)",
+        "data": "1200"
+    },
+    "201": {
+        "name": "Ability Scroll: Ingrain (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Ingrain (Advanced)",
+        "data": "1201"
+    },
+    "202": {
+        "name": "Ability Scroll: Magnetic Flux (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Magnetic Flux (Advanced)",
+        "data": "1202"
+    },
+    "203": {
+        "name": "Ability Scroll: Mist (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Mist (Advanced)",
+        "data": "1203"
+    },
+    "204": {
+        "name": "Ability Scroll: Bulk Up (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Bulk Up (Advanced)",
+        "data": "1204"
+    },
+    "205": {
+        "name": "Ability Scroll: Acid Armor (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Acid Armor (Advanced)",
+        "data": "1205"
+    },
+    "206": {
+        "name": "Ability Scroll: Shore Up (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Shore Up (Advanced)",
+        "data": "1206"
+    },
+    "207": {
+        "name": "Ability Scroll: Roost (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Roost (Advanced)",
+        "data": "1207"
+    },
+    "208": {
+        "name": "Ability Scroll: Barrier (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Barrier (Advanced)",
+        "data": "1208"
+    },
+    "209": {
+        "name": "Ability Scroll: Quiver Dance (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Quiver Dance (Advanced)",
+        "data": "1209"
+    },
+    "210": {
+        "name": "Ability Scroll: Rock Polish (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Rock Polish (Advanced)",
+        "data": "1210"
+    },
+    "211": {
+        "name": "Ability Scroll: Grudge (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Grudge (Advanced)",
+        "data": "1211"
+    },
+    "212": {
+        "name": "Ability Scroll: Obstruct (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Obstruct (Advanced)",
+        "data": "1212"
+    },
+    "213": {
+        "name": "Ability Scroll: Dragon Dance (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Dragon Dance (Advanced)",
+        "data": "1213"
+    },
+    "214": {
+        "name": "Ability Scroll: Iron Defense (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Iron Defense (Advanced)",
+        "data": "1214"
+    },
+    "215": {
+        "name": "Ability Scroll: Charm (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Charm (Advanced)",
+        "data": "1215"
+    },
+    "216": {
+        "name": "Ability Scroll: Façade (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Façade (Expert)",
+        "data": "1216"
+    },
+    "217": {
+        "name": "Ability Scroll: Blue Flare (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Blue Flare (Expert)",
+        "data": "1217"
+    },
+    "218": {
+        "name": "Ability Scroll: Dive (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Dive (Expert)",
+        "data": "1218"
+    },
+    "219": {
+        "name": "Ability Scroll: Ingrain (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Ingrain (Expert)",
+        "data": "1219"
+    },
+    "220": {
+        "name": "Ability Scroll: Magnetic Flux (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Magnetic Flux (Expert)",
+        "data": "1220"
+    },
+    "221": {
+        "name": "Ability Scroll: Mist (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Mist (Expert)",
+        "data": "1221"
+    },
+    "222": {
+        "name": "Ability Scroll: Bulk Up (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Bulk Up (Expert)",
+        "data": "1222"
+    },
+    "223": {
+        "name": "Ability Scroll: Acid Armor (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Acid Armor (Expert)",
+        "data": "1223"
+    },
+    "224": {
+        "name": "Ability Scroll: Shore Up (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Shore Up (Expert)",
+        "data": "1224"
+    },
+    "225": {
+        "name": "Ability Scroll: Roost (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Roost (Expert)",
+        "data": "1225"
+    },
+    "226": {
+        "name": "Ability Scroll: Barrier (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Barrier (Expert)",
+        "data": "1226"
+    },
+    "227": {
+        "name": "Ability Scroll: Quiver Dance (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Quiver Dance (Expert)",
+        "data": "1227"
+    },
+    "228": {
+        "name": "Ability Scroll: Rock Polish (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Rock Polish (Expert)",
+        "data": "1228"
+    },
+    "229": {
+        "name": "Ability Scroll: Grudge (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Grudge (Expert)",
+        "data": "1229"
+    },
+    "230": {
+        "name": "Ability Scroll: Obstruct (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Obstruct (Expert)",
+        "data": "1230"
+    },
+    "231": {
+        "name": "Ability Scroll: Dragon Dance (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Dragon Dance (Expert)",
+        "data": "1231"
+    },
+    "232": {
+        "name": "Ability Scroll: Iron Defense (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Iron Defense (Expert)",
+        "data": "1232"
+    },
+    "233": {
+        "name": "Ability Scroll: Charm (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Charm (Expert)",
+        "data": "1233"
+    },
+    "234": {
+        "name": "Ability Scroll: Façade (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Façade (Master)",
+        "data": "1234"
+    },
+    "235": {
+        "name": "Ability Scroll: Blue Flare (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Blue Flare (Master)",
+        "data": "1235"
+    },
+    "236": {
+        "name": "Ability Scroll: Dive (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Dive (Master)",
+        "data": "1236"
+    },
+    "237": {
+        "name": "Ability Scroll: Ingrain (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Ingrain (Master)",
+        "data": "1237"
+    },
+    "238": {
+        "name": "Ability Scroll: Magnetic Flux (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Magnetic Flux (Master)",
+        "data": "1238"
+    },
+    "239": {
+        "name": "Ability Scroll: Mist (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Mist (Master)",
+        "data": "1239"
+    },
+    "240": {
+        "name": "Ability Scroll: Bulk Up (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Bulk Up (Master)",
+        "data": "1240"
+    },
+    "241": {
+        "name": "Ability Scroll: Acid Armor (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Acid Armor (Master)",
+        "data": "1241"
+    },
+    "242": {
+        "name": "Ability Scroll: Shore Up (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Shore Up (Master)",
+        "data": "1242"
+    },
+    "243": {
+        "name": "Ability Scroll: Roost (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Roost (Master)",
+        "data": "1243"
+    },
+    "244": {
+        "name": "Ability Scroll: Barrier (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Barrier (Master)",
+        "data": "1244"
+    },
+    "245": {
+        "name": "Ability Scroll: Quiver Dance (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Quiver Dance (Master)",
+        "data": "1245"
+    },
+    "246": {
+        "name": "Ability Scroll: Rock Polish (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Rock Polish (Master)",
+        "data": "1246"
+    },
+    "247": {
+        "name": "Ability Scroll: Grudge (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Grudge (Master)",
+        "data": "1247"
+    },
+    "248": {
+        "name": "Ability Scroll: Obstruct (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Obstruct (Master)",
+        "data": "1248"
+    },
+    "249": {
+        "name": "Ability Scroll: Dragon Dance (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Dragon Dance (Master)",
+        "data": "1249"
+    },
+    "250": {
+        "name": "Ability Scroll: Iron Defense (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Iron Defense (Master)",
+        "data": "1250"
+    },
+    "251": {
+        "name": "Ability Scroll: Charm (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Charm (Master)",
+        "data": "1251"
+    },
+    "252": {
+        "name": "Ability Scroll: Façade (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Façade (Grandmaster)",
+        "data": "1252"
+    },
+    "253": {
+        "name": "Ability Scroll: Blue Flare (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Blue Flare (Grandmaster)",
+        "data": "1253"
+    },
+    "254": {
+        "name": "Ability Scroll: Dive (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Dive (Grandmaster)",
+        "data": "1254"
+    },
+    "255": {
+        "name": "Ability Scroll: Ingrain (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Ingrain (Grandmaster)",
+        "data": "1255"
+    },
+    "256": {
+        "name": "Ability Scroll: Magnetic Flux (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Magnetic Flux (Grandmaster)",
+        "data": "1256"
+    },
+    "257": {
+        "name": "Ability Scroll: Mist (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Mist (Grandmaster)",
+        "data": "1257"
+    },
+    "258": {
+        "name": "Ability Scroll: Bulk Up (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Bulk Up (Grandmaster)",
+        "data": "1258"
+    },
+    "259": {
+        "name": "Ability Scroll: Acid Armor (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Acid Armor (Grandmaster)",
+        "data": "1259"
+    },
+    "260": {
+        "name": "Ability Scroll: Shore Up (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Shore Up (Grandmaster)",
+        "data": "1260"
+    },
+    "261": {
+        "name": "Ability Scroll: Roost (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Roost (Grandmaster)",
+        "data": "1261"
+    },
+    "262": {
+        "name": "Ability Scroll: Barrier (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Barrier (Grandmaster)",
+        "data": "1262"
+    },
+    "263": {
+        "name": "Ability Scroll: Quiver Dance (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Quiver Dance (Grandmaster)",
+        "data": "1263"
+    },
+    "264": {
+        "name": "Ability Scroll: Rock Polish (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Rock Polish (Grandmaster)",
+        "data": "1264"
+    },
+    "265": {
+        "name": "Ability Scroll: Grudge (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Grudge (Grandmaster)",
+        "data": "1265"
+    },
+    "266": {
+        "name": "Ability Scroll: Obstruct (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Obstruct (Grandmaster)",
+        "data": "1266"
+    },
+    "267": {
+        "name": "Ability Scroll: Dragon Dance (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Dragon Dance (Grandmaster)",
+        "data": "1267"
+    },
+    "268": {
+        "name": "Ability Scroll: Iron Defense (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Iron Defense (Grandmaster)",
+        "data": "1268"
+    },
+    "269": {
+        "name": "Ability Scroll: Charm (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Charm (Grandmaster)",
+        "data": "1269"
+    },
+    "270": {
+        "name": "Ability Scroll: Concentration (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Concentration (Elementary)",
+        "data": "1270"
+    },
+    "271": {
+        "name": "Ability Scroll: Wrath (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Wrath (Elementary)",
+        "data": "1271"
+    },
+    "272": {
+        "name": "Ability Scroll: Dexterity (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Dexterity (Elementary)",
+        "data": "1272"
+    },
+    "273": {
+        "name": "Ability Scroll: Willpower  (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Willpower  (Elementary)",
+        "data": "1273"
+    },
+    "274": {
+        "name": "Ability Scroll: Combo (Elementary)",
+        "type": "1",
+        "rarity": "1",
+        "desc": "Teaches your PokéBen an ability: Combo (Elementary)",
+        "data": "1274"
+    },
+    "275": {
+        "name": "Ability Scroll: Concentration (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Concentration (Advanced)",
+        "data": "1275"
+    },
+    "276": {
+        "name": "Ability Scroll: Wrath (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Wrath (Advanced)",
+        "data": "1276"
+    },
+    "277": {
+        "name": "Ability Scroll: Dexterity (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Dexterity (Advanced)",
+        "data": "1277"
+    },
+    "278": {
+        "name": "Ability Scroll: Willpower  (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Willpower  (Advanced)",
+        "data": "1278"
+    },
+    "279": {
+        "name": "Ability Scroll: Combo (Advanced)",
+        "type": "1",
+        "rarity": "2",
+        "desc": "Teaches your PokéBen an ability: Combo (Advanced)",
+        "data": "1279"
+    },
+    "280": {
+        "name": "Ability Scroll: Concentration (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Concentration (Expert)",
+        "data": "1280"
+    },
+    "281": {
+        "name": "Ability Scroll: Wrath (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Wrath (Expert)",
+        "data": "1281"
+    },
+    "282": {
+        "name": "Ability Scroll: Dexterity (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Dexterity (Expert)",
+        "data": "1282"
+    },
+    "283": {
+        "name": "Ability Scroll: Willpower  (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Willpower  (Expert)",
+        "data": "1283"
+    },
+    "284": {
+        "name": "Ability Scroll: Combo (Expert)",
+        "type": "1",
+        "rarity": "3",
+        "desc": "Teaches your PokéBen an ability: Combo (Expert)",
+        "data": "1284"
+    },
+    "285": {
+        "name": "Ability Scroll: Concentration (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Concentration (Master)",
+        "data": "1285"
+    },
+    "286": {
+        "name": "Ability Scroll: Wrath (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Wrath (Master)",
+        "data": "1286"
+    },
+    "287": {
+        "name": "Ability Scroll: Dexterity (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Dexterity (Master)",
+        "data": "1287"
+    },
+    "288": {
+        "name": "Ability Scroll: Willpower  (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Willpower  (Master)",
+        "data": "1288"
+    },
+    "289": {
+        "name": "Ability Scroll: Combo (Master)",
+        "type": "1",
+        "rarity": "4",
+        "desc": "Teaches your PokéBen an ability: Combo (Master)",
+        "data": "1289"
+    },
+    "290": {
+        "name": "Ability Scroll: Concentration (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Concentration (Grandmaster)",
+        "data": "1290"
+    },
+    "291": {
+        "name": "Ability Scroll: Wrath (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Wrath (Grandmaster)",
+        "data": "1291"
+    },
+    "292": {
+        "name": "Ability Scroll: Dexterity (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Dexterity (Grandmaster)",
+        "data": "1292"
+    },
+    "293": {
+        "name": "Ability Scroll: Willpower  (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Willpower  (Grandmaster)",
+        "data": "1293"
+    },
+    "294": {
+        "name": "Ability Scroll: Combo (Grandmaster)",
+        "type": "1",
+        "rarity": "5",
+        "desc": "Teaches your PokéBen an ability: Combo (Grandmaster)",
+        "data": "1294"
     }
 }
