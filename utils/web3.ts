@@ -47,7 +47,7 @@ export const getLatestBlock = async () => {
 };
 
 export const getLatestBlockByRpcUrl = async (url: string) => {
-  const web3 = new Web3(new Web3.providers.HttpProvider(url, { timeout: 5000 }));
+  const web3 = new Web3(new Web3.providers.HttpProvider(url, { timeout: 3000 }));
   return web3.eth.getBlockNumber();
 }
 
