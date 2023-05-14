@@ -20,7 +20,7 @@ export const getWeb3 = (archive = false): Web3 => {
 
 export const testArchive0 = async () => {
   try {
-    const archive0 = new Web3(new Web3.providers.HttpProvider(RPC_ARCHIVE["0"], { timeout: 10000 }));
+    const archive0 = new Web3(new Web3.providers.HttpProvider(RPC_ARCHIVE["0"], { timeout: 3000 }));
     const block1 = await archive0.eth.getBlockNumber();
     const block2 = await getLatestBlock();
 
