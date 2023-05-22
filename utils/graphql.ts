@@ -264,6 +264,7 @@ export const getDexStats = async (block: string) => {
     const data: any = await getGlobalData2(block, blockNumber24HoursAgo);
 
     Object.assign(res, data.current);
+    delete res.__typename;
 
     const data24HoursAgo: any = data.oneDayAgo;
     if (data24HoursAgo?.factoryAddress) {
