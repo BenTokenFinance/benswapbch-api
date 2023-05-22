@@ -85,6 +85,34 @@ export const GLOBAL_DATA = (block) => {
   return gql(queryString)
 }
 
+export const GLOBAL_DATA_2 = (block, block2) => {
+  const queryString = ` query benSwapFactories {
+      one:benSwapFactories(
+       ${block ? `block: { number: ${block}}` : ``} 
+       where: { id: "${FACTORY_ADDRESS}" }) {
+        factoryAddress: id
+        totalVolumeUsd: totalVolumeUSD
+        totalVolumeBch: totalVolumeBCH
+        totalLiquidityUsd: totalLiquidityUSD
+        totalLiquidityBch: totalLiquidityBCH
+        totalTransactions
+        totalPairs
+      }
+      two:benSwapFactories(
+        ${block2 ? `block: { number: ${block2}}` : ``} 
+        where: { id: "${FACTORY_ADDRESS}" }) {
+         factoryAddress: id
+         totalVolumeUsd: totalVolumeUSD
+         totalVolumeBch: totalVolumeBCH
+         totalLiquidityUsd: totalLiquidityUSD
+         totalLiquidityBch: totalLiquidityBCH
+         totalTransactions
+         totalPairs
+       }
+    }`
+  return gql(queryString)
+}
+
 export const ALL_TOKENS_SIMPLE = (block) => {
   const queryString = ` query tokens {
       tokens (first: 1000 ${block ? `, block: { number: ${block}}` : ``}){

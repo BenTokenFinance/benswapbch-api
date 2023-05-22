@@ -1,6 +1,6 @@
 import { ExchangeClient, BlockClient, GetClient, PokeBenClient, PokeBenItemClient } from './apollo/client'
 import { 
-    splitQuery, GLOBAL_DATA, ALL_TOKENS_SIMPLE, GET_BLOCK, GET_BLOCKS, PAIRS, TOKENS, 
+    splitQuery, GLOBAL_DATA, GLOBAL_DATA_2, ALL_TOKENS_SIMPLE, GET_BLOCK, GET_BLOCKS, PAIRS, TOKENS, 
     CANDLE_1_MIN_BCH, CANDLE_1_MIN_USD, CANDLE_15_MIN_BCH, CANDLE_15_MIN_USD, 
     CANDLE_1_HOUR_BCH, CANDLE_1_HOUR_USD, CANDLE_1_DAY_BCH, CANDLE_1_DAY_USD, CANDLE_1_WEEK_BCH, CANDLE_1_WEEK_USD, 
     SUBGRAPH_HEALTH, POKEBEN_RANKING_LEVEL, POKEBEN_RANKING_POWER, BCH_PRICE, POKEBEN_HISTORY, POKEBENITEM_HISTORY
@@ -56,6 +56,26 @@ async function getGlobalData(block: any) {
             fetchPolicy: 'network-only',
         })
         data = result.data.benSwapFactories[0];
+    } catch (e) {
+        console.error(e);
+    }
+    
+    return data || {};
+}
+
+async function getGlobalData2(block: any, blockOneDayAgo: any) {
+    let data: any = {}
+
+    try {
+        // fetch the global data
+        const result = await ExchangeClient.query({
+            query: GLOBAL_DATA_2(block, blockOneDayAgo),
+            fetchPolicy: 'network-only',
+        })
+        data = {
+            current: result.data.one[0],
+            oneDayAgo: result.data.two[0],
+        };
     } catch (e) {
         console.error(e);
     }
@@ -192,7 +212,7 @@ async function getTokens(block: any = undefined, id: any = undefined) {
 
 
 // DEX stats
-export const getDexStats = async (block: string) => {
+export const getDexStatsDeprecated = async (block: string) => {
     const res: any = {};
     const tasks = [
         getGlobalData(block).then(data => {Object.assign(res, data)}),
@@ -228,6 +248,41 @@ export const getDexStats = async (block: string) => {
             };
         }
     }
+    return res;
+}
+export const getDexStats = async (block: string) => {    
+    const res: any = {};
+
+    const web3 = getWeb3();
+    const blockNumber: any = block === undefined ? undefined : new BigNumber(block).toNumber();
+    console.log("Block: "+ blockNumber);
+    const timestampOneDayBack = (block === undefined ? dayjs(new Date()) : dayjs.unix(Number((await web3.eth.getBlock(blockNumber)).timestamp))).subtract(1, 'day').unix();
+    console.log("Timestamp 24 hours back: "+ timestampOneDayBack);
+    const blockNumber24HoursAgo = await getBlockFromTimestamp(timestampOneDayBack);
+    console.log("Block 24 hours back: "+ blockNumber24HoursAgo);
+
+    const data: any = await getGlobalData2(block, blockNumber24HoursAgo);
+
+    Object.assign(res, data.current);
+
+    const data24HoursAgo: any = data.oneDayAgo;
+    if (data24HoursAgo?.factoryAddress) {
+        const vUsd = new BigNumber(res.totalVolumeUsd).minus(data24HoursAgo.totalVolumeUsd);
+        const vBch = new BigNumber(res.totalVolumeBch).minus(data24HoursAgo.totalVolumeBch);
+        const t = new BigNumber(res.totalTransactions).minus(data24HoursAgo.totalTransactions);
+        const lcUsd = new BigNumber(res.totalLiquidityUsd).minus(data24HoursAgo.totalLiquidityUsd);
+        const lcBch = new BigNumber(res.totalLiquidityBch).minus(data24HoursAgo.totalLiquidityBch);
+        const np = new BigNumber(res.totalPairs).minus(data24HoursAgo.totalPairs);
+        res["24Hours"] = {
+            "transactions": t.isNegative()?"0": t.toString(),
+            "volumeUsd":  vUsd.isNegative()?"0": vUsd.toString(),
+            "volumeBch":  vBch.isNegative()?"0": vBch.toString(),
+            "liquidityChangeUsd":  lcUsd.isNegative()?"0": lcUsd.toString(),
+            "liquidityChangeBch":  lcBch.isNegative()?"0": lcBch.toString(),
+            "newPairs":  np.isNegative()?"0": np.toString()
+        };
+    }
+
     return res;
 }
 
