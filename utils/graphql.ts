@@ -212,13 +212,19 @@ export const getDexStats = async (block: string) => {
         console.log("Block 24 hours back: "+ blockNumber24HoursAgo);
         const data24HoursAgo: any = await getGlobalData(blockNumber24HoursAgo);
         if (data24HoursAgo.factoryAddress) {
+            const vUsd = new BigNumber(res.totalVolumeUsd).minus(data24HoursAgo.totalVolumeUsd);
+            const vBch = new BigNumber(res.totalVolumeBch).minus(data24HoursAgo.totalVolumeBch);
+            const t = new BigNumber(res.totalTransactions).minus(data24HoursAgo.totalTransactions);
+            const lcUsd = new BigNumber(res.totalLiquidityUsd).minus(data24HoursAgo.totalLiquidityUsd);
+            const lcBch = new BigNumber(res.totalLiquidityBch).minus(data24HoursAgo.totalLiquidityBch);
+            const np = new BigNumber(res.totalPairs).minus(data24HoursAgo.totalPairs);
             res["24Hours"] = {
-                "transactions": new BigNumber(res.totalTransactions).minus(data24HoursAgo.totalTransactions).toString(),
-                "volumeUsd": new BigNumber(res.totalVolumeUsd).minus(data24HoursAgo.totalVolumeUsd).toString(),
-                "volumeBch": new BigNumber(res.totalVolumeBch).minus(data24HoursAgo.totalVolumeBch).toString(),
-                "liquidityChangeUsd": new BigNumber(res.totalLiquidityUsd).minus(data24HoursAgo.totalLiquidityUsd).toString(),
-                "liquidityChangeBch": new BigNumber(res.totalLiquidityBch).minus(data24HoursAgo.totalLiquidityBch).toString(),
-                "newPairs": new BigNumber(res.totalPairs).minus(data24HoursAgo.totalPairs).toString()
+                "transactions": t.isNegative()?"0": t.toString(),
+                "volumeUsd":  vUsd.isNegative()?"0": vUsd.toString(),
+                "volumeBch":  vBch.isNegative()?"0": vBch.toString(),
+                "liquidityChangeUsd":  lcUsd.isNegative()?"0": lcUsd.toString(),
+                "liquidityChangeBch":  lcBch.isNegative()?"0": lcBch.toString(),
+                "newPairs":  np.isNegative()?"0": np.toString()
             };
         }
     }
