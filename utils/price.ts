@@ -1,7 +1,7 @@
 import BigNumber from "bignumber.js";
 import bep20ABI from "./abis/bep20.json";
 import { getContract, getWeb3 } from "./web3";
-import { EBEN, EBEN_BCH_BENSWAP_LP, WBCH, bbBUSD, BCH_BBBUSD_BENSWAP_LP } from "./constants";
+import { EBEN, EBEN_BCH_BENSWAP_LP, WBCH, bbBUSD, BCH_BBBUSD_BENSWAP_LP, bbUSDT, BCH_BBUSDT_BENSWAP_LP } from "./constants";
 import { getBchPrice } from "./others";
 
 export const getEbenUsdPrice = async (): Promise<number> => {
@@ -67,6 +67,27 @@ export const getBchBbbusdPrice = async (): Promise<number> => {
     console.log("Price BCH/bbBUSD: "+ price);
   } catch (error) {
     console.error(`Error getting BCH price per bbBUSD: ${error}`);
+  }
+
+  return price.toNumber();
+};
+
+export const getBchBbusdtPrice = async (): Promise<number> => {
+  const web3 = getWeb3();
+  let price = new BigNumber(0);
+
+  try {
+    console.log("Getting BCH price per bbUSDT...");
+    const bbusdtContract = getContract(bep20ABI, bbUSDT);
+    const wbchContract = getContract(bep20ABI, WBCH);
+    const bbusdtBalance = await bbusdtContract.methods.balanceOf(BCH_BBUSDT_BENSWAP_LP).call();
+    console.log("bbUSDT Balance: "+ bbusdtBalance);
+    const wbchBalance = await wbchContract.methods.balanceOf(BCH_BBUSDT_BENSWAP_LP).call();
+    console.log("WBCH Balance: "+ wbchBalance);
+    price = new BigNumber(bbusdtBalance).div(new BigNumber(wbchBalance));
+    console.log("Price BCH/bbUSDT: "+ price);
+  } catch (error) {
+    console.error(`Error getting BCH price per bbUSDT: ${error}`);
   }
 
   return price.toNumber();
