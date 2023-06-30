@@ -42,7 +42,7 @@ export const lottery = async (
     lotteryNumbers: numbers1.map((x) => Number(x)),
     poolSize: ceilDecimal(poolSize, 2),
     burned: ceilDecimal((poolSize / 100) * ratesToUse.burn, 2),
-    contractLink: `https://smartscan.cash/address/${LOTTERY_CONTRACT}`,
+    contractLink: `https://sonar.cash/address/${LOTTERY_CONTRACT}`,
     jackpotTicket: numbers2[1] / ticketPrice,
     match3Ticket: numbers2[2] / ticketPrice,
     match2Ticket: numbers2[3] / ticketPrice,
