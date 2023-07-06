@@ -545,8 +545,7 @@ export async function getNodesHealthMsg() {
                 data.push({
                     chainHeader: Number(res.data.blocks.chains[0].chainHeadBlock.number),
                     blocks: Number(res.data.blocks.chains[0].latestBlock.number),
-                    dex: Number(res.data.dex.chains[0].latestBlock.number),
-                    pokeben: Number(res.data.pokeben.chains[0].latestBlock.number)
+                    dex: Number(res.data.dex.chains[0].latestBlock.number)
                 });
               })
               .catch((e: any) => {

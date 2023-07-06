@@ -511,17 +511,5 @@ export const SUBGRAPH_HEALTH = gql`
         }
       }
     }
-    pokeben:indexingStatusForCurrentVersion(subgraphName: "bentokenfinance/bch-pokeben") {
-      synced
-      health
-      chains {
-        chainHeadBlock {
-          number
-        }
-        latestBlock {
-          number
-        }
-      }
-    }
   }
 `
