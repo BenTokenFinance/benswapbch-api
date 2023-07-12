@@ -491,7 +491,7 @@ export async function getTrades(base:any, range:any, token: any, before: any = u
       query: GET_BLOCK,
       variables: {
         timestampFrom: timestamp,
-        // timestampTo: timestamp + 600,      // dev: comment out for 7 days in case of a chain pause
+        timestampTo: timestamp + 600,
       },
       fetchPolicy: 'network-only',
     })
