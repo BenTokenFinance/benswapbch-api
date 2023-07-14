@@ -1,27 +1,1262 @@
 {
     "1": {
         "name": "Experience Discrepancy Edge",
+        "category": "6",
         "type": "18",
-        "rarity": "3"
+        "rarity": "1"
     },
     "2": {
         "name": "Mysterious Confidence",
+        "category": "5",
         "type": "18",
-        "rarity": "3"
+        "rarity": "1"
     },
     "3": {
         "name": "Vigor Oppression",
+        "category": "4",
         "type": "18",
-        "rarity": "3"
+        "rarity": "1"
     },
     "4": {
         "name": "Preemptive Strike",
+        "category": "0",
         "type": "18",
-        "rarity": "3"
+        "rarity": "1"
     },
     "5": {
         "name": "Unyielding Fortitude",
+        "category": "3",
+        "type": "18",
+        "rarity": "1"
+    },
+    "1090": {
+        "name": "Hidden Power (Elementary)",
+        "category": "2",
+        "type": "0",
+        "rarity": "1"
+    },
+    "1091": {
+        "name": "Overheat (Elementary)",
+        "category": "2",
+        "type": "1",
+        "rarity": "1"
+    },
+    "1092": {
+        "name": "Rain Dance (Elementary)",
+        "category": "2",
+        "type": "2",
+        "rarity": "1"
+    },
+    "1093": {
+        "name": "Spore (Elementary)",
+        "category": "2",
+        "type": "3",
+        "rarity": "1"
+    },
+    "1094": {
+        "name": "Charge (Elementary)",
+        "category": "2",
+        "type": "4",
+        "rarity": "1"
+    },
+    "1095": {
+        "name": "Snowscape (Elementary)",
+        "category": "2",
+        "type": "5",
+        "rarity": "1"
+    },
+    "1096": {
+        "name": "Superpower (Elementary)",
+        "category": "2",
+        "type": "6",
+        "rarity": "1"
+    },
+    "1097": {
+        "name": "Gastro Acid (Elementary)",
+        "category": "2",
+        "type": "7",
+        "rarity": "1"
+    },
+    "1098": {
+        "name": "Rototiller (Elementary)",
+        "category": "2",
+        "type": "8",
+        "rarity": "1"
+    },
+    "1099": {
+        "name": "Tailwind (Elementary)",
+        "category": "2",
+        "type": "9",
+        "rarity": "1"
+    },
+    "1100": {
+        "name": "Calm Mind (Elementary)",
+        "category": "2",
+        "type": "10",
+        "rarity": "1"
+    },
+    "1101": {
+        "name": "Tail Glow (Elementary)",
+        "category": "2",
+        "type": "11",
+        "rarity": "1"
+    },
+    "1102": {
+        "name": "Ancient Power (Elementary)",
+        "category": "2",
+        "type": "12",
+        "rarity": "1"
+    },
+    "1103": {
+        "name": "Nightmare (Elementary)",
+        "category": "2",
+        "type": "13",
+        "rarity": "1"
+    },
+    "1104": {
+        "name": "Nasty Plot (Elementary)",
+        "category": "2",
+        "type": "14",
+        "rarity": "1"
+    },
+    "1105": {
+        "name": "Dragon Rage (Elementary)",
+        "category": "2",
+        "type": "15",
+        "rarity": "1"
+    },
+    "1106": {
+        "name": "Shift Gear (Elementary)",
+        "category": "2",
+        "type": "16",
+        "rarity": "1"
+    },
+    "1107": {
+        "name": "Decorate (Elementary)",
+        "category": "2",
+        "type": "17",
+        "rarity": "1"
+    },
+    "1108": {
+        "name": "Hidden Power (Advanced)",
+        "category": "2",
+        "type": "0",
+        "rarity": "2"
+    },
+    "1109": {
+        "name": "Overheat (Advanced)",
+        "category": "2",
+        "type": "1",
+        "rarity": "2"
+    },
+    "1110": {
+        "name": "Rain Dance (Advanced)",
+        "category": "2",
+        "type": "2",
+        "rarity": "2"
+    },
+    "1111": {
+        "name": "Spore (Advanced)",
+        "category": "2",
+        "type": "3",
+        "rarity": "2"
+    },
+    "1112": {
+        "name": "Charge (Advanced)",
+        "category": "2",
+        "type": "4",
+        "rarity": "2"
+    },
+    "1113": {
+        "name": "Snowscape (Advanced)",
+        "category": "2",
+        "type": "5",
+        "rarity": "2"
+    },
+    "1114": {
+        "name": "Superpower (Advanced)",
+        "category": "2",
+        "type": "6",
+        "rarity": "2"
+    },
+    "1115": {
+        "name": "Gastro Acid (Advanced)",
+        "category": "2",
+        "type": "7",
+        "rarity": "2"
+    },
+    "1116": {
+        "name": "Rototiller (Advanced)",
+        "category": "2",
+        "type": "8",
+        "rarity": "2"
+    },
+    "1117": {
+        "name": "Tailwind (Advanced)",
+        "category": "2",
+        "type": "9",
+        "rarity": "2"
+    },
+    "1118": {
+        "name": "Calm Mind (Advanced)",
+        "category": "2",
+        "type": "10",
+        "rarity": "2"
+    },
+    "1119": {
+        "name": "Tail Glow (Advanced)",
+        "category": "2",
+        "type": "11",
+        "rarity": "2"
+    },
+    "1120": {
+        "name": "Ancient Power (Advanced)",
+        "category": "2",
+        "type": "12",
+        "rarity": "2"
+    },
+    "1121": {
+        "name": "Nightmare (Advanced)",
+        "category": "2",
+        "type": "13",
+        "rarity": "2"
+    },
+    "1122": {
+        "name": "Nasty Plot (Advanced)",
+        "category": "2",
+        "type": "14",
+        "rarity": "2"
+    },
+    "1123": {
+        "name": "Dragon Rage (Advanced)",
+        "category": "2",
+        "type": "15",
+        "rarity": "2"
+    },
+    "1124": {
+        "name": "Shift Gear (Advanced)",
+        "category": "2",
+        "type": "16",
+        "rarity": "2"
+    },
+    "1125": {
+        "name": "Decorate (Advanced)",
+        "category": "2",
+        "type": "17",
+        "rarity": "2"
+    },
+    "1126": {
+        "name": "Hidden Power (Expert)",
+        "category": "2",
+        "type": "0",
+        "rarity": "3"
+    },
+    "1127": {
+        "name": "Overheat (Expert)",
+        "category": "2",
+        "type": "1",
+        "rarity": "3"
+    },
+    "1128": {
+        "name": "Rain Dance (Expert)",
+        "category": "2",
+        "type": "2",
+        "rarity": "3"
+    },
+    "1129": {
+        "name": "Spore (Expert)",
+        "category": "2",
+        "type": "3",
+        "rarity": "3"
+    },
+    "1130": {
+        "name": "Charge (Expert)",
+        "category": "2",
+        "type": "4",
+        "rarity": "3"
+    },
+    "1131": {
+        "name": "Snowscape (Expert)",
+        "category": "2",
+        "type": "5",
+        "rarity": "3"
+    },
+    "1132": {
+        "name": "Superpower (Expert)",
+        "category": "2",
+        "type": "6",
+        "rarity": "3"
+    },
+    "1133": {
+        "name": "Gastro Acid (Expert)",
+        "category": "2",
+        "type": "7",
+        "rarity": "3"
+    },
+    "1134": {
+        "name": "Rototiller (Expert)",
+        "category": "2",
+        "type": "8",
+        "rarity": "3"
+    },
+    "1135": {
+        "name": "Tailwind (Expert)",
+        "category": "2",
+        "type": "9",
+        "rarity": "3"
+    },
+    "1136": {
+        "name": "Calm Mind (Expert)",
+        "category": "2",
+        "type": "10",
+        "rarity": "3"
+    },
+    "1137": {
+        "name": "Tail Glow (Expert)",
+        "category": "2",
+        "type": "11",
+        "rarity": "3"
+    },
+    "1138": {
+        "name": "Ancient Power (Expert)",
+        "category": "2",
+        "type": "12",
+        "rarity": "3"
+    },
+    "1139": {
+        "name": "Nightmare (Expert)",
+        "category": "2",
+        "type": "13",
+        "rarity": "3"
+    },
+    "1140": {
+        "name": "Nasty Plot (Expert)",
+        "category": "2",
+        "type": "14",
+        "rarity": "3"
+    },
+    "1141": {
+        "name": "Dragon Rage (Expert)",
+        "category": "2",
+        "type": "15",
+        "rarity": "3"
+    },
+    "1142": {
+        "name": "Shift Gear (Expert)",
+        "category": "2",
+        "type": "16",
+        "rarity": "3"
+    },
+    "1143": {
+        "name": "Decorate (Expert)",
+        "category": "2",
+        "type": "17",
+        "rarity": "3"
+    },
+    "1144": {
+        "name": "Hidden Power (Master)",
+        "category": "2",
+        "type": "0",
+        "rarity": "4"
+    },
+    "1145": {
+        "name": "Overheat (Master)",
+        "category": "2",
+        "type": "1",
+        "rarity": "4"
+    },
+    "1146": {
+        "name": "Rain Dance (Master)",
+        "category": "2",
+        "type": "2",
+        "rarity": "4"
+    },
+    "1147": {
+        "name": "Spore (Master)",
+        "category": "2",
+        "type": "3",
+        "rarity": "4"
+    },
+    "1148": {
+        "name": "Charge (Master)",
+        "category": "2",
+        "type": "4",
+        "rarity": "4"
+    },
+    "1149": {
+        "name": "Snowscape (Master)",
+        "category": "2",
+        "type": "5",
+        "rarity": "4"
+    },
+    "1150": {
+        "name": "Superpower (Master)",
+        "category": "2",
+        "type": "6",
+        "rarity": "4"
+    },
+    "1151": {
+        "name": "Gastro Acid (Master)",
+        "category": "2",
+        "type": "7",
+        "rarity": "4"
+    },
+    "1152": {
+        "name": "Rototiller (Master)",
+        "category": "2",
+        "type": "8",
+        "rarity": "4"
+    },
+    "1153": {
+        "name": "Tailwind (Master)",
+        "category": "2",
+        "type": "9",
+        "rarity": "4"
+    },
+    "1154": {
+        "name": "Calm Mind (Master)",
+        "category": "2",
+        "type": "10",
+        "rarity": "4"
+    },
+    "1155": {
+        "name": "Tail Glow (Master)",
+        "category": "2",
+        "type": "11",
+        "rarity": "4"
+    },
+    "1156": {
+        "name": "Ancient Power (Master)",
+        "category": "2",
+        "type": "12",
+        "rarity": "4"
+    },
+    "1157": {
+        "name": "Nightmare (Master)",
+        "category": "2",
+        "type": "13",
+        "rarity": "4"
+    },
+    "1158": {
+        "name": "Nasty Plot (Master)",
+        "category": "2",
+        "type": "14",
+        "rarity": "4"
+    },
+    "1159": {
+        "name": "Dragon Rage (Master)",
+        "category": "2",
+        "type": "15",
+        "rarity": "4"
+    },
+    "1160": {
+        "name": "Shift Gear (Master)",
+        "category": "2",
+        "type": "16",
+        "rarity": "4"
+    },
+    "1161": {
+        "name": "Decorate (Master)",
+        "category": "2",
+        "type": "17",
+        "rarity": "4"
+    },
+    "1162": {
+        "name": "Hidden Power (Grandmaster)",
+        "category": "2",
+        "type": "0",
+        "rarity": "5"
+    },
+    "1163": {
+        "name": "Overheat (Grandmaster)",
+        "category": "2",
+        "type": "1",
+        "rarity": "5"
+    },
+    "1164": {
+        "name": "Rain Dance (Grandmaster)",
+        "category": "2",
+        "type": "2",
+        "rarity": "5"
+    },
+    "1165": {
+        "name": "Spore (Grandmaster)",
+        "category": "2",
+        "type": "3",
+        "rarity": "5"
+    },
+    "1166": {
+        "name": "Charge (Grandmaster)",
+        "category": "2",
+        "type": "4",
+        "rarity": "5"
+    },
+    "1167": {
+        "name": "Snowscape (Grandmaster)",
+        "category": "2",
+        "type": "5",
+        "rarity": "5"
+    },
+    "1168": {
+        "name": "Superpower (Grandmaster)",
+        "category": "2",
+        "type": "6",
+        "rarity": "5"
+    },
+    "1169": {
+        "name": "Gastro Acid (Grandmaster)",
+        "category": "2",
+        "type": "7",
+        "rarity": "5"
+    },
+    "1170": {
+        "name": "Rototiller (Grandmaster)",
+        "category": "2",
+        "type": "8",
+        "rarity": "5"
+    },
+    "1171": {
+        "name": "Tailwind (Grandmaster)",
+        "category": "2",
+        "type": "9",
+        "rarity": "5"
+    },
+    "1172": {
+        "name": "Calm Mind (Grandmaster)",
+        "category": "2",
+        "type": "10",
+        "rarity": "5"
+    },
+    "1173": {
+        "name": "Tail Glow (Grandmaster)",
+        "category": "2",
+        "type": "11",
+        "rarity": "5"
+    },
+    "1174": {
+        "name": "Ancient Power (Grandmaster)",
+        "category": "2",
+        "type": "12",
+        "rarity": "5"
+    },
+    "1175": {
+        "name": "Nightmare (Grandmaster)",
+        "category": "2",
+        "type": "13",
+        "rarity": "5"
+    },
+    "1176": {
+        "name": "Nasty Plot (Grandmaster)",
+        "category": "2",
+        "type": "14",
+        "rarity": "5"
+    },
+    "1177": {
+        "name": "Dragon Rage (Grandmaster)",
+        "category": "2",
+        "type": "15",
+        "rarity": "5"
+    },
+    "1178": {
+        "name": "Shift Gear (Grandmaster)",
+        "category": "2",
+        "type": "16",
+        "rarity": "5"
+    },
+    "1179": {
+        "name": "Decorate (Grandmaster)",
+        "category": "2",
+        "type": "17",
+        "rarity": "5"
+    },
+    "1180": {
+        "name": "Façade (Elementary)",
+        "category": "3",
+        "type": "0",
+        "rarity": "1"
+    },
+    "1181": {
+        "name": "Blue Flare (Elementary)",
+        "category": "3",
+        "type": "1",
+        "rarity": "1"
+    },
+    "1182": {
+        "name": "Dive (Elementary)",
+        "category": "3",
+        "type": "2",
+        "rarity": "1"
+    },
+    "1183": {
+        "name": "Ingrain (Elementary)",
+        "category": "3",
+        "type": "3",
+        "rarity": "1"
+    },
+    "1184": {
+        "name": "Magnetic Flux (Elementary)",
+        "category": "3",
+        "type": "4",
+        "rarity": "1"
+    },
+    "1185": {
+        "name": "Mist (Elementary)",
+        "category": "3",
+        "type": "5",
+        "rarity": "1"
+    },
+    "1186": {
+        "name": "Bulk Up (Elementary)",
+        "category": "3",
+        "type": "6",
+        "rarity": "1"
+    },
+    "1187": {
+        "name": "Acid Armor (Elementary)",
+        "category": "3",
+        "type": "7",
+        "rarity": "1"
+    },
+    "1188": {
+        "name": "Shore Up (Elementary)",
+        "category": "3",
+        "type": "8",
+        "rarity": "1"
+    },
+    "1189": {
+        "name": "Roost (Elementary)",
+        "category": "3",
+        "type": "9",
+        "rarity": "1"
+    },
+    "1190": {
+        "name": "Barrier (Elementary)",
+        "category": "3",
+        "type": "10",
+        "rarity": "1"
+    },
+    "1191": {
+        "name": "Quiver Dance (Elementary)",
+        "category": "3",
+        "type": "11",
+        "rarity": "1"
+    },
+    "1192": {
+        "name": "Rock Polish (Elementary)",
+        "category": "3",
+        "type": "12",
+        "rarity": "1"
+    },
+    "1193": {
+        "name": "Grudge (Elementary)",
+        "category": "3",
+        "type": "13",
+        "rarity": "1"
+    },
+    "1194": {
+        "name": "Obstruct (Elementary)",
+        "category": "3",
+        "type": "14",
+        "rarity": "1"
+    },
+    "1195": {
+        "name": "Dragon Dance (Elementary)",
+        "category": "3",
+        "type": "15",
+        "rarity": "1"
+    },
+    "1196": {
+        "name": "Iron Defense (Elementary)",
+        "category": "3",
+        "type": "16",
+        "rarity": "1"
+    },
+    "1197": {
+        "name": "Charm (Elementary)",
+        "category": "3",
+        "type": "17",
+        "rarity": "1"
+    },
+    "1198": {
+        "name": "Façade (Advanced)",
+        "category": "3",
+        "type": "0",
+        "rarity": "2"
+    },
+    "1199": {
+        "name": "Blue Flare (Advanced)",
+        "category": "3",
+        "type": "1",
+        "rarity": "2"
+    },
+    "1200": {
+        "name": "Dive (Advanced)",
+        "category": "3",
+        "type": "2",
+        "rarity": "2"
+    },
+    "1201": {
+        "name": "Ingrain (Advanced)",
+        "category": "3",
+        "type": "3",
+        "rarity": "2"
+    },
+    "1202": {
+        "name": "Magnetic Flux (Advanced)",
+        "category": "3",
+        "type": "4",
+        "rarity": "2"
+    },
+    "1203": {
+        "name": "Mist (Advanced)",
+        "category": "3",
+        "type": "5",
+        "rarity": "2"
+    },
+    "1204": {
+        "name": "Bulk Up (Advanced)",
+        "category": "3",
+        "type": "6",
+        "rarity": "2"
+    },
+    "1205": {
+        "name": "Acid Armor (Advanced)",
+        "category": "3",
+        "type": "7",
+        "rarity": "2"
+    },
+    "1206": {
+        "name": "Shore Up (Advanced)",
+        "category": "3",
+        "type": "8",
+        "rarity": "2"
+    },
+    "1207": {
+        "name": "Roost (Advanced)",
+        "category": "3",
+        "type": "9",
+        "rarity": "2"
+    },
+    "1208": {
+        "name": "Barrier (Advanced)",
+        "category": "3",
+        "type": "10",
+        "rarity": "2"
+    },
+    "1209": {
+        "name": "Quiver Dance (Advanced)",
+        "category": "3",
+        "type": "11",
+        "rarity": "2"
+    },
+    "1210": {
+        "name": "Rock Polish (Advanced)",
+        "category": "3",
+        "type": "12",
+        "rarity": "2"
+    },
+    "1211": {
+        "name": "Grudge (Advanced)",
+        "category": "3",
+        "type": "13",
+        "rarity": "2"
+    },
+    "1212": {
+        "name": "Obstruct (Advanced)",
+        "category": "3",
+        "type": "14",
+        "rarity": "2"
+    },
+    "1213": {
+        "name": "Dragon Dance (Advanced)",
+        "category": "3",
+        "type": "15",
+        "rarity": "2"
+    },
+    "1214": {
+        "name": "Iron Defense (Advanced)",
+        "category": "3",
+        "type": "16",
+        "rarity": "2"
+    },
+    "1215": {
+        "name": "Charm (Advanced)",
+        "category": "3",
+        "type": "17",
+        "rarity": "2"
+    },
+    "1216": {
+        "name": "Façade (Expert)",
+        "category": "3",
+        "type": "0",
+        "rarity": "3"
+    },
+    "1217": {
+        "name": "Blue Flare (Expert)",
+        "category": "3",
+        "type": "1",
+        "rarity": "3"
+    },
+    "1218": {
+        "name": "Dive (Expert)",
+        "category": "3",
+        "type": "2",
+        "rarity": "3"
+    },
+    "1219": {
+        "name": "Ingrain (Expert)",
+        "category": "3",
+        "type": "3",
+        "rarity": "3"
+    },
+    "1220": {
+        "name": "Magnetic Flux (Expert)",
+        "category": "3",
+        "type": "4",
+        "rarity": "3"
+    },
+    "1221": {
+        "name": "Mist (Expert)",
+        "category": "3",
+        "type": "5",
+        "rarity": "3"
+    },
+    "1222": {
+        "name": "Bulk Up (Expert)",
+        "category": "3",
+        "type": "6",
+        "rarity": "3"
+    },
+    "1223": {
+        "name": "Acid Armor (Expert)",
+        "category": "3",
+        "type": "7",
+        "rarity": "3"
+    },
+    "1224": {
+        "name": "Shore Up (Expert)",
+        "category": "3",
+        "type": "8",
+        "rarity": "3"
+    },
+    "1225": {
+        "name": "Roost (Expert)",
+        "category": "3",
+        "type": "9",
+        "rarity": "3"
+    },
+    "1226": {
+        "name": "Barrier (Expert)",
+        "category": "3",
+        "type": "10",
+        "rarity": "3"
+    },
+    "1227": {
+        "name": "Quiver Dance (Expert)",
+        "category": "3",
+        "type": "11",
+        "rarity": "3"
+    },
+    "1228": {
+        "name": "Rock Polish (Expert)",
+        "category": "3",
+        "type": "12",
+        "rarity": "3"
+    },
+    "1229": {
+        "name": "Grudge (Expert)",
+        "category": "3",
+        "type": "13",
+        "rarity": "3"
+    },
+    "1230": {
+        "name": "Obstruct (Expert)",
+        "category": "3",
+        "type": "14",
+        "rarity": "3"
+    },
+    "1231": {
+        "name": "Dragon Dance (Expert)",
+        "category": "3",
+        "type": "15",
+        "rarity": "3"
+    },
+    "1232": {
+        "name": "Iron Defense (Expert)",
+        "category": "3",
+        "type": "16",
+        "rarity": "3"
+    },
+    "1233": {
+        "name": "Charm (Expert)",
+        "category": "3",
+        "type": "17",
+        "rarity": "3"
+    },
+    "1234": {
+        "name": "Façade (Master)",
+        "category": "3",
+        "type": "0",
+        "rarity": "4"
+    },
+    "1235": {
+        "name": "Blue Flare (Master)",
+        "category": "3",
+        "type": "1",
+        "rarity": "4"
+    },
+    "1236": {
+        "name": "Dive (Master)",
+        "category": "3",
+        "type": "2",
+        "rarity": "4"
+    },
+    "1237": {
+        "name": "Ingrain (Master)",
+        "category": "3",
+        "type": "3",
+        "rarity": "4"
+    },
+    "1238": {
+        "name": "Magnetic Flux (Master)",
+        "category": "3",
+        "type": "4",
+        "rarity": "4"
+    },
+    "1239": {
+        "name": "Mist (Master)",
+        "category": "3",
+        "type": "5",
+        "rarity": "4"
+    },
+    "1240": {
+        "name": "Bulk Up (Master)",
+        "category": "3",
+        "type": "6",
+        "rarity": "4"
+    },
+    "1241": {
+        "name": "Acid Armor (Master)",
+        "category": "3",
+        "type": "7",
+        "rarity": "4"
+    },
+    "1242": {
+        "name": "Shore Up (Master)",
+        "category": "3",
+        "type": "8",
+        "rarity": "4"
+    },
+    "1243": {
+        "name": "Roost (Master)",
+        "category": "3",
+        "type": "9",
+        "rarity": "4"
+    },
+    "1244": {
+        "name": "Barrier (Master)",
+        "category": "3",
+        "type": "10",
+        "rarity": "4"
+    },
+    "1245": {
+        "name": "Quiver Dance (Master)",
+        "category": "3",
+        "type": "11",
+        "rarity": "4"
+    },
+    "1246": {
+        "name": "Rock Polish (Master)",
+        "category": "3",
+        "type": "12",
+        "rarity": "4"
+    },
+    "1247": {
+        "name": "Grudge (Master)",
+        "category": "3",
+        "type": "13",
+        "rarity": "4"
+    },
+    "1248": {
+        "name": "Obstruct (Master)",
+        "category": "3",
+        "type": "14",
+        "rarity": "4"
+    },
+    "1249": {
+        "name": "Dragon Dance (Master)",
+        "category": "3",
+        "type": "15",
+        "rarity": "4"
+    },
+    "1250": {
+        "name": "Iron Defense (Master)",
+        "category": "3",
+        "type": "16",
+        "rarity": "4"
+    },
+    "1251": {
+        "name": "Charm (Master)",
+        "category": "3",
+        "type": "17",
+        "rarity": "4"
+    },
+    "1252": {
+        "name": "Façade (Grandmaster)",
+        "category": "3",
+        "type": "0",
+        "rarity": "5"
+    },
+    "1253": {
+        "name": "Blue Flare (Grandmaster)",
+        "category": "3",
+        "type": "1",
+        "rarity": "5"
+    },
+    "1254": {
+        "name": "Dive (Grandmaster)",
+        "category": "3",
+        "type": "2",
+        "rarity": "5"
+    },
+    "1255": {
+        "name": "Ingrain (Grandmaster)",
+        "category": "3",
+        "type": "3",
+        "rarity": "5"
+    },
+    "1256": {
+        "name": "Magnetic Flux (Grandmaster)",
+        "category": "3",
+        "type": "4",
+        "rarity": "5"
+    },
+    "1257": {
+        "name": "Mist (Grandmaster)",
+        "category": "3",
+        "type": "5",
+        "rarity": "5"
+    },
+    "1258": {
+        "name": "Bulk Up (Grandmaster)",
+        "category": "3",
+        "type": "6",
+        "rarity": "5"
+    },
+    "1259": {
+        "name": "Acid Armor (Grandmaster)",
+        "category": "3",
+        "type": "7",
+        "rarity": "5"
+    },
+    "1260": {
+        "name": "Shore Up (Grandmaster)",
+        "category": "3",
+        "type": "8",
+        "rarity": "5"
+    },
+    "1261": {
+        "name": "Roost (Grandmaster)",
+        "category": "3",
+        "type": "9",
+        "rarity": "5"
+    },
+    "1262": {
+        "name": "Barrier (Grandmaster)",
+        "category": "3",
+        "type": "10",
+        "rarity": "5"
+    },
+    "1263": {
+        "name": "Quiver Dance (Grandmaster)",
+        "category": "3",
+        "type": "11",
+        "rarity": "5"
+    },
+    "1264": {
+        "name": "Rock Polish (Grandmaster)",
+        "category": "3",
+        "type": "12",
+        "rarity": "5"
+    },
+    "1265": {
+        "name": "Grudge (Grandmaster)",
+        "category": "3",
+        "type": "13",
+        "rarity": "5"
+    },
+    "1266": {
+        "name": "Obstruct (Grandmaster)",
+        "category": "3",
+        "type": "14",
+        "rarity": "5"
+    },
+    "1267": {
+        "name": "Dragon Dance (Grandmaster)",
+        "category": "3",
+        "type": "15",
+        "rarity": "5"
+    },
+    "1268": {
+        "name": "Iron Defense (Grandmaster)",
+        "category": "3",
+        "type": "16",
+        "rarity": "5"
+    },
+    "1269": {
+        "name": "Charm (Grandmaster)",
+        "category": "3",
+        "type": "17",
+        "rarity": "5"
+    },
+    "1270": {
+        "name": "Concentration (Elementary)",
+        "category": "4",
+        "type": "18",
+        "rarity": "1"
+    },
+    "1271": {
+        "name": "Wrath (Elementary)",
+        "category": "5",
+        "type": "18",
+        "rarity": "1"
+    },
+    "1272": {
+        "name": "Dexterity (Elementary)",
+        "category": "6",
+        "type": "18",
+        "rarity": "1"
+    },
+    "1273": {
+        "name": "Willpower  (Elementary)",
+        "category": "7",
+        "type": "18",
+        "rarity": "1"
+    },
+    "1274": {
+        "name": "Combo (Elementary)",
+        "category": "8",
+        "type": "18",
+        "rarity": "1"
+    },
+    "1275": {
+        "name": "Concentration (Advanced)",
+        "category": "4",
+        "type": "18",
+        "rarity": "2"
+    },
+    "1276": {
+        "name": "Wrath (Advanced)",
+        "category": "5",
+        "type": "18",
+        "rarity": "2"
+    },
+    "1277": {
+        "name": "Dexterity (Advanced)",
+        "category": "6",
+        "type": "18",
+        "rarity": "2"
+    },
+    "1278": {
+        "name": "Willpower  (Advanced)",
+        "category": "7",
+        "type": "18",
+        "rarity": "2"
+    },
+    "1279": {
+        "name": "Combo (Advanced)",
+        "category": "8",
+        "type": "18",
+        "rarity": "2"
+    },
+    "1280": {
+        "name": "Concentration (Expert)",
+        "category": "4",
         "type": "18",
         "rarity": "3"
+    },
+    "1281": {
+        "name": "Wrath (Expert)",
+        "category": "5",
+        "type": "18",
+        "rarity": "3"
+    },
+    "1282": {
+        "name": "Dexterity (Expert)",
+        "category": "6",
+        "type": "18",
+        "rarity": "3"
+    },
+    "1283": {
+        "name": "Willpower  (Expert)",
+        "category": "7",
+        "type": "18",
+        "rarity": "3"
+    },
+    "1284": {
+        "name": "Combo (Expert)",
+        "category": "8",
+        "type": "18",
+        "rarity": "3"
+    },
+    "1285": {
+        "name": "Concentration (Master)",
+        "category": "4",
+        "type": "18",
+        "rarity": "4"
+    },
+    "1286": {
+        "name": "Wrath (Master)",
+        "category": "5",
+        "type": "18",
+        "rarity": "4"
+    },
+    "1287": {
+        "name": "Dexterity (Master)",
+        "category": "6",
+        "type": "18",
+        "rarity": "4"
+    },
+    "1288": {
+        "name": "Willpower  (Master)",
+        "category": "7",
+        "type": "18",
+        "rarity": "4"
+    },
+    "1289": {
+        "name": "Combo (Master)",
+        "category": "8",
+        "type": "18",
+        "rarity": "4"
+    },
+    "1290": {
+        "name": "Concentration (Grandmaster)",
+        "category": "4",
+        "type": "18",
+        "rarity": "5"
+    },
+    "1291": {
+        "name": "Wrath (Grandmaster)",
+        "category": "5",
+        "type": "18",
+        "rarity": "5"
+    },
+    "1292": {
+        "name": "Dexterity (Grandmaster)",
+        "category": "6",
+        "type": "18",
+        "rarity": "5"
+    },
+    "1293": {
+        "name": "Willpower  (Grandmaster)",
+        "category": "7",
+        "type": "18",
+        "rarity": "5"
+    },
+    "1294": {
+        "name": "Combo (Grandmaster)",
+        "category": "8",
+        "type": "18",
+        "rarity": "5"
     }
 }

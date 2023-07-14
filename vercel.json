@@ -103,6 +103,10 @@
       "destination": "/api/pokeben/buff"
     },
     {
+      "source": "/api/pokeben/debuff/:id",
+      "destination": "/api/pokeben/debuff"
+    },
+    {
       "source": "/api/pokeben/itemtype/:id",
       "destination": "/api/pokeben/itemtype"
     },

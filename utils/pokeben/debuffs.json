@@ -1,0 +1,110 @@
+{
+    "0": {
+        "name": "Wounded",
+        "category": "3",
+        "type": "0",
+        "rarity": "1"
+    },
+    "1": {
+        "name": "Burned",
+        "category": "3",
+        "type": "1",
+        "rarity": "1"
+    },
+    "2": {
+        "name": "Suffocated",
+        "category": "3",
+        "type": "2",
+        "rarity": "1"
+    },
+    "3": {
+        "name": "Leech Seeded",
+        "category": "3",
+        "type": "3",
+        "rarity": "1"
+    },
+    "4": {
+        "name": "Paralyzed",
+        "category": "3",
+        "type": "4",
+        "rarity": "1"
+    },
+    "5": {
+        "name": "Frozen",
+        "category": "3",
+        "type": "5",
+        "rarity": "1"
+    },
+    "6": {
+        "name": "Injured",
+        "category": "3",
+        "type": "6",
+        "rarity": "1"
+    },
+    "7": {
+        "name": "Poisoned",
+        "category": "3",
+        "type": "7",
+        "rarity": "1"
+    },
+    "8": {
+        "name": "Heavy",
+        "category": "3",
+        "type": "8",
+        "rarity": "1"
+    },
+    "9": {
+        "name": "Slow",
+        "category": "3",
+        "type": "9",
+        "rarity": "1"
+    },
+    "10": {
+        "name": "Confused",
+        "category": "3",
+        "type": "10",
+        "rarity": "1"
+    },
+    "11": {
+        "name": "Infected",
+        "category": "3",
+        "type": "11",
+        "rarity": "1"
+    },
+    "12": {
+        "name": "Fractured",
+        "category": "3",
+        "type": "12",
+        "rarity": "1"
+    },
+    "13": {
+        "name": "Frightened",
+        "category": "3",
+        "type": "13",
+        "rarity": "1"
+    },
+    "14": {
+        "name": "Flinching",
+        "category": "3",
+        "type": "14",
+        "rarity": "1"
+    },
+    "15": {
+        "name": "Fearful",
+        "category": "3",
+        "type": "15",
+        "rarity": "1"
+    },
+    "16": {
+        "name": "Bleeding",
+        "category": "3",
+        "type": "16",
+        "rarity": "1"
+    },
+    "17": {
+        "name": "Infatuated",
+        "category": "3",
+        "type": "17",
+        "rarity": "1"
+    }
+}
