@@ -1,0 +1,113 @@
+{
+    "10001": {
+        "name": "Long-Haired, Erect Ears",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10002": {
+        "name": "Fully Covered, Knitted Hat",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10003": {
+        "name": "Half-Ear, Black Leather Hat",
+        "type": "1",
+        "rarity": "1"
+    },
+    "20001": {
+        "name": "Solid-Color",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20002": {
+        "name": "Long-Haired",
+        "type": "2",
+        "rarity": "1"
+    },
+    "30001": {
+        "name": "Large Area of Shallow Fur",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30002": {
+        "name": "Y-Shaped Burst of Fur",
+        "type": "3",
+        "rarity": "1"
+    },
+    "40001": {
+        "name": "Ship Gray, School Bus Yellow",
+        "type": "4",
+        "rarity": "1",
+        "Color1": "Ship Gray",
+        "Color2": "Ship Gray",
+        "Color3": "Ship Gray",
+        "Eye": "School Bus Yellow"
+    },
+    "40002": {
+        "name": "Kournikova, Old Lace, Sandy Brown, Dodger Blue",
+        "type": "4",
+        "rarity": "1",
+        "Color1": "Kournikova",
+        "Color2": "Old Lace",
+        "Color3": "Sandy Brown",
+        "Eye": "Dodger Blue"
+    },
+    "40003": {
+        "name": "Comet, Porcelain, Blue Ribbon, Cranberry",
+        "type": "4",
+        "rarity": "1",
+        "Color1": "Comet",
+        "Color2": "Porcelain",
+        "Color3": "Blue Ribbon",
+        "Eye": "Cranberry"
+    },
+    "40004": {
+        "name": "Ferra, Pink Lady, Heliotrope",
+        "type": "4",
+        "rarity": "1",
+        "Color1": "Ferra",
+        "Color2": "Pink Lady",
+        "Color3": "Ferra",
+        "Eye": "Heliotrope"
+    },
+    "50001": {
+        "name": "Sports Shirt",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50002": {
+        "name": "Green Suit",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50003": {
+        "name": "Scarf Coat",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50004": {
+        "name": "Pilot Jacket",
+        "type": "5",
+        "rarity": "1"
+    },
+    "60001": {
+        "name": "Black Yellow Steel Plate Line",
+        "type": "6",
+        "rarity": "1"
+    },
+    "60002": {
+        "name": "Basic P5 Style",
+        "type": "6",
+        "rarity": "1"
+    },
+    "60003": {
+        "name": "Bookmark Tea Cup",
+        "type": "6",
+        "rarity": "1"
+    },
+    "60004": {
+        "name": "Red Black Cross Star",
+        "type": "6",
+        "rarity": "1"
+    }
+}

@@ -2063,5 +2063,119 @@
         "rarity": "5",
         "desc": "Teaches your PokéBen an ability: Combo (Grandmaster)",
         "data": "1294"
+    },
+    "1001": {
+        "name": "Hero Head: Long-Haired, Erect Ears",
+        "type": "2",
+        "rarity": "1",
+        "data": "10001"
+    },
+    "1002": {
+        "name": "Hero Head: Fully Covered, Knitted Hat",
+        "type": "2",
+        "rarity": "1",
+        "data": "10002"
+    },
+    "1003": {
+        "name": "Hero Head: Half-Ear, Black Leather Hat",
+        "type": "2",
+        "rarity": "1",
+        "data": "10003"
+    },
+    "1004": {
+        "name": "Hero Face: Solid-Color",
+        "type": "2",
+        "rarity": "1",
+        "data": "20001"
+    },
+    "1005": {
+        "name": "Hero Face: Long-Haired",
+        "type": "2",
+        "rarity": "1",
+        "data": "20002"
+    },
+    "1006": {
+        "name": "Hero Body: Large Area of Shallow Fur",
+        "type": "2",
+        "rarity": "1",
+        "data": "30001"
+    },
+    "1007": {
+        "name": "Hero Body: Y-Shaped Burst of Fur",
+        "type": "2",
+        "rarity": "1",
+        "data": "30002"
+    },
+    "1008": {
+        "name": "Hero Colors: Ship Gray, School Bus Yellow",
+        "type": "2",
+        "rarity": "1",
+        "data": "40001"
+    },
+    "1009": {
+        "name": "Hero Colors: Kournikova, Old Lace, Sandy Brown, Dodger Blue",
+        "type": "2",
+        "rarity": "1",
+        "data": "40002"
+    },
+    "1010": {
+        "name": "Hero Colors: Comet, Porcelain, Blue Ribbon, Cranberry",
+        "type": "2",
+        "rarity": "1",
+        "data": "40003"
+    },
+    "1011": {
+        "name": "Hero Colors: Ferra, Pink Lady, Heliotrope",
+        "type": "2",
+        "rarity": "1",
+        "data": "40004"
+    },
+    "1012": {
+        "name": "Hero Clothes: Sports Shirt",
+        "type": "2",
+        "rarity": "1",
+        "data": "50001"
+    },
+    "1013": {
+        "name": "Hero Clothes: Green Suit",
+        "type": "2",
+        "rarity": "1",
+        "data": "50002"
+    },
+    "1014": {
+        "name": "Hero Clothes: Scarf Coat",
+        "type": "2",
+        "rarity": "1",
+        "data": "50003"
+    },
+    "1015": {
+        "name": "Hero Clothes: Pilot Jacket",
+        "type": "2",
+        "rarity": "1",
+        "data": "50004"
+    },
+    "1016": {
+        "name": "Hero Background: Black Yellow Steel Plate Line",
+        "type": "2",
+        "rarity": "1",
+        "data": "60001"
+    },
+    "1017": {
+        "name": "Hero Background: Basic P5 Style",
+        "type": "2",
+        "rarity": "1",
+        "data": "60002"
+    },
+    "1018": {
+        "name": "Hero Background: Bookmark Tea Cup",
+        "type": "2",
+        "rarity": "1",
+        "data": "60003"
+    },
+    "1019": {
+        "name": "Hero Background: Red Black Cross Star",
+        "type": "2",
+        "rarity": "1",
+        "data": "60004"
     }
 }

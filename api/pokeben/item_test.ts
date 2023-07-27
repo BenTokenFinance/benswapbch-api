@@ -1,5 +1,5 @@
 import { NowRequest, NowResponse } from "@vercel/node";
-import { getPokeBenItemTestInfo, buildItemKindAttributes } from "../../utils/pokeben";
+import { getPokeBenItemTestInfo, buildItemKindAttributes, getItemKindImg } from "../../utils/pokeben";
 import itemsources from "../../utils/pokeben/itemsources.json";
 import itemkinds from "../../utils/pokeben/itemkinds.json";
 import itemtypes from "../../utils/pokeben/itemtypes.json";
@@ -16,11 +16,13 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
         "value": (itemsources as any)[info.source]
     });
     attrs.push(...buildItemKindAttributes(info.kind));
+
+    const img = getItemKindImg(info.kind);
     
     res.json({
         name: `${kind.name} (#${id})`,
-        description: kind.desc,
-        image: `https://asset.benswap.cash/games/pokebenitem/${info.kind}/560.png`,
+        ...(kind.desc ? {description: kind.desc} : {}),
+        ...(img?{image:img}:{}),
         attributes: attrs
     });
 };

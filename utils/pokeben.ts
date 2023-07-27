@@ -152,8 +152,22 @@ export const buildItemKindAttributes = (id: any) => {
   if (kind.type === '1') {
     attrs.push(...buildAbilityScrollAttributes(kind));
   }
+  if (kind.type === '2') {
+    // TODO
+  }
 
   return attrs;
+}
+
+export const getItemKindImg = (id: any) => {
+  const kind = (itemkinds as any)[id];
+  if (kind.type === '1') {
+    return `https://asset.benswap.cash/games/pokebenitem/${id}/560.png`
+  }
+  if (kind.type === "2") {
+    return `https://asset.benswap.cash/games/pokebenitem/${id}/preview.png`
+  }
+  return "";
 }
 
 export const buildAbilityScrollAttributes = (itemKind: any) => {

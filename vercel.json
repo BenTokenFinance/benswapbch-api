@@ -115,6 +115,14 @@
       "destination": "/api/pokeben/itemsource"
     },
     {
+      "source": "/api/pokeben/heroparttype/:id",
+      "destination": "/api/pokeben/heroparttype"
+    },
+    {
+      "source": "/api/pokeben/heropart/:id",
+      "destination": "/api/pokeben/heropart"
+    },
+    {
       "source": "/api/pokeben/kindMetadata/:id",
       "destination": "/api/pokeben/kindMetadata"
     },
