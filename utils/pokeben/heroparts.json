@@ -1,6 +1,6 @@
 {
     "10001": {
-        "name": "Long Hair, Erect Ears",
+        "name": "Erect Ears",
         "type": "1",
         "rarity": "1"
     },
@@ -14,6 +14,11 @@
         "type": "1",
         "rarity": "1"
     },
+    "10004": {
+        "name": "Erect Ears, Cartoon",
+        "type": "1",
+        "rarity": "1"
+    },
     "20001": {
         "name": "Single Color",
         "type": "2",
@@ -24,6 +29,11 @@
         "type": "2",
         "rarity": "1"
     },
+    "20003": {
+        "name": "Fancy Pattern",
+        "type": "2",
+        "rarity": "1"
+    },
     "30001": {
         "name": "Large Area of Shallow Fur",
         "type": "3",
@@ -31,6 +41,11 @@
     },
     "30002": {
         "name": "Y-Shaped Burst of Fur",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30003": {
+        "name": "V-Shaped Pattern of Fur",
         "type": "3",
         "rarity": "1"
     },
@@ -106,7 +121,7 @@
         "rarity": "1"
     },
     "60004": {
-        "name": "Red, Black, Crossing Star",
+        "name": "Red, Black, Cross, Star",
         "type": "6",
         "rarity": "1"
     }

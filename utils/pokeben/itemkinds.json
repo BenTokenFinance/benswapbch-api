@@ -2065,7 +2065,7 @@
         "data": "1294"
     },
     "1001": {
-        "name": "Hero Head: Long Hair, Erect Ears",
+        "name": "Hero Head: Erect Ears",
         "type": "2",
         "rarity": "1",
         "data": "10001"
@@ -2173,9 +2173,27 @@
         "data": "60003"
     },
     "1019": {
-        "name": "Hero Background: Red, Black, Crossing Star",
+        "name": "Hero Background: Red, Black, Cross, Star",
         "type": "2",
         "rarity": "1",
         "data": "60004"
+    },
+    "1020": {
+        "name": "Hero Head: Erect Ears, Cartoon",
+        "type": "2",
+        "rarity": "1",
+        "data": "10004"
+    },
+    "1021": {
+        "name": "Hero Face: Fancy Pattern",
+        "type": "2",
+        "rarity": "1",
+        "data": "20003"
+    },
+    "1022": {
+        "name": "Hero Body: V-Shaped Pattern of Fur",
+        "type": "2",
+        "rarity": "1",
+        "data": "30003"
     }
 }
