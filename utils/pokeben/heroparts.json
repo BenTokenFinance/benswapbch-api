@@ -1,6 +1,6 @@
 {
     "10001": {
-        "name": "Long-Haired, Erect Ears",
+        "name": "Long Hair, Erect Ears",
         "type": "1",
         "rarity": "1"
     },
@@ -10,17 +10,17 @@
         "rarity": "1"
     },
     "10003": {
-        "name": "Half-Ear, Black Leather Hat",
+        "name": "One Ear, Black Leather Hat",
         "type": "1",
         "rarity": "1"
     },
     "20001": {
-        "name": "Solid-Color",
+        "name": "Single Color",
         "type": "2",
         "rarity": "1"
     },
     "20002": {
-        "name": "Long-Haired",
+        "name": "Long Hair",
         "type": "2",
         "rarity": "1"
     },
@@ -91,7 +91,7 @@
         "rarity": "1"
     },
     "60001": {
-        "name": "Black Yellow Steel Plate Line",
+        "name": "Black, Yellow, Steel Plate",
         "type": "6",
         "rarity": "1"
     },
@@ -101,12 +101,12 @@
         "rarity": "1"
     },
     "60003": {
-        "name": "Bookmark Tea Cup",
+        "name": "Bookmark, Tea Cup",
         "type": "6",
         "rarity": "1"
     },
     "60004": {
-        "name": "Red Black Cross Star",
+        "name": "Red, Black, Crossing Star",
         "type": "6",
         "rarity": "1"
     }

@@ -2065,7 +2065,7 @@
         "data": "1294"
     },
     "1001": {
-        "name": "Hero Head: Long-Haired, Erect Ears",
+        "name": "Hero Head: Long Hair, Erect Ears",
         "type": "2",
         "rarity": "1",
         "data": "10001"
@@ -2077,19 +2077,19 @@
         "data": "10002"
     },
     "1003": {
-        "name": "Hero Head: Half-Ear, Black Leather Hat",
+        "name": "Hero Head: One Ear, Black Leather Hat",
         "type": "2",
         "rarity": "1",
         "data": "10003"
     },
     "1004": {
-        "name": "Hero Face: Solid-Color",
+        "name": "Hero Face: Single Color",
         "type": "2",
         "rarity": "1",
         "data": "20001"
     },
     "1005": {
-        "name": "Hero Face: Long-Haired",
+        "name": "Hero Face: Long Hair",
         "type": "2",
         "rarity": "1",
         "data": "20002"
@@ -2155,7 +2155,7 @@
         "data": "50004"
     },
     "1016": {
-        "name": "Hero Background: Black Yellow Steel Plate Line",
+        "name": "Hero Background: Black, Yellow, Steel Plate",
         "type": "2",
         "rarity": "1",
         "data": "60001"
@@ -2167,13 +2167,13 @@
         "data": "60002"
     },
     "1018": {
-        "name": "Hero Background: Bookmark Tea Cup",
+        "name": "Hero Background: Bookmark, Tea Cup",
         "type": "2",
         "rarity": "1",
         "data": "60003"
     },
     "1019": {
-        "name": "Hero Background: Red Black Cross Star",
+        "name": "Hero Background: Red, Black, Crossing Star",
         "type": "2",
         "rarity": "1",
         "data": "60004"
