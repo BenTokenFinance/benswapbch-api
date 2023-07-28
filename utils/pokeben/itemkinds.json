@@ -2071,7 +2071,7 @@
         "data": "10001"
     },
     "1002": {
-        "name": "Hero Head: Fully Covered, Knitted Hat",
+        "name": "Hero Head: Fully Covered, Blue Knitted Hat",
         "type": "2",
         "rarity": "1",
         "data": "10002"
@@ -2083,13 +2083,13 @@
         "data": "10003"
     },
     "1004": {
-        "name": "Hero Face: Single Color",
+        "name": "Hero Face: Single Color, Serious",
         "type": "2",
         "rarity": "1",
         "data": "20001"
     },
     "1005": {
-        "name": "Hero Face: Long Hair",
+        "name": "Hero Face: Long Hair, Funny",
         "type": "2",
         "rarity": "1",
         "data": "20002"
@@ -2101,7 +2101,7 @@
         "data": "30001"
     },
     "1007": {
-        "name": "Hero Body: Y-Shaped Burst of Fur",
+        "name": "Hero Body: Y-Shaped Fur Burst",
         "type": "2",
         "rarity": "1",
         "data": "30002"
@@ -2179,19 +2179,19 @@
         "data": "60004"
     },
     "1020": {
-        "name": "Hero Head: Erect Ears, Cartoon",
+        "name": "Hero Head: Erect Ears, Cartoon Style",
         "type": "2",
         "rarity": "1",
         "data": "10004"
     },
     "1021": {
-        "name": "Hero Face: Fancy Pattern",
+        "name": "Hero Face: Fancy Pattern, Thinking",
         "type": "2",
         "rarity": "1",
         "data": "20003"
     },
     "1022": {
-        "name": "Hero Body: V-Shaped Pattern of Fur",
+        "name": "Hero Body: V-Shaped Pattern",
         "type": "2",
         "rarity": "1",
         "data": "30003"

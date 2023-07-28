@@ -5,7 +5,7 @@
         "rarity": "1"
     },
     "10002": {
-        "name": "Fully Covered, Knitted Hat",
+        "name": "Fully Covered, Blue Knitted Hat",
         "type": "1",
         "rarity": "1"
     },
@@ -15,22 +15,22 @@
         "rarity": "1"
     },
     "10004": {
-        "name": "Erect Ears, Cartoon",
+        "name": "Erect Ears, Cartoon Style",
         "type": "1",
         "rarity": "1"
     },
     "20001": {
-        "name": "Single Color",
+        "name": "Single Color, Serious",
         "type": "2",
         "rarity": "1"
     },
     "20002": {
-        "name": "Long Hair",
+        "name": "Long Hair, Funny",
         "type": "2",
         "rarity": "1"
     },
     "20003": {
-        "name": "Fancy Pattern",
+        "name": "Fancy Pattern, Thinking",
         "type": "2",
         "rarity": "1"
     },
@@ -40,12 +40,12 @@
         "rarity": "1"
     },
     "30002": {
-        "name": "Y-Shaped Burst of Fur",
+        "name": "Y-Shaped Fur Burst",
         "type": "3",
         "rarity": "1"
     },
     "30003": {
-        "name": "V-Shaped Pattern of Fur",
+        "name": "V-Shaped Pattern",
         "type": "3",
         "rarity": "1"
     },
