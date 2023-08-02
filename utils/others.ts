@@ -6,7 +6,7 @@ export const getBchPrice =  async () => {
 };
 
 export const getBchHistoryPrices =  async () => {
-    const body = await got("https://api.coingecko.com/api/v3/coins/bitcoin-cash/market_chart?vs_currency=usd&days=8&interval=hour").json();
+    const body = await got("https://api.coingecko.com/api/v3/coins/bitcoin-cash/market_chart?vs_currency=usd&days=8").json();
     return body;
 };
 
