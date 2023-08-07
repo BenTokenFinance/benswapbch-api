@@ -150,7 +150,7 @@ export const buildKindAttributes = (id: any, loadedAbilities: any) => {
   return attrs;
 }
 
-export const buildItemKindAttributes = (id: any) => {
+export const buildItemKindAttributes = (id: any, data: any) => {
   const kind = (itemkinds as any)[id];
   const attrs = [];
   // Type
@@ -162,7 +162,7 @@ export const buildItemKindAttributes = (id: any) => {
     attrs.push(...buildAbilityScrollAttributes(kind));
   }
   if (kind.type === '2') {
-    attrs.push(...buildHeroPartAttributes(kind));
+    attrs.push(...buildHeroPartAttributes(kind, data));
   }
 
   return attrs;
@@ -202,7 +202,8 @@ export const buildAbilityScrollAttributes = (itemKind: any) => {
   return attrs;
 }
 
-export const buildHeroPartAttributes = (itemKind: any) => {
+export const buildHeroPartAttributes = (itemKind: any, data: any) => {
+  const value = Number(data);
   const attrs = [];
   // Hero Part
   const heropart = (heroparts as any)[itemKind.data];
@@ -213,6 +214,15 @@ export const buildHeroPartAttributes = (itemKind: any) => {
     "trait_type": "Rarity",
     "value": (rarities as any)[heropart.rarity]
   });
+  if (value > 0) {
+    const PERKS = ["","Agility","Strength","Wrath","Versatility","Resilience","Luck"];
+    if (PERKS[heropart.type]) {
+      attrs.push({
+        "trait_type": PERKS[heropart.type],
+        "value": `${data}`
+      });
+    }
+  }
   return attrs;
 }
 
