@@ -4,6 +4,7 @@ import pokeben from "./abis/pokeben.json";
 import pokebenraritysetting from "./abis/pokebenraritysetting.json";
 import pokebennameext from "./abis/pokebennameext.json";
 import pokebenitem from "./abis/pokebenitem.json";
+import pokebenhero from "./abis/pokebenhero.json";
 import pokebenabilityext from "./abis/pokebenabilityext.json";
 import rarities from "./pokeben/rarities.json";
 import abilities from "./pokeben/abilities.json";
@@ -12,6 +13,8 @@ import bens from "./pokeben/bens.json";
 import itemkinds from "./pokeben/itemkinds.json";
 import itemsources from "./pokeben/itemsources.json";
 import itemtypes from "./pokeben/itemtypes.json";
+import heroparttypes from "./pokeben/heroparttypes.json";
+import heroparts from "./pokeben/heroparts.json";
 
 const pokebenContract = getContract(pokeben, '0xFDEd6cD4B88a24e00d9Ea242338367fe734CBff5');
 const pokebenraritysettingContract = getContract(pokebenraritysetting, '0xCfA1A45d2C9590d93AA0403CD388F944D8322937');
@@ -21,6 +24,7 @@ const pokebenAbilityExtContract = getContract(pokebenabilityext, '0x23662b10e406
 
 const pokebenTestContract = getContract(pokeben, '0x366825cF69C2Ff4e8669A8a57B01923Df3a3b727');
 const pokebenItemTestContract = getContract(pokebenitem, '0xd86d4e2E514cA95867e0057d741c2e6C0F88AD91');
+const pokebenHeroTestContract = getContract(pokebenhero, '0x6726d24fE4d7FA0393066F0362849fec44E5960F');
 
 export const getPokeBenInfo = async (id: any) => {
   const info = await pokebenContract.methods.getPokeBenInfo(id).call();
@@ -33,7 +37,6 @@ export const getPokeBenTestInfo = async (id: any) => {
 
   return info;
 }
-
 
 export const getPokebenTotalSupply = async() => {
   const supply = await pokebenContract.methods.totalSupply().call();
@@ -69,6 +72,12 @@ export const getPokeBenAbilities = async (id: any) => {
   const as = await pokebenAbilityExtContract.methods.getAbilities(id).call();
 
   return as;
+}
+
+export const getPokeBenHeroTestInfo = async (id: any) => {
+  const info = await pokebenHeroTestContract.methods.getHeroParts(id, 10).call();
+
+  return info;
 }
 
 export const getPokeBenRawData = async(id:any) => {
@@ -153,7 +162,7 @@ export const buildItemKindAttributes = (id: any) => {
     attrs.push(...buildAbilityScrollAttributes(kind));
   }
   if (kind.type === '2') {
-    // TODO
+    attrs.push(...buildHeroPartAttributes(kind));
   }
 
   return attrs;
@@ -191,6 +200,91 @@ export const buildAbilityScrollAttributes = (itemKind: any) => {
     })
   }
   return attrs;
+}
+
+export const buildHeroPartAttributes = (itemKind: any) => {
+  const attrs = [];
+  // Hero Part
+  const heropart = (heroparts as any)[itemKind.data];
+  attrs.push({
+    "trait_type": "Hero Part Type",
+    "value": (heroparttypes as any)[heropart.type]
+  },{
+    "trait_type": "Rarity",
+    "value": (rarities as any)[heropart.rarity]
+  });
+  return attrs;
+}
+
+export const buildHeroMetadata = (id:any, parts: any) => {
+  const attrs:any = [];
+  let url = "https://api2.benswap.cash/pokebenhero/image";
+  if (parts.some((p:any)=> p>0 )) {
+    url = `${url}?${parts.map((v:any, i:any)=>{ return v>0?`${(i + 9).toString(36)}=${v}` : "" }).filter((s:string)=>!!s).join(`&`)}`;
+  }
+
+  // Head
+  attrs.push({
+    "trait_type": "Head",
+    "value": parts[1] > 0 ? (heroparts as any)[parts[1]].name : "Lop Ears"
+  });
+  // Face
+  if (parts[2] > 0) {
+    attrs.push({
+      "trait_type": "Face",
+      "value": (heroparts as any)[parts[2]].name
+    });
+  }
+  // Body
+  if (parts[3] > 0) {
+    attrs.push({
+      "trait_type": "Body",
+      "value": (heroparts as any)[parts[3]].name
+    });
+  }
+  // Colors
+  if (parts[4] > 0) {
+    let colors = (heroparts as any)[parts[4]];
+    ["Color 1","Color 2","Color 3","Eye Color"].forEach(c=>{
+      if (colors[c]) {
+        attrs.push({
+          "trait_type": c,
+          "value": colors[c]
+        });
+      }
+    })
+  } else {
+    attrs.push({
+      "trait_type": "Color 1",
+      "value": "Metallic Copper"
+    },{
+      "trait_type": "Color 2",
+      "value": "Apricot"
+    },{
+      "trait_type": "Color 3",
+      "value": "Brown Rust"
+    },{
+      "trait_type": "Eye Color",
+      "value": "Yellow Orange"
+    });
+  }
+  // Clothes
+  attrs.push({
+    "trait_type": "Clothes",
+    "value": parts[5] > 0 ? (heroparts as any)[parts[5]].name : "None"
+  });
+  // Background
+  attrs.push({
+    "trait_type": "Background",
+    "value": parts[6] > 0 ? (heroparts as any)[parts[6]].name : "None"
+  });
+
+  return {
+    name: `PokéBenHero #${id}`,
+    description: "PokéBen - An NFT-based game on BenSwap.Cash.",
+    attributes: attrs,
+    image: url
+  };
 }
 
 export const getRaritySettings = async () => {

@@ -53,37 +53,34 @@
         "name": "Ship Gray, School Bus Yellow",
         "type": "4",
         "rarity": "1",
-        "Color1": "Ship Gray",
-        "Color2": "Ship Gray",
-        "Color3": "Ship Gray",
-        "Eye": "School Bus Yellow"
+        "Color 1": "Ship Gray",
+        "Eye Color": "School Bus Yellow"
     },
     "40002": {
         "name": "Kournikova, Old Lace, Sandy Brown, Dodger Blue",
         "type": "4",
         "rarity": "1",
-        "Color1": "Kournikova",
+        "Color 1": "Kournikova",
         "Color2": "Old Lace",
         "Color3": "Sandy Brown",
-        "Eye": "Dodger Blue"
+        "Eye Color": "Dodger Blue"
     },
     "40003": {
         "name": "Comet, Porcelain, Blue Ribbon, Cranberry",
         "type": "4",
         "rarity": "1",
-        "Color1": "Comet",
-        "Color2": "Porcelain",
-        "Color3": "Blue Ribbon",
-        "Eye": "Cranberry"
+        "Color 1": "Comet",
+        "Color 2": "Porcelain",
+        "Color 3": "Blue Ribbon",
+        "Eye Color": "Cranberry"
     },
     "40004": {
         "name": "Ferra, Pink Lady, Heliotrope",
         "type": "4",
         "rarity": "1",
-        "Color1": "Ferra",
-        "Color2": "Pink Lady",
-        "Color3": "Ferra",
-        "Eye": "Heliotrope"
+        "Color 1": "Ferra",
+        "Color 2": "Pink Lady",
+        "Eye Color": "Heliotrope"
     },
     "50001": {
         "name": "Sports Shirt",
