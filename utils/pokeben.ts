@@ -203,7 +203,7 @@ export const buildAbilityScrollAttributes = (itemKind: any) => {
   return attrs;
 }
 
-const HEROSTATSNAMES = ["","Agility","Strength","Wrath","Versatility","Resilience","Luck"];
+const HEROSTATSNAMES = ["","Agility","Wrath","Strength","Versatility","Resilience","Luck"];
 
 export const buildHeroPartAttributes = (itemKind: any, data: any) => {
   const value = Number(data);
