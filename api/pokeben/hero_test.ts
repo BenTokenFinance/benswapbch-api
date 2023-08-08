@@ -5,7 +5,7 @@ import sources from "../../utils/pokeben/sources.json";
 export default async (req: NowRequest, res: NowResponse): Promise<void> => {
     const { id } = req.query;
 
-    const {parts, stats} = await getPokeBenHeroTestInfo(id);
+    const {parts, stats, name} = await getPokeBenHeroTestInfo(id);
     
-    res.json(buildHeroMetadata(id,parts,stats));
+    res.json(buildHeroMetadata(id,parts,stats,name));
 };

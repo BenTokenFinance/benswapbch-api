@@ -27,32 +27,6 @@ export const getLiquidity = async (address: any): Promise<object> => {
     Object.keys(FACTORY).forEach((e, i)=> {
         const f = FACTORY[e];
         const contract = getContract(lpFactory, f.address);
-        // if (!addressMatch(address, FLEXUSD)) {
-        //     const flexUsdContract = getContract(bep20, FLEXUSD);
-        //     const task = contract.methods.getPair(FLEXUSD, address).call().then((lp:any)=> {
-        //         const isValid = lp && (new BigNumber(lp.toLowerCase())).isGreaterThan(0);
-        //         if (isValid) {
-        //             const key = `${f.name}-flexUSD`;
-        //             result[key] = {
-        //                 address: lp,
-        //                 baseTokenAddress: FLEXUSD
-        //             };
-        //             const innerTasks = [];
-        //             innerTasks.push(tokenContract.methods.balanceOf(lp).call().then((balance:any)=>{
-        //                 result[key]["token"] = new BigNumber(balance).div(Math.pow(10, decimals)).toFixed();
-        //             }));
-        //             innerTasks.push(flexUsdContract.methods.balanceOf(lp).call().then((balance:any)=>{
-        //                 const balanceFlexUsd = new BigNumber(balance).div(Math.pow(10, 18));
-        //                 result[key]["flexusd"] = balanceFlexUsd.toFixed();
-        //                 result[key]["baseToken"] = balanceFlexUsd.toFixed();
-        //                 result[key]["liquidityFlexusd"] = balanceFlexUsd.times(2).toFixed();
-        //             }));
-
-        //             return Promise.all(innerTasks);
-        //         }
-        //     });
-        //     tasks.push(task);
-        // }
         if (!addressMatch(address, WBCH)) {
             const wbchContract = getContract(bep20, WBCH);
             const task = contract.methods.getPair(WBCH, address).call().then((lp:any)=> {

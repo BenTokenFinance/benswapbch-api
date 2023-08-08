@@ -24,7 +24,7 @@ const pokebenAbilityExtContract = getContract(pokebenabilityext, '0x23662b10e406
 
 const pokebenTestContract = getContract(pokeben, '0x366825cF69C2Ff4e8669A8a57B01923Df3a3b727');
 const pokebenItemTestContract = getContract(pokebenitem, '0xd86d4e2E514cA95867e0057d741c2e6C0F88AD91');
-const pokebenHeroTestContract = getContract(pokebenhero, '0x04ae7Ab066F2fC9Ab6Fe00209b23dD19FA383394');
+const pokebenHeroTestContract = getContract(pokebenhero, '0x5Bca0bC667C081355Fa89AA676a0c38dc42b9a1B');
 
 export const getPokeBenInfo = async (id: any) => {
   const info = await pokebenContract.methods.getPokeBenInfo(id).call();
@@ -75,10 +75,16 @@ export const getPokeBenAbilities = async (id: any) => {
 }
 
 export const getPokeBenHeroTestInfo = async (id: any) => {
-  const parts = await pokebenHeroTestContract.methods.getHeroParts(id, 10).call();
-  const stats = await pokebenHeroTestContract.methods.getHeroStats(id, 10).call();
+  const info:any = {};
+  const tasks: any = [];
 
-  return {parts, stats};
+  tasks.push(pokebenHeroTestContract.methods.getHeroParts(id, 10).call().then((parts:any)=>{info.parts=parts;}));
+  tasks.push(pokebenHeroTestContract.methods.getHeroStats(id, 10).call().then((stats:any)=>{info.stats=stats;}));
+  tasks.push(pokebenHeroTestContract.methods.getName(id).call().then((name:any)=>{info.name=name;}));
+
+  await Promise.all(tasks);
+
+  return info;
 }
 
 export const getPokeBenRawData = async(id:any) => {
@@ -228,7 +234,7 @@ export const buildHeroPartAttributes = (itemKind: any, data: any) => {
   return attrs;
 }
 
-export const buildHeroMetadata = (id:any, parts: any, stats:any) => {
+export const buildHeroMetadata = (id:any, parts: any, stats:any, name:any) => {
   const attrs:any = [];
   let url = "https://api2.benswap.cash/pokebenhero/image";
   if (parts.some((p:any)=> p>0 )) {
@@ -302,7 +308,7 @@ export const buildHeroMetadata = (id:any, parts: any, stats:any) => {
   })
 
   return {
-    name: `PokéBenHero #${id}`,
+    name: `${name || "PokéBenHero"} #${id}`,
     description: "PokéBen - An NFT-based game on BenSwap.Cash.",
     attributes: attrs,
     image: url
