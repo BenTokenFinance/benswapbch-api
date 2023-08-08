@@ -24,7 +24,7 @@ const pokebenAbilityExtContract = getContract(pokebenabilityext, '0x23662b10e406
 
 const pokebenTestContract = getContract(pokeben, '0x366825cF69C2Ff4e8669A8a57B01923Df3a3b727');
 const pokebenItemTestContract = getContract(pokebenitem, '0xd86d4e2E514cA95867e0057d741c2e6C0F88AD91');
-const pokebenHeroTestContract = getContract(pokebenhero, '0x6726d24fE4d7FA0393066F0362849fec44E5960F');
+const pokebenHeroTestContract = getContract(pokebenhero, '0x04ae7Ab066F2fC9Ab6Fe00209b23dD19FA383394');
 
 export const getPokeBenInfo = async (id: any) => {
   const info = await pokebenContract.methods.getPokeBenInfo(id).call();
@@ -75,9 +75,10 @@ export const getPokeBenAbilities = async (id: any) => {
 }
 
 export const getPokeBenHeroTestInfo = async (id: any) => {
-  const info = await pokebenHeroTestContract.methods.getHeroParts(id, 10).call();
+  const parts = await pokebenHeroTestContract.methods.getHeroParts(id, 10).call();
+  const stats = await pokebenHeroTestContract.methods.getHeroStats(id, 10).call();
 
-  return info;
+  return {parts, stats};
 }
 
 export const getPokeBenRawData = async(id:any) => {
@@ -202,6 +203,8 @@ export const buildAbilityScrollAttributes = (itemKind: any) => {
   return attrs;
 }
 
+const HEROSTATSNAMES = ["","Agility","Strength","Wrath","Versatility","Resilience","Luck"];
+
 export const buildHeroPartAttributes = (itemKind: any, data: any) => {
   const value = Number(data);
   const attrs = [];
@@ -215,10 +218,9 @@ export const buildHeroPartAttributes = (itemKind: any, data: any) => {
     "value": (rarities as any)[heropart.rarity]
   });
   if (value > 0) {
-    const PERKS = ["","Agility","Strength","Wrath","Versatility","Resilience","Luck"];
-    if (PERKS[heropart.type]) {
+    if (HEROSTATSNAMES[heropart.type]) {
       attrs.push({
-        "trait_type": PERKS[heropart.type],
+        "trait_type": HEROSTATSNAMES[heropart.type],
         "value": `${data}`
       });
     }
@@ -226,7 +228,7 @@ export const buildHeroPartAttributes = (itemKind: any, data: any) => {
   return attrs;
 }
 
-export const buildHeroMetadata = (id:any, parts: any) => {
+export const buildHeroMetadata = (id:any, parts: any, stats:any) => {
   const attrs:any = [];
   let url = "https://api2.benswap.cash/pokebenhero/image";
   if (parts.some((p:any)=> p>0 )) {
@@ -289,7 +291,15 @@ export const buildHeroMetadata = (id:any, parts: any) => {
     "value": parts[6] > 0 ? (heroparts as any)[parts[6]].name : "None"
   });
 
-  // Bonus: TODO
+  // Stats
+  HEROSTATSNAMES.forEach((n:any,i:any)=>{
+    if (n && stats[i] && Number(stats[i])>0) {
+      attrs.push({
+        "trait_type": n,
+        "value": stats[i]
+      });
+    }
+  })
 
   return {
     name: `PokéBenHero #${id}`,
