@@ -289,6 +289,8 @@ export const buildHeroMetadata = (id:any, parts: any) => {
     "value": parts[6] > 0 ? (heroparts as any)[parts[6]].name : "None"
   });
 
+  // Bonus: TODO
+
   return {
     name: `PokéBenHero #${id}`,
     description: "PokéBen - An NFT-based game on BenSwap.Cash.",
