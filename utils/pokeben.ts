@@ -78,8 +78,8 @@ export const getPokeBenHeroTestInfo = async (id: any) => {
   const info:any = {};
   const tasks: any = [];
 
-  tasks.push(pokebenHeroTestContract.methods.getHeroParts(id, 10).call().then((parts:any)=>{info.parts=parts;}));
-  tasks.push(pokebenHeroTestContract.methods.getHeroStats(id, 10).call().then((stats:any)=>{info.stats=stats;}));
+  tasks.push(pokebenHeroTestContract.methods.getHeroParts(id, 7).call().then((parts:any)=>{info.parts=parts;}));
+  tasks.push(pokebenHeroTestContract.methods.getHeroStats(id, 7).call().then((stats:any)=>{info.stats=stats;}));
   tasks.push(pokebenHeroTestContract.methods.getName(id).call().then((name:any)=>{info.name=name;}));
 
   await Promise.all(tasks);
