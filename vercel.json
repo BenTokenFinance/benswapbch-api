@@ -151,6 +151,10 @@
       "destination": "/api/pokeben/item_test"
     },
     {
+      "source": "/api/pokeben/hero/:id",
+      "destination": "/api/pokeben/hero"
+    },
+    {
       "source": "/api/pokeben/hero_test/:id",
       "destination": "/api/pokeben/hero_test"
     },
