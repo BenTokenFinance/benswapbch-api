@@ -7,7 +7,7 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
         block: await getLatestBlock(),
         chainId: 10000,
         symbol: "BCH",
-        explorer: "https://sonar.cash/",
+        explorer: "https://smartscout.cash/",
         rpcs: RPC
     }
 

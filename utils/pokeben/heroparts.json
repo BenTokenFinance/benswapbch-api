@@ -19,6 +19,41 @@
         "type": "1",
         "rarity": "1"
     },
+    "10005": {
+        "name": "Drooping Ears, Desert Trader Hat",
+        "type": "1",
+        "rarity": "2"
+    },
+    "10006": {
+        "name": "Japanese Furry, Devil Horns",
+        "type": "1",
+        "rarity": "3"
+    },
+    "10007": {
+        "name": "Japanese Furry, Highlight, Small Horns",
+        "type": "1",
+        "rarity": "2"
+    },
+    "10008": {
+        "name": "Erect Ears, Headphone, Earrings",
+        "type": "1",
+        "rarity": "2"
+    },
+    "10009": {
+        "name": "Leather Hat, Exposed Ears",
+        "type": "1",
+        "rarity": "2"
+    },
+    "10010": {
+        "name": "Drooping Ears, Eye Covering Long Hair",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10011": {
+        "name": "Semi-Erected Drooping Ears",
+        "type": "1",
+        "rarity": "1"
+    },
     "20001": {
         "name": "Single Color, Serious",
         "type": "2",
@@ -34,13 +69,43 @@
         "type": "2",
         "rarity": "1"
     },
+    "20004": {
+        "name": "American Cartoon, Teething Stick",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20005": {
+        "name": "Single Color, Sunglasses, Cool",
+        "type": "2",
+        "rarity": "2"
+    },
+    "20006": {
+        "name": "Long Hair, Soft",
+        "type": "2",
+        "rarity": "2"
+    },
+    "20007": {
+        "name": "Deer Style, Tobacco Pipe",
+        "type": "2",
+        "rarity": "3"
+    },
+    "20008": {
+        "name": "Wolf Style, Scar, Fierce",
+        "type": "2",
+        "rarity": "3"
+    },
+    "20009": {
+        "name": "Lion Style, Handsome",
+        "type": "2",
+        "rarity": "3"
+    },
     "30001": {
         "name": "Large Area of Shallow Fur",
         "type": "3",
         "rarity": "1"
     },
     "30002": {
-        "name": "Y-Shaped Fur Burst",
+        "name": "Y-Shaped Explosive Hair",
         "type": "3",
         "rarity": "1"
     },
@@ -48,6 +113,36 @@
         "name": "V-Shaped Pattern",
         "type": "3",
         "rarity": "1"
+    },
+    "30004": {
+        "name": "Cloud Patterns",
+        "type": "3",
+        "rarity": "2"
+    },
+    "30005": {
+        "name": "Diamond Pattern, Explosive Hair",
+        "type": "3",
+        "rarity": "2"
+    },
+    "30006": {
+        "name": "Fancy Flame Patterns",
+        "type": "3",
+        "rarity": "2"
+    },
+    "30007": {
+        "name": "Bloody Scars",
+        "type": "3",
+        "rarity": "3"
+    },
+    "30008": {
+        "name": "Lightning Patterns",
+        "type": "3",
+        "rarity": "3"
+    },
+    "30009": {
+        "name": "Werewolf Style, Explosive Hair",
+        "type": "3",
+        "rarity": "2"
     },
     "40001": {
         "name": "Ship Gray, School Bus Yellow",
@@ -82,6 +177,50 @@
         "Color 2": "Pink Lady",
         "Eye Color": "Heliotrope"
     },
+    "40005": {
+        "name": "Hippie Blue, Island Spice, Yellow Orange, Cerise Red",
+        "type": "4",
+        "rarity": "2",
+        "Color 1": "Hippie Blue",
+        "Color 2": "Island Spice",
+        "Color 3": "Yellow Orange",
+        "Eye Color": "Cerise Red"
+    },
+    "40006": {
+        "name": "Titan White, Cinderella, Sandy Brown",
+        "type": "4",
+        "rarity": "3",
+        "Color 1": "Titan White",
+        "Color 2": "Cinderella",
+        "Eye Color": "Sandy Brown"
+    },
+    "40007": {
+        "name": "Wild Rice, Coconut Cream, Oxford Blue, Aquamarine Blue",
+        "type": "4",
+        "rarity": "3",
+        "Color 1": "Wild Rice",
+        "Color 2": "Coconut Cream",
+        "Color 3": "Oxford Blue",
+        "Eye Color": "Aquamarine Blue"
+    },
+    "40008": {
+        "name": "Topaz, Buttery White, Au Chico, Kournikova",
+        "type": "4",
+        "rarity": "2",
+        "Color 1": "Topaz",
+        "Color 2": "Buttery White",
+        "Color 3": "Au Chico",
+        "Eye Color": "Kournikova"
+    },
+    "40009": {
+        "name": "Casablanca, Early Dawn, Falcon, Razzmatazz",
+        "type": "4",
+        "rarity": "2",
+        "Color 1": "Casablanca",
+        "Color 2": "Early Dawn",
+        "Color 3": "Falcon",
+        "Eye Color": "Razzmatazz"
+    },
     "50001": {
         "name": "Sports Shirt",
         "type": "5",
@@ -102,6 +241,36 @@
         "type": "5",
         "rarity": "1"
     },
+    "50005": {
+        "name": "Desert Trader Outfit",
+        "type": "5",
+        "rarity": "2"
+    },
+    "50006": {
+        "name": "Blue Hunting Vest Shirt",
+        "type": "5",
+        "rarity": "2"
+    },
+    "50007": {
+        "name": "White Shirt, Towel, Overalls",
+        "type": "5",
+        "rarity": "2"
+    },
+    "50008": {
+        "name": "Agent Suit",
+        "type": "5",
+        "rarity": "2"
+    },
+    "50009": {
+        "name": "Low Collar Black Jacket",
+        "type": "5",
+        "rarity": "3"
+    },
+    "50010": {
+        "name": "Green Mountaineering Suit",
+        "type": "5",
+        "rarity": "3"
+    },
     "60001": {
         "name": "Black, Yellow, Steel Plate",
         "type": "6",
@@ -121,5 +290,35 @@
         "name": "Red, Black, Cross, Star",
         "type": "6",
         "rarity": "1"
+    },
+    "60005": {
+        "name": "Red, Black, Square",
+        "type": "6",
+        "rarity": "2"
+    },
+    "60006": {
+        "name": "Basic P5 Style II",
+        "type": "6",
+        "rarity": "2"
+    },
+    "60007": {
+        "name": "Beach Plants",
+        "type": "6",
+        "rarity": "2"
+    },
+    "60008": {
+        "name": "Street in the Dawn",
+        "type": "6",
+        "rarity": "3"
+    },
+    "60009": {
+        "name": "Who is the Prisoner?",
+        "type": "6",
+        "rarity": "3"
+    },
+    "60010": {
+        "name": "Lucky Clovers, Claws",
+        "type": "6",
+        "rarity": "3"
     }
 }

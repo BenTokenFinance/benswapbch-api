@@ -2101,7 +2101,7 @@
         "data": "30001"
     },
     "1007": {
-        "name": "Hero Body: Y-Shaped Fur Burst",
+        "name": "Hero Body: Y-Shaped Explosive Hair",
         "type": "2",
         "rarity": "1",
         "data": "30002"
@@ -2195,5 +2195,221 @@
         "type": "2",
         "rarity": "1",
         "data": "30003"
+    },
+    "1023": {
+        "name": "Hero Head: Drooping Ears, Desert Trader Hat",
+        "type": "2",
+        "rarity": "2",
+        "data": "10005"
+    },
+    "1024": {
+        "name": "Hero Head: Japanese Furry, Devil Horns",
+        "type": "2",
+        "rarity": "3",
+        "data": "10006"
+    },
+    "1025": {
+        "name": "Hero Head: Japanese Furry, Highlight, Small Horns",
+        "type": "2",
+        "rarity": "2",
+        "data": "10007"
+    },
+    "1026": {
+        "name": "Hero Head: Erect Ears, Headphone, Earrings",
+        "type": "2",
+        "rarity": "2",
+        "data": "10008"
+    },
+    "1027": {
+        "name": "Hero Head: Leather Hat, Exposed Ears",
+        "type": "2",
+        "rarity": "2",
+        "data": "10009"
+    },
+    "1028": {
+        "name": "Hero Head: Drooping Ears, Eye Covering Long Hair",
+        "type": "2",
+        "rarity": "1",
+        "data": "10010"
+    },
+    "1029": {
+        "name": "Hero Head: Semi-Erected Drooping Ears",
+        "type": "2",
+        "rarity": "1",
+        "data": "10011"
+    },
+    "1030": {
+        "name": "Hero Face: American Cartoon, Teething Stick",
+        "type": "2",
+        "rarity": "1",
+        "data": "20004"
+    },
+    "1031": {
+        "name": "Hero Face: Single Color, Sunglasses, Cool",
+        "type": "2",
+        "rarity": "2",
+        "data": "20005"
+    },
+    "1032": {
+        "name": "Hero Face: Long Hair, Soft",
+        "type": "2",
+        "rarity": "2",
+        "data": "20006"
+    },
+    "1033": {
+        "name": "Hero Face: Deer Style, Tobacco Pipe",
+        "type": "2",
+        "rarity": "3",
+        "data": "20007"
+    },
+    "1034": {
+        "name": "Hero Face: Wolf Style, Scar, Fierce",
+        "type": "2",
+        "rarity": "3",
+        "data": "20008"
+    },
+    "1035": {
+        "name": "Hero Face: Lion Style, Handsome",
+        "type": "2",
+        "rarity": "3",
+        "data": "20009"
+    },
+    "1036": {
+        "name": "Hero Body: Cloud Patterns",
+        "type": "2",
+        "rarity": "2",
+        "data": "30004"
+    },
+    "1037": {
+        "name": "Hero Body: Diamond Pattern, Explosive Hair",
+        "type": "2",
+        "rarity": "2",
+        "data": "30005"
+    },
+    "1038": {
+        "name": "Hero Body: Fancy Flame Patterns",
+        "type": "2",
+        "rarity": "2",
+        "data": "30006"
+    },
+    "1039": {
+        "name": "Hero Body: Bloody Scars",
+        "type": "2",
+        "rarity": "3",
+        "data": "30007"
+    },
+    "1040": {
+        "name": "Hero Body: Lightning Patterns",
+        "type": "2",
+        "rarity": "3",
+        "data": "30008"
+    },
+    "1041": {
+        "name": "Hero Body: Werewolf Style, Explosive Hair",
+        "type": "2",
+        "rarity": "2",
+        "data": "30009"
+    },
+    "1042": {
+        "name": "Hero Colors: Hippie Blue, Island Spice, Yellow Orange, Cerise Red",
+        "type": "2",
+        "rarity": "2",
+        "data": "40005"
+    },
+    "1043": {
+        "name": "Hero Colors: Titan White, Cinderella, Sandy Brown",
+        "type": "2",
+        "rarity": "3",
+        "data": "40006"
+    },
+    "1044": {
+        "name": "Hero Colors: Wild Rice, Coconut Cream, Oxford Blue, Aquamarine Blue",
+        "type": "2",
+        "rarity": "3",
+        "data": "40007"
+    },
+    "1045": {
+        "name": "Hero Colors: Topaz, Buttery White, Au Chico, Kournikova",
+        "type": "2",
+        "rarity": "2",
+        "data": "40008"
+    },
+    "1046": {
+        "name": "Hero Colors: Casablanca, Early Dawn, Falcon, Razzmatazz",
+        "type": "2",
+        "rarity": "2",
+        "data": "40009"
+    },
+    "1047": {
+        "name": "Hero Clothes: Desert Trader Outfit",
+        "type": "2",
+        "rarity": "2",
+        "data": "50005"
+    },
+    "1048": {
+        "name": "Hero Clothes: Blue Hunting Vest Shirt",
+        "type": "2",
+        "rarity": "2",
+        "data": "50006"
+    },
+    "1049": {
+        "name": "Hero Clothes: White Shirt, Towel, Overalls",
+        "type": "2",
+        "rarity": "2",
+        "data": "50007"
+    },
+    "1050": {
+        "name": "Hero Clothes: Agent Suit",
+        "type": "2",
+        "rarity": "2",
+        "data": "50008"
+    },
+    "1051": {
+        "name": "Hero Clothes: Low Collar Black Jacket",
+        "type": "2",
+        "rarity": "3",
+        "data": "50009"
+    },
+    "1052": {
+        "name": "Hero Clothes: Green Mountaineering Suit",
+        "type": "2",
+        "rarity": "3",
+        "data": "50010"
+    },
+    "1053": {
+        "name": "Hero Background: Red, Black, Square",
+        "type": "2",
+        "rarity": "2",
+        "data": "60005"
+    },
+    "1054": {
+        "name": "Hero Background: Basic P5 Style II",
+        "type": "2",
+        "rarity": "2",
+        "data": "60006"
+    },
+    "1055": {
+        "name": "Hero Background: Beach Plants",
+        "type": "2",
+        "rarity": "2",
+        "data": "60007"
+    },
+    "1056": {
+        "name": "Hero Background: Street in the Dawn",
+        "type": "2",
+        "rarity": "3",
+        "data": "60008"
+    },
+    "1057": {
+        "name": "Hero Background: Who is the Prisoner?",
+        "type": "2",
+        "rarity": "3",
+        "data": "60009"
+    },
+    "1058": {
+        "name": "Hero Background: Lucky Clovers, Claws",
+        "type": "2",
+        "rarity": "3",
+        "data": "60010"
     }
 }
