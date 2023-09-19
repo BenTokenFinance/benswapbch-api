@@ -32,7 +32,7 @@
     "10007": {
         "name": "Japanese Furry, Highlight, Small Horns",
         "type": "1",
-        "rarity": "2"
+        "rarity": "3"
     },
     "10008": {
         "name": "Erect Ears, Headphone, Earrings",
@@ -47,7 +47,7 @@
     "10010": {
         "name": "Drooping Ears, Eye Covering Long Hair",
         "type": "1",
-        "rarity": "1"
+        "rarity": "2"
     },
     "10011": {
         "name": "Semi-Erected Drooping Ears",
@@ -72,7 +72,7 @@
     "20004": {
         "name": "American Cartoon, Teething Stick",
         "type": "2",
-        "rarity": "1"
+        "rarity": "2"
     },
     "20005": {
         "name": "Single Color, Sunglasses, Cool",
@@ -180,7 +180,7 @@
     "40005": {
         "name": "Hippie Blue, Island Spice, Yellow Orange, Cerise Red",
         "type": "4",
-        "rarity": "2",
+        "rarity": "3",
         "Color 1": "Hippie Blue",
         "Color 2": "Island Spice",
         "Color 3": "Yellow Orange",
@@ -189,7 +189,7 @@
     "40006": {
         "name": "Titan White, Cinderella, Sandy Brown",
         "type": "4",
-        "rarity": "3",
+        "rarity": "2",
         "Color 1": "Titan White",
         "Color 2": "Cinderella",
         "Eye Color": "Sandy Brown"

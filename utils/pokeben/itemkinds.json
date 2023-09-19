@@ -2211,7 +2211,7 @@
     "1025": {
         "name": "Hero Head: Japanese Furry, Highlight, Small Horns",
         "type": "2",
-        "rarity": "2",
+        "rarity": "3",
         "data": "10007"
     },
     "1026": {
@@ -2229,7 +2229,7 @@
     "1028": {
         "name": "Hero Head: Drooping Ears, Eye Covering Long Hair",
         "type": "2",
-        "rarity": "1",
+        "rarity": "2",
         "data": "10010"
     },
     "1029": {
@@ -2241,7 +2241,7 @@
     "1030": {
         "name": "Hero Face: American Cartoon, Teething Stick",
         "type": "2",
-        "rarity": "1",
+        "rarity": "2",
         "data": "20004"
     },
     "1031": {
@@ -2313,13 +2313,13 @@
     "1042": {
         "name": "Hero Colors: Hippie Blue, Island Spice, Yellow Orange, Cerise Red",
         "type": "2",
-        "rarity": "2",
+        "rarity": "3",
         "data": "40005"
     },
     "1043": {
         "name": "Hero Colors: Titan White, Cinderella, Sandy Brown",
         "type": "2",
-        "rarity": "3",
+        "rarity": "2",
         "data": "40006"
     },
     "1044": {
