@@ -14,7 +14,7 @@ export const getBchHistoryPrices =  async () => {
 export const getTokenInfo = async (address:any) => {
     try {
         const checkSumAddress = Web3.utils.toChecksumAddress(address);
-        const body = await got(`https://asset.benswap.cash/assets/${Web3.utils.toChecksumAddress(address)}/info.json`).json().catch((e:any)=>{
+        const body = await got(`https://asset.benswap.cash/assets/${checkSumAddress}/info.json`).json().catch((e:any)=>{
             console.error(e);
         });
         if (body) {
