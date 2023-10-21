@@ -1,6 +1,6 @@
 import { NowRequest, NowResponse } from "@vercel/node";
 import { getTotalSupplyByAddress } from "../../utils/supply";
-import { getSep20Assets } from "../../utils/others";
+import { getTokenInfo } from "../../utils/others";
 import BigNumber from "bignumber.js";
 
 export default async (req: NowRequest, res: NowResponse): Promise<void> => {
@@ -9,12 +9,11 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
     let result = {};
 
     if (id) {
-        const assets = await getSep20Assets();
-        const found = assets.find((asset: any) => asset.address.toLowerCase() === String(id).toLowerCase());
-        if (found) {
-            found.logo = `https://assets.benswap.cash/tokens/${found.address}.png`;
-            found.supply = (await getTotalSupplyByAddress(found.address)).div(new BigNumber(10).pow(found.decimals)).toNumber();
-            result = found;
+        const info = await getTokenInfo(id);
+        if (info && info.address && info.address.toLowerCase() === String(id).toLowerCase()) {
+            info.logo = `https://assets.benswap.cash/assets/${info.address}/logo.png`;
+            info.supply = (await getTotalSupplyByAddress(info.address)).div(new BigNumber(10).pow(info.decimals)).toNumber();
+            result = info;
         }
     }
 
