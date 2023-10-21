@@ -12,7 +12,7 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
         const info = await getTokenInfo(id);
         if (info && info.address && info.address.toLowerCase() === String(id).toLowerCase()) {
             info.logo = `https://assets.benswap.cash/assets/${info.address}/logo.png`;
-            info.supply = (await getTotalSupplyByAddress(info.address)).div(new BigNumber(10).pow(info.decimals)).toNumber();
+            info.supply = (await getTotalSupplyByAddress(info.address)).div(new BigNumber(10).pow(info.decimals||0)).toNumber();
             result = info;
         }
     }
