@@ -1368,5 +1368,133 @@
         "types": [10,13],
         "abilities": [2],
         "rarity": 4
+    },
+    "5030": {
+        "name": "Skelepup",
+        "types": [14],
+        "abilities": [2],
+        "rarity": 1,
+        "next": [5031,5032,5033,5034]
+    },
+    "5031": {
+        "name": "Nightclaw",
+        "types": [0,14],
+        "abilities": [1],
+        "rarity": 2
+    },
+    "5032": {
+        "name": "Caniswitch",
+        "types": [10,14],
+        "abilities": [11],
+        "rarity": 2
+    },
+    "5033": {
+        "name": "Shadowbrawler",
+        "types": [6,14],
+        "abilities": [4],
+        "rarity": 2
+    },
+    "5034": {
+        "name": "Pyrofiend",
+        "types": [1,14],
+        "abilities": [8],
+        "rarity": 2
+    },
+    "5035": {
+        "name": "Bushidou",
+        "types": [8],
+        "abilities": [11],
+        "rarity": 1,
+        "next": [5036]
+    },
+    "5036": {
+        "name": "Takeo",
+        "types": [8],
+        "abilities": [11],
+        "rarity": 2
+    },
+    "5037": {
+        "name": "Snotflake",
+        "types": [5],
+        "abilities": [11],
+        "rarity": 2,
+        "next": [5038,5039]
+    },
+    "5038": {
+        "name": "Titanfur",
+        "types": [0,5],
+        "abilities": [1],
+        "rarity": 3
+    },
+    "5039": {
+        "name": "Azurehorn",
+        "types": [5,10],
+        "abilities": [11],
+        "rarity": 3
+    },
+    "5040": {
+        "name": "Rubyswirl",
+        "types": [0],
+        "abilities": [11],
+        "rarity": 1,
+        "next": [5041]
+    },
+    "5041": {
+        "name": "Graviwing",
+        "types": [0],
+        "abilities": [11],
+        "rarity": 2,
+        "next": [5042,5043]
+    },
+    "5042": {
+        "name": "Lysanderis",
+        "types": [0,14],
+        "abilities": [11],
+        "rarity": 3
+    },
+    "5043": {
+        "name": "Regalavian",
+        "types": [0,9],
+        "abilities": [1],
+        "rarity": 3
+    },
+    "5044": {
+        "name": "Igniferno",
+        "types": [1],
+        "abilities": [11],
+        "rarity": 3,
+        "next": [5045]
+    },
+    "5045": {
+        "name": "Pyronax",
+        "types": [1,16],
+        "abilities": [11],
+        "rarity": 4
+    },
+    "5046": {
+        "name": "Buggit",
+        "types": [11],
+        "abilities": [11],
+        "rarity": 1,
+        "next": [5047]
+    },
+    "5047": {
+        "name": "Hoppimoth",
+        "types": [11,17],
+        "abilities": [11],
+        "rarity": 2
+    },
+    "5048": {
+        "name": "Greenley",
+        "types": [3],
+        "abilities": [8],
+        "rarity": 2,
+        "next": [5049]
+    },
+    "5049": {
+        "name": "Cedribark",
+        "types": [3],
+        "abilities": [8],
+        "rarity": 3
     }
 }
