@@ -34,10 +34,10 @@ export const getGraveMetadata = async (id: any) => {
     if (info.name) {
         const attrs = [
             {
-                "trait_type": "Birth Date",
+                "trait_type": "Date of Birth",
                 "value": buildDateString(info.birthDate)
             },{
-                "trait_type": "Death Date",
+                "trait_type": "Date of Death",
                 "value": buildDateString(info.deathDate)
             }
         ];
@@ -46,8 +46,8 @@ export const getGraveMetadata = async (id: any) => {
             name: `${info.name}'s Grave #${id}`,
             description: "BenSwap Cemetery - Bury in your favorite blockchain.",
             attributes: attrs,
-            timeOfBirth: buildTimeString(info.birthDate),
-            timeOfDeath: buildTimeString(info.deathDate),
+            time_of_birth: buildTimeString(info.birthDate),
+            time_of_death: buildTimeString(info.deathDate),
             image: `https://api2.benswap.cash/grave/imageLite?a=${encodeURIComponent(info.name)}&b=${info.birthDate}&c=${info.deathDate}`
         };
 
