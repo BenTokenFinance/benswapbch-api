@@ -161,6 +161,10 @@
     {
       "source": "/api/nft/misc/:id",
       "destination": "/api/nft/misc"
+    },
+    {
+      "source": "/api/nft/grave/:id",
+      "destination": "/api/nft/grave"
     }
   ],
   "headers": [
