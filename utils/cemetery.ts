@@ -11,6 +11,27 @@ export const getGraveInfo = async (id: any) => {
     return info;
 }
 
+const GIFTS:any = {
+    1: "Flower",
+    2: "Incense",
+    3: "Wine",
+    4: "Chicken"
+}
+
+export const getGiftsInfo = async (id: any) => {
+    const counts: any = {};
+
+    const tasks: any = [];
+
+    Object.keys(GIFTS).forEach(g=>{
+        tasks.push(controllerContract.methods.getGiftCount(id, g).call().then( (c:any) => { counts[g] = Number(c); }));
+    })
+  
+    await Promise.all(tasks);
+  
+    return counts;
+}
+
 function buildTimeString(timestamp:any) {
     timestamp = Number(timestamp);
     if (isNaN(timestamp) || timestamp < 0) return "ERROR";
@@ -30,7 +51,10 @@ function buildDateString (timestamp:any) {
 }
 
 export const getGraveMetadata = async (id: any) => {
-    const info = await getGraveInfo(id);
+    const infoTask = getGraveInfo(id);
+    const countsTask = getGiftsInfo(id);
+
+    const info = await infoTask;
     if (info.name) {
         const attrs = [
             {
@@ -53,6 +77,17 @@ export const getGraveMetadata = async (id: any) => {
 
         if (info.engraver) md.engraver = info.engraver;
         if (info.epitaph) md.epitaph = info.epitaph;
+
+        const counts = await countsTask;
+
+        Object.keys(GIFTS).forEach((g:any)=>{
+            if (counts[g]) {
+                attrs.push({
+                    "trait_type": GIFTS[g],
+                    "value": counts[g]
+                });
+            }
+        })
 
         return md;
     }
