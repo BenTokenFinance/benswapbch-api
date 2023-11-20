@@ -3,7 +3,7 @@ import BigNumber from "bignumber.js";
 import { getContract } from "./web3";
 import cemeteryController from "./abis/cemeteryController.json";
 
-const controllerContract = getContract(cemeteryController, '0x836840631Ad1Ec37914e0A607b8793B3177E1258');
+const controllerContract = getContract(cemeteryController, '0x01cE3fc62d76C30B5Db96C2d70354B84df29df5E');
 
 export const getGraveInfo = async (id: any) => {
     const info = await controllerContract.methods.getGraveInfo(id).call();
