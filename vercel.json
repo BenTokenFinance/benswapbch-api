@@ -165,6 +165,10 @@
     {
       "source": "/api/nft/grave/:id",
       "destination": "/api/nft/grave"
+    },
+    {
+      "source": "/api/nft/blindboxes/:address/:id",
+      "destination": "/api/nft/blindboxes"
     }
   ],
   "headers": [
