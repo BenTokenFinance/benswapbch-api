@@ -31,6 +31,8 @@ export const getMetadata = async (address:any, id:any) {
             const isClaimed = await contract.methods.isClaimed(id).call();
             const cardType = await cardTypeTask;
 
+            console.log(`Collection Number ${number}. Cart Type ${cardType}. Redemption Status: ${isClaimed}.`);
+
             if (Number(cardType) > 0) {
                 const info = infos[number][cardType];
                 return Object.assign({
