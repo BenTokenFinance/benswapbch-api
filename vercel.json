@@ -169,6 +169,10 @@
     {
       "source": "/api/nft/blindboxes/:address/:id",
       "destination": "/api/nft/blindboxes"
+    },
+    {
+      "source": "/api/blindboxes/data/:address/:id",
+      "destination": "/api/blindboxes/data"
     }
   ],
   "headers": [
