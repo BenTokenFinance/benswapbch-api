@@ -35,17 +35,18 @@ export const getMetadata = async (address:any, id:any) {
 
             if (Number(cardType) > 0) {
                 const info = infos[number][cardType];
-                return Object.assign({
+                return Object.assign({}, info, {
+                    "name" : `${info.name} #${id}`,
                     "description" : desc,
                     "image": `https://asset.benswap.cash/nft/blindboxes/${number}/${cardType}${isClaimed?"R":""}.png`,
                     "attributes": [
                         {"trait_type":"Name","value": info.name},
                         {"trait_type":"Rarity","value": getRarity(cardType)}
                     ]
-                }, info);
+                });
             } else {
                 return {
-                    "name" : "Blind Box",
+                    "name" : `Blind Box #${id}`,
                     "description" : desc,
                     "image": "https://asset.benswap.cash/nft/blindboxes/box.png",
                     "attributes": [
