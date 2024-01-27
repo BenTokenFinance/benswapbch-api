@@ -5,7 +5,7 @@ import blindboxes from "./abis/blindboxes.json";
 
 export const contracts:any = {
   "test" : {
-    "0x7dF910060F3C258C2C1824De91629555afEfE841" : 1
+    "0x3E66d34eC4cC8E8C799023194F102B42389c1cc0" : 1
   },
   "production" : {
 
