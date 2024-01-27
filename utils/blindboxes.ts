@@ -41,7 +41,8 @@ export const getMetadata = async (address:any, id:any) {
                     "image": `https://asset.benswap.cash/nft/blindboxes/${number}/${cardType}${isClaimed?"R":""}.png`,
                     "attributes": [
                         {"trait_type":"Name","value": info.name},
-                        {"trait_type":"Rarity","value": getRarity(cardType)}
+                        {"trait_type":"Rarity","value": getRarity(cardType)},
+                        {"trait_type":"Status","value": isClaimed ? "Redeemed":"Not Redeemed"}
                     ]
                 });
             } else {
