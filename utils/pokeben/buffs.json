@@ -1116,7 +1116,7 @@
         "rarity": "1"
     },
     "1271": {
-        "name": "Wrath (Elementary)",
+        "name": "Rage (Elementary)",
         "category": "5",
         "type": "18",
         "rarity": "1"
@@ -1146,7 +1146,7 @@
         "rarity": "2"
     },
     "1276": {
-        "name": "Wrath (Advanced)",
+        "name": "Rage (Advanced)",
         "category": "5",
         "type": "18",
         "rarity": "2"
@@ -1176,7 +1176,7 @@
         "rarity": "3"
     },
     "1281": {
-        "name": "Wrath (Expert)",
+        "name": "Rage (Expert)",
         "category": "5",
         "type": "18",
         "rarity": "3"
@@ -1206,7 +1206,7 @@
         "rarity": "4"
     },
     "1286": {
-        "name": "Wrath (Master)",
+        "name": "Rage (Master)",
         "category": "5",
         "type": "18",
         "rarity": "4"
@@ -1236,7 +1236,7 @@
         "rarity": "5"
     },
     "1291": {
-        "name": "Wrath (Grandmaster)",
+        "name": "Rage (Grandmaster)",
         "category": "5",
         "type": "18",
         "rarity": "5"

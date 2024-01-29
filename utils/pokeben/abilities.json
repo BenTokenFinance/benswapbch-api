@@ -2005,7 +2005,7 @@
         "powerBoostBp": "1000"
     },
     "1271": {
-        "name": "Wrath (Elementary)",
+        "name": "Rage (Elementary)",
         "category": "5",
         "type": "18",
         "rarity": "1",
@@ -2040,7 +2040,7 @@
         "powerBoostBp": "2000"
     },
     "1276": {
-        "name": "Wrath (Advanced)",
+        "name": "Rage (Advanced)",
         "category": "5",
         "type": "18",
         "rarity": "2",
@@ -2075,7 +2075,7 @@
         "powerBoostBp": "3000"
     },
     "1281": {
-        "name": "Wrath (Expert)",
+        "name": "Rage (Expert)",
         "category": "5",
         "type": "18",
         "rarity": "3",
@@ -2110,7 +2110,7 @@
         "powerBoostBp": "4000"
     },
     "1286": {
-        "name": "Wrath (Master)",
+        "name": "Rage (Master)",
         "category": "5",
         "type": "18",
         "rarity": "4",
@@ -2145,7 +2145,7 @@
         "powerBoostBp": "5000"
     },
     "1291": {
-        "name": "Wrath (Grandmaster)",
+        "name": "Rage (Grandmaster)",
         "category": "5",
         "type": "18",
         "rarity": "5",
