@@ -13,6 +13,10 @@ export const contracts:any = {
   }
 };
 
+export const pictureFormat: any = {
+    1 : "jpg"
+}
+
 export const getRarity = (cardType:any) => {
     const ctn = Number(cardType);
     if (cardType <=2) return "UR";
@@ -39,7 +43,7 @@ export const getMetadata = async (address:any, id:any) {
                 return Object.assign({}, info, {
                     "name" : `${info.name} #${id}`,
                     "description" : desc,
-                    "image": `https://asset.benswap.cash/nft/blindboxes/${number}/${cardType}${isClaimed?"R":""}.png`,
+                    "image": `https://asset.benswap.cash/nft/blindboxes/${number}/${cardType}${isClaimed?"R":""}.${pictureFormat[number]}`,
                     "attributes": [
                         {"trait_type":"Name","value": info.name},
                         {"trait_type":"Rarity","value": getRarity(cardType)},
@@ -69,43 +73,43 @@ export const infos:any = {
         "desc": "As a classic work of Chinese literature, the Romance of The Three Kingdoms attracts countless people with its heroes and wars. Now, through NFT technology, we can experience this history again. This NFT event will create a series of unique digital collectibles. Each NFT representing a famous general or important scene in the history of The Three Kingdoms and endows it with unique attributes and value. From legendary figures like Lyu Bu and Zhang Fei to epic characters like Diao Chan and Xiao Qiao, to rare characters like Xu Huang and Xiahou Dun, all NFTs will showcase the history and culture of the Three Kingdoms through exquisite art and rich background stories. Participants can not only collect these precious NFTs and experience the conflicts and strategies of the Three Kingdoms era, but also win huge bonuses by collecting cards. Come and join us now!",
         "1" : {
             "name" : "Lyu Bu",
-            "dialog" : "Who else can match me in this world?"
+            "dialog" : "Bu is not bellicose, only good at resolving conflicts!"
         },
         "2" : {
-            "name" : "Zhang Fei",
-            "dialog" : "Who dares to come and fight?"
+            "name" : "Guan Yu",
+            "dialog" : "Traveling thousands of miles, a lone ride can withstand a million troops!"
         },
         "3" : {
             "name" : "Diao Chan",
-            "dialog" : "Your attention means a whole world to me."
+            "dialog" : "Dancing among the cherry blossoms, graceful and enchanting!"
         },
         "4" : {
             "name" : "Xiao Qiao",
-            "dialog" : "This flower sea is my gift to you."
+            "dialog" : "Holding an umbrella, enjoying the sunset, the beautiful scenery delights the heart!"
         },
         "5" : {
             "name" : "Xu Huang",
-            "dialog" : "Grain carts may be small, but crucial in a war."
+            "dialog" : "Though small, able to turn the tide!"
         },
         "6" : {
             "name" : "Xiahou Dun",
-            "dialog" : "Whoever hurts me will be paid back tenfold."
+            "dialog" : "Swinging the single-arm broadsword, the battlefield is dyed red with smoke and blood!"
         },
         "7" : {
             "name" : "Yan Liang",
-            "dialog" : "I am general Yan Liang from Hebei province."
+            "dialog" : "Under the banner, adorned in embroidered robes and golden armor, a leader wielding a blade!"
         },
         "8" : {
             "name" : "Wen Chou",
-            "dialog" : "I am general Wen Chou from Hebei province."
+            "dialog" : "One test of the shield, one test of the spear, displaying might from the very outset."
         },
         "9" : {
             "name" : "Xu Zhu",
-            "dialog" : "Who will fight me for three hundred rounds?"
+            "dialog" : "Amidst the battlefield's flames, facing certain death, what fear is there?"
         },
         "10" : {
             "name" : "Wei Yan",
-            "dialog" : "My arrogance is backed by my capabilities."
+            "dialog" : "Amidst flashing lightning, rebellious and proud, showcasing true colors!"
         }
     }
 };
