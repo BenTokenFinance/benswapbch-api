@@ -43,7 +43,7 @@ export const getMetadata = async (address:any, id:any) {
                 return Object.assign({}, info, {
                     "name" : `${info.name} #${id}`,
                     "description" : desc,
-                    "image": `https://asset.benswap.cash/nft/blindboxes/${number}/${cardType}${isClaimed?"R":""}.${pictureFormat[number]}`,
+                    "image": `https://asset.benswap.cash/nft/blindboxes/${number}/${cardType}${isClaimed?"R":""}.${pictureFormat[number]||'png'}`,
                     "attributes": [
                         {"trait_type":"Name","value": info.name},
                         {"trait_type":"Rarity","value": getRarity(cardType)},
