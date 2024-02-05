@@ -6,7 +6,8 @@ import blindboxes from "./abis/blindboxes.json";
 export const contracts:any = {
   "test" : {
     "0x3E66d34eC4cC8E8C799023194F102B42389c1cc0" : 1,
-    "0xc2c7E59994c304f9067169c6025E9A66D1cc418C" : 1
+    "0xc2c7E59994c304f9067169c6025E9A66D1cc418C" : 1,
+    "0x3aD60bc0e26968e015f81eF10103E20bB59A7E1D" : 1
   },
   "production" : {
 
@@ -70,7 +71,7 @@ export const getMetadata = async (address:any, id:any) {
 
 export const infos:any = {
     "1" : {
-        "desc": "As a classic work of Chinese literature, the Romance of The Three Kingdoms attracts countless people with its heroes and wars. Now, through NFT technology, we can experience this history again. This NFT event will create a series of unique digital collectibles. Each NFT representing a famous general or important scene in the history of The Three Kingdoms and endows it with unique attributes and value. From legendary figures like Lyu Bu and Zhang Fei to epic characters like Diao Chan and Xiao Qiao, to rare characters like Xu Huang and Xiahou Dun, all NFTs will showcase the history and culture of the Three Kingdoms through exquisite art and rich background stories. Participants can not only collect these precious NFTs and experience the conflicts and strategies of the Three Kingdoms era, but also win huge bonuses by collecting cards. Come and join us now!",
+        "desc": "As a classic work of Chinese literature, the Romance of The Three Kingdoms attracts countless people with its heroes and wars. Now, through NFT technology, we can experience this history again. This NFT event will create a series of unique digital collectibles. Each NFT representing a famous general or important scene in the history of The Three Kingdoms and endows it with unique attributes and value. From legendary figures like Lyu Bu and Guan Yu to epic characters like Diao Chan and Xiao Qiao, to rare characters like Xu Huang and Xiahou Dun, all NFTs will showcase the history and culture of the Three Kingdoms through exquisite art and rich background stories. Participants can not only collect these precious NFTs and experience the conflicts and strategies of the Three Kingdoms era, but also win huge bonuses by collecting cards. Come and join us now!",
         "1" : {
             "name" : "Lyu Bu",
             "dialog" : "Bu is not bellicose, only good at resolving conflicts!"
@@ -89,7 +90,7 @@ export const infos:any = {
         },
         "5" : {
             "name" : "Xu Huang",
-            "dialog" : "Though small, able to turn the tide!"
+            "dialog" : "Without supplies, the enemy will collapse gradually."
         },
         "6" : {
             "name" : "Xiahou Dun",
