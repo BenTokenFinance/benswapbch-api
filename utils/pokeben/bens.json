@@ -737,7 +737,8 @@
         "name": "Chansey",
         "types": [0],
         "abilities": [11],
-        "rarity": 2
+        "rarity": 2,
+        "next": [242]
     },
     "114": {
         "name": "Tangela",
@@ -1023,6 +1024,12 @@
         "abilities": [11],
         "rarity": 1
     },
+    "167": {
+        "name": "Spinarak",
+        "types": [7,11],
+        "abilities": [16],
+        "rarity": 1
+    },
     "169": {
         "name": "Crobat",
         "types": [7,9],
@@ -1076,6 +1083,39 @@
         "abilities": [11],
         "rarity": 2
     },
+    "177": {
+        "name": "Natu",
+        "types": [9,10],
+        "abilities": [12],
+        "rarity": 1,
+        "next": [178]
+    },
+    "178": {
+        "name": "Xatu",
+        "types": [9,10],
+        "abilities": [12],
+        "rarity": 2
+    },
+    "179": {
+        "name": "Mareep",
+        "types": [4],
+        "abilities": [11],
+        "rarity": 1,
+        "next": [180]
+    },
+    "180": {
+        "name": "Flaaffy",
+        "types": [4],
+        "abilities": [11],
+        "rarity": 2,
+        "next": [181]
+    },
+    "181": {
+        "name": "Ampharos",
+        "types": [4],
+        "abilities": [11],
+        "rarity": 3
+    },
     "183": {
         "name": "Marill",
         "types": [2,17],
@@ -1109,6 +1149,19 @@
         "abilities": [11],
         "rarity": 2
     },
+    "191": {
+        "name": "Sunkern",
+        "types": [3],
+        "abilities": [11],
+        "rarity": 1,
+        "next": [192]
+    },
+    "192": {
+        "name": "Sunflora",
+        "types": [3],
+        "abilities": [11],
+        "rarity": 2
+    },
     "194": {
         "name": "Wooper",
         "types": [2,8],
@@ -1128,9 +1181,21 @@
         "abilities": [11],
         "rarity": 2
     },
+    "201": {
+        "name": "Unown",
+        "types": [10],
+        "abilities": [11],
+        "rarity": 1
+    },
     "202": {
         "name": "Wobbuffet",
         "types": [10],
+        "abilities": [11],
+        "rarity": 2
+    },
+    "206": {
+        "name": "Dunsparce",
+        "types": [0],
         "abilities": [11],
         "rarity": 2
     },
@@ -1138,6 +1203,32 @@
         "name": "Sneasel",
         "types": [5,14],
         "abilities": [8],
+        "rarity": 2
+    },
+    "216": {
+        "name": "Teddiursa",
+        "types": [0],
+        "abilities": [8],
+        "rarity": 2,
+        "next": [217]
+    },
+    "217": {
+        "name": "Ursaring",
+        "types": [0],
+        "abilities": [8],
+        "rarity": 3
+    },
+    "218": {
+        "name": "Slugma",
+        "types": [1],
+        "abilities": [11],
+        "rarity": 1,
+        "next": [219]
+    },
+    "219": {
+        "name": "Magcargo",
+        "types": [1,12],
+        "abilities": [11],
         "rarity": 2
     },
     "220": {
@@ -1165,8 +1256,48 @@
         "abilities": [2],
         "rarity": 1
     },
+    "228": {
+        "name": "Houndour",
+        "types": [1,14],
+        "abilities": [16],
+        "rarity": 2,
+        "next": [229]
+    },
+    "229": {
+        "name": "Houndoom",
+        "types": [1,14],
+        "abilities": [16],
+        "rarity": 3
+    },
     "233": {
         "name": "Porygon2",
+        "types": [0],
+        "abilities": [11],
+        "rarity": 3
+    },
+    "238": {
+        "name": "Smoochum",
+        "types": [5,10],
+        "abilities": [11],
+        "rarity": 2,
+        "next": [124]
+    },
+    "239": {
+        "name": "Elekid",
+        "types": [4],
+        "abilities": [1],
+        "rarity": 2,
+        "next": [125]
+    },
+    "240": {
+        "name": "Magby",
+        "types": [1],
+        "abilities": [1],
+        "rarity": 2,
+        "next": [126]
+    },
+    "242": {
+        "name": "Blissey",
         "types": [0],
         "abilities": [11],
         "rarity": 3
