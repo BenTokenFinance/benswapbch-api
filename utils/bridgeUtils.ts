@@ -123,11 +123,11 @@ const Config = {
             name: "TrueUSD",
             decimals: 18,
             56: {
-                address: "0x14016E85a25aeb13065688cAFB43044C2ef86784",
+                address: "0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9",
                 type: "native"
             },
             10000: {
-                address: "0xbb0c7462029C395F46c5ed6Bfb5870b6B5d4567B",
+                address: "0xbb8D72Bf8601f86A65d852bD2347119952C71d0e",
                 type: "bridged"
             }
         }
