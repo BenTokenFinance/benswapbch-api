@@ -6,7 +6,7 @@ export default async (req: NowRequest, res: NowResponse): Promise<void> => {
     const result = {
         block: await getLatestBlock(),
         chainId: 10000,
-        symbol: "BCH",
+        symbol: "SBCH",
         explorer: "https://smartscout.cash/",
         rpcs: RPC
     }

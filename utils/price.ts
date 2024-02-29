@@ -41,7 +41,7 @@ export const getEbenBchPrice = async (): Promise<number> => {
     const wbchContract = getContract(bep20ABI, WBCH);
     const call1 = ebenContract.methods.balanceOf(EBEN_BCH_BENSWAP_LP).call();
     const wbchBalance = await wbchContract.methods.balanceOf(EBEN_BCH_BENSWAP_LP).call();
-    console.log("WSBCH Balance: "+ wbchBalance);
+    console.log("WBCH Balance: "+ wbchBalance);
     const ebenBalance = await call1;
     console.log("EBEN Balance: "+ ebenBalance);
     price = new BigNumber(wbchBalance).div(new BigNumber(ebenBalance));
@@ -59,7 +59,7 @@ export const getBchBbbusdPrice = async (): Promise<number> => {
   let price = new BigNumber(0);
 
   try {
-    console.log("Getting BCH price per bbBUSD...");
+    console.log("Getting SBCH price per bbBUSD...");
     const bbbusdContract = getContract(bep20ABI, bbBUSD);
     const wbchContract = getContract(bep20ABI, WBCH);
     const call1 = bbbusdContract.methods.balanceOf(BCH_BBBUSD_BENSWAP_LP).call();
@@ -68,9 +68,9 @@ export const getBchBbbusdPrice = async (): Promise<number> => {
     const bbbusdBalance = await call1;
     console.log("bbBUSD Balance: "+ bbbusdBalance);
     price = new BigNumber(bbbusdBalance).div(new BigNumber(wbchBalance));
-    console.log("Price BCH/bbBUSD: "+ price);
+    console.log("Price SBCH/bbBUSD: "+ price);
   } catch (error) {
-    console.error(`Error getting BCH price per bbBUSD: ${error}`);
+    console.error(`Error getting SBCH price per bbBUSD: ${error}`);
   }
 
   return price.toNumber();
@@ -86,7 +86,7 @@ export const getSbchBbusdtPrice = async (): Promise<number> => {
     const wbchContract = getContract(bep20ABI, WBCH);
     const call1 = bbusdtContract.methods.balanceOf(BCH_BBUSDT_BENSWAP_LP).call();
     const wbchBalance = await wbchContract.methods.balanceOf(BCH_BBUSDT_BENSWAP_LP).call();
-    console.log("WSBCH Balance: "+ wbchBalance);
+    console.log("WBCH Balance: "+ wbchBalance);
     const bbusdtBalance = await call1;
     console.log("bbUSDT Balance: "+ bbusdtBalance);
     price = new BigNumber(bbusdtBalance).div(new BigNumber(wbchBalance));
