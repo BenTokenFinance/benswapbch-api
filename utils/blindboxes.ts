@@ -5,7 +5,7 @@ import blindboxes from "./abis/blindboxes.json";
 
 export const contracts:any = {
   "test" : {
-    "0x0dAb3A0b7e52868B850ae58595Be53d5B70ae894" : 1
+    // "0x0dAb3A0b7e52868B850ae58595Be53d5B70ae894" : 1
   },
   "production" : {
 
@@ -71,43 +71,43 @@ export const infos:any = {
     "1" : {
         "desc": "As a classic work of Chinese literature, the Romance of The Three Kingdoms attracts countless people with its heroes and wars. Now, through NFT technology, we can experience this history again. This NFT event will create a series of unique digital collectibles. Each NFT representing a famous general or important scene in the history of The Three Kingdoms and endows it with unique attributes and value. From legendary figures like Lyu Bu and Guan Yu to epic characters like Diao Chan and Xiao Qiao, to rare characters like Xu Huang and Xiahou Dun, all NFTs will showcase the history and culture of the Three Kingdoms through exquisite art and rich background stories. Participants can not only collect these precious NFTs and experience the conflicts and strategies of the Three Kingdoms era, but also win huge bonuses by collecting cards. Come and join us now!",
         "1" : {
-            "name" : "Lyu Bu",
+            "name" : "Lyu Bu (吕布)",
             "dialog" : "Bu is not bellicose, only good at resolving conflicts!"
         },
         "2" : {
-            "name" : "Guan Yu",
+            "name" : "Guan Yu (关羽)",
             "dialog" : "Traveling thousands of miles, a lone ride can withstand a million troops!"
         },
         "3" : {
-            "name" : "Diao Chan",
+            "name" : "Diao Chan (貂蝉)",
             "dialog" : "Dancing among the cherry blossoms, graceful and enchanting!"
         },
         "4" : {
-            "name" : "Xiao Qiao",
+            "name" : "Xiao Qiao (小乔)",
             "dialog" : "Holding an umbrella, enjoying the sunset, the beautiful scenery delights the heart!"
         },
         "5" : {
-            "name" : "Xu Huang",
+            "name" : "Xu Huang (徐晃)",
             "dialog" : "Without supplies, the enemy will collapse gradually."
         },
         "6" : {
-            "name" : "Xiahou Dun",
+            "name" : "Xiahou Dun (夏侯惇)",
             "dialog" : "Swinging the single-arm broadsword, the battlefield is dyed red with smoke and blood!"
         },
         "7" : {
-            "name" : "Yan Liang",
+            "name" : "Yan Liang (颜良)",
             "dialog" : "Under the banner, adorned in embroidered robes and golden armor, a leader wielding a blade!"
         },
         "8" : {
-            "name" : "Wen Chou",
+            "name" : "Wen Chou (文丑)",
             "dialog" : "One test of the shield, one test of the spear, displaying might from the very outset."
         },
         "9" : {
-            "name" : "Xu Zhu",
+            "name" : "Xu Zhu (许诸)",
             "dialog" : "Amidst the battlefield's flames, facing certain death, what fear is there?"
         },
         "10" : {
-            "name" : "Wei Yan",
+            "name" : "Wei Yan (魏延)",
             "dialog" : "Amidst flashing lightning, rebellious and proud, showcasing true colors!"
         }
     }
