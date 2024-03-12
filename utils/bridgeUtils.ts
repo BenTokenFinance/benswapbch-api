@@ -11,42 +11,6 @@ const providers = {
 
 const Config = {
     tokens: {
-        "BUSD": {
-            name: "Binance USD",
-            decimals: 18,
-            56: {
-                address: "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
-                type: "native"
-            },
-            10000: {
-                address: "0xbb1Fcb08961d7fc7ab58dC608A0448aa30E66269",
-                type: "bridged"
-            },
-        },
-        "EBEN": {
-            name: "Green Ben",
-            decimals: 18,
-            56: {
-                address: "0xbb036ccDe5feE48f011B9916646f3a341d7D490A",
-                type: "bridged"
-            },
-            10000: {
-                address: "0x77CB87b57F54667978Eb1B199b28a0db8C8E1c0B",
-                type: "native"
-            }
-        },
-        "GBEN": {
-            name: "Golden Ben",
-            decimals: 18,
-            56: {
-                address: "0x8173dDa13Fd405e5BcA84Bd7F64e58cAF4810A32",
-                type: "native"
-            },
-            10000: {
-                address: "0xbb9CEf7C582b0165A755bC89977dB5bAdbf36406",
-                type: "bridged"
-            }
-        },
         "BTC": {
             name: "Bitcoin",
             decimals: 18,
@@ -71,6 +35,18 @@ const Config = {
                 type: "bridged"
             }
         },
+        "BCH": {
+            name: "Bitcoin Cash",
+            decimals: 18,
+            56: {
+                address: "0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf",
+                type: "native"
+            },
+            10000: {
+                address: "0xbb7b43eb950C0fDBb645D7d05a27395Ed8D944fA",
+                type: "bridged"
+            }
+        },
         "BNB": {
             name: "Binance Coin",
             decimals: 18,
@@ -80,6 +56,30 @@ const Config = {
             },
             10000: {
                 address: "0xbb7eED96c099546049179c6ACB4498926C437158",
+                type: "bridged"
+            }
+        },
+        "EBEN": {
+            name: "Green Ben",
+            decimals: 18,
+            56: {
+                address: "0xbb036ccDe5feE48f011B9916646f3a341d7D490A",
+                type: "bridged"
+            },
+            10000: {
+                address: "0x77CB87b57F54667978Eb1B199b28a0db8C8E1c0B",
+                type: "native"
+            }
+        },
+        "GBEN": {
+            name: "Golden Ben",
+            decimals: 18,
+            56: {
+                address: "0x8173dDa13Fd405e5BcA84Bd7F64e58cAF4810A32",
+                type: "native"
+            },
+            10000: {
+                address: "0xbb9CEf7C582b0165A755bC89977dB5bAdbf36406",
                 type: "bridged"
             }
         },
@@ -119,6 +119,18 @@ const Config = {
                 type: "bridged"
             }
         },
+        "BUSD": {
+            name: "Binance USD",
+            decimals: 18,
+            56: {
+                address: "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+                type: "native"
+            },
+            10000: {
+                address: "0xbb1Fcb08961d7fc7ab58dC608A0448aa30E66269",
+                type: "bridged"
+            },
+        },
         "TUSD": {
             name: "TrueUSD",
             decimals: 18,
@@ -128,18 +140,6 @@ const Config = {
             },
             10000: {
                 address: "0xbb8D72Bf8601f86A65d852bD2347119952C71d0e",
-                type: "bridged"
-            }
-        },
-        "BCH": {
-            name: "Bitcoin Cash",
-            decimals: 18,
-            56: {
-                address: "0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf",
-                type: "native"
-            },
-            10000: {
-                address: "0xbb7b43eb950C0fDBb645D7d05a27395Ed8D944fA",
                 type: "bridged"
             }
         }
