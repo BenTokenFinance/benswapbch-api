@@ -130,6 +130,18 @@ const Config = {
                 address: "0xbb8D72Bf8601f86A65d852bD2347119952C71d0e",
                 type: "bridged"
             }
+        },
+        "BCH": {
+            name: "Bitcoin Cash",
+            decimals: 18,
+            56: {
+                address: "0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf",
+                type: "native"
+            },
+            10000: {
+                address: "0xbb7b43eb950C0fDBb645D7d05a27395Ed8D944fA",
+                type: "bridged"
+            }
         }
     },
     chains: {
