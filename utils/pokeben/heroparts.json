@@ -30,7 +30,7 @@
         "rarity": "3"
     },
     "10007": {
-        "name": "Japanese Furry, Highlight, Small Horns",
+        "name": "Japanese Furry, Highlights, Small Horns",
         "type": "1",
         "rarity": "3"
     },
@@ -51,6 +51,61 @@
     },
     "10011": {
         "name": "Semi-Erected Drooping Ears",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10012": {
+        "name": "Round Ears, Bangs",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10013": {
+        "name": "Long Drooping Ears",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10014": {
+        "name": "Elf Horn, Big Fluffy Ears",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10015": {
+        "name": "Bird Style, Horns, Double Ahoge",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10016": {
+        "name": "Long Round Ears, Reverse Horns",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10017": {
+        "name": "Big Ears, Wounds, Gold Earrings",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10018": {
+        "name": "Burger, Beret, Round Ears",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10019": {
+        "name": "Sacred Beast Style, Scaly Horns",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10020": {
+        "name": "Big Ears, Mohawk, Wounds",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10021": {
+        "name": "Rogue Style, Black Horns, Earrings",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10022": {
+        "name": "Headband, Round Leopard Ears",
         "type": "1",
         "rarity": "1"
     },
@@ -99,6 +154,61 @@
         "type": "2",
         "rarity": "3"
     },
+    "20010": {
+        "name": "Tongue-Sticking, Ordinary",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20011": {
+        "name": "Tongue-Sticking, Round and Cute",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20012": {
+        "name": "Punk Style, Decadent",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20013": {
+        "name": "Big Eyes, Kawaii",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20014": {
+        "name": "Leopard Style, American Cartoon",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20015": {
+        "name": "Single Color, Long Mouth, Holy",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20016": {
+        "name": "Highlights, Energetic and Cute",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20017": {
+        "name": "Bird Style, Closed Eyes, Happy",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20018": {
+        "name": "Shark Style, Scar, Fierce",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20019": {
+        "name": "Samurai Style, Fierce",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20020": {
+        "name": "Rogue Style, Wicked",
+        "type": "2",
+        "rarity": "1"
+    },
     "30001": {
         "name": "Large Area of Shallow Fur",
         "type": "3",
@@ -143,6 +253,61 @@
         "name": "Werewolf Style, Explosive Hair",
         "type": "3",
         "rarity": "2"
+    },
+    "30010": {
+        "name": "Scarf Style, Highlights",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30011": {
+        "name": "Curved Pattern, Red Scar",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30012": {
+        "name": "Reversed V Shape Shallow Fur",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30013": {
+        "name": "Inverted and Upturned Hairs",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30014": {
+        "name": "Three Strands, Cute",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30015": {
+        "name": "Multi-Triangular Patterns",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30016": {
+        "name": "Stylish Neck Hairs",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30017": {
+        "name": "Fancy Ocean Patterns",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30018": {
+        "name": "Black Dojis around the Neck",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30019": {
+        "name": "Vertical Stripe Patterns",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30020": {
+        "name": "Fancy Wind Patterns",
+        "type": "3",
+        "rarity": "1"
     },
     "40001": {
         "name": "Ship Gray, School Bus Yellow",
@@ -221,6 +386,96 @@
         "Color 3": "Falcon",
         "Eye Color": "Razzmatazz"
     },
+    "40010": {
+        "name": "Snuff, Waterloo, Havelock Blue, Chalky",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Snuff",
+        "Color 2": "Waterloo",
+        "Color 3": "Havelock Blue",
+        "Eye Color": "Chalky"
+    },
+    "40011": {
+        "name": "Ebb, White, Pale Slate, French Lilac",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Ebb",
+        "Color 2": "White",
+        "Color 3": "Pale Slate",
+        "Eye Color": "French Lilac"
+    },
+    "40012": {
+        "name": "Classic Rose, Amour, Cerise, Rose",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Classic Rose",
+        "Color 2": "Amour",
+        "Color 3": "Cerise",
+        "Eye Color": "Rose"
+    },
+    "40013": {
+        "name": "Cork, Sandy Beach, Fire Bush, Cerulean",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Cork",
+        "Color 2": "Sandy Beach",
+        "Color 3": "Fire Bush",
+        "Eye Color": "Cerulean"
+    },
+    "40014": {
+        "name": "Kabul, Bandicoot, Heathered Gray, Downy",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Kabul",
+        "Color 2": "Bandicoot",
+        "Color 3": "Heathered Gray",
+        "Eye Color": "Downy"
+    },
+    "40015": {
+        "name": "Pearl Bush, Spanish White, Thatch, Burnt Sienna",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Pearl Bush",
+        "Color 2": "Spanish White",
+        "Color 3": "Thatch",
+        "Eye Color": "Burnt Sienna"
+    },
+    "40016": {
+        "name": "Geyser, Empress, Dull Lavender, Cerulean",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Geyser",
+        "Color 2": "Empress",
+        "Color 3": "Dull Lavender",
+        "Eye Color": "Cerulean"
+    },
+    "40017": {
+        "name": "Emperor, Dawn Pink, Valencia, Americano",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Emperor",
+        "Color 2": "Dawn Pink",
+        "Color 3": "Valencia",
+        "Eye Color": "Americano"
+    },
+    "40018": {
+        "name": "Blue Bayoux, Apple Green, Downy, Roman",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Blue Bayoux",
+        "Color 2": "Apple Green",
+        "Color 3": "Downy",
+        "Eye Color": "Roman"
+    },
+    "40019": {
+        "name": "Vis Vis, Dawn Pink, Havelock Blue, Gum Leaf",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Vis Vis",
+        "Color 2": "Dawn Pink",
+        "Color 3": "Havelock Blue",
+        "Eye Color": "Gum Leaf"
+    },
     "50001": {
         "name": "Sports Shirt",
         "type": "5",
@@ -271,6 +526,61 @@
         "type": "5",
         "rarity": "3"
     },
+    "50011": {
+        "name": "Bone Neckband, Crewneck T-Shirt",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50012": {
+        "name": "Neck Buckle Strap, Arm Scarf",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50013": {
+        "name": "Chinese Outfit with Jacket",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50014": {
+        "name": "V-Neck Gray Thick Jacket",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50015": {
+        "name": "EVA Classic Jacket & Scarf",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50016": {
+        "name": "Chinese Style Shoulder Sleeves",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50017": {
+        "name": "White T-shirt, Brown Vest",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50018": {
+        "name": "White V-Neck Shirt, Side-Mounted Vest",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50019": {
+        "name": "Red & Black Turtleneck Coat",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50020": {
+        "name": "Blue Jacket with Vertical Stripe Lining",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50021": {
+        "name": "Dark Sweater, Green Neck Ring",
+        "type": "5",
+        "rarity": "1"
+    },
     "60001": {
         "name": "Black, Yellow, Steel Plate",
         "type": "6",
@@ -287,7 +597,7 @@
         "rarity": "1"
     },
     "60004": {
-        "name": "Red, Black, Cross, Star",
+        "name": "Red, Black, Dojis",
         "type": "6",
         "rarity": "1"
     },
@@ -320,5 +630,35 @@
         "name": "Lucky Clovers, Claws",
         "type": "6",
         "rarity": "3"
+    },
+    "60011": {
+        "name": "Yellow Gradient Grids",
+        "type": "6",
+        "rarity": "1"
+    },
+    "60012": {
+        "name": "Blue Round Color Blocks",
+        "type": "6",
+        "rarity": "1"
+    },
+    "60013": {
+        "name": "Comic Style, Fresh Paw Prints",
+        "type": "6",
+        "rarity": "1"
+    },
+    "60014": {
+        "name": "Chinese Magic Clouds & Fish Scales",
+        "type": "6",
+        "rarity": "1"
+    },
+    "60015": {
+        "name": "Purple Glass Shatte, Blue Ghost Fire",
+        "type": "6",
+        "rarity": "1"
+    },
+    "60016": {
+        "name": "Purple Concentric Circles",
+        "type": "6",
+        "rarity": "1"
     }
 }
