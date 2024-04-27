@@ -277,7 +277,7 @@ export const buildHeroMetadata = (id:any, parts: any, stats:any, name:any) => {
   // Colors
   if (parts[4] > 0) {
     let colors = (heroparts as any)[parts[4]];
-    ["Color 1","Color 2","Color 3","Eye Color"].forEach(c=>{
+    ["Color 1","Color 2","Color 3","Color 4"].forEach(c=>{
       if (colors[c]) {
         attrs.push({
           "trait_type": c,
@@ -296,7 +296,7 @@ export const buildHeroMetadata = (id:any, parts: any, stats:any, name:any) => {
       "trait_type": "Color 3",
       "value": "Brown Rust"
     },{
-      "trait_type": "Eye Color",
+      "trait_type": "Color 4",
       "value": "Yellow Orange"
     });
   }

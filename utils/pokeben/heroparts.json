@@ -314,7 +314,7 @@
         "type": "4",
         "rarity": "1",
         "Color 1": "Ship Gray",
-        "Eye Color": "School Bus Yellow"
+        "Color 4": "School Bus Yellow"
     },
     "40002": {
         "name": "Kournikova, Old Lace, Sandy Brown, Dodger Blue",
@@ -323,7 +323,7 @@
         "Color 1": "Kournikova",
         "Color 2": "Old Lace",
         "Color 3": "Sandy Brown",
-        "Eye Color": "Dodger Blue"
+        "Color 4": "Dodger Blue"
     },
     "40003": {
         "name": "Comet, Porcelain, Blue Ribbon, Cranberry",
@@ -332,7 +332,7 @@
         "Color 1": "Comet",
         "Color 2": "Porcelain",
         "Color 3": "Blue Ribbon",
-        "Eye Color": "Cranberry"
+        "Color 4": "Cranberry"
     },
     "40004": {
         "name": "Ferra, Pink Lady, Heliotrope",
@@ -340,7 +340,7 @@
         "rarity": "1",
         "Color 1": "Ferra",
         "Color 2": "Pink Lady",
-        "Eye Color": "Heliotrope"
+        "Color 4": "Heliotrope"
     },
     "40005": {
         "name": "Hippie Blue, Island Spice, Yellow Orange, Cerise Red",
@@ -349,7 +349,7 @@
         "Color 1": "Hippie Blue",
         "Color 2": "Island Spice",
         "Color 3": "Yellow Orange",
-        "Eye Color": "Cerise Red"
+        "Color 4": "Cerise Red"
     },
     "40006": {
         "name": "Titan White, Cinderella, Sandy Brown",
@@ -357,7 +357,7 @@
         "rarity": "2",
         "Color 1": "Titan White",
         "Color 2": "Cinderella",
-        "Eye Color": "Sandy Brown"
+        "Color 4": "Sandy Brown"
     },
     "40007": {
         "name": "Wild Rice, Coconut Cream, Oxford Blue, Aquamarine Blue",
@@ -366,7 +366,7 @@
         "Color 1": "Wild Rice",
         "Color 2": "Coconut Cream",
         "Color 3": "Oxford Blue",
-        "Eye Color": "Aquamarine Blue"
+        "Color 4": "Aquamarine Blue"
     },
     "40008": {
         "name": "Topaz, Buttery White, Au Chico, Kournikova",
@@ -375,7 +375,7 @@
         "Color 1": "Topaz",
         "Color 2": "Buttery White",
         "Color 3": "Au Chico",
-        "Eye Color": "Kournikova"
+        "Color 4": "Kournikova"
     },
     "40009": {
         "name": "Casablanca, Early Dawn, Falcon, Razzmatazz",
@@ -384,7 +384,7 @@
         "Color 1": "Casablanca",
         "Color 2": "Early Dawn",
         "Color 3": "Falcon",
-        "Eye Color": "Razzmatazz"
+        "Color 4": "Razzmatazz"
     },
     "40010": {
         "name": "Snuff, Waterloo, Havelock Blue, Chalky",
@@ -393,7 +393,7 @@
         "Color 1": "Snuff",
         "Color 2": "Waterloo",
         "Color 3": "Havelock Blue",
-        "Eye Color": "Chalky"
+        "Color 4": "Chalky"
     },
     "40011": {
         "name": "Ebb, White, Pale Slate, French Lilac",
@@ -402,7 +402,7 @@
         "Color 1": "Ebb",
         "Color 2": "White",
         "Color 3": "Pale Slate",
-        "Eye Color": "French Lilac"
+        "Color 4": "French Lilac"
     },
     "40012": {
         "name": "Classic Rose, Amour, Cerise, Rose",
@@ -411,7 +411,7 @@
         "Color 1": "Classic Rose",
         "Color 2": "Amour",
         "Color 3": "Cerise",
-        "Eye Color": "Rose"
+        "Color 4": "Rose"
     },
     "40013": {
         "name": "Cork, Sandy Beach, Fire Bush, Cerulean",
@@ -420,7 +420,7 @@
         "Color 1": "Cork",
         "Color 2": "Sandy Beach",
         "Color 3": "Fire Bush",
-        "Eye Color": "Cerulean"
+        "Color 4": "Cerulean"
     },
     "40014": {
         "name": "Kabul, Bandicoot, Heathered Gray, Downy",
@@ -429,7 +429,7 @@
         "Color 1": "Kabul",
         "Color 2": "Bandicoot",
         "Color 3": "Heathered Gray",
-        "Eye Color": "Downy"
+        "Color 4": "Downy"
     },
     "40015": {
         "name": "Pearl Bush, Spanish White, Thatch, Burnt Sienna",
@@ -438,7 +438,7 @@
         "Color 1": "Pearl Bush",
         "Color 2": "Spanish White",
         "Color 3": "Thatch",
-        "Eye Color": "Burnt Sienna"
+        "Color 4": "Burnt Sienna"
     },
     "40016": {
         "name": "Geyser, Empress, Dull Lavender, Cerulean",
@@ -447,7 +447,7 @@
         "Color 1": "Geyser",
         "Color 2": "Empress",
         "Color 3": "Dull Lavender",
-        "Eye Color": "Cerulean"
+        "Color 4": "Cerulean"
     },
     "40017": {
         "name": "Emperor, Dawn Pink, Valencia, Americano",
@@ -456,7 +456,7 @@
         "Color 1": "Emperor",
         "Color 2": "Dawn Pink",
         "Color 3": "Valencia",
-        "Eye Color": "Americano"
+        "Color 4": "Americano"
     },
     "40018": {
         "name": "Blue Bayoux, Apple Green, Downy, Roman",
@@ -465,7 +465,7 @@
         "Color 1": "Blue Bayoux",
         "Color 2": "Apple Green",
         "Color 3": "Downy",
-        "Eye Color": "Roman"
+        "Color 4": "Roman"
     },
     "40019": {
         "name": "Vis Vis, Dawn Pink, Havelock Blue, Gum Leaf",
@@ -474,7 +474,7 @@
         "Color 1": "Vis Vis",
         "Color 2": "Dawn Pink",
         "Color 3": "Havelock Blue",
-        "Eye Color": "Gum Leaf"
+        "Color 4": "Gum Leaf"
     },
     "50001": {
         "name": "Sports Shirt",
