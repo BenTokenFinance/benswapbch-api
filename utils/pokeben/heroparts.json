@@ -109,6 +109,56 @@
         "type": "1",
         "rarity": "2"
     },
+    "10023": {
+        "name": "Bat Style, Big Ears, Highlighted Back Hair",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10024": {
+        "name": "Round Ears, Cute",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10025": {
+        "name": "Bad Boy Style, Explosive Hair",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10026": {
+        "name": "Square-Cut Bangs, Ponytail",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10027": {
+        "name": "Pirate Hat, Bandana",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10028": {
+        "name": "Bird Style, Orange Goggles",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10029": {
+        "name": "Japanese Juvenile Style, Highlights",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10030": {
+        "name": "Bone Dragon Style, Highlighted Horns",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10031": {
+        "name": "Fantasy Beast Style, Mystical",
+        "type": "1",
+        "rarity": "1"
+    },
+    "10032": {
+        "name": "Side Bangs, Earings, Handsome",
+        "type": "1",
+        "rarity": "1"
+    },
     "20001": {
         "name": "Single Color, Serious",
         "type": "2",
@@ -209,6 +259,56 @@
         "type": "2",
         "rarity": "3"
     },
+    "20021": {
+        "name": "Single Color, Black Sclera, Fierce",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20022": {
+        "name": "Bird Style, Short Beak, Highlights",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20023": {
+        "name": "Boy Style, Thick Eyebrows, Band-Aid",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20024": {
+        "name": "Fancy Eye Lines, Cute",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20025": {
+        "name": "Lamb Style, Braids, Cute",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20026": {
+        "name": "Dinosaur Style, Dangerous",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20027": {
+        "name": "Scaly Hairs, Sleepy and Lazy",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20028": {
+        "name": "Bone Dragon Style, Highlighted Horns",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20029": {
+        "name": "Mysterious Creature Style, Scary",
+        "type": "2",
+        "rarity": "1"
+    },
+    "20030": {
+        "name": "Hanging Eyes, Black Mask, Decadent",
+        "type": "2",
+        "rarity": "1"
+    },
     "30001": {
         "name": "Large Area of Shallow Fur",
         "type": "3",
@@ -308,6 +408,56 @@
         "name": "Fancy Wind Patterns",
         "type": "3",
         "rarity": "3"
+    },
+    "30021": {
+        "name": "Classic Scarf Shape Shallow Fur",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30022": {
+        "name": "Single Doji Pattern",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30023": {
+        "name": "Rectangular Stripes on Shoulders",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30024": {
+        "name": "Wax Dripping Style",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30025": {
+        "name": "Three-Line Highlights on Clavicle",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30026": {
+        "name": "Diamond & Clamp Patterns",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30027": {
+        "name": "V-Shaped Grass-Like Diffusion",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30028": {
+        "name": "Bomber Style Irregular Patterns",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30029": {
+        "name": "Claw Mark and Meteor Patterns",
+        "type": "3",
+        "rarity": "1"
+    },
+    "30030": {
+        "name": "Cloud Shape on Neck",
+        "type": "3",
+        "rarity": "1"
     },
     "40001": {
         "name": "Ship Gray, School Bus Yellow",
@@ -476,6 +626,141 @@
         "Color 3": "Havelock Blue",
         "Color 4": "Gum Leaf"
     },
+    "40020": {
+        "name": "Chatelle, Old Lace, Fuel Yellow, Wisteria",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Chatelle",
+        "Color 2": "Old Lace",
+        "Color 3": "Fuel Yellow",
+        "Color 4": "Wisteria"
+    },
+    "40021": {
+        "name": "Chambray, Mercury, Steel Blue, Carnation",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Chambray",
+        "Color 2": "Mercury",
+        "Color 3": "Steel Blue",
+        "Color 4": "Carnation"
+    },
+    "40022": {
+        "name": "Pink Swan, Provincial Pink, Half Baked, Deep Blush",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Pink Swan",
+        "Color 2": "Provincial Pink",
+        "Color 3": "Half Baked",
+        "Color 4": "Deep Blush"
+    },
+    "40023": {
+        "name": "Zinnwaldite, Linen, Millbrook, Crail",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Zinnwaldite",
+        "Color 2": "Linen",
+        "Color 3": "Millbrook",
+        "Color 4": "Crail"
+    },
+    "40024": {
+        "name": "Spun Pearl, Spanish White, Valencia, Olive Green",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Spun Pearl",
+        "Color 2": "Spanish White",
+        "Color 3": "Valencia",
+        "Color 4": "Olive Green"
+    },
+    "40025": {
+        "name": "Cape Honey, Seashell Peach, Salmon, Sweet Pink",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Cape Honey",
+        "Color 2": "Seashell Peach",
+        "Color 3": "Salmon",
+        "Color 4": "Sweet Pink"
+    },
+    "40026": {
+        "name": "Astra, Linen, Navajo White, Havelock Blue",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Astra",
+        "Color 2": "Linen",
+        "Color 3": "Navajo White",
+        "Color 4": "Havelock Blue"
+    },
+    "40027": {
+        "name": "Feijoa, Ceramic, Tom Thumb, Chenin",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Feijoa",
+        "Color 2": "Ceramic",
+        "Color 3": "Tom Thumb",
+        "Color 4": "Chenin"
+    },
+    "40028": {
+        "name": "Copper Rose, Aths Special, Eggplant, Portica",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Copper Rose",
+        "Color 2": "Aths Special",
+        "Color 3": "Eggplant",
+        "Color 4": "Portica"
+    },
+    "40029": {
+        "name": "White Linen, Zorba, New York Pink, Mandy",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "White Linen",
+        "Color 2": "Zorba",
+        "Color 3": "New York Pink",
+        "Color 4": "Mandy"
+    },
+    "40030": {
+        "name": "Cinderella, Hint of Yellow, Anakiwa, Picasso",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Cinderella",
+        "Color 2": "Hint of Yellow",
+        "Color 3": "Anakiwa",
+        "Color 4": "Picasso"
+    },
+    "40031": {
+        "name": "Chambray, Spring Wood, Manhattan, East Bay",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Chambray",
+        "Color 2": "Spring Wood",
+        "Color 3": "Manhattan",
+        "Color 4": "East Bay"
+    },
+    "40032": {
+        "name": "Bazaar, Off Green, Froly, Radical Red",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Bazaar",
+        "Color 2": "Off Green",
+        "Color 3": "Froly",
+        "Color 4": "Radical Red"
+    },
+    "40033": {
+        "name": "Koromiko, Martinique, Azure, Aths Special",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Koromiko",
+        "Color 2": "Martinique",
+        "Color 3": "Azure",
+        "Color 4": "Aths Special"
+    },
+    "40034": {
+        "name": "Pearl Lusta, White, Fiord, Geraldine",
+        "type": "4",
+        "rarity": "1",
+        "Color 1": "Pearl Lusta",
+        "Color 2": "White",
+        "Color 3": "Fiord",
+        "Color 4": "Geraldine"
+    },
     "50001": {
         "name": "Sports Shirt",
         "type": "5",
@@ -581,6 +866,56 @@
         "type": "5",
         "rarity": "2"
     },
+    "50022": {
+        "name": "White High Heck, Gray Scarf",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50023": {
+        "name": "Deluxe Brown Coat, Yellow Sweater, Black Tie",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50024": {
+        "name": "Blue Clothing Belts, Mandarin Collar",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50025": {
+        "name": "Black Jacket, Blue Scarf",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50026": {
+        "name": "Black Leather Jacket, Fluffy Hood",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50027": {
+        "name": "Taupe Sweater, Orange Scarf",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50028": {
+        "name": "Gray Pink Classic Polo Shirt",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50029": {
+        "name": "Shark Style, Cute Cartoon Cape",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50030": {
+        "name": "Dark Blue Sweater, Yellow Turtleneck",
+        "type": "5",
+        "rarity": "1"
+    },
+    "50031": {
+        "name": "Brown Plaid Shirt, Half-Off Black Coat",
+        "type": "5",
+        "rarity": "1"
+    },
     "60001": {
         "name": "Black, Yellow, Steel Plate",
         "type": "6",
@@ -660,5 +995,25 @@
         "name": "Purple Concentric Circles",
         "type": "6",
         "rarity": "3"
+    },
+    "60017": {
+        "name": "Simple Postcard, Paw Postmark",
+        "type": "6",
+        "rarity": "1"
+    },
+    "60018": {
+        "name": "Big Words: 3 Dogs, Purple Patterns",
+        "type": "6",
+        "rarity": "1"
+    },
+    "60019": {
+        "name": "Fairy Tale Style, Backyard Vegetation",
+        "type": "6",
+        "rarity": "1"
+    },
+    "60020": {
+        "name": "Stylish Shimmer Forest",
+        "type": "6",
+        "rarity": "1"
     }
 }
