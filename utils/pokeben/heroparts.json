@@ -267,12 +267,12 @@
     "20022": {
         "name": "Bird Style, Short Beak, Highlights",
         "type": "2",
-        "rarity": "2"
+        "rarity": "1"
     },
     "20023": {
         "name": "Boy Style, Thick Eyebrows, Band-Aid",
         "type": "2",
-        "rarity": "2"
+        "rarity": "1"
     },
     "20024": {
         "name": "Fancy Eye Lines, Cute",
@@ -674,7 +674,7 @@
     "40025": {
         "name": "Cape Honey, Seashell Peach, Salmon, Sweet Pink",
         "type": "4",
-        "rarity": "1",
+        "rarity": "2",
         "Color 1": "Cape Honey",
         "Color 2": "Seashell Peach",
         "Color 3": "Salmon",
@@ -746,7 +746,7 @@
     "40033": {
         "name": "Koromiko, Martinique, Azure, Aths Special",
         "type": "4",
-        "rarity": "3",
+        "rarity": "4",
         "Color 1": "Koromiko",
         "Color 2": "Martinique",
         "Color 3": "Azure",
