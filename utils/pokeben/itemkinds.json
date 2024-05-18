@@ -2771,5 +2771,359 @@
         "type": "2",
         "rarity": "2",
         "data": "10022"
+    },
+    "1119": {
+        "name": "Hero Head: Bat Style, Big Ears, Highlighted Back Hair",
+        "type": "2",
+        "rarity": "2",
+        "data": "10023"
+    },
+    "1120": {
+        "name": "Hero Head: Round Ears, Fluffy Hair, Cute",
+        "type": "2",
+        "rarity": "2",
+        "data": "10024"
+    },
+    "1121": {
+        "name": "Hero Head: Bad Boy Style, Explosive Hair",
+        "type": "2",
+        "rarity": "2",
+        "data": "10025"
+    },
+    "1122": {
+        "name": "Hero Head: Square Cut Bangs, Ponytail",
+        "type": "2",
+        "rarity": "3",
+        "data": "10026"
+    },
+    "1123": {
+        "name": "Hero Head: Pirate Hat, Bandana",
+        "type": "2",
+        "rarity": "2",
+        "data": "10027"
+    },
+    "1124": {
+        "name": "Hero Head: Bird Style, Orange Goggles",
+        "type": "2",
+        "rarity": "3",
+        "data": "10028"
+    },
+    "1125": {
+        "name": "Hero Head: Japanese Juvenile Style, Highlights",
+        "type": "2",
+        "rarity": "3",
+        "data": "10029"
+    },
+    "1126": {
+        "name": "Hero Head: Bone Dragon Style, Highlighted Horns",
+        "type": "2",
+        "rarity": "4",
+        "data": "10030"
+    },
+    "1127": {
+        "name": "Hero Head: Fantasy Beast Style, Mystical",
+        "type": "2",
+        "rarity": "4",
+        "data": "10031"
+    },
+    "1128": {
+        "name": "Hero Head: Handsome Side Bangs, Three Earings",
+        "type": "2",
+        "rarity": "4",
+        "data": "10032"
+    },
+    "1129": {
+        "name": "Hero Face: Single Color, Black Sclera, Fierce",
+        "type": "2",
+        "rarity": "2",
+        "data": "20021"
+    },
+    "1130": {
+        "name": "Hero Face: Bird Style, Short Beak, Highlights",
+        "type": "2",
+        "rarity": "1",
+        "data": "20022"
+    },
+    "1131": {
+        "name": "Hero Face: Boy Style, Thick Eyebrows, Band-Aid",
+        "type": "2",
+        "rarity": "1",
+        "data": "20023"
+    },
+    "1132": {
+        "name": "Hero Face: Fancy Eye Lines, Cute",
+        "type": "2",
+        "rarity": "2",
+        "data": "20024"
+    },
+    "1133": {
+        "name": "Hero Face: Lamb Style, Braids, Cute",
+        "type": "2",
+        "rarity": "3",
+        "data": "20025"
+    },
+    "1134": {
+        "name": "Hero Face: Dinosaur Style, Dangerous",
+        "type": "2",
+        "rarity": "4",
+        "data": "20026"
+    },
+    "1135": {
+        "name": "Hero Face: Scaly Hairs, Sleepy and Lazy",
+        "type": "2",
+        "rarity": "2",
+        "data": "20027"
+    },
+    "1136": {
+        "name": "Hero Face: Bone Dragon Style, Highlighted Horns",
+        "type": "2",
+        "rarity": "4",
+        "data": "20028"
+    },
+    "1137": {
+        "name": "Hero Face: Mysterious Creature Style, Scary",
+        "type": "2",
+        "rarity": "4",
+        "data": "20029"
+    },
+    "1138": {
+        "name": "Hero Face: Hanging Eyes, Black Mask, Decadent",
+        "type": "2",
+        "rarity": "4",
+        "data": "20030"
+    },
+    "1139": {
+        "name": "Hero Body: Classic Scarf-Like Shallow Fur",
+        "type": "2",
+        "rarity": "1",
+        "data": "30021"
+    },
+    "1140": {
+        "name": "Hero Body: Single Doji Pattern",
+        "type": "2",
+        "rarity": "1",
+        "data": "30022"
+    },
+    "1141": {
+        "name": "Hero Body: Rectangular Stripes on Shoulders",
+        "type": "2",
+        "rarity": "1",
+        "data": "30023"
+    },
+    "1142": {
+        "name": "Hero Body: Wax Dripping Style",
+        "type": "2",
+        "rarity": "2",
+        "data": "30024"
+    },
+    "1143": {
+        "name": "Hero Body: Three-Line Highlights on Clavicle",
+        "type": "2",
+        "rarity": "2",
+        "data": "30025"
+    },
+    "1144": {
+        "name": "Hero Body: Clamp-Like Patterns",
+        "type": "2",
+        "rarity": "2",
+        "data": "30026"
+    },
+    "1145": {
+        "name": "Hero Body: V-Shaped Grass-Like Diffusion",
+        "type": "2",
+        "rarity": "3",
+        "data": "30027"
+    },
+    "1146": {
+        "name": "Hero Body: Bomber Style Irregular Patterns",
+        "type": "2",
+        "rarity": "3",
+        "data": "30028"
+    },
+    "1147": {
+        "name": "Hero Body: Claw Mark and Meteor Patterns",
+        "type": "2",
+        "rarity": "3",
+        "data": "30029"
+    },
+    "1148": {
+        "name": "Hero Body: Cloud-Like Patterns on Neck",
+        "type": "2",
+        "rarity": "2",
+        "data": "30030"
+    },
+    "1149": {
+        "name": "Hero Colors: Chatelle, Old Lace, Fuel Yellow, Wisteria",
+        "type": "2",
+        "rarity": "2",
+        "data": "40020"
+    },
+    "1150": {
+        "name": "Hero Colors: Chambray, Mercury, Steel Blue, Carnation",
+        "type": "2",
+        "rarity": "1",
+        "data": "40021"
+    },
+    "1151": {
+        "name": "Hero Colors: Pink Swan, Provincial Pink, Half Baked, Deep Blush",
+        "type": "2",
+        "rarity": "2",
+        "data": "40022"
+    },
+    "1152": {
+        "name": "Hero Colors: Zinnwaldite, Linen, Millbrook, Crail",
+        "type": "2",
+        "rarity": "2",
+        "data": "40023"
+    },
+    "1153": {
+        "name": "Hero Colors: Spun Pearl, Spanish White, Valencia, Olive Green",
+        "type": "2",
+        "rarity": "2",
+        "data": "40024"
+    },
+    "1154": {
+        "name": "Hero Colors: Cape Honey, Seashell Peach, Salmon, Sweet Pink",
+        "type": "2",
+        "rarity": "2",
+        "data": "40025"
+    },
+    "1155": {
+        "name": "Hero Colors: Astra, Linen, Navajo White, Havelock Blue",
+        "type": "2",
+        "rarity": "1",
+        "data": "40026"
+    },
+    "1156": {
+        "name": "Hero Colors: Feijoa, Ceramic, Tom Thumb, Chenin",
+        "type": "2",
+        "rarity": "4",
+        "data": "40027"
+    },
+    "1157": {
+        "name": "Hero Colors: Copper Rose, Aths Special, Eggplant, Portica",
+        "type": "2",
+        "rarity": "4",
+        "data": "40028"
+    },
+    "1158": {
+        "name": "Hero Colors: White Linen, Zorba, New York Pink, Mandy",
+        "type": "2",
+        "rarity": "4",
+        "data": "40029"
+    },
+    "1159": {
+        "name": "Hero Colors: Cinderella, Hint of Yellow, Anakiwa, Picasso",
+        "type": "2",
+        "rarity": "4",
+        "data": "40030"
+    },
+    "1160": {
+        "name": "Hero Colors: Chambray, Spring Wood, Manhattan, East Bay",
+        "type": "2",
+        "rarity": "2",
+        "data": "40031"
+    },
+    "1161": {
+        "name": "Hero Colors: Bazaar, Off Green, Froly, Radical Red",
+        "type": "2",
+        "rarity": "3",
+        "data": "40032"
+    },
+    "1162": {
+        "name": "Hero Colors: Koromiko, Martinique, Azure, Aths Special",
+        "type": "2",
+        "rarity": "4",
+        "data": "40033"
+    },
+    "1163": {
+        "name": "Hero Colors: Pearl Lusta, White, Fiord, Geraldine",
+        "type": "2",
+        "rarity": "2",
+        "data": "40034"
+    },
+    "1164": {
+        "name": "Hero Clothes: White High Heck, Gray Scarf",
+        "type": "2",
+        "rarity": "1",
+        "data": "50022"
+    },
+    "1165": {
+        "name": "Hero Clothes: Deluxe Brown Coat, Yellow Sweater, Black Tie",
+        "type": "2",
+        "rarity": "3",
+        "data": "50023"
+    },
+    "1166": {
+        "name": "Hero Clothes: Blue Clothing Belts, Mandarin Collar",
+        "type": "2",
+        "rarity": "2",
+        "data": "50024"
+    },
+    "1167": {
+        "name": "Hero Clothes: Black Jacket, Blue Scarf",
+        "type": "2",
+        "rarity": "1",
+        "data": "50025"
+    },
+    "1168": {
+        "name": "Hero Clothes: Black Leather Jacket, Fluffy Hood",
+        "type": "2",
+        "rarity": "4",
+        "data": "50026"
+    },
+    "1169": {
+        "name": "Hero Clothes: Taupe Sweater, Orange Scarf",
+        "type": "2",
+        "rarity": "2",
+        "data": "50027"
+    },
+    "1170": {
+        "name": "Hero Clothes: Gray Pink Classic Polo Shirt",
+        "type": "2",
+        "rarity": "2",
+        "data": "50028"
+    },
+    "1171": {
+        "name": "Hero Clothes: Shark Style Cartoon Cape, Cute",
+        "type": "2",
+        "rarity": "4",
+        "data": "50029"
+    },
+    "1172": {
+        "name": "Hero Clothes: Dark Blue Sweater, Yellow Turtleneck",
+        "type": "2",
+        "rarity": "2",
+        "data": "50030"
+    },
+    "1173": {
+        "name": "Hero Clothes: Brown Plaid Shirt, Half-Off Black Coat",
+        "type": "2",
+        "rarity": "3",
+        "data": "50031"
+    },
+    "1174": {
+        "name": "Hero Background: Simple Postcard, Paw Postmark",
+        "type": "2",
+        "rarity": "4",
+        "data": "60017"
+    },
+    "1175": {
+        "name": "Hero Background: Big Word: Dogs, Purple Patterns",
+        "type": "2",
+        "rarity": "3",
+        "data": "60018"
+    },
+    "1176": {
+        "name": "Hero Background: Fairy Tale Style, Backyard Vegetation",
+        "type": "2",
+        "rarity": "4",
+        "data": "60019"
+    },
+    "1177": {
+        "name": "Hero Background: Stylish Shimmer Forest",
+        "type": "2",
+        "rarity": "4",
+        "data": "60020"
     }
 }
