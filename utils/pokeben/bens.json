@@ -1696,21 +1696,21 @@
         "name": "Denkiro",
         "types": [4],
         "abilities": [11],
-        "rarity": 2,
+        "rarity": 1,
         "next": [5051]
     },
     "5051": {
         "name": "Raitosuke",
         "types": [4],
         "abilities": [11],
-        "rarity": 3,
+        "rarity": 2,
         "next": [5052]
     },
     "5052": {
         "name": "Raijinmaru",
         "types": [4],
         "abilities": [11],
-        "rarity": 4
+        "rarity": 3
     },
     "5053": {
         "name": "Baoyu",
@@ -1729,14 +1729,14 @@
         "name": "Jiahao",
         "types": [6],
         "abilities": [4],
-        "rarity": 3,
+        "rarity": 2,
         "next": [5056]
     },
     "5056": {
         "name": "Zhaolong",
         "types": [6],
         "abilities": [4],
-        "rarity": 4
+        "rarity": 3
     },
     "5057": {
         "name": "Voltali",
