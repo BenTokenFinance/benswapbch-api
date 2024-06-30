@@ -978,6 +978,26 @@
         "abilities": [11],
         "rarity": 5
     },
+    "152": {
+        "name": "Chikorita",
+        "types": [3],
+        "abilities": [11],
+        "rarity": 2,
+        "next": [153]
+    },
+    "153": {
+        "name": "Bayleef",
+        "types": [3],
+        "abilities": [11],
+        "rarity": 3,
+        "next": [154]
+    },
+    "154": {
+        "name": "Meganium",
+        "types": [3],
+        "abilities": [11],
+        "rarity": 4
+    },
     "155": {
         "name": "Cyndaquil",
         "types": [1],
@@ -1175,6 +1195,12 @@
         "abilities": [2],
         "rarity": 2
     },
+    "198": {
+        "name": "Murkrow",
+        "types": [9,14],
+        "abilities": [12],
+        "rarity": 1
+    },
     "200": {
         "name": "Misdreavus",
         "types": [13],
@@ -1192,6 +1218,19 @@
         "types": [10],
         "abilities": [11],
         "rarity": 2
+    },
+    "209": {
+        "name": "Snubbull",
+        "types": [17],
+        "abilities": [1],
+        "rarity": 0,
+        "next": [210]
+    },
+    "210": {
+        "name": "Granbull",
+        "types": [17],
+        "abilities": [1],
+        "rarity": 1
     },
     "206": {
         "name": "Dunsparce",
@@ -1256,6 +1295,12 @@
         "abilities": [2],
         "rarity": 1
     },
+    "226": {
+        "name": "Mantine",
+        "types": [2,9],
+        "abilities": [11],
+        "rarity": 2
+    },
     "228": {
         "name": "Houndour",
         "types": [1,14],
@@ -1274,6 +1319,19 @@
         "types": [0],
         "abilities": [11],
         "rarity": 3
+    },
+    "236": {
+        "name": "Tyrogue",
+        "types": [6],
+        "abilities": [4],
+        "rarity": 1,
+        "next": [106,107,237]
+    },
+    "237": {
+        "name": "Hitmontop",
+        "types": [6],
+        "abilities": [13],
+        "rarity": 2
     },
     "238": {
         "name": "Smoochum",
@@ -1301,6 +1359,12 @@
         "types": [0],
         "abilities": [11],
         "rarity": 3
+    },
+    "249": {
+        "name": "Lugia",
+        "types": [9,10],
+        "abilities": [11],
+        "rarity": 5
     },
     "5001": {
         "name": "Pownn",
@@ -1626,6 +1690,137 @@
         "name": "Cedribark",
         "types": [3],
         "abilities": [8],
+        "rarity": 3
+    },
+    "5050": {
+        "name": "Denkiro",
+        "types": [4],
+        "abilities": [11],
+        "rarity": 2,
+        "next": [5051]
+    },
+    "5051": {
+        "name": "Raitosuke",
+        "types": [4],
+        "abilities": [11],
+        "rarity": 3,
+        "next": [5052]
+    },
+    "5052": {
+        "name": "Raijinmaru",
+        "types": [4],
+        "abilities": [11],
+        "rarity": 4
+    },
+    "5053": {
+        "name": "Baoyu",
+        "types": [0],
+        "abilities": [11],
+        "rarity": 2,
+        "next": [5054]
+    },
+    "5054": {
+        "name": "Moxin",
+        "types": [0,2],
+        "abilities": [11],
+        "rarity": 3
+    },
+    "5055": {
+        "name": "Jiahao",
+        "types": [6],
+        "abilities": [4],
+        "rarity": 3,
+        "next": [5056]
+    },
+    "5056": {
+        "name": "Zhaolong",
+        "types": [6],
+        "abilities": [4],
+        "rarity": 4
+    },
+    "5057": {
+        "name": "Voltali",
+        "types": [4,10],
+        "abilities": [11],
+        "rarity": 3
+    },
+    "5058": {
+        "name": "Aquabella",
+        "types": [2,16],
+        "abilities": [11],
+        "rarity": 2,
+        "next": [5059]
+    },
+    "5059": {
+        "name": "Aqualok",
+        "types": [2,16],
+        "abilities": [15],
+        "rarity": 3
+    },
+    "5060": {
+        "name": "Muffleton",
+        "types": [17],
+        "abilities": [11],
+        "rarity": 2,
+        "next": [5061]
+    },
+    "5061": {
+        "name": "Cragbone",
+        "types": [12,17],
+        "abilities": [1],
+        "rarity": 3
+    },
+    "5062": {
+        "name": "Terraden",
+        "types": [8],
+        "abilities": [11],
+        "rarity": 2,
+        "next": [5063]
+    },
+    "5063": {
+        "name": "Terramyst",
+        "types": [8],
+        "abilities": [11],
+        "rarity": 3,
+        "next": [5064]
+    },
+    "5064": {
+        "name": "Verdorok",
+        "types": [3,8],
+        "abilities": [11],
+        "rarity": 4
+    },
+    "5065": {
+        "name": "Roundin",
+        "types": [0],
+        "abilities": [11],
+        "rarity": 1,
+        "next": [5066]
+    },
+    "5066": {
+        "name": "Terramyst",
+        "types": [0],
+        "abilities": [11],
+        "rarity": 2,
+        "next": [5067]
+    },
+    "5067": {
+        "name": "Verdorok",
+        "types": [0,6],
+        "abilities": [8],
+        "rarity": 3
+    },
+    "5068": {
+        "name": "Puffleen",
+        "types": [17],
+        "abilities": [11],
+        "rarity": 2,
+        "next": [5069]
+    },
+    "5069": {
+        "name": "Harmonina",
+        "types": [10,17],
+        "abilities": [11],
         "rarity": 3
     }
 }
