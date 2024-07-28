@@ -26,7 +26,21 @@ export const getMiscMetadata = async(id: any) => {
     const md:any = {
         creator
     };
-    if (info?.name && info.name.length<40) md.name = info.name;
+    if (info?.name) md.name = info.name;
+    if (info?.description) md.description = info.description;
+    if (info?.image) md.image = info.image;
+    if (info?.externalUrl) md.external_url = info.externalUrl;
+    if (info?.attributes) md.attributes = buildAttributes(info.attributes);
+
+    return md;
+}
+
+export const getSimpleSeriesData = async(address:any, id: any) => {
+    const contract = getContract(nftFactorySingle, address);
+    const info = await contract.methods.getNftInfo(id).call();
+
+    const md:any = {};
+    if (info?.name) md.name = info.name;
     if (info?.description) md.description = info.description;
     if (info?.image) md.image = info.image;
     if (info?.externalUrl) md.external_url = info.externalUrl;

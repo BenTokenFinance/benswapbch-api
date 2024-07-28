@@ -163,6 +163,10 @@
       "destination": "/api/nft/misc"
     },
     {
+      "source": "/api/nft/factory_simple/:address/:id",
+      "destination": "/api/nft/factory_simple"
+    },
+    {
       "source": "/api/nft/grave/:id",
       "destination": "/api/nft/grave"
     },
