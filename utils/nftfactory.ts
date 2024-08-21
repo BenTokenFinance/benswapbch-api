@@ -4,6 +4,16 @@ import nftFactorySingle from "./abis/nftFactorySingle.json";
 
 const nftFactorySingleContract = getContract(nftFactorySingle, '0xF8E0755544ED3133182085773213727Eb05258bd');
 const TRAIT_SEPERATOR = "({!@#$%^&*?})";
+const filterMatcher1 = /^https:\/\/raw.githubusercontent.com\/AliLay\/*\.jpg$/
+
+const filterImages = (image:any) => {
+    if (image) {
+        if (String(image).match(filterMatcher1)) {
+            return "";
+        }
+    }
+    return image;
+}
 
 const buildAttributes = (attrs: any) => {
     const a = attrs.split(TRAIT_SEPERATOR);
@@ -28,7 +38,7 @@ export const getMiscMetadata = async(id: any) => {
     };
     if (info?.name) md.name = info.name;
     if (info?.description) md.description = info.description;
-    if (info?.image) md.image = info.image;
+    if (info?.image) md.image = filterImages(info.image);
     if (info?.externalUrl) md.external_url = info.externalUrl;
     if (info?.attributes) md.attributes = buildAttributes(info.attributes);
 
@@ -42,7 +52,7 @@ export const getSimpleSeriesData = async(address:any, id: any) => {
     const md:any = {};
     if (info?.name) md.name = info.name;
     if (info?.description) md.description = info.description;
-    if (info?.image) md.image = info.image;
+    if (info?.image) md.image = filterImages(info.image);
     if (info?.externalUrl) md.external_url = info.externalUrl;
     if (info?.attributes) md.attributes = buildAttributes(info.attributes);
 
