@@ -4,7 +4,7 @@ import nftFactorySingle from "./abis/nftFactorySingle.json";
 
 const nftFactorySingleContract = getContract(nftFactorySingle, '0xF8E0755544ED3133182085773213727Eb05258bd');
 const TRAIT_SEPERATOR = "({!@#$%^&*?})";
-const filterMatcher1 = /^https:\/\/raw.githubusercontent.com\/AliLay\/*\.jpg$/
+const filterMatcher1 = /^https:\/\/raw.githubusercontent.com\/AliLay\/.*\.jpg$/
 
 const filterImages = (image:any) => {
     if (image) {
