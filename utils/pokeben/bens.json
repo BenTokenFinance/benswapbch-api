@@ -1,1826 +1,3365 @@
 {
     "1": {
-        "name": "Bulbasaur",
-        "types": [3,7],
-        "abilities": [0],
+        "name": "Budleaf",
+        "types": [
+            3,
+            7
+        ],
+        "abilities": [
+            0
+        ],
         "rarity": 2,
-        "next": [2]
+        "next": [
+            2
+        ]
     },
     "2": {
-        "name": "Ivysaur",
-        "types": [3,7],
-        "abilities": [0],
+        "name": "Vinegra",
+        "types": [
+            3,
+            7
+        ],
+        "abilities": [
+            0
+        ],
         "rarity": 3,
-        "next": [3]
+        "next": [
+            3
+        ]
     },
     "3": {
-        "name": "Venusaur",
-        "types": [3,7],
-        "abilities": [0],
+        "name": "Florax",
+        "types": [
+            3,
+            7
+        ],
+        "abilities": [
+            0
+        ],
         "rarity": 4
     },
     "4": {
-        "name": "Charmander",
-        "types": [1],
-        "abilities": [2],
+        "name": "Ignidrake",
+        "types": [
+            1
+        ],
+        "abilities": [
+            2
+        ],
         "rarity": 2,
-        "next": [5]
+        "next": [
+            5
+        ]
     },
     "5": {
-        "name": "Charmeleon",
-        "types": [1],
-        "abilities": [2],
+        "name": "Blazion",
+        "types": [
+            1
+        ],
+        "abilities": [
+            2
+        ],
         "rarity": 3,
-        "next": [6]
+        "next": [
+            6
+        ]
     },
     "6": {
-        "name": "Charizard",
-        "types": [1,9],
-        "abilities": [1],
+        "name": "Flarewing",
+        "types": [
+            1,
+            9
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 4
     },
     "7": {
-        "name": "Squirtle",
-        "types": [2],
-        "abilities": [2],
+        "name": "Aquash",
+        "types": [
+            2
+        ],
+        "abilities": [
+            2
+        ],
         "rarity": 2,
-        "next": [8]
+        "next": [
+            8
+        ]
     },
     "8": {
-        "name": "Wartortle",
-        "types": [2],
-        "abilities": [10],
+        "name": "Torrentle",
+        "types": [
+            2
+        ],
+        "abilities": [
+            10
+        ],
         "rarity": 3,
-        "next": [9]
+        "next": [
+            9
+        ]
     },
     "9": {
-        "name": "Blastoise",
-        "types": [2],
-        "abilities": [10],
+        "name": "Aquatitan",
+        "types": [
+            2
+        ],
+        "abilities": [
+            10
+        ],
         "rarity": 4
     },
     "10": {
-        "name": "Caterpie",
-        "types": [11],
-        "abilities": [0],
+        "name": "Verdip",
+        "types": [
+            11
+        ],
+        "abilities": [
+            0
+        ],
         "rarity": 0,
-        "next": [11]
+        "next": [
+            11
+        ]
     },
     "11": {
-        "name": "Metapod",
-        "types": [11],
-        "abilities": [11],
+        "name": "Shelldusk",
+        "types": [
+            11
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [12]
+        "next": [
+            12
+        ]
     },
     "12": {
-        "name": "Butterfree",
-        "types": [9,11],
-        "abilities": [1],
+        "name": "Spectrafly",
+        "types": [
+            9,
+            11
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 2
     },
     "13": {
-        "name": "Weedle",
-        "types": [7,11],
-        "abilities": [3],
+        "name": "Needlebug",
+        "types": [
+            7,
+            11
+        ],
+        "abilities": [
+            3
+        ],
         "rarity": 0,
-        "next": [14]
+        "next": [
+            14
+        ]
     },
     "14": {
-        "name": "Kakuna",
-        "types": [7,11],
-        "abilities": [11],
+        "name": "Kuno",
+        "types": [
+            7,
+            11
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [15]
+        "next": [
+            15
+        ]
     },
     "15": {
-        "name": "Beedrill",
-        "types": [7,11],
-        "abilities": [3],
+        "name": "Bladewasp",
+        "types": [
+            7,
+            11
+        ],
+        "abilities": [
+            3
+        ],
         "rarity": 2
     },
     "16": {
-        "name": "Pidgey",
-        "types": [0,9],
-        "abilities": [12],
+        "name": "Pidgio",
+        "types": [
+            0,
+            9
+        ],
+        "abilities": [
+            12
+        ],
         "rarity": 0,
-        "next": [17]
+        "next": [
+            17
+        ]
     },
     "17": {
-        "name": "Pidgeotto",
-        "types": [0,9],
-        "abilities": [12],
+        "name": "Pidior",
+        "types": [
+            0,
+            9
+        ],
+        "abilities": [
+            12
+        ],
         "rarity": 1,
-        "next": [18]
+        "next": [
+            18
+        ]
     },
     "18": {
-        "name": "Pidgeot",
-        "types": [0,9],
-        "abilities": [12],
+        "name": "Paget",
+        "types": [
+            0,
+            9
+        ],
+        "abilities": [
+            12
+        ],
         "rarity": 2
     },
     "19": {
-        "name": "Rattata",
-        "types": [0],
-        "abilities": [16],
+        "name": "Rattia",
+        "types": [
+            0
+        ],
+        "abilities": [
+            16
+        ],
         "rarity": 0,
-        "next": [20]
+        "next": [
+            20
+        ]
     },
     "20": {
-        "name": "Raticate",
-        "types": [0],
-        "abilities": [16],
+        "name": "Rattica",
+        "types": [
+            0
+        ],
+        "abilities": [
+            16
+        ],
         "rarity": 1
     },
     "21": {
-        "name": "Spearow",
-        "types": [0,9],
-        "abilities": [12],
+        "name": "Spearrow",
+        "types": [
+            0,
+            9
+        ],
+        "abilities": [
+            12
+        ],
         "rarity": 1,
-        "next": [22]
+        "next": [
+            22
+        ]
     },
     "22": {
-        "name": "Fearow",
-        "types": [0,9],
-        "abilities": [12],
+        "name": "Fierrow",
+        "types": [
+            0,
+            9
+        ],
+        "abilities": [
+            12
+        ],
         "rarity": 2
     },
     "23": {
-        "name": "Ekans",
-        "types": [7],
-        "abilities": [6],
+        "name": "Ekanis",
+        "types": [
+            7
+        ],
+        "abilities": [
+            6
+        ],
         "rarity": 0,
-        "next": [24]
+        "next": [
+            24
+        ]
     },
     "24": {
-        "name": "Arbok",
-        "types": [7],
-        "abilities": [6],
+        "name": "Arbokis",
+        "types": [
+            7
+        ],
+        "abilities": [
+            6
+        ],
         "rarity": 1
     },
     "25": {
-        "name": "Pikachu",
-        "types": [4],
-        "abilities": [1],
+        "name": "Pikaden",
+        "types": [
+            4
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 2,
-        "next": [26]
+        "next": [
+            26
+        ]
     },
     "26": {
-        "name": "Raichu",
-        "types": [4],
-        "abilities": [1],
+        "name": "Raichur",
+        "types": [
+            4
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 3
     },
     "27": {
-        "name": "Sandshrew",
-        "types": [8],
-        "abilities": [8],
+        "name": "Sandrew",
+        "types": [
+            8
+        ],
+        "abilities": [
+            8
+        ],
         "rarity": 0,
-        "next": [28]
+        "next": [
+            28
+        ]
     },
     "28": {
-        "name": "Sandslash",
-        "types": [8],
-        "abilities": [8],
+        "name": "Sandlash",
+        "types": [
+            8
+        ],
+        "abilities": [
+            8
+        ],
         "rarity": 1
     },
     "29": {
-        "name": "Nidoran♀",
-        "types": [7],
-        "abilities": [16],
+        "name": "Nidora♀",
+        "types": [
+            7
+        ],
+        "abilities": [
+            16
+        ],
         "rarity": 0,
-        "next": [30]
+        "next": [
+            30
+        ]
     },
     "30": {
-        "name": "Nidorina",
-        "types": [7],
-        "abilities": [8],
+        "name": "Nidoline",
+        "types": [
+            7
+        ],
+        "abilities": [
+            8
+        ],
         "rarity": 1,
-        "next": [31]
+        "next": [
+            31
+        ]
     },
     "31": {
-        "name": "Nidoqueen",
-        "types": [7,8],
-        "abilities": [10],
+        "name": "Nidoqueenna",
+        "types": [
+            7,
+            8
+        ],
+        "abilities": [
+            10
+        ],
         "rarity": 2
     },
     "32": {
-        "name": "Nidoran♂",
-        "types": [7],
-        "abilities": [8],
+        "name": "Nidora♂",
+        "types": [
+            7
+        ],
+        "abilities": [
+            8
+        ],
         "rarity": 0,
-        "next": [33]
+        "next": [
+            33
+        ]
     },
     "33": {
-        "name": "Nidorino",
-        "types": [7],
-        "abilities": [11],
+        "name": "Nidorick",
+        "types": [
+            7
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [34]
+        "next": [
+            34
+        ]
     },
     "34": {
-        "name": "Nidoking",
-        "types": [7,8],
-        "abilities": [10],
+        "name": "Nidokaiser",
+        "types": [
+            7,
+            8
+        ],
+        "abilities": [
+            10
+        ],
         "rarity": 2
     },
     "35": {
-        "name": "Clefairy",
-        "types": [17],
-        "abilities": [2],
+        "name": "Clefira",
+        "types": [
+            17
+        ],
+        "abilities": [
+            2
+        ],
         "rarity": 1,
-        "next": [36]
+        "next": [
+            36
+        ]
     },
     "36": {
-        "name": "Clefable",
-        "types": [17],
-        "abilities": [2],
+        "name": "Clefablex",
+        "types": [
+            17
+        ],
+        "abilities": [
+            2
+        ],
         "rarity": 2
     },
     "37": {
-        "name": "Vulpix",
-        "types": [1],
-        "abilities": [16],
+        "name": "Volpira",
+        "types": [
+            1
+        ],
+        "abilities": [
+            16
+        ],
         "rarity": 1,
-        "next": [38]
+        "next": [
+            38
+        ]
     },
     "38": {
-        "name": "Ninetales",
-        "types": [1],
-        "abilities": [1],
+        "name": "Infernatales",
+        "types": [
+            1
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 2
     },
     "39": {
-        "name": "Jigglypuff",
-        "types": [0,17],
-        "abilities": [11],
+        "name": "Puffling",
+        "types": [
+            0,
+            17
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [40]
+        "next": [
+            40
+        ]
     },
     "40": {
-        "name": "Wigglytuff",
-        "types": [0,17],
-        "abilities": [11],
+        "name": "Wigglina",
+        "types": [
+            0,
+            17
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "41": {
-        "name": "Zubat",
-        "types": [7,9],
-        "abilities": [16],
+        "name": "Echobat",
+        "types": [
+            7,
+            9
+        ],
+        "abilities": [
+            16
+        ],
         "rarity": 0,
-        "next": [42]
+        "next": [
+            42
+        ]
     },
     "42": {
-        "name": "Golbat",
-        "types": [7,9],
-        "abilities": [16],
+        "name": "Golbaton",
+        "types": [
+            7,
+            9
+        ],
+        "abilities": [
+            16
+        ],
         "rarity": 1,
-        "next": [169]
+        "next": [
+            169
+        ]
     },
     "43": {
-        "name": "Oddish",
-        "types": [3,7],
-        "abilities": [11],
+        "name": "Verdish",
+        "types": [
+            3,
+            7
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 0,
-        "next": [44]
+        "next": [
+            44
+        ]
     },
     "44": {
-        "name": "Gloom",
-        "types": [3,7],
-        "abilities": [11],
+        "name": "Shadebloom",
+        "types": [
+            3,
+            7
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [45]
+        "next": [
+            45
+        ]
     },
     "45": {
-        "name": "Vileplume",
-        "types": [3,7],
-        "abilities": [11],
+        "name": "Vilebloom",
+        "types": [
+            3,
+            7
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "46": {
-        "name": "Paras",
-        "types": [3,11],
-        "abilities": [15],
+        "name": "Parash",
+        "types": [
+            3,
+            11
+        ],
+        "abilities": [
+            15
+        ],
         "rarity": 0,
-        "next": [47]
+        "next": [
+            47
+        ]
     },
     "47": {
-        "name": "Parasect",
-        "types": [3,11],
-        "abilities": [15],
+        "name": "Paraster",
+        "types": [
+            3,
+            11
+        ],
+        "abilities": [
+            15
+        ],
         "rarity": 1
     },
     "48": {
-        "name": "Venonat",
-        "types": [7,11],
-        "abilities": [11],
+        "name": "Fuzznat",
+        "types": [
+            7,
+            11
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [49]
+        "next": [
+            49
+        ]
     },
     "49": {
-        "name": "Venomoth",
-        "types": [7,11],
-        "abilities": [16],
+        "name": "Noctomoth",
+        "types": [
+            7,
+            11
+        ],
+        "abilities": [
+            16
+        ],
         "rarity": 2
     },
     "50": {
-        "name": "Diglett",
-        "types": [8],
-        "abilities": [11],
+        "name": "Terramole",
+        "types": [
+            8
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [51]
+        "next": [
+            51
+        ]
     },
     "51": {
-        "name": "Dugtrio",
-        "types": [8],
-        "abilities": [11],
+        "name": "Tridigg",
+        "types": [
+            8
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "52": {
-        "name": "Meowth",
-        "types": [0],
-        "abilities": [9],
+        "name": "Mewth",
+        "types": [
+            0
+        ],
+        "abilities": [
+            9
+        ],
         "rarity": 0,
-        "next": [53]
+        "next": [
+            53
+        ]
     },
     "53": {
-        "name": "Persian",
-        "types": [0],
-        "abilities": [8],
+        "name": "Purrian",
+        "types": [
+            0
+        ],
+        "abilities": [
+            8
+        ],
         "rarity": 1
     },
     "54": {
-        "name": "Psyduck",
-        "types": [2],
-        "abilities": [2],
+        "name": "Quackpsy",
+        "types": [
+            2
+        ],
+        "abilities": [
+            2
+        ],
         "rarity": 1,
-        "next": [55]
+        "next": [
+            55
+        ]
     },
     "55": {
-        "name": "Golduck",
-        "types": [2],
-        "abilities": [2],
+        "name": "Goldquack",
+        "types": [
+            2
+        ],
+        "abilities": [
+            2
+        ],
         "rarity": 2
     },
     "56": {
-        "name": "Mankey",
-        "types": [6],
-        "abilities": [4],
+        "name": "Ragemon",
+        "types": [
+            6
+        ],
+        "abilities": [
+            4
+        ],
         "rarity": 0,
-        "next": [57]
+        "next": [
+            57
+        ]
     },
     "57": {
-        "name": "Primeape",
-        "types": [6],
-        "abilities": [4],
+        "name": "Furimp",
+        "types": [
+            6
+        ],
+        "abilities": [
+            4
+        ],
         "rarity": 1
     },
     "58": {
-        "name": "Growlithe",
-        "types": [1],
-        "abilities": [1],
+        "name": "Flamdog",
+        "types": [
+            1
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 2,
-        "next": [59]
+        "next": [
+            59
+        ]
     },
     "59": {
-        "name": "Arcanine",
-        "types": [1],
-        "abilities": [1],
+        "name": "Inferocane",
+        "types": [
+            1
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 3
     },
     "60": {
-        "name": "Poliwag",
-        "types": [2],
-        "abilities": [11],
+        "name": "Aquawag",
+        "types": [
+            2
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 0,
-        "next": [61]
+        "next": [
+            61
+        ]
     },
     "61": {
-        "name": "Poliwhirl",
-        "types": [2],
-        "abilities": [10],
+        "name": "Aquawhirl",
+        "types": [
+            2
+        ],
+        "abilities": [
+            10
+        ],
         "rarity": 1,
-        "next": [62]
+        "next": [
+            62
+        ]
     },
     "62": {
-        "name": "Poliwrath",
-        "types": [2,6],
-        "abilities": [4],
+        "name": "Aquaathlete",
+        "types": [
+            2,
+            6
+        ],
+        "abilities": [
+            4
+        ],
         "rarity": 2
     },
     "63": {
-        "name": "Abra",
-        "types": [10],
-        "abilities": [9],
+        "name": "Abrin",
+        "types": [
+            10
+        ],
+        "abilities": [
+            9
+        ],
         "rarity": 1,
-        "next": [64]
+        "next": [
+            64
+        ]
     },
     "64": {
-        "name": "Kadabra",
-        "types": [10],
-        "abilities": [1],
+        "name": "Kadabron",
+        "types": [
+            10
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 2,
-        "next": [65]
+        "next": [
+            65
+        ]
     },
     "65": {
-        "name": "Alakazam",
-        "types": [10],
-        "abilities": [1],
+        "name": "Alakaron",
+        "types": [
+            10
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 3
     },
     "66": {
-        "name": "Machop",
-        "types": [6],
-        "abilities": [4],
+        "name": "Minichop",
+        "types": [
+            6
+        ],
+        "abilities": [
+            4
+        ],
         "rarity": 0,
-        "next": [67]
+        "next": [
+            67
+        ]
     },
     "67": {
-        "name": "Machoke",
-        "types": [6],
-        "abilities": [4],
+        "name": "Machoake",
+        "types": [
+            6
+        ],
+        "abilities": [
+            4
+        ],
         "rarity": 1,
-        "next": [68]
+        "next": [
+            68
+        ]
     },
     "68": {
-        "name": "Machamp",
-        "types": [6],
-        "abilities": [4],
+        "name": "Machampion",
+        "types": [
+            6
+        ],
+        "abilities": [
+            4
+        ],
         "rarity": 2
     },
     "69": {
-        "name": "Bellsprout",
-        "types": [3,7],
-        "abilities": [11],
+        "name": "Bellsprig",
+        "types": [
+            3,
+            7
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 0,
-        "next": [70]
+        "next": [
+            70
+        ]
     },
     "70": {
-        "name": "Weepinbell",
-        "types": [3,7],
-        "abilities": [11],
+        "name": "Mouthbell",
+        "types": [
+            3,
+            7
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [71]
+        "next": [
+            71
+        ]
     },
     "71": {
-        "name": "Victreebel",
-        "types": [3,7],
-        "abilities": [16],
+        "name": "Mawbel",
+        "types": [
+            3,
+            7
+        ],
+        "abilities": [
+            16
+        ],
         "rarity": 2
     },
     "72": {
-        "name": "Tentacool",
-        "types": [2,7],
-        "abilities": [0],
+        "name": "Tentalis",
+        "types": [
+            2,
+            7
+        ],
+        "abilities": [
+            0
+        ],
         "rarity": 1,
-        "next": [73]
+        "next": [
+            73
+        ]
     },
     "73": {
-        "name": "Tentacruel",
-        "types": [2,7],
-        "abilities": [0],
+        "name": "Toxacruel",
+        "types": [
+            2,
+            7
+        ],
+        "abilities": [
+            0
+        ],
         "rarity": 2
     },
     "74": {
-        "name": "Geodude",
-        "types": [8,12],
-        "abilities": [4],
+        "name": "Pebblite",
+        "types": [
+            8,
+            12
+        ],
+        "abilities": [
+            4
+        ],
         "rarity": 0,
-        "next": [75]
+        "next": [
+            75
+        ]
     },
     "75": {
-        "name": "Graveler",
-        "types": [8,12],
-        "abilities": [4],
+        "name": "Gravelok",
+        "types": [
+            8,
+            12
+        ],
+        "abilities": [
+            4
+        ],
         "rarity": 1,
-        "next": [76]
+        "next": [
+            76
+        ]
     },
     "76": {
-        "name": "Golem",
-        "types": [8,12],
-        "abilities": [11],
+        "name": "Golemax",
+        "types": [
+            8,
+            12
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "77": {
-        "name": "Ponyta",
-        "types": [1],
-        "abilities": [11],
+        "name": "Pyrota",
+        "types": [
+            1
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2,
-        "next": [78]
+        "next": [
+            78
+        ]
     },
     "78": {
-        "name": "Rapidash",
-        "types": [1],
-        "abilities": [11],
+        "name": "Firedash",
+        "types": [
+            1
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 3
     },
     "79": {
-        "name": "Slowpoke",
-        "types": [2,10],
-        "abilities": [11],
+        "name": "Lagpoke",
+        "types": [
+            2,
+            10
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [80]
+        "next": [
+            80
+        ]
     },
     "80": {
-        "name": "Slowbro",
-        "types": [2,10],
-        "abilities": [11],
+        "name": "Shellbro",
+        "types": [
+            2,
+            10
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "81": {
-        "name": "Magnemite",
-        "types": [4,16],
-        "abilities": [11],
+        "name": "Magnito",
+        "types": [
+            4,
+            16
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [82]
+        "next": [
+            82
+        ]
     },
     "82": {
-        "name": "Magneton",
-        "types": [4,16],
-        "abilities": [11],
+        "name": "Magnetrio",
+        "types": [
+            4,
+            16
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "83": {
-        "name": "Farfetch'd",
-        "types": [0,9],
-        "abilities": [10],
+        "name": "Fenard",
+        "types": [
+            0,
+            9
+        ],
+        "abilities": [
+            10
+        ],
         "rarity": 2
     },
     "84": {
-        "name": "Doduo",
-        "types": [0,9],
-        "abilities": [12],
+        "name": "Duododo",
+        "types": [
+            0,
+            9
+        ],
+        "abilities": [
+            12
+        ],
         "rarity": 1,
-        "next": [85]
+        "next": [
+            85
+        ]
     },
     "85": {
-        "name": "Dodrio",
-        "types": [0,9],
-        "abilities": [12],
+        "name": "Dodripede",
+        "types": [
+            0,
+            9
+        ],
+        "abilities": [
+            12
+        ],
         "rarity": 2
     },
     "86": {
-        "name": "Seel",
-        "types": [2],
-        "abilities": [10],
+        "name": "Sealite",
+        "types": [
+            2
+        ],
+        "abilities": [
+            10
+        ],
         "rarity": 1,
-        "next": [87]
+        "next": [
+            87
+        ]
     },
     "87": {
-        "name": "Dewgong",
-        "types": [2,5],
-        "abilities": [2],
+        "name": "Dewseal",
+        "types": [
+            2,
+            5
+        ],
+        "abilities": [
+            2
+        ],
         "rarity": 2
     },
     "88": {
-        "name": "Grimer",
-        "types": [7],
-        "abilities": [1],
+        "name": "Grime",
+        "types": [
+            7
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 1,
-        "next": [89]
+        "next": [
+            89
+        ]
     },
     "89": {
-        "name": "Muk",
-        "types": [7],
-        "abilities": [1],
+        "name": "Mucklord",
+        "types": [
+            7
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 2
     },
     "90": {
-        "name": "Shellder",
-        "types": [2],
-        "abilities": [14],
+        "name": "Shelb",
+        "types": [
+            2
+        ],
+        "abilities": [
+            14
+        ],
         "rarity": 1,
-        "next": [91]
+        "next": [
+            91
+        ]
     },
     "91": {
-        "name": "Cloyster",
-        "types": [2,5],
-        "abilities": [7],
+        "name": "Spikell",
+        "types": [
+            2,
+            5
+        ],
+        "abilities": [
+            7
+        ],
         "rarity": 2
     },
     "92": {
-        "name": "Gastly",
-        "types": [7,13],
-        "abilities": [11],
+        "name": "Spectralis",
+        "types": [
+            7,
+            13
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 0,
-        "next": [93]
+        "next": [
+            93
+        ]
     },
     "93": {
-        "name": "Haunter",
-        "types": [7,13],
-        "abilities": [9],
+        "name": "Hauntor",
+        "types": [
+            7,
+            13
+        ],
+        "abilities": [
+            9
+        ],
         "rarity": 1,
-        "next": [94]
+        "next": [
+            94
+        ]
     },
     "94": {
-        "name": "Gengar",
-        "types": [7,13],
-        "abilities": [1],
+        "name": "Gengash",
+        "types": [
+            7,
+            13
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 2
     },
     "95": {
-        "name": "Onix",
-        "types": [8,12],
-        "abilities": [11],
+        "name": "Stonix",
+        "types": [
+            8,
+            12
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1
     },
     "96": {
-        "name": "Drowzee",
-        "types": [10],
-        "abilities": [2],
+        "name": "Slumbree",
+        "types": [
+            10
+        ],
+        "abilities": [
+            2
+        ],
         "rarity": 1,
-        "next": [97]
+        "next": [
+            97
+        ]
     },
     "97": {
-        "name": "Hypno",
-        "types": [10],
-        "abilities": [2],
+        "name": "Hypnos",
+        "types": [
+            10
+        ],
+        "abilities": [
+            2
+        ],
         "rarity": 2
     },
     "98": {
-        "name": "Krabby",
-        "types": [2],
-        "abilities": [15],
+        "name": "Clawbby",
+        "types": [
+            2
+        ],
+        "abilities": [
+            15
+        ],
         "rarity": 1,
-        "next": [99]
+        "next": [
+            99
+        ]
     },
     "99": {
-        "name": "Kingler",
-        "types": [2],
-        "abilities": [15],
+        "name": "Clampking",
+        "types": [
+            2
+        ],
+        "abilities": [
+            15
+        ],
         "rarity": 2
     },
     "100": {
-        "name": "Voltorb",
-        "types": [4],
-        "abilities": [11],
+        "name": "Sparkorb",
+        "types": [
+            4
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 0,
-        "next": [101]
+        "next": [
+            101
+        ]
     },
     "101": {
-        "name": "Electrode",
-        "types": [4],
-        "abilities": [11],
+        "name": "Zapplode",
+        "types": [
+            4
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1
     },
     "102": {
-        "name": "Exeggcute",
-        "types": [3,10],
-        "abilities": [11],
+        "name": "Multiegg",
+        "types": [
+            3,
+            10
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [103]
+        "next": [
+            103
+        ]
     },
     "103": {
-        "name": "Exeggutor",
-        "types": [3,10],
-        "abilities": [11],
+        "name": "Exepalm",
+        "types": [
+            3,
+            10
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "104": {
-        "name": "Cubone",
-        "types": [8],
-        "abilities": [17],
+        "name": "Bonecub",
+        "types": [
+            8
+        ],
+        "abilities": [
+            17
+        ],
         "rarity": 1,
-        "next": [105]
+        "next": [
+            105
+        ]
     },
     "105": {
-        "name": "Marowak",
-        "types": [8],
-        "abilities": [17],
+        "name": "Marrowax",
+        "types": [
+            8
+        ],
+        "abilities": [
+            17
+        ],
         "rarity": 2
     },
     "106": {
-        "name": "Hitmonlee",
-        "types": [6],
-        "abilities": [13],
+        "name": "Footlee",
+        "types": [
+            6
+        ],
+        "abilities": [
+            13
+        ],
         "rarity": 2
     },
     "107": {
-        "name": "Hitmonchan",
-        "types": [6],
-        "abilities": [4],
+        "name": "Strikechan",
+        "types": [
+            6
+        ],
+        "abilities": [
+            4
+        ],
         "rarity": 2
     },
     "108": {
-        "name": "Lickitung",
-        "types": [0],
-        "abilities": [14],
+        "name": "Licktong",
+        "types": [
+            0
+        ],
+        "abilities": [
+            14
+        ],
         "rarity": 2
     },
     "109": {
-        "name": "Koffing",
-        "types": [7],
-        "abilities": [11],
+        "name": "Toxfume",
+        "types": [
+            7
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [110]
+        "next": [
+            110
+        ]
     },
     "110": {
-        "name": "Weezing",
-        "types": [7],
-        "abilities": [11],
+        "name": "Fumetwin",
+        "types": [
+            7
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "111": {
-        "name": "Rhyhorn",
-        "types": [8,12],
-        "abilities": [11],
+        "name": "Hornox",
+        "types": [
+            8,
+            12
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [112]
+        "next": [
+            112
+        ]
     },
     "112": {
-        "name": "Rhydon",
-        "types": [8,12],
-        "abilities": [1],
+        "name": "Hornrex",
+        "types": [
+            8,
+            12
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 2
     },
     "113": {
-        "name": "Chansey",
-        "types": [0],
-        "abilities": [11],
+        "name": "Luckee",
+        "types": [
+            0
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2,
-        "next": [242]
+        "next": [
+            242
+        ]
     },
     "114": {
-        "name": "Tangela",
-        "types": [3],
-        "abilities": [6],
+        "name": "Tangleleaf",
+        "types": [
+            3
+        ],
+        "abilities": [
+            6
+        ],
         "rarity": 2
     },
     "115": {
-        "name": "Kangaskhan",
-        "types": [0],
-        "abilities": [8],
+        "name": "Kangamom",
+        "types": [
+            0
+        ],
+        "abilities": [
+            8
+        ],
         "rarity": 3
     },
     "116": {
-        "name": "Horsea",
-        "types": [2],
-        "abilities": [11],
+        "name": "Inkdra",
+        "types": [
+            2
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [117]
+        "next": [
+            117
+        ]
     },
     "117": {
-        "name": "Seadra",
-        "types": [2],
-        "abilities": [11],
+        "name": "Spikdra",
+        "types": [
+            2
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "118": {
-        "name": "Goldeen",
-        "types": [2],
-        "abilities": [7],
+        "name": "Hornfish",
+        "types": [
+            2
+        ],
+        "abilities": [
+            7
+        ],
         "rarity": 0,
-        "next": [119]
+        "next": [
+            119
+        ]
     },
     "119": {
-        "name": "Seaking",
-        "types": [2],
-        "abilities": [7],
+        "name": "Seakingr",
+        "types": [
+            2
+        ],
+        "abilities": [
+            7
+        ],
         "rarity": 1
     },
     "120": {
-        "name": "Staryu",
-        "types": [2],
-        "abilities": [11],
+        "name": "Stellaru",
+        "types": [
+            2
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [121]
+        "next": [
+            121
+        ]
     },
     "121": {
-        "name": "Starmie",
-        "types": [2,10],
-        "abilities": [11],
+        "name": "Stellagem",
+        "types": [
+            2,
+            10
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "122": {
-        "name": "Mr. Mime",
-        "types": [10,17],
-        "abilities": [2],
+        "name": "Mystmime",
+        "types": [
+            10,
+            17
+        ],
+        "abilities": [
+            2
+        ],
         "rarity": 3
     },
     "123": {
-        "name": "Scyther",
-        "types": [9,11],
-        "abilities": [1],
+        "name": "Wingreaper",
+        "types": [
+            9,
+            11
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 2
     },
     "124": {
-        "name": "Jynx",
-        "types": [5,10],
-        "abilities": [2],
+        "name": "Froskiss",
+        "types": [
+            5,
+            10
+        ],
+        "abilities": [
+            2
+        ],
         "rarity": 3
     },
     "125": {
-        "name": "Electabuzz",
-        "types": [4],
-        "abilities": [1],
+        "name": "Thundabuzz",
+        "types": [
+            4
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 3
     },
     "126": {
-        "name": "Magmar",
-        "types": [1],
-        "abilities": [2],
+        "name": "Magduck",
+        "types": [
+            1
+        ],
+        "abilities": [
+            2
+        ],
         "rarity": 3
     },
     "127": {
-        "name": "Pinsir",
-        "types": [11],
-        "abilities": [15],
+        "name": "Pinros",
+        "types": [
+            11
+        ],
+        "abilities": [
+            15
+        ],
         "rarity": 3
     },
     "128": {
-        "name": "Tauros",
-        "types": [0],
-        "abilities": [11],
+        "name": "Talon",
+        "types": [
+            0
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 3
     },
     "129": {
-        "name": "Magikarp",
-        "types": [2],
-        "abilities": [11],
+        "name": "Leapkoi",
+        "types": [
+            2
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2,
-        "next": [130]
+        "next": [
+            130
+        ]
     },
     "130": {
-        "name": "Gyarados",
-        "types": [2,9],
-        "abilities": [16],
+        "name": "Gyrazer",
+        "types": [
+            2,
+            9
+        ],
+        "abilities": [
+            16
+        ],
         "rarity": 3
     },
     "131": {
-        "name": "Lapras",
-        "types": [2,5],
-        "abilities": [11],
+        "name": "Lapton",
+        "types": [
+            2,
+            5
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 3
     },
     "132": {
-        "name": "Ditto",
-        "types": [0],
-        "abilities": [11],
+        "name": "Shiftto",
+        "types": [
+            0
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 3
     },
     "133": {
-        "name": "Eevee",
-        "types": [0],
-        "abilities": [9],
+        "name": "Evora",
+        "types": [
+            0
+        ],
+        "abilities": [
+            9
+        ],
         "rarity": 3,
-        "next": [134,135,136]
+        "next": [
+            134,
+            135,
+            136
+        ]
     },
     "134": {
-        "name": "Vaporeon",
-        "types": [2],
-        "abilities": [6],
+        "name": "Aquaon",
+        "types": [
+            2
+        ],
+        "abilities": [
+            6
+        ],
         "rarity": 4
     },
     "135": {
-        "name": "Jolteon",
-        "types": [4],
-        "abilities": [7],
+        "name": "Voltareon",
+        "types": [
+            4
+        ],
+        "abilities": [
+            7
+        ],
         "rarity": 4
     },
     "136": {
-        "name": "Flareon",
-        "types": [1],
-        "abilities": [11],
+        "name": "Pyreon",
+        "types": [
+            1
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 4
     },
     "137": {
-        "name": "Porygon",
-        "types": [0],
-        "abilities": [11],
+        "name": "Formagon",
+        "types": [
+            0
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2,
-        "next": [233]
+        "next": [
+            233
+        ]
     },
     "138": {
-        "name": "Omanyte",
-        "types": [2,12],
-        "abilities": [11],
+        "name": "Seamyte",
+        "types": [
+            2,
+            12
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2,
-        "next": [139]
+        "next": [
+            139
+        ]
     },
     "139": {
-        "name": "Omastar",
-        "types": [2,12],
-        "abilities": [16],
+        "name": "Seastarox",
+        "types": [
+            2,
+            12
+        ],
+        "abilities": [
+            16
+        ],
         "rarity": 3
     },
     "140": {
-        "name": "Kabuto",
-        "types": [2,12],
-        "abilities": [9],
+        "name": "Kaburel",
+        "types": [
+            2,
+            12
+        ],
+        "abilities": [
+            9
+        ],
         "rarity": 2,
-        "next": [141]
+        "next": [
+            141
+        ]
     },
     "141": {
-        "name": "Kabutops",
-        "types": [2,12],
-        "abilities": [1],
+        "name": "Kabublade",
+        "types": [
+            2,
+            12
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 3
     },
     "142": {
-        "name": "Aerodactyl",
-        "types": [9,12],
-        "abilities": [9],
+        "name": "Fossildactyl",
+        "types": [
+            9,
+            12
+        ],
+        "abilities": [
+            9
+        ],
         "rarity": 4
     },
     "143": {
-        "name": "Snorlax",
-        "types": [0],
-        "abilities": [10],
+        "name": "Dormax",
+        "types": [
+            0
+        ],
+        "abilities": [
+            10
+        ],
         "rarity": 3
     },
     "144": {
-        "name": "Articuno",
-        "types": [5,9],
-        "abilities": [8],
+        "name": "Frostaero",
+        "types": [
+            5,
+            9
+        ],
+        "abilities": [
+            8
+        ],
         "rarity": 5
     },
     "145": {
-        "name": "Zapdos",
-        "types": [4,9],
-        "abilities": [8],
+        "name": "Voltera",
+        "types": [
+            4,
+            9
+        ],
+        "abilities": [
+            8
+        ],
         "rarity": 5
     },
     "146": {
-        "name": "Moltres",
-        "types": [1,9],
-        "abilities": [8],
+        "name": "Blazara",
+        "types": [
+            1,
+            9
+        ],
+        "abilities": [
+            8
+        ],
         "rarity": 5
     },
     "147": {
-        "name": "Dratini",
-        "types": [15],
-        "abilities": [6],
+        "name": "Drakini",
+        "types": [
+            15
+        ],
+        "abilities": [
+            6
+        ],
         "rarity": 2,
-        "next": [148]
+        "next": [
+            148
+        ]
     },
     "148": {
-        "name": "Dragonair",
-        "types": [15],
-        "abilities": [6],
+        "name": "Serpentair",
+        "types": [
+            15
+        ],
+        "abilities": [
+            6
+        ],
         "rarity": 3,
-        "next": [149]
+        "next": [
+            149
+        ]
     },
     "149": {
-        "name": "Dragonite",
-        "types": [9,15],
-        "abilities": [11],
+        "name": "Skyadon",
+        "types": [
+            9,
+            15
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 4
     },
     "150": {
-        "name": "Mewtwo",
-        "types": [10],
-        "abilities": [8],
+        "name": "Psychomancer",
+        "types": [
+            10
+        ],
+        "abilities": [
+            8
+        ],
         "rarity": 5
     },
     "151": {
-        "name": "Mew",
-        "types": [10],
-        "abilities": [11],
+        "name": "Orimyst",
+        "types": [
+            10
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 5
     },
     "152": {
-        "name": "Chikorita",
-        "types": [3],
-        "abilities": [11],
+        "name": "Chloralea",
+        "types": [
+            3
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2,
-        "next": [153]
+        "next": [
+            153
+        ]
     },
     "153": {
-        "name": "Bayleef",
-        "types": [3],
-        "abilities": [11],
+        "name": "Crownleaf",
+        "types": [
+            3
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 3,
-        "next": [154]
+        "next": [
+            154
+        ]
     },
     "154": {
-        "name": "Meganium",
-        "types": [3],
-        "abilities": [11],
+        "name": "Megaflore",
+        "types": [
+            3
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 4
     },
     "155": {
-        "name": "Cyndaquil",
-        "types": [1],
-        "abilities": [16],
+        "name": "Pyrrion",
+        "types": [
+            1
+        ],
+        "abilities": [
+            16
+        ],
         "rarity": 2,
-        "next": [156]
+        "next": [
+            156
+        ]
     },
     "156": {
-        "name": "Quilava",
-        "types": [1],
-        "abilities": [16],
+        "name": "Volcava",
+        "types": [
+            1
+        ],
+        "abilities": [
+            16
+        ],
         "rarity": 3,
-        "next": [157]
+        "next": [
+            157
+        ]
     },
     "157": {
-        "name": "Typhlosion",
-        "types": [1],
-        "abilities": [16],
+        "name": "Typhlarex",
+        "types": [
+            1
+        ],
+        "abilities": [
+            16
+        ],
         "rarity": 4
     },
     "161": {
-        "name": "Sentret",
-        "types": [0],
-        "abilities": [10],
+        "name": "Weite",
+        "types": [
+            0
+        ],
+        "abilities": [
+            10
+        ],
         "rarity": 0,
-        "next": [162]
+        "next": [
+            162
+        ]
     },
     "162": {
-        "name": "Furret",
-        "types": [0],
-        "abilities": [11],
+        "name": "Weitel",
+        "types": [
+            0
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1
     },
     "165": {
-        "name": "Ledyba",
-        "types": [9,11],
-        "abilities": [11],
+        "name": "Ledip",
+        "types": [
+            9,
+            11
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 0,
-        "next": [166]
+        "next": [
+            166
+        ]
     },
     "166": {
-        "name": "Ledian",
-        "types": [9,11],
-        "abilities": [11],
+        "name": "Ledien",
+        "types": [
+            9,
+            11
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1
     },
     "167": {
-        "name": "Spinarak",
-        "types": [7,11],
-        "abilities": [16],
+        "name": "Spinlet",
+        "types": [
+            7,
+            11
+        ],
+        "abilities": [
+            16
+        ],
         "rarity": 1
     },
     "169": {
-        "name": "Crobat",
-        "types": [7,9],
-        "abilities": [16],
+        "name": "Crobaton",
+        "types": [
+            7,
+            9
+        ],
+        "abilities": [
+            16
+        ],
         "rarity": 2
     },
     "170": {
-        "name": "Chinchou",
-        "types": [2,4],
-        "abilities": [11],
+        "name": "Shinelure",
+        "types": [
+            2,
+            4
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [171]
+        "next": [
+            171
+        ]
     },
     "171": {
-        "name": "Lanturn",
-        "types": [2,4],
-        "abilities": [11],
+        "name": "Lantfish",
+        "types": [
+            2,
+            4
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "172": {
-        "name": "Pichu",
-        "types": [4],
-        "abilities": [1],
+        "name": "Pichum",
+        "types": [
+            4
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 1,
-        "next": [25]
+        "next": [
+            25
+        ]
     },
     "173": {
-        "name": "Cleffa",
-        "types": [17],
-        "abilities": [11],
+        "name": "Cleffy",
+        "types": [
+            17
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 0,
-        "next": [35]
+        "next": [
+            35
+        ]
     },
     "174": {
-        "name": "Igglybuff",
-        "types": [0,17],
-        "abilities": [11],
+        "name": "Igglypuff",
+        "types": [
+            0,
+            17
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 0,
-        "next": [39]
+        "next": [
+            39
+        ]
     },
     "175": {
-        "name": "Togepi",
-        "types": [17],
-        "abilities": [11],
+        "name": "Togepin",
+        "types": [
+            17
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [176]
+        "next": [
+            176
+        ]
     },
     "176": {
-        "name": "Togetic",
-        "types": [9,17],
-        "abilities": [11],
+        "name": "Togal",
+        "types": [
+            9,
+            17
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "177": {
-        "name": "Natu",
-        "types": [9,10],
-        "abilities": [12],
+        "name": "Natew",
+        "types": [
+            9,
+            10
+        ],
+        "abilities": [
+            12
+        ],
         "rarity": 1,
-        "next": [178]
+        "next": [
+            178
+        ]
     },
     "178": {
-        "name": "Xatu",
-        "types": [9,10],
-        "abilities": [12],
+        "name": "Xatus",
+        "types": [
+            9,
+            10
+        ],
+        "abilities": [
+            12
+        ],
         "rarity": 2
     },
     "179": {
-        "name": "Mareep",
-        "types": [4],
-        "abilities": [11],
+        "name": "Woolreep",
+        "types": [
+            4
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [180]
+        "next": [
+            180
+        ]
     },
     "180": {
-        "name": "Flaaffy",
-        "types": [4],
-        "abilities": [11],
+        "name": "Flaairy",
+        "types": [
+            4
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2,
-        "next": [181]
+        "next": [
+            181
+        ]
     },
     "181": {
-        "name": "Ampharos",
-        "types": [4],
-        "abilities": [11],
+        "name": "Sparklon",
+        "types": [
+            4
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 3
     },
     "183": {
-        "name": "Marill",
-        "types": [2,17],
-        "abilities": [11],
+        "name": "Aquarill",
+        "types": [
+            2,
+            17
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [184]
+        "next": [
+            184
+        ]
     },
     "184": {
-        "name": "Azumarill",
-        "types": [2,17],
-        "abilities": [11],
+        "name": "Aquamarril",
+        "types": [
+            2,
+            17
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "187": {
-        "name": "Hoppip",
-        "types": [3,9],
-        "abilities": [11],
+        "name": "Breezbud",
+        "types": [
+            3,
+            9
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 0,
-        "next": [188]
+        "next": [
+            188
+        ]
     },
     "188": {
-        "name": "Skiploom",
-        "types": [3,9],
-        "abilities": [11],
+        "name": "Glidebloom",
+        "types": [
+            3,
+            9
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [189]
+        "next": [
+            189
+        ]
     },
     "189": {
-        "name": "Jumpluff",
-        "types": [3,9],
-        "abilities": [11],
+        "name": "Glidepluff",
+        "types": [
+            3,
+            9
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "191": {
-        "name": "Sunkern",
-        "types": [3],
-        "abilities": [11],
+        "name": "Sunkernis",
+        "types": [
+            3
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [192]
+        "next": [
+            192
+        ]
     },
     "192": {
-        "name": "Sunflora",
-        "types": [3],
-        "abilities": [11],
+        "name": "Solflor",
+        "types": [
+            3
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "194": {
-        "name": "Wooper",
-        "types": [2,8],
-        "abilities": [11],
+        "name": "Mudwoop",
+        "types": [
+            2,
+            8
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [195]
+        "next": [
+            195
+        ]
     },
     "195": {
-        "name": "Quagsire",
-        "types": [2,8],
-        "abilities": [2],
+        "name": "Quagmire",
+        "types": [
+            2,
+            8
+        ],
+        "abilities": [
+            2
+        ],
         "rarity": 2
     },
     "198": {
-        "name": "Murkrow",
-        "types": [9,14],
-        "abilities": [12],
+        "name": "Darkkrow",
+        "types": [
+            9,
+            14
+        ],
+        "abilities": [
+            12
+        ],
         "rarity": 1
     },
     "200": {
-        "name": "Misdreavus",
-        "types": [13],
-        "abilities": [11],
+        "name": "Mystress",
+        "types": [
+            13
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "201": {
-        "name": "Unown",
-        "types": [10],
-        "abilities": [11],
+        "name": "Mystglyph",
+        "types": [
+            10
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1
     },
     "202": {
-        "name": "Wobbuffet",
-        "types": [10],
-        "abilities": [11],
+        "name": "Reflectuff",
+        "types": [
+            10
+        ],
+        "abilities": [
+            11
+        ],
+        "rarity": 2
+    },
+    "206": {
+        "name": "Terrasparce",
+        "types": [
+            0
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "209": {
-        "name": "Snubbull",
-        "types": [17],
-        "abilities": [1],
+        "name": "Snubluff",
+        "types": [
+            17
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 0,
-        "next": [210]
+        "next": [
+            210
+        ]
     },
     "210": {
-        "name": "Granbull",
-        "types": [17],
-        "abilities": [1],
+        "name": "Granbrute",
+        "types": [
+            17
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 1
     },
-    "206": {
-        "name": "Dunsparce",
-        "types": [0],
-        "abilities": [11],
-        "rarity": 2
-    },
     "215": {
-        "name": "Sneasel",
-        "types": [5,14],
-        "abilities": [8],
+        "name": "Shadclaw",
+        "types": [
+            5,
+            14
+        ],
+        "abilities": [
+            8
+        ],
         "rarity": 2
     },
     "216": {
-        "name": "Teddiursa",
-        "types": [0],
-        "abilities": [8],
+        "name": "Teddicub",
+        "types": [
+            0
+        ],
+        "abilities": [
+            8
+        ],
         "rarity": 2,
-        "next": [217]
+        "next": [
+            217
+        ]
     },
     "217": {
-        "name": "Ursaring",
-        "types": [0],
-        "abilities": [8],
+        "name": "Circlebear",
+        "types": [
+            0
+        ],
+        "abilities": [
+            8
+        ],
         "rarity": 3
     },
     "218": {
-        "name": "Slugma",
-        "types": [1],
-        "abilities": [11],
+        "name": "Lavaslug",
+        "types": [
+            1
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [219]
+        "next": [
+            219
+        ]
     },
     "219": {
-        "name": "Magcargo",
-        "types": [1,12],
-        "abilities": [11],
+        "name": "Lavamollus",
+        "types": [
+            1,
+            12
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "220": {
-        "name": "Swinub",
-        "types": [5,8],
-        "abilities": [11],
+        "name": "Frostswine",
+        "types": [
+            5,
+            8
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [221]
+        "next": [
+            221
+        ]
     },
     "221": {
-        "name": "Piloswine",
-        "types": [5,8],
-        "abilities": [11],
+        "name": "Woolswine",
+        "types": [
+            5,
+            8
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "224": {
-        "name": "Octillery",
-        "types": [2],
-        "abilities": [6],
+        "name": "Guntopus",
+        "types": [
+            2
+        ],
+        "abilities": [
+            6
+        ],
         "rarity": 2
     },
     "225": {
-        "name": "Delibird",
-        "types": [5,9],
-        "abilities": [2],
+        "name": "Snowmess",
+        "types": [
+            5,
+            9
+        ],
+        "abilities": [
+            2
+        ],
         "rarity": 1
     },
     "226": {
-        "name": "Mantine",
-        "types": [2,9],
-        "abilities": [11],
+        "name": "Skimanta",
+        "types": [
+            2,
+            9
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "228": {
-        "name": "Houndour",
-        "types": [1,14],
-        "abilities": [16],
+        "name": "Horton",
+        "types": [
+            1,
+            14
+        ],
+        "abilities": [
+            16
+        ],
         "rarity": 2,
-        "next": [229]
+        "next": [
+            229
+        ]
     },
     "229": {
-        "name": "Houndoom",
-        "types": [1,14],
-        "abilities": [16],
+        "name": "Hordrick",
+        "types": [
+            1,
+            14
+        ],
+        "abilities": [
+            16
+        ],
         "rarity": 3
     },
     "233": {
-        "name": "Porygon2",
-        "types": [0],
-        "abilities": [11],
+        "name": "Digitron",
+        "types": [
+            0
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 3
     },
     "236": {
-        "name": "Tyrogue",
-        "types": [6],
-        "abilities": [4],
+        "name": "Braverogue",
+        "types": [
+            6
+        ],
+        "abilities": [
+            4
+        ],
         "rarity": 1,
-        "next": [106,107,237]
+        "next": [
+            106,
+            107,
+            237
+        ]
     },
     "237": {
-        "name": "Hitmontop",
-        "types": [6],
-        "abilities": [13],
+        "name": "Spinmon",
+        "types": [
+            6
+        ],
+        "abilities": [
+            13
+        ],
         "rarity": 2
     },
     "238": {
-        "name": "Smoochum",
-        "types": [5,10],
-        "abilities": [11],
+        "name": "Kissmooch",
+        "types": [
+            5,
+            10
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2,
-        "next": [124]
+        "next": [
+            124
+        ]
     },
     "239": {
-        "name": "Elekid",
-        "types": [4],
-        "abilities": [1],
+        "name": "Elekiddo",
+        "types": [
+            4
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 2,
-        "next": [125]
+        "next": [
+            125
+        ]
     },
     "240": {
-        "name": "Magby",
-        "types": [1],
-        "abilities": [1],
+        "name": "Blazby",
+        "types": [
+            1
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 2,
-        "next": [126]
+        "next": [
+            126
+        ]
     },
     "242": {
-        "name": "Blissey",
-        "types": [0],
-        "abilities": [11],
+        "name": "Joyegg",
+        "types": [
+            0
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 3
     },
     "249": {
-        "name": "Lugia",
-        "types": [9,10],
-        "abilities": [11],
+        "name": "Lusir",
+        "types": [
+            9,
+            10
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 5
     },
     "5001": {
         "name": "Pownn",
-        "types": [5,6],
-        "abilities": [4],
+        "types": [
+            5,
+            6
+        ],
+        "abilities": [
+            4
+        ],
         "rarity": 1,
-        "next": [5002]
+        "next": [
+            5002
+        ]
     },
     "5002": {
         "name": "Downn",
-        "types": [5,6],
-        "abilities": [4],
+        "types": [
+            5,
+            6
+        ],
+        "abilities": [
+            4
+        ],
         "rarity": 2,
-        "next": [5003]
+        "next": [
+            5003
+        ]
     },
     "5003": {
         "name": "Cabownn",
-        "types": [5,6],
-        "abilities": [4],
+        "types": [
+            5,
+            6
+        ],
+        "abilities": [
+            4
+        ],
         "rarity": 3
     },
     "5004": {
         "name": "Cogitanem",
-        "types": [10,14],
-        "abilities": [1],
+        "types": [
+            10,
+            14
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 1,
-        "next": [5005]
+        "next": [
+            5005
+        ]
     },
     "5005": {
         "name": "Cogitavem",
-        "types": [10,14],
-        "abilities": [1],
+        "types": [
+            10,
+            14
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 2,
-        "next": [5006]
+        "next": [
+            5006
+        ]
     },
     "5006": {
         "name": "Sumi-Cogitavem",
-        "types": [10,14],
-        "abilities": [1],
+        "types": [
+            10,
+            14
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 3
     },
     "5007": {
         "name": "Emperou",
-        "types": [0,16],
-        "abilities": [11],
+        "types": [
+            0,
+            16
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "5008": {
         "name": "Lanawoof",
-        "types": [0],
-        "abilities": [11],
+        "types": [
+            0
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 0,
-        "next": [5009]
+        "next": [
+            5009
+        ]
     },
     "5009": {
         "name": "Pwoof",
-        "types": [0],
-        "abilities": [11],
+        "types": [
+            0
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [5010]
+        "next": [
+            5010
+        ]
     },
     "5010": {
         "name": "Nurnawoof",
-        "types": [0,17],
-        "abilities": [11],
+        "types": [
+            0,
+            17
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "5011": {
         "name": "Pipi",
-        "types": [4],
-        "abilities": [1],
+        "types": [
+            4
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 2,
-        "next": [5012]
+        "next": [
+            5012
+        ]
     },
     "5012": {
         "name": "Bili",
-        "types": [4],
-        "abilities": [1],
+        "types": [
+            4
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 3,
-        "next": [5013]
+        "next": [
+            5013
+        ]
     },
     "5013": {
         "name": "Pili",
-        "types": [4,15],
-        "abilities": [1],
+        "types": [
+            4,
+            15
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 4
     },
     "5014": {
         "name": "Fufu",
-        "types": [7],
-        "abilities": [1],
+        "types": [
+            7
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 1,
-        "next": [5015]
+        "next": [
+            5015
+        ]
     },
     "5015": {
         "name": "Lei",
-        "types": [7,13],
-        "abilities": [1],
+        "types": [
+            7,
+            13
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 2,
-        "next": [5016]
+        "next": [
+            5016
+        ]
     },
     "5016": {
         "name": "Gui",
-        "types": [7,13],
-        "abilities": [1],
+        "types": [
+            7,
+            13
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 3
     },
     "5017": {
         "name": "Bean",
-        "types": [1],
-        "abilities": [1],
+        "types": [
+            1
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 1,
-        "next": [5018]
+        "next": [
+            5018
+        ]
     },
     "5018": {
         "name": "Justy",
-        "types": [1,16],
-        "abilities": [1],
+        "types": [
+            1,
+            16
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 2
     },
     "5019": {
         "name": "Xiao-Yun",
-        "types": [0],
-        "abilities": [11],
+        "types": [
+            0
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2,
-        "next": [5020]
+        "next": [
+            5020
+        ]
     },
     "5020": {
         "name": "Xiang-Yun",
-        "types": [0,9],
-        "abilities": [11],
+        "types": [
+            0,
+            9
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 3
     },
     "5021": {
         "name": "Needles",
-        "types": [0,14],
-        "abilities": [3],
+        "types": [
+            0,
+            14
+        ],
+        "abilities": [
+            3
+        ],
         "rarity": 1,
-        "next": [5022]
+        "next": [
+            5022
+        ]
     },
     "5022": {
         "name": "Stitches",
-        "types": [0,14],
-        "abilities": [3],
+        "types": [
+            0,
+            14
+        ],
+        "abilities": [
+            3
+        ],
         "rarity": 2
     },
     "5023": {
         "name": "Pouca",
-        "types": [3],
-        "abilities": [11],
+        "types": [
+            3
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 0,
-        "next": [5024]
+        "next": [
+            5024
+        ]
     },
     "5024": {
         "name": "Loja",
-        "types": [3],
-        "abilities": [1],
+        "types": [
+            3
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 1,
-        "next": [55024]
+        "next": [
+            55024
+        ]
     },
     "55024": {
         "name": "Loja",
-        "types": [3],
-        "abilities": [1],
+        "types": [
+            3
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 2
     },
     "5025": {
         "name": "Ding",
-        "types": [8],
-        "abilities": [11],
+        "types": [
+            8
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [5026]
+        "next": [
+            5026
+        ]
     },
     "5026": {
         "name": "Tong",
-        "types": [8],
-        "abilities": [11],
+        "types": [
+            8
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2,
-        "next": [5027]
+        "next": [
+            5027
+        ]
     },
     "5027": {
         "name": "Bing",
-        "types": [8],
-        "abilities": [11],
+        "types": [
+            8
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 3
     },
     "5028": {
         "name": "Univog",
-        "types": [10,13],
-        "abilities": [2],
+        "types": [
+            10,
+            13
+        ],
+        "abilities": [
+            2
+        ],
         "rarity": 3,
-        "next": [5029]
+        "next": [
+            5029
+        ]
     },
     "5029": {
         "name": "Infinog",
-        "types": [10,13],
-        "abilities": [2],
+        "types": [
+            10,
+            13
+        ],
+        "abilities": [
+            2
+        ],
         "rarity": 4
     },
     "5030": {
         "name": "Skelepup",
-        "types": [14],
-        "abilities": [2],
+        "types": [
+            14
+        ],
+        "abilities": [
+            2
+        ],
         "rarity": 1,
-        "next": [5031,5032,5033,5034]
+        "next": [
+            5031,
+            5032,
+            5033,
+            5034
+        ]
     },
     "5031": {
         "name": "Nightclaw",
-        "types": [0,14],
-        "abilities": [1],
+        "types": [
+            0,
+            14
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 2
     },
     "5032": {
         "name": "Caniswitch",
-        "types": [10,14],
-        "abilities": [11],
+        "types": [
+            10,
+            14
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "5033": {
         "name": "Shadowbrawler",
-        "types": [6,14],
-        "abilities": [4],
+        "types": [
+            6,
+            14
+        ],
+        "abilities": [
+            4
+        ],
         "rarity": 2
     },
     "5034": {
         "name": "Pyrofiend",
-        "types": [1,14],
-        "abilities": [8],
+        "types": [
+            1,
+            14
+        ],
+        "abilities": [
+            8
+        ],
         "rarity": 2
     },
     "5035": {
         "name": "Bushidou",
-        "types": [8],
-        "abilities": [11],
+        "types": [
+            8
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [5036]
+        "next": [
+            5036
+        ]
     },
     "5036": {
         "name": "Takeo",
-        "types": [8],
-        "abilities": [11],
+        "types": [
+            8
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "5037": {
         "name": "Snotflake",
-        "types": [5],
-        "abilities": [11],
+        "types": [
+            5
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2,
-        "next": [5038,5039]
+        "next": [
+            5038,
+            5039
+        ]
     },
     "5038": {
         "name": "Titanfur",
-        "types": [0,5],
-        "abilities": [1],
+        "types": [
+            0,
+            5
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 3
     },
     "5039": {
         "name": "Azurehorn",
-        "types": [5,10],
-        "abilities": [11],
+        "types": [
+            5,
+            10
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 3
     },
     "5040": {
         "name": "Rubyswirl",
-        "types": [0],
-        "abilities": [11],
+        "types": [
+            0
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [5041]
+        "next": [
+            5041
+        ]
     },
     "5041": {
         "name": "Graviwing",
-        "types": [0],
-        "abilities": [11],
+        "types": [
+            0
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2,
-        "next": [5042,5043]
+        "next": [
+            5042,
+            5043
+        ]
     },
     "5042": {
         "name": "Lysanderis",
-        "types": [0,14],
-        "abilities": [11],
+        "types": [
+            0,
+            14
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 3
     },
     "5043": {
         "name": "Regalavian",
-        "types": [0,9],
-        "abilities": [1],
+        "types": [
+            0,
+            9
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 3
     },
     "5044": {
         "name": "Igniferno",
-        "types": [1],
-        "abilities": [11],
+        "types": [
+            1
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 3,
-        "next": [5045]
+        "next": [
+            5045
+        ]
     },
     "5045": {
         "name": "Pyronax",
-        "types": [1,16],
-        "abilities": [11],
+        "types": [
+            1,
+            16
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 4
     },
     "5046": {
         "name": "Buggit",
-        "types": [11],
-        "abilities": [11],
+        "types": [
+            11
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [5047]
+        "next": [
+            5047
+        ]
     },
     "5047": {
         "name": "Hoppimoth",
-        "types": [11,17],
-        "abilities": [11],
+        "types": [
+            11,
+            17
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2
     },
     "5048": {
         "name": "Greenley",
-        "types": [3],
-        "abilities": [8],
+        "types": [
+            3
+        ],
+        "abilities": [
+            8
+        ],
         "rarity": 2,
-        "next": [5049]
+        "next": [
+            5049
+        ]
     },
     "5049": {
         "name": "Cedribark",
-        "types": [3],
-        "abilities": [8],
+        "types": [
+            3
+        ],
+        "abilities": [
+            8
+        ],
         "rarity": 3
     },
     "5050": {
         "name": "Denkiro",
-        "types": [4],
-        "abilities": [11],
+        "types": [
+            4
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [5051]
+        "next": [
+            5051
+        ]
     },
     "5051": {
         "name": "Raitosuke",
-        "types": [4],
-        "abilities": [11],
+        "types": [
+            4
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2,
-        "next": [5052]
+        "next": [
+            5052
+        ]
     },
     "5052": {
         "name": "Raijinmaru",
-        "types": [4],
-        "abilities": [11],
+        "types": [
+            4
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 3
     },
     "5053": {
         "name": "Baoyu",
-        "types": [0],
-        "abilities": [11],
+        "types": [
+            0
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2,
-        "next": [5054]
+        "next": [
+            5054
+        ]
     },
     "5054": {
         "name": "Moxin",
-        "types": [0,2],
-        "abilities": [11],
+        "types": [
+            0,
+            2
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 3
     },
     "5055": {
         "name": "Jiahao",
-        "types": [6],
-        "abilities": [4],
+        "types": [
+            6
+        ],
+        "abilities": [
+            4
+        ],
         "rarity": 2,
-        "next": [5056]
+        "next": [
+            5056
+        ]
     },
     "5056": {
         "name": "Zhaolong",
-        "types": [6],
-        "abilities": [4],
+        "types": [
+            6
+        ],
+        "abilities": [
+            4
+        ],
         "rarity": 3
     },
     "5057": {
         "name": "Voltali",
-        "types": [4,10],
-        "abilities": [11],
+        "types": [
+            4,
+            10
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 3
     },
     "5058": {
         "name": "Aquabella",
-        "types": [2,16],
-        "abilities": [11],
+        "types": [
+            2,
+            16
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2,
-        "next": [5059]
+        "next": [
+            5059
+        ]
     },
     "5059": {
         "name": "Aqualok",
-        "types": [2,16],
-        "abilities": [15],
+        "types": [
+            2,
+            16
+        ],
+        "abilities": [
+            15
+        ],
         "rarity": 3
     },
     "5060": {
         "name": "Muffleton",
-        "types": [17],
-        "abilities": [11],
+        "types": [
+            17
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2,
-        "next": [5061]
+        "next": [
+            5061
+        ]
     },
     "5061": {
         "name": "Cragbone",
-        "types": [12,17],
-        "abilities": [1],
+        "types": [
+            12,
+            17
+        ],
+        "abilities": [
+            1
+        ],
         "rarity": 3
     },
     "5062": {
         "name": "Terraden",
-        "types": [8],
-        "abilities": [11],
+        "types": [
+            8
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2,
-        "next": [5063]
+        "next": [
+            5063
+        ]
     },
     "5063": {
         "name": "Terramyst",
-        "types": [8],
-        "abilities": [11],
+        "types": [
+            8
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 3,
-        "next": [5064]
+        "next": [
+            5064
+        ]
     },
     "5064": {
         "name": "Verdorok",
-        "types": [3,8],
-        "abilities": [11],
+        "types": [
+            3,
+            8
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 4
     },
     "5065": {
         "name": "Roundin",
-        "types": [0],
-        "abilities": [11],
+        "types": [
+            0
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 1,
-        "next": [5066]
+        "next": [
+            5066
+        ]
     },
     "5066": {
         "name": "Terramyst",
-        "types": [0],
-        "abilities": [11],
+        "types": [
+            0
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2,
-        "next": [5067]
+        "next": [
+            5067
+        ]
     },
     "5067": {
         "name": "Verdorok",
-        "types": [0,6],
-        "abilities": [8],
+        "types": [
+            0,
+            6
+        ],
+        "abilities": [
+            8
+        ],
         "rarity": 3
     },
     "5068": {
         "name": "Puffleen",
-        "types": [17],
-        "abilities": [11],
+        "types": [
+            17
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 2,
-        "next": [5069]
+        "next": [
+            5069
+        ]
     },
     "5069": {
         "name": "Harmonina",
-        "types": [10,17],
-        "abilities": [11],
+        "types": [
+            10,
+            17
+        ],
+        "abilities": [
+            11
+        ],
         "rarity": 3
     }
 }
