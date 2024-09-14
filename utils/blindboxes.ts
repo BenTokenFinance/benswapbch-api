@@ -16,7 +16,7 @@ export const contracts:any = {
     "0x6Dc8586aA97eDF0E625F66dcfe4dEd04D6b115Ba" : 1
   },
   "production" : {
-
+    "0x85E6969277173D8d486d05dA707f99EdCbC4FFFD" : 1
   }
 };
 
