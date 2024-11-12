@@ -173,6 +173,10 @@
     {
       "source": "/api/blindboxes/data/:address/:id",
       "destination": "/api/blindboxes/data"
+    },
+    {
+      "source": "/api/nft/antiagingpotion/:id",
+      "destination": "/api/nft/antiagingpotion"
     }
   ],
   "headers": [
