@@ -8,7 +8,7 @@ const address = "0x08234A4844995bB3aD4B0d1Cf1C20acD57a2A65D"
 function buildTimeString(timestamp:any) {
     timestamp = Number(timestamp);
     if (isNaN(timestamp) || timestamp < 0) return "ERROR";
-    const date = new Date(Math.floor((timestamp - 3153600000000)*1000));
+    const date = new Date(timestamp*1000));
     const year = date.getUTCFullYear();
     if (isNaN(year)) return "ERROR";
     const yearString = year < 0 ? `${Math.abs(year)} BC` : year < 100 ? `${year} AD` : String(year);
