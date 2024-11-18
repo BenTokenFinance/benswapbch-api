@@ -3,7 +3,7 @@ import BigNumber from "bignumber.js";
 import { getContract } from "./web3";
 import abi from "./abis/antiagingpotion.json";
 
-const address = "0x08234A4844995bB3aD4B0d1Cf1C20acD57a2A65D"
+const address = "0x263A4C4a3420a371799Df452752c1c9A9c8b6Fc7"
 
 function buildTimeString(timestamp:any) {
     timestamp = Number(timestamp);
