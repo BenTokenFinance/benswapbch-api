@@ -42,6 +42,7 @@ export const getMetadata = async (id:any) {
                 "name" : `Potion #${id}`,
                 "description" : "Anti-Aging Potion is a feature of the BenSwap Laboratory.",
                 "image": `https://api2.benswap.cash/potion/image?a=${type}&b=${pct}`,
+                "locked": `${la.div(1e18).toFixed()}`,
                 "attributes": [
                     {"trait_type":"Start Time","value":buildTimeString(startTime)},
                     {"trait_type":"End Time","value":buildTimeString(endTime)},
