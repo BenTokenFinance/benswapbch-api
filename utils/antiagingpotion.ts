@@ -33,10 +33,15 @@ export const getMetadata = async (id:any) {
         const power = exponent / 100
         if (exists) {
             const pct = new BigNumber(lockedAmount).minus(withdrawnAmount).div(lockedAmount).times(100).toNumber();
+            let type = 1;
+            const la = new BigNumber(lockedAmount);
+            if (la.isGreaterThanOrEqualTo(1e23)) type = 4;
+            else if (la.isGreaterThanOrEqualTo(1e22)) type = 3;
+            else if (la.isGreaterThanOrEqualTo(1e21)) type = 2;
             return {
                 "name" : `Potion #${id}`,
                 "description" : "Anti-Aging Potion is a feature of the BenSwap Laboratory.",
-                "image": `https://api2.benswap.cash/potion/image?a=1&b=${pct}`,
+                "image": `https://api2.benswap.cash/potion/image?a=${type}&b=${pct}`,
                 "attributes": [
                     {"trait_type":"Start Time","value":buildTimeString(startTime)},
                     {"trait_type":"End Time","value":buildTimeString(endTime)},
