@@ -1,6 +1,6 @@
 import BigNumber from "bignumber.js";
 import { getContract } from "./web3";
-import { FLEXUSD, WBCH, DEX, FACTORY, EBEN, LAW } from "./constants";
+import { bbUSDT, WBCH, DEX, FACTORY, EBEN, LAW } from "./constants";
 import pair from "./abis/pair.json";
 import lpFactory from "./abis/lpFactory.json";
 import bep20 from "./abis/bep20.json";
@@ -14,7 +14,8 @@ const MidTokens = {
         "LAW": LAW
     },
     [DEX.BENSWAP]: {
-        "EBEN": EBEN
+        "EBEN": EBEN,
+        "bbUSDT": bbUSDT
     }
 };
 
